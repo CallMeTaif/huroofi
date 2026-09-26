@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>حروفي</title>
+  <meta name="description" content="حروفي: موقع لتعلّم حروف الهجاء العربية للصف الأول">
+  <link rel="icon" href="img/ui/abc.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero-home">
+      <div class="logo">
+        <img src="img/ui/book.svg" alt="" draggable="false">
+        <!-- Each letter is coloured separately; &zwj; keeps them joined. -->
+        <h1 aria-label="حروفي"><span>ح&zwj;</span><span>&zwj;ر</span><span>و</span><span>ف&zwj;</span><span>&zwj;ي</span></h1>
+        <img src="img/ui/sparkles.svg" alt="" draggable="false">
+      </div>
+      <div class="home-actions">
+        <button type="button" class="speak" id="hello" aria-label="استمع"><img class="icon" src="img/ui/speaker.svg" alt=""></button>
+        <a class="btn teal" href="review.html"><img class="icon" src="img/ui/review.svg" alt="">تمارين المراجعة</a>
+      </div>
+    </header>
+
+    <ul class="letter-grid" id="grid" aria-label="حروف الهجاء"></ul>
+
+    <footer class="topbar no-print" style="justify-content:center">
+      <a href="teacher.html" style="color:var(--ink-soft);font-size:.85em">للمعلمة</a>
+    </footer>
+  </main>
+
+  <script src="data/letters.js"></script>
+  <script src="data/audio-manifest.js"></script>
+  <script src="js/arabic.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

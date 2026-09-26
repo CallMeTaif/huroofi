@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joining test</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    table { border-collapse: collapse; width: 100%; background: #fff; }
+    td, th { border: 1px solid var(--line); padding: 4px 10px; text-align: center; }
+    td.w { font-family: var(--font-ar); font-size: 34px; line-height: 1.8; }
+    .ok { color: var(--teal-deep); } .bad { color: #c00; font-weight: 800; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1 style="font-size:1.3em">فحص اتصال الحروف (للمطوّر)</h1>
+    <p dir="ltr" style="text-align:left">Dev-only page. Each row shows the plain word, then the same word with the letter highlighted.
+      Both must look identical apart from the colour. Also look at the Safari rendering.</p>
+    <table id="t"><thead><tr><th>الحرف</th><th>الموضع</th><th>بدون تلوين</th><th>مع التلوين</th><th>الفحص</th></tr></thead><tbody></tbody></table>
+  </main>
+  <script src="../data/letters.js"></script>
+  <script src="../js/arabic.js"></script>
+  <script>
+    var tb = document.querySelector("#t tbody");
+    function row(letter, label, word, i) {
+      var tr = document.createElement("tr");
+      tr.innerHTML = "<td>" + letter + "</td><td>" + label + "</td><td class='w plain'>" + Arabic.esc(word) +
+        "</td><td class='w hlw'>" + Arabic.highlightHTML(word, [i]) + "</td><td class='res'></td>";
+      tb.appendChild(tr);
+    }
+    LETTERS.forEach(function (l) {
+      l.words.forEach(function (w) { row(l.letter, w.position, w.word, Arabic.indexForPosition(w.word, l.letter, w.position)); });
+      Object.keys(l.formExamples).forEach(function (s) { row(l.letter, "form:" + s, l.formExamples[s], Arabic.indexForShape(l.formExamples[s], l.letter, s)); });
+    });
+    // Automatic check: the highlighted word must be the same width as the plain one.
+    document.fonts.ready.then(function () {
+      var bad = 0;
+      tb.querySelectorAll("tr").forEach(function (tr) {
+        var a = tr.querySelector(".plain"), b = tr.querySelector(".hlw");
+        var ra = document.createRange(); ra.selectNodeContents(a);
+        var rb = document.createRange(); rb.selectNodeContents(b);
+        var wa = ra.getBoundingClientRect().width, wb = rb.getBoundingClientRect().width;
+        var ok = Math.abs(wa - wb) < 1.5;
+        if (!ok) bad++;
+        tr.querySelector(".res").innerHTML = ok ? "<span class='ok'>✓</span>" : "<span class='bad'>" + wa.toFixed(1) + " / " + wb.toFixed(1) + "</span>";
+      });
+      document.title = "Joining test: " + bad + " mismatches";
+      window.JOINING_MISMATCHES = bad;
+    });
+  </script>
+</body>
+</html>
