@@ -26,10 +26,14 @@
   }
   function done() { markBtn(null); }
 
+  var pending = null;  // resolve function of the sound that is playing now
+
   function stop() {
     if (current) { try { current.pause(); } catch (e) {} current = null; }
     if ("speechSynthesis" in window) { try { speechSynthesis.cancel(); } catch (e) {} }
     done();
+    // A sound that is cut off still resolves, so nothing waiting on it gets stuck.
+    if (pending) { var r = pending; pending = null; r("stopped"); }
   }
 
   function speak(text, onEnd) {
@@ -42,24 +46,51 @@
     speechSynthesis.speak(u);
   }
 
-  /* play("letters/ba/name", "بَاء", button) — returns a Promise that resolves when finished. */
+  /* play("letters/ba/name", "بَاء", button) returns a Promise that resolves with:
+   *   true      – finished playing
+   *   "stopped" – cut off by another sound
+   *   false     – the browser blocked sound until the user taps (autoplay rule) */
+  // ?silent=1 in the address: no sound at all (used by the developer test pages).
+  var SILENT = /[?&]silent=1\b/.test(location.search);
+
   function play(key, text, btn) {
+    if (SILENT) return new Promise(function (r) { setTimeout(function () { r(true); }, 30); });
     stop();
     markBtn(btn);
     return new Promise(function (resolve) {
-      function finish() { if (btn === currentBtn) done(); resolve(); }
+      var settled = false;
+      function finish(value) {
+        if (settled) return;
+        settled = true;
+        if (pending === resolver) pending = null;
+        if (btn === currentBtn) done();
+        resolve(value === undefined ? true : value);
+      }
+      var resolver = function (v) { finish(v); };
+      pending = resolver;
+      function fallback() { current = null; speak(text, function () { finish(true); }); }
       if (key && files[key]) {
         var a = new Audio("audio/" + key + ".mp3");
         current = a;
-        a.onended = finish;
-        a.onerror = function () { current = null; speak(text, finish); };
+        a.onended = function () { finish(true); };
+        a.onerror = fallback;
         var p = a.play();
-        if (p && p.catch) p.catch(function () { current = null; speak(text, finish); });
+        if (p && p.catch) p.catch(function (err) {
+          if (err && err.name === "NotAllowedError") { window.Sound.blocked = true; current = null; finish(false); }
+          else if (!settled) fallback();
+        });
       } else {
-        speak(text, finish);
+        speak(text, function () { finish(true); });
       }
     });
   }
 
-  window.Sound = { play: play, stop: stop, has: function (key) { return !!files[key]; } };
+  // Play several sounds one after another; stops early if interrupted or blocked.
+  function sequence(list) {
+    return list.reduce(function (p, item) {
+      return p.then(function (r) { return r === true ? play(item[0], item[1], item[2]) : r; });
+    }, Promise.resolve(true));
+  }
+
+  window.Sound = { play: play, stop: stop, sequence: sequence, blocked: false, has: function (key) { return !!files[key]; } };
 })();

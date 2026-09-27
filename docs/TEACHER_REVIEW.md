@@ -85,3 +85,27 @@ Sounds that came out shorter than usual (check these first):
 - «أَحْسَنْت» is said without a final vowel, so it fits boys and girls.
 
 To fix any single sound, write what it should say in `tools/audio_overrides.json` and run `python3 tools/generate_audio.py`.
+
+## Phase 3 (exercises)
+
+Open any letter page and scroll to «تمرّن». Things to try with a child, and to decide on:
+
+| التمرين | ما يحدث | عدد الأسئلة |
+|---|---|---|
+| اسمع واختر | A sound of the letter plays (a vowel sound or the letter name); the child taps the right letter out of 3. | 5 |
+| اكتب الحرف | The child traces the letter with a finger: the letter alone, then its beginning shape (or end shape for ا د ذ ر ز و), then alone again. | 3 |
+| صِل الحرف بالصورة | 3 letters and 3 pictures; drag a letter to the picture whose word starts with it, or tap the letter then the picture. Tapping a picture alone says its word. | 2 boards × 3 |
+| ابحث عن الحرف | Questions 1–2: tap the 2 words that have the letter. Questions 3–5: tap the letter inside a big word, then choose «في البداية / في الوسط / في النهاية». | 5 |
+
+- **Stars:** all right on the first try = ⭐⭐⭐, most right = ⭐⭐, finishing = ⭐. A worse round never takes stars away.
+- **Harder level:** after ⭐⭐⭐ in «اسمع واختر», a 🏆 button offers 4 choices with look-alike letters (ب ت ث …).
+- **Tracing strictness:** tested with simulated tracing of all 56 letter shapes. Careful and wobbly tracing always passes; half a letter, scribbles and circles fail. After 2 failed tries a «next» arrow appears so a child never gets stuck. Please watch a few children try it and say if it feels too strict or too easy.
+- **On iPad/iPhone:** Safari does not allow sound until the first tap, so the first exercise screen may show one big ▶ button. One tap starts the spoken instructions.
+
+## Final checklist (before sharing with the children)
+
+- [ ] Choose the voice (section 6) and listen to the flagged sounds (section 7).
+- [ ] Decide the wording for boys/girls (section 8).
+- [ ] Watch every video (section 5).
+- [ ] Check the pictures (section 2) and the extra form words (section 1).
+- [ ] Try the four exercises on a real iPad or tablet with a finger.

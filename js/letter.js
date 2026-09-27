@@ -179,7 +179,7 @@
     s.appendChild(grid);
   })();
 
-  // ---------- 6. Practice (exercises arrive in phase 3) ----------
+  // ---------- 6. Practice ----------
   (function () {
     var s = section("practice", "star", "تمرّن", "تمرّن");
     var items = [
@@ -190,13 +190,8 @@
     ];
     var grid = el("div", { class: "practice-grid" });
     items.forEach(function (it) {
-      var ready = !!(window.EXERCISES_READY && window.EXERCISES_READY[it.ex]);
-      var tile = el(ready ? "a" : "div", {
-        class: "practice-tile",
-        href: ready ? "exercise.html?type=" + it.ex + "&id=" + L.id : null,
-        "aria-disabled": ready ? null : "true",
-      }, [icon(it.icon), el("span", { text: it.title }), H.starsEl(Progress.exerciseStars(L.id, it.ex))]);
-      if (!ready) tile.appendChild(el("span", { class: "badge", text: "قريبًا" }));
+      var tile = el("a", { class: "practice-tile", href: "exercise.html?type=" + it.ex + "&id=" + L.id },
+        [icon(it.icon), el("span", { text: it.title }), H.starsEl(Progress.exerciseStars(L.id, it.ex))]);
       grid.appendChild(tile);
     });
     s.appendChild(grid);

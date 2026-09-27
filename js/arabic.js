@@ -97,6 +97,10 @@
   function pieces(word, hlIndexes) {
     var cl = clusters(word), set = {}, out = [];
     (hlIndexes || []).forEach(function (i) { if (i >= 0) set[i] = true; });
+    // Keep the lam-alef ligature «لا» in one piece: colour both letters if either is highlighted.
+    cl.forEach(function (c, i) {
+      if (c.base === "ل" && i + 1 < cl.length && "اأإآ".indexOf(cl[i + 1].base) >= 0 && (set[i] || set[i + 1])) set[i] = set[i + 1] = true;
+    });
     cl.forEach(function (c, i) {
       var hl = !!set[i];
       var cur = out[out.length - 1];
@@ -110,6 +114,29 @@
       if (joinsNext(cl, last)) text = text + ZWJ;
       return { text: text, hl: p.hl, from: first, to: last };
     });
+  }
+
+  /* Every letter of a word as its own piece (for tapping one letter), each with ZWJ where it joins.
+   * Lam followed by alef stays ONE piece: they form the ligature «لا», which must not be split.
+   * Returns [{text, indexes}] in reading order (indexes = the clusters inside the piece). */
+  function letterPieces(word) {
+    var cl = clusters(word), out = [];
+    for (var i = 0; i < cl.length; i++) {
+      var idx = [i];
+      if (cl[i].base === "ل" && i + 1 < cl.length && "اأإآ".indexOf(cl[i + 1].base) >= 0) idx.push(++i);
+      var first = idx[0], last = idx[idx.length - 1];
+      var t = idx.map(function (k) { return cl[k].text; }).join("");
+      if (first > 0 && joinsNext(cl, first - 1)) t = ZWJ + t;
+      if (joinsNext(cl, last)) t = t + ZWJ;
+      out.push({ text: t, indexes: idx });
+    }
+    return out;
+  }
+
+  // Where a letter sits in a word: "initial" | "medial" | "final".
+  function positionOf(word, index) {
+    var last = clusters(word).length - 1;
+    return index === 0 ? "initial" : index === last ? "final" : "medial";
   }
 
   // HTML for a word with some letters coloured. cls = CSS class for the highlight.
@@ -131,7 +158,8 @@
     ZWJ: ZWJ, TATWEEL: TATWEEL, clusters: clusters, stripMarks: stripMarks, joinType: joinType,
     joinsNext: joinsNext, shapeAt: shapeAt, sameLetter: sameLetter, occurrences: occurrences,
     indexForPosition: indexForPosition, indexForShape: indexForShape, pieces: pieces,
-    highlightHTML: highlightHTML, shapeGlyph: shapeGlyph, esc: esc
+    highlightHTML: highlightHTML, shapeGlyph: shapeGlyph, esc: esc,
+    letterPieces: letterPieces, positionOf: positionOf
   };
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   else root.Arabic = api;

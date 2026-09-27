@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>تمرين – حروفي</title>
+  <link rel="icon" href="img/ui/abc.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="exercise-page">
+  <div class="wrap">
+    <header class="topbar ex-top" id="ex-header"></header>
+    <div class="ex-dots" id="ex-dots" aria-hidden="true"></div>
+  </div>
+  <main class="wrap">
+    <div id="ex-stage" class="ex-stage"></div>
+    <section id="ex-end" class="ex-end" hidden></section>
+  </main>
+
+  <script src="data/letters.js"></script>
+  <script src="data/audio-manifest.js"></script>
+  <script src="js/arabic.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/exercises/engine.js"></script>
+  <script src="js/exercises/listen.js"></script>
+  <script src="js/exercises/trace.js"></script>
+  <script src="js/exercises/match.js"></script>
+  <script src="js/exercises/find.js"></script>
+  <script>Game.start();</script>
+</body>
+</html>

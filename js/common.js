@@ -37,7 +37,14 @@
 
   function slug(word) { return word.image.replace(/^.*\//, "").replace(/\.svg$/, ""); }
   function byId(id) { return LETTERS.find(function (l) { return l.id === id; }); }
+  function byLetter(ch) { return LETTERS.find(function (l) { return l.letter === ch; }); }
+  function shuffle(a) {
+    a = a.slice();
+    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; }
+    return a;
+  }
+  function wait(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
   function param(name) { return new URLSearchParams(location.search).get(name); }
 
-  window.H = { el: el, icon: icon, hue: hue, starsEl: starsEl, speakBtn: speakBtn, slug: slug, byId: byId, param: param, LETTERS: LETTERS };
+  window.H = { el: el, icon: icon, hue: hue, starsEl: starsEl, speakBtn: speakBtn, slug: slug, byId: byId, byLetter: byLetter, shuffle: shuffle, wait: wait, param: param, LETTERS: LETTERS };
 })();

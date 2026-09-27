@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><title>Exercise check</title><link rel="stylesheet" href="../css/style.css"></head>
+<body>
+  <main class="wrap" dir="ltr" style="text-align:left">
+    <h1 style="font-size:1.3em">Exercise rules check (developer page)</h1>
+    <p>Generates many rounds of every exercise for every letter and checks the spec's rules. Problems are listed below.</p>
+    <pre id="out">Running…</pre>
+  </main>
+  <script src="../data/letters.js"></script>
+  <script src="../data/audio-manifest.js"></script>
+  <script src="../js/arabic.js"></script>
+  <script src="../js/progress.js"></script>
+  <script src="../js/audio.js"></script>
+  <script src="../js/common.js"></script>
+  <script src="../js/exercises/engine.js"></script>
+  <script src="../js/exercises/listen.js"></script>
+  <script src="../js/exercises/trace.js"></script>
+  <script src="../js/exercises/match.js"></script>
+  <script src="../js/exercises/find.js"></script>
+  <script>
+  (function () {
+    var D = Game.defs, bad = [], ROUNDS = 50, n = 0;
+    function fail(t, L, msg) { if (bad.length < 60) bad.push(t + " " + L.letter + ": " + msg); }
+    function starts(word, L) { return Arabic.indexForPosition(word, L.letter, "initial") === 0; }
+    LETTERS.forEach(function (L) {
+      for (var r = 0; r < ROUNDS; r++) {
+        [1, 2].forEach(function (level) {
+          var qs = D.listen.make([L], level);
+          if (qs.length !== 5) fail("listen", L, "round has " + qs.length + " questions");
+          qs.forEach(function (q) {
+            n++;
+            if (q.choices.indexOf(L) < 0) fail("listen", L, "target missing from choices");
+            if (q.choices.length !== (level === 2 ? 4 : 3)) fail("listen", L, "wrong number of choices");
+            if (new Set(q.choices).size !== q.choices.length) fail("listen", L, "duplicate choice");
+            if (!AUDIO_FILES[q.sound[0]]) fail("listen", L, "no audio " + q.sound[0]);
+            var sim = (L.similarLetters || []);
+            if (level === 1 && q.choices.some(function (c) { return sim.indexOf(c.letter) >= 0; })) fail("listen", L, "look-alike letter at easy level");
+            if (level === 2 && sim.length && !q.choices.some(function (c) { return sim.indexOf(c.letter) >= 0; })) fail("listen", L, "no look-alike letter at hard level");
+          });
+        });
+        D.trace.make([L]).forEach(function (q) { n++; if (!q.glyph || q.glyph.indexOf("undefined") >= 0) fail("trace", L, "bad glyph"); });
+        var boards = D.match.make([L]);
+        if (boards.length !== 2) fail("match", L, "expected 2 boards");
+        boards.forEach(function (b) {
+          n++;
+          if (b.pairs.length !== 3) fail("match", L, "board has " + b.pairs.length + " pairs");
+          if (!b.pairs.some(function (p) { return p.letter === L; })) fail("match", L, "target letter not on board");
+          var imgs = b.pairs.map(function (p) { return p.word.emoji; });
+          if (new Set(imgs).size !== imgs.length) fail("match", L, "same picture twice on a board");
+          b.pairs.forEach(function (p) { if (!starts(p.word.word, p.letter)) fail("match", L, "«" + p.word.word + "» does not start with " + p.letter.letter); });
+          b.pairs.forEach(function (p) { b.pairs.forEach(function (o) { if (o !== p && starts(p.word.word, o.letter)) fail("match", L, "«" + p.word.word + "» also starts with " + o.letter.letter); }); });
+        });
+        var fq = D.find.make([L]);
+        if (fq.length !== 5) fail("find", L, "round has " + fq.length + " questions");
+        fq.forEach(function (q) {
+          n++;
+          if (q.kind === 1) {
+            var right = q.cards.filter(function (c) { return c.right; }), wrong = q.cards.filter(function (c) { return !c.right; });
+            if (right.length !== 2 || wrong.length !== 2) fail("find", L, "level 1 needs 2 right + 2 wrong");
+            wrong.forEach(function (c) { if (Arabic.occurrences(c.w.word, L.letter).length) fail("find", L, "wrong card «" + c.w.word + "» contains the letter"); });
+            right.forEach(function (c) { if (Arabic.indexForPosition(c.w.word, L.letter, c.w.position) < 0) fail("find", L, "right card «" + c.w.word + "» lacks the letter at its position"); });
+            var em = q.cards.map(function (c) { return c.w.emoji; });
+            if (new Set(em).size !== em.length) fail("find", L, "same picture twice");
+          } else {
+            if (!Arabic.occurrences(q.w.word, L.letter).length) fail("find", L, "level 2 word lacks the letter");
+            if (L.letter === "ظ" && q.w.position === "final") fail("find", L, "ظ end question");
+          }
+        });
+        if (L.letter === "ت" || L.letter === "ه") {
+          fq.forEach(function (q) { if (q.kind === 2 && /ة$/.test(Arabic.stripMarks(q.w.word)) && Arabic.positionOf(q.w.word, Arabic.occurrences(q.w.word, L.letter)[0]) === "final") fail("find", L, "ة counted as " + L.letter); });
+        }
+      }
+    });
+    document.getElementById("out").textContent = n + " questions checked across 28 letters. " + (bad.length ? bad.length + " problems:\n" + bad.join("\n") : "No problems.");
+    window.CHECK = { n: n, bad: bad };
+  })();
+  </script>
+</body>
+</html>

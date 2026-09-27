@@ -294,3 +294,11 @@ huroofi/
 ├── docs/SPEC.md (this file)
 └── README.md · CREDITS.md
 ```
+
+### 11.4 Decisions made while building (Phase 2–3)
+- **Audio:** short-vowel syllables are spoken with a full stop after them («بَ.») because the voice otherwise clips the vowel; long vowels use a slower rate; sukun uses the carrier «أَ». Silence is trimmed by dropping whole MP3 frames (no re-encoding).
+- **Tracing threshold:** coverage ≥ 80% (not 60%) and ink outside ≤ 45%. This check counts a wide band around every stroke, so a full trace scores ≥ 92% even when wobbly, while half a letter scores 50–83%. Tuned with `tools/trace-tuning.html`.
+- **Tracing round** is 3 traces (alone, beginning/end shape, alone), and **matching** is 2 boards of 3 (6 matches), instead of exactly 5 questions; «اسمع واختر» and «ابحث عن الحرف» have 5.
+- **Stars:** 100% right on the first try = 3, ≥ 60% = 2, otherwise 1 (finishing always earns a star).
+- **Lam-alef:** «لا» is never split when colouring or tapping letters, because the ligature must stay one shape.
+- **Autoplay:** browsers that block sound before the first tap (Safari/iPad) get a single big ▶ button; everywhere else instructions play automatically.

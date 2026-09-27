@@ -3,8 +3,8 @@
 موقع لتعلّم حروف الهجاء العربية لطلاب الصف الأول.
 A website for first graders to learn the 28 Arabic letters.
 
-> **الحالة / Status:** Phases 1–2 of 4 are done (letter pages, pictures, progress, all sounds).
-> Exercises, review and teacher pages come in phases 3–4. The full guide will be written in phase 4.
+> **الحالة / Status:** Phases 1–3 of 4 are done (letter pages, pictures, sounds, the four exercises with stars).
+> The review page, teacher page and classroom mode come in phase 4, with the full guide.
 >
 > **للمعلمة / For the teacher:** please read [docs/TEACHER_REVIEW.md](docs/TEACHER_REVIEW.md). It lists the words, pictures and sounds to check, and how to choose the voice.
 
@@ -30,6 +30,9 @@ python3 -m http.server 8000     # optional: serve at http://localhost:8000
 ```
 `tools/joining-test.html` shows every word with its letter highlighted, to check the letters stay joined.
 `tools/audio-review.html` plays every sound, with doubtful ones marked.
+`tools/trace-tuning.html` runs simulated tracing on all 56 letter shapes; use it after changing the tracing thresholds.
+`tools/exercise-check.html` generates thousands of exercise rounds and checks the rules from the spec.
+Add `?silent=1` to any page address to turn all sound off (useful for automated tests).
 
 Sounds are made with Microsoft Edge neural text-to-speech (`edge-tts`, voice ar-SA-ZariyahNeural) and stored in `audio/`.
 If a sound file is missing, the site falls back to the device's own Arabic voice.

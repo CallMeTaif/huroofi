@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trace tuning</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>table{border-collapse:collapse;background:#fff}td,th{border:1px solid var(--line);padding:4px 12px;text-align:center}</style>
+</head>
+<body>
+  <main class="wrap" dir="ltr" style="text-align:left">
+    <h1 style="font-size:1.3em">Tracing check: simulated children (developer page)</h1>
+    <p>For every letter shape used in «اكتب الحرف», this page makes fake tracings and runs the real check (<code>Trace.score</code>).
+      Careful and wobbly tracings should pass; half a letter, scribbles and circles should fail. Run it after changing the thresholds in <code>js/exercises/trace.js</code>.</p>
+    <p id="status">Running…</p>
+    <table id="t"></table>
+  </main>
+  <script src="../data/letters.js"></script>
+  <script src="../data/audio-manifest.js"></script>
+  <script src="../js/arabic.js"></script>
+  <script src="../js/progress.js"></script>
+  <script src="../js/audio.js"></script>
+  <script src="../js/common.js"></script>
+  <script src="../js/exercises/engine.js"></script>
+  <script src="../js/exercises/trace.js"></script>
+  <script>
+  (async function () {
+    await document.fonts.load("100px Naskh", "ب");
+    var S = 360, N = Trace.N;
+    function maskOf(g) {
+      var c = document.createElement("canvas"); c.width = c.height = N;
+      var x = c.getContext("2d"); x.fillStyle = "#000"; Trace.drawText(x, g, N, true, 0);
+      var d = x.getImageData(0, 0, N, N).data, m = new Uint8Array(N * N);
+      for (var i = 0; i < m.length; i++) m[i] = d[i * 4 + 3] > 100 ? 1 : 0;
+      return m;
+    }
+    // Zhang–Suen thinning: the centre line of the letter, i.e. where a careful child's finger goes.
+    function centreLine(m) {
+      var a = m.slice(), id = function (x, y) { return y * N + x; }, changed = true;
+      while (changed) {
+        changed = false;
+        [0, 1].forEach(function (step) {
+          var del = [];
+          for (var y = 1; y < N - 1; y++) for (var x = 1; x < N - 1; x++) {
+            if (!a[id(x, y)]) continue;
+            var p = [a[id(x, y - 1)], a[id(x + 1, y - 1)], a[id(x + 1, y)], a[id(x + 1, y + 1)], a[id(x, y + 1)], a[id(x - 1, y + 1)], a[id(x - 1, y)], a[id(x - 1, y - 1)]];
+            var B = p.reduce(function (s, v) { return s + v; }, 0); if (B < 2 || B > 6) continue;
+            var A = 0; for (var i = 0; i < 8; i++) if (!p[i] && p[(i + 1) % 8]) A++; if (A !== 1) continue;
+            if (step === 0 ? (p[0] * p[2] * p[4] === 0 && p[2] * p[4] * p[6] === 0) : (p[0] * p[2] * p[6] === 0 && p[0] * p[4] * p[6] === 0)) del.push(id(x, y));
+          }
+          del.forEach(function (i) { a[i] = 0; }); if (del.length) changed = true;
+        });
+      }
+      var pts = []; for (var y = 0; y < N; y++) for (var x = 0; x < N; x++) if (a[id(x, y)]) pts.push([x * S / N, y * S / N]);
+      return pts;
+    }
+    function gauss() { var u = 0, v = 0; while (!u) u = Math.random(); while (!v) v = Math.random(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v); }
+    function wobble(pts, s) { return pts.map(function (p) { return [p[0] + gauss() * s * S, p[1] + gauss() * s * S]; }); }
+    function dots(pts) { return pts.map(function (p) { return [p]; }); }
+
+    var shapes = [];
+    LETTERS.forEach(function (l) { shapes.push(l.letter); shapes.push(l.forms.initial || l.forms.final); });
+    var cases = {
+      "careful": { expect: "pass", make: function (c) { return dots(c); } },
+      "wobbly": { expect: "pass", make: function (c) { return dots(wobble(c, 0.025)); } },
+      "very wobbly": { expect: "pass", make: function (c) { return dots(wobble(c, 0.05)); } },
+      "wild": { expect: "fail", make: function (c) { return dots(wobble(c, 0.09)); } },
+      "half the letter": { expect: "fail", make: function (c) { var xs = c.map(function (p) { return p[0]; }).sort(function (a, b) { return a - b; }); var mid = xs[Math.floor(xs.length / 2)]; return dots(c.filter(function (p) { return p[0] > mid; })); } },
+      "scribble": { expect: "fail", make: function () { var s = [], p = [S / 2, S / 2]; for (var i = 0; i < 400; i++) { p = [Math.min(S, Math.max(0, p[0] + gauss() * 25)), Math.min(S, Math.max(0, p[1] + gauss() * 25))]; s.push(p); } return [s]; } },
+      "circle around": { expect: "fail", make: function () { var s = []; for (var i = 0; i <= 60; i++) { var t = i / 60 * 2 * Math.PI; s.push([S / 2 + S * .42 * Math.cos(t), S / 2 + S * .42 * Math.sin(t)]); } return [s]; } },
+    };
+    var TRIES = 3, rows = [];
+    Object.keys(cases).forEach(function (name) {
+      var pass = 0, total = 0, worst = [];
+      shapes.forEach(function (g) {
+        var c = centreLine(maskOf(g));
+        for (var k = 0; k < TRIES; k++) {
+          var r = Trace.score(g, cases[name].make(c), S); total++; if (r.pass) pass++;
+          if ((cases[name].expect === "pass") !== r.pass && worst.indexOf(g) < 0) worst.push(g);
+        }
+      });
+      rows.push([name, cases[name].expect, Math.round(100 * pass / total) + "%", worst.slice(0, 12).join(" ")]);
+    });
+    var t = document.getElementById("t");
+    t.innerHTML = "<tr><th>Simulated child</th><th>Should</th><th>Passed</th><th>Shapes with the unexpected result</th></tr>" +
+      rows.map(function (r) { return "<tr><td>" + r.join("</td><td>") + "</td></tr>"; }).join("");
+    document.getElementById("status").textContent = shapes.length + " shapes × " + TRIES + " tries each. Thresholds: coverage ≥ " + Trace.PASS_COVER + ", outside ≤ " + Trace.PASS_OUTSIDE;
+    window.TUNING = rows;
+  })();
+  </script>
+</body>
+</html>
