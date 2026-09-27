@@ -10,6 +10,6 @@
     grid.appendChild(H.el("li", {}, [a]));
   });
   document.getElementById("hello").addEventListener("click", function () {
-    Sound.play("phrases/home", "حُرُوفِي. اخْتَرْ حَرْفًا.", this);
+    Sound.play("phrases/home", "مَرْحَبًا! اخْتَرْ حَرْفًا.", this);
   });
 })();

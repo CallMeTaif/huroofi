@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>مراجعة الأصوات</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    body { font-size: 16px; }
+    [hidden] { display: none !important; }
+    h1 { font-size: 1.4em; margin: 16px 0 4px; }
+    .bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 12px 0; position: sticky; top: 0; background: var(--bg); padding: 8px 0; z-index: 2; }
+    .bar label { display: inline-flex; gap: 6px; align-items: center; font-weight: 700; }
+    .bar input[type=checkbox] { width: 22px; height: 22px; }
+    h2 { font-size: 1.15em; margin: 22px 0 8px; display: flex; gap: 10px; align-items: baseline; }
+    h2 .big { font-family: var(--font-ar); font-size: 1.8em; }
+    .clips { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+    .clip { display: flex; align-items: center; gap: 10px; padding: 6px 10px; border-radius: 14px; background: #fff; border: 2px solid var(--line); cursor: pointer; text-align: start; min-height: 64px; }
+    .clip.flag { border-color: var(--coral); background: #fff1ec; }
+    .clip.playing { border-color: var(--teal); }
+    .clip .t { font-family: var(--font-ar); font-size: 26px; line-height: 1.6; }
+    .clip .k { font-size: 11px; color: var(--ink-soft); direction: ltr; display: block; }
+    .clip .lbl { font-size: 12px; font-weight: 700; color: var(--ink-soft); display: block; }
+    .desc .t { font-size: 18px; }
+    .clip.desc { grid-column: 1 / -1; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>مراجعة الأصوات — Audio review</h1>
+    <p>اضغطي على أي بطاقة لسماع الصوت. البطاقات <b style="color:var(--coral-deep)">البرتقالية</b> قصيرة أكثر من المعتاد، فاستمعي إليها أولًا.
+      إذا كان صوتٌ خاطئًا، اكتبي رمزه (مثل <code dir="ltr">letters/kaf/v5</code>) وأرسليه للمطوّر.</p>
+    <div class="bar">
+      <label><input type="checkbox" id="onlyFlag"> المعلَّمة فقط</label>
+      <button class="btn teal" id="playAll" type="button">▶ تشغيل الكل بالترتيب</button>
+      <button class="btn" id="stop" type="button">■ إيقاف</button>
+      <span id="info"></span>
+    </div>
+    <div id="out"></div>
+  </main>
+  <script src="../data/letters.js"></script>
+  <script src="../data/audio-manifest.js"></script>
+  <script src="audio-review-data.js"></script>
+  <script>
+  (function () {
+    var clips = (window.AUDIO_REVIEW && AUDIO_REVIEW.clips) || {};
+    var out = document.getElementById("out"), audio = new Audio(), queue = [], playingEl = null;
+    document.getElementById("info").textContent = "الصوت: " + ((window.AUDIO_REVIEW || {}).voice || "?") +
+      " · " + Object.keys(clips).length + " ملفًا · " + Object.values(clips).filter(function (c) { return c.flag; }).length + " للمراجعة";
+    var NAMES = { name: "اسم الحرف", desc: "الوصف", v1: "فتحة", v2: "ضمّة", v3: "كسرة", v4: "سكون", v5: "مدّ بالألف", v6: "مدّ بالواو", v7: "مدّ بالياء",
+      "form-isolated": "شكل: وحده", "form-initial": "شكل: البداية", "form-medial": "شكل: الوسط", "form-final": "شكل: النهاية" };
+    function card(key, shown, label, extra) {
+      var c = clips[key]; if (!c) return null;
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "clip" + (c.flag ? " flag" : "") + (extra || "");
+      b.dataset.key = key;
+      b.innerHTML = "<span><span class='t'></span><span class='lbl'></span><span class='k'></span></span>";
+      b.querySelector(".t").textContent = shown;
+      b.querySelector(".lbl").textContent = label + (c.seconds != null ? " · " + c.seconds + "s" : "");
+      b.querySelector(".k").textContent = key + (c.spoken !== shown ? "  ← «" + c.spoken + "»" : "");
+      b.addEventListener("click", function () { queue = []; play(b); });
+      return b;
+    }
+    function play(b) {
+      if (playingEl) playingEl.classList.remove("playing");
+      playingEl = b; b.classList.add("playing");
+      audio.src = "../audio/" + b.dataset.key + ".mp3";
+      audio.play().catch(function () {});
+    }
+    audio.onended = function () {
+      if (playingEl) playingEl.classList.remove("playing");
+      var n = queue.shift(); if (n) { n.scrollIntoView({ block: "center" }); play(n); }
+    };
+    function section(title, big, items) {
+      var h = document.createElement("h2"); h.innerHTML = "<span class='big'></span><span></span>";
+      h.children[0].textContent = big || ""; h.children[1].textContent = title;
+      var g = document.createElement("div"); g.className = "clips";
+      items.forEach(function (x) { if (x) g.appendChild(x); });
+      out.appendChild(h); out.appendChild(g);
+    }
+    var FATHA = "َ", DAMMA = "ُ", KASRA = "ِ", SUKUN = "ْ";
+    LETTERS.forEach(function (l) {
+      var base = "letters/" + l.id + "/", c = l.letter;
+      var sylls = l.vowels || [c + FATHA, c + DAMMA, c + KASRA, c + SUKUN, c + FATHA + "ا", c + DAMMA + "و", c + KASRA + "ي"];
+      var items = [card(base + "name", l.name, NAMES.name)];
+      sylls.forEach(function (s, i) { items.push(card(base + "v" + (i + 1), s, NAMES["v" + (i + 1)])); });
+      Object.keys(l.formExamples || {}).forEach(function (sh) { if (l.formExamples[sh]) items.push(card(base + "form-" + sh, l.formExamples[sh], NAMES["form-" + sh])); });
+      l.words.forEach(function (w) { items.push(card("words/" + w.image.replace(/^.*\//, "").replace(/\.svg$/, ""), w.word, "كلمة")); });
+      items.push(card(base + "desc", l.description, NAMES.desc, " desc"));
+      section("حرف " + l.name, l.label, items);
+    });
+    section("العبارات", "", Object.keys(clips).filter(function (k) { return k.indexOf("phrases/") === 0; })
+      .map(function (k) { return card(k, clips[k].spoken, k.replace("phrases/", "")); }));
+
+    document.getElementById("onlyFlag").addEventListener("change", function () {
+      var only = this.checked;
+      out.querySelectorAll(".clip").forEach(function (b) { b.hidden = only && !b.classList.contains("flag"); });
+      out.querySelectorAll(".clips").forEach(function (g) {
+        var any = [].some.call(g.children, function (b) { return !b.hidden; });
+        g.hidden = !any; g.previousSibling.hidden = !any;
+      });
+    });
+    document.getElementById("playAll").addEventListener("click", function () {
+      queue = [].filter.call(out.querySelectorAll(".clip"), function (b) { return !b.hidden && !b.classList.contains("desc"); });
+      var n = queue.shift(); if (n) play(n);
+    });
+    document.getElementById("stop").addEventListener("click", function () { queue = []; audio.pause(); if (playingEl) playingEl.classList.remove("playing"); });
+  })();
+  </script>
+</body>
+</html>

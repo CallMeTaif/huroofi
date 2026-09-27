@@ -14,3 +14,7 @@ The fonts were reduced to the Arabic and basic Latin characters (subset) and con
 ## الفيديوهات — Videos
 Videos are not stored in this site. They are embedded from YouTube, from the channel
 «تعلم مع زكريا – Learn with Zakaria» (https://www.youtube.com/learnWithZakaria). All rights belong to their owners.
+
+## الأصوات — Sounds
+All sounds in `audio/` were generated once with Microsoft Edge neural text-to-speech (voice **ar-SA-ZariyahNeural**)
+through the open-source `edge-tts` tool (https://github.com/rany2/edge-tts). No audio was copied from other websites, apps or videos.

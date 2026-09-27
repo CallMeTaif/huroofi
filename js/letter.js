@@ -17,7 +17,7 @@
 
   function section(id, iconName, title, chipLabel) {
     var s = el("section", { class: "block", id: id, "aria-labelledby": id + "-h" }, [
-      el("h2", { id: id + "-h" }, [icon(iconName), title]),
+      el("h2", { id: id + "-h" }, [icon(iconName), title, H.speakBtn("phrases/sec_" + id, title, "small")]),
     ]);
     main.appendChild(s);
     chips.appendChild(el("li", { "data-for": id }, [el("a", { href: "#" + id }, [icon(iconName), chipLabel || title])]));

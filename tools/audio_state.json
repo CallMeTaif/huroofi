@@ -1,0 +1,3460 @@
+{
+ "letters/ain/desc": {
+  "rate": "-15%",
+  "seconds": 8.83,
+  "text": "حَرْفُ الْعَيْنِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: عَ، عِنَب.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ain/form-final": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "إِصْبَع",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ain/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.49,
+  "text": "عِنَب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ain/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.6,
+  "text": "ضِفْدَع",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ain/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.42,
+  "text": "مِلْعَقَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ain/name": {
+  "rate": "-10%",
+  "seconds": 0.47,
+  "text": "عَيْن",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ain/v1": {
+  "rate": "-10%",
+  "seconds": 0.47,
+  "text": "عَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ain/v2": {
+  "rate": "-10%",
+  "seconds": 0.47,
+  "text": "عُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ain/v3": {
+  "rate": "-10%",
+  "seconds": 0.47,
+  "text": "عِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ain/v4": {
+  "rate": "-10%",
+  "seconds": 0.33,
+  "text": "أَعْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ain/v5": {
+  "rate": "-40%",
+  "seconds": 0.48,
+  "text": "عَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ain/v6": {
+  "rate": "-40%",
+  "seconds": 0.42,
+  "text": "عُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ain/v7": {
+  "rate": "-40%",
+  "seconds": 0.54,
+  "text": "عِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/alif/desc": {
+  "rate": "-15%",
+  "seconds": 8.87,
+  "text": "حَرْفُ الْأَلِفِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: أَ، أَرْنَب.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/alif/form-final": {
+  "rate": "-10%",
+  "seconds": 0.51,
+  "text": "مَامَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/alif/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.55,
+  "text": "أَرْنَب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/alif/name": {
+  "rate": "-10%",
+  "seconds": 0.31,
+  "text": "أَلِف",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/alif/v1": {
+  "rate": "-10%",
+  "seconds": 0.45,
+  "text": "أَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/alif/v2": {
+  "rate": "-10%",
+  "seconds": 0.45,
+  "text": "أُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/alif/v3": {
+  "rate": "-10%",
+  "seconds": 0.45,
+  "text": "إِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/alif/v4": {
+  "rate": "-10%",
+  "seconds": 0.32,
+  "text": "يَأْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/alif/v5": {
+  "rate": "-40%",
+  "seconds": 1.41,
+  "text": "آ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/alif/v6": {
+  "rate": "-40%",
+  "seconds": 0.41,
+  "text": "أُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/alif/v7": {
+  "rate": "-40%",
+  "seconds": 0.34,
+  "text": "إِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ba/desc": {
+  "rate": "-15%",
+  "seconds": 9.69,
+  "text": "حَرْفُ الْبَاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ تَحْتَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: بَ، بَطَّة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ba/form-final": {
+  "rate": "-10%",
+  "seconds": 0.49,
+  "text": "عِنَب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ba/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.52,
+  "text": "بَطَّة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ba/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.57,
+  "text": "كِتَاب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ba/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.38,
+  "text": "حَبْل",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ba/name": {
+  "rate": "-10%",
+  "seconds": 0.38,
+  "text": "بَاء",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ba/v1": {
+  "rate": "-10%",
+  "seconds": 0.36,
+  "text": "بَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ba/v2": {
+  "rate": "-10%",
+  "seconds": 0.36,
+  "text": "بُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ba/v3": {
+  "rate": "-10%",
+  "seconds": 0.36,
+  "text": "بِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ba/v4": {
+  "rate": "-10%",
+  "seconds": 0.3,
+  "text": "أَبْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ba/v5": {
+  "rate": "-40%",
+  "seconds": 0.41,
+  "text": "بَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ba/v6": {
+  "rate": "-40%",
+  "seconds": 0.33,
+  "text": "بُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ba/v7": {
+  "rate": "-40%",
+  "seconds": 0.45,
+  "text": "بِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dad/desc": {
+  "rate": "-15%",
+  "seconds": 9.97,
+  "text": "حَرْفُ الضَّادِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ضَ، ضِفْدَع.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dad/form-final": {
+  "rate": "-10%",
+  "seconds": 0.52,
+  "text": "بَيْض",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dad/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.6,
+  "text": "ضِفْدَع",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dad/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.4,
+  "text": "أَرْض",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dad/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.57,
+  "text": "خُضَار",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dad/name": {
+  "rate": "-10%",
+  "seconds": 0.42,
+  "text": "ضَاد",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dad/v1": {
+  "rate": "-10%",
+  "seconds": 0.49,
+  "text": "ضَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dad/v2": {
+  "rate": "-10%",
+  "seconds": 0.49,
+  "text": "ضُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dad/v3": {
+  "rate": "-10%",
+  "seconds": 0.49,
+  "text": "ضِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dad/v4": {
+  "rate": "-10%",
+  "seconds": 0.28,
+  "text": "أَضْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dad/v5": {
+  "rate": "-40%",
+  "seconds": 0.48,
+  "text": "ضَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dad/v6": {
+  "rate": "-40%",
+  "seconds": 0.32,
+  "text": "ضُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dad/v7": {
+  "rate": "-40%",
+  "seconds": 0.53,
+  "text": "ضِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dal/desc": {
+  "rate": "-15%",
+  "seconds": 8.7,
+  "text": "حَرْفُ الدَّالِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: دَ، دُبّ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dal/form-final": {
+  "rate": "-10%",
+  "seconds": 0.38,
+  "text": "يَد",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dal/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.29,
+  "text": "دُبّ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dal/name": {
+  "rate": "-10%",
+  "seconds": 0.45,
+  "text": "دَال",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dal/v1": {
+  "rate": "-10%",
+  "seconds": 0.48,
+  "text": "دَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dal/v2": {
+  "rate": "-10%",
+  "seconds": 0.48,
+  "text": "دُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dal/v3": {
+  "rate": "-10%",
+  "seconds": 0.48,
+  "text": "دِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dal/v4": {
+  "rate": "-10%",
+  "seconds": 0.26,
+  "text": "أَدْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dal/v5": {
+  "rate": "-40%",
+  "seconds": 0.44,
+  "text": "دَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dal/v6": {
+  "rate": "-40%",
+  "seconds": 0.38,
+  "text": "دُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dal/v7": {
+  "rate": "-40%",
+  "seconds": 0.35,
+  "text": "دِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhaa/desc": {
+  "rate": "-15%",
+  "seconds": 9.45,
+  "text": "حَرْفُ الظَّاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ظَ، ظَرْف.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhaa/form-final": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "حَظّ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhaa/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.32,
+  "text": "ظَرْف",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhaa/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.77,
+  "text": "مَحْفُوظ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhaa/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.72,
+  "text": "نَظَّارَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhaa/name": {
+  "rate": "-10%",
+  "seconds": 0.34,
+  "text": "ظَاء",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhaa/v1": {
+  "rate": "-10%",
+  "seconds": 0.49,
+  "text": "ظَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhaa/v2": {
+  "rate": "-10%",
+  "seconds": 0.49,
+  "text": "ظُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhaa/v3": {
+  "rate": "-10%",
+  "seconds": 0.49,
+  "text": "ظِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhaa/v4": {
+  "rate": "-10%",
+  "seconds": 0.29,
+  "text": "أَظْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhaa/v5": {
+  "rate": "-40%",
+  "seconds": 0.47,
+  "text": "ظَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhaa/v6": {
+  "rate": "-40%",
+  "seconds": 0.43,
+  "text": "ظُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhaa/v7": {
+  "rate": "-40%",
+  "seconds": 0.55,
+  "text": "ظِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhal/desc": {
+  "rate": "-15%",
+  "seconds": 9.89,
+  "text": "حَرْفُ الذَّالِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ذَ، ذُرَة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhal/form-final": {
+  "rate": "-10%",
+  "seconds": 0.6,
+  "text": "قُنْفُذ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhal/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.52,
+  "text": "ذُرَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhal/name": {
+  "rate": "-10%",
+  "seconds": 0.61,
+  "text": "ذَال",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhal/v1": {
+  "rate": "-10%",
+  "seconds": 0.62,
+  "text": "ذَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhal/v2": {
+  "rate": "-10%",
+  "seconds": 0.62,
+  "text": "ذُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhal/v3": {
+  "rate": "-10%",
+  "seconds": 0.62,
+  "text": "ذِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhal/v4": {
+  "rate": "-10%",
+  "seconds": 0.26,
+  "text": "أَذْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhal/v5": {
+  "rate": "-40%",
+  "seconds": 0.41,
+  "text": "ذَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhal/v6": {
+  "rate": "-40%",
+  "seconds": 0.51,
+  "text": "ذُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/dhal/v7": {
+  "rate": "-40%",
+  "seconds": 0.44,
+  "text": "ذِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/fa/desc": {
+  "rate": "-15%",
+  "seconds": 9.87,
+  "text": "حَرْفُ الْفَاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: فَ، فِيل.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/fa/form-final": {
+  "rate": "-10%",
+  "seconds": 0.28,
+  "text": "أَنْف",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/fa/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.4,
+  "text": "فِيل",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/fa/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.37,
+  "text": "خَرُوف",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/fa/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.57,
+  "text": "تُفَّاحَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/fa/name": {
+  "rate": "-10%",
+  "seconds": 0.25,
+  "text": "فَاء",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/fa/v1": {
+  "rate": "-10%",
+  "seconds": 0.29,
+  "text": "فَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/fa/v2": {
+  "rate": "-10%",
+  "seconds": 0.29,
+  "text": "فُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/fa/v3": {
+  "rate": "-10%",
+  "seconds": 0.29,
+  "text": "فِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/fa/v4": {
+  "rate": "-10%",
+  "seconds": 0.16,
+  "text": "أَفْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/fa/v5": {
+  "rate": "-40%",
+  "seconds": 0.21,
+  "text": "فَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/fa/v6": {
+  "rate": "-40%",
+  "seconds": 0.24,
+  "text": "فُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/fa/v7": {
+  "rate": "-40%",
+  "seconds": 0.16,
+  "text": "فِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ghain/desc": {
+  "rate": "-15%",
+  "seconds": 9.98,
+  "text": "حَرْفُ الْغَيْنِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: غَ، غَيْمَة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ghain/form-final": {
+  "rate": "-10%",
+  "seconds": 0.36,
+  "text": "صَمْغ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ghain/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "غَيْمَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ghain/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.75,
+  "text": "دِمَاغ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ghain/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.65,
+  "text": "بَبَّغَاء",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ghain/name": {
+  "rate": "-10%",
+  "seconds": 0.54,
+  "text": "غَيْن",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ghain/v1": {
+  "rate": "-10%",
+  "seconds": 0.59,
+  "text": "غَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ghain/v2": {
+  "rate": "-10%",
+  "seconds": 0.59,
+  "text": "غُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ghain/v3": {
+  "rate": "-10%",
+  "seconds": 0.59,
+  "text": "غِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ghain/v4": {
+  "rate": "-10%",
+  "seconds": 0.36,
+  "text": "أَغْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ghain/v5": {
+  "rate": "-40%",
+  "seconds": 0.5,
+  "text": "غَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ghain/v6": {
+  "rate": "-40%",
+  "seconds": 0.32,
+  "text": "غُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ghain/v7": {
+  "rate": "-40%",
+  "seconds": 0.48,
+  "text": "غِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ha/desc": {
+  "rate": "-15%",
+  "seconds": 8.85,
+  "text": "حَرْفُ الْحَاءِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: حَ، حِصَان.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ha/form-final": {
+  "rate": "-10%",
+  "seconds": 0.59,
+  "text": "مِلْح",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ha/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.63,
+  "text": "حِصَان",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ha/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.63,
+  "text": "تُفَّاح",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ha/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.58,
+  "text": "نَحْلَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ha/name": {
+  "rate": "-10%",
+  "seconds": 0.34,
+  "text": "حَاء",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ha/v1": {
+  "rate": "-10%",
+  "seconds": 0.36,
+  "text": "حَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ha/v2": {
+  "rate": "-10%",
+  "seconds": 0.36,
+  "text": "حُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ha/v3": {
+  "rate": "-10%",
+  "seconds": 0.36,
+  "text": "حِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ha/v4": {
+  "rate": "-10%",
+  "seconds": 0.24,
+  "text": "أَحْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ha/v5": {
+  "rate": "-40%",
+  "seconds": 0.4,
+  "text": "حَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ha/v6": {
+  "rate": "-40%",
+  "seconds": 0.34,
+  "text": "حُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ha/v7": {
+  "rate": "-40%",
+  "seconds": 0.47,
+  "text": "حِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/haa/desc": {
+  "rate": "-15%",
+  "seconds": 9.06,
+  "text": "حَرْفُ الْهَاءِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: هَ، هَدِيَّة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/haa/form-final": {
+  "rate": "-10%",
+  "seconds": 0.48,
+  "text": "وَجْه",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/haa/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.53,
+  "text": "هَدِيَّة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/haa/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.51,
+  "text": "مِيَاه",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/haa/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.6,
+  "text": "نَهْر",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/haa/name": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "هَاء",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/haa/v1": {
+  "rate": "-10%",
+  "seconds": 0.42,
+  "text": "هَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/haa/v2": {
+  "rate": "-10%",
+  "seconds": 0.42,
+  "text": "هُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/haa/v3": {
+  "rate": "-10%",
+  "seconds": 0.42,
+  "text": "هِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/haa/v4": {
+  "rate": "-10%",
+  "seconds": 0.38,
+  "text": "أَهْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/haa/v5": {
+  "rate": "-40%",
+  "seconds": 0.39,
+  "text": "هَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/haa/v6": {
+  "rate": "-40%",
+  "seconds": 0.48,
+  "text": "هُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/haa/v7": {
+  "rate": "-40%",
+  "seconds": 0.57,
+  "text": "هِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/jim/desc": {
+  "rate": "-15%",
+  "seconds": 9.77,
+  "text": "حَرْفُ الْجِيمِ لَهُ نُقْطَةٌ وَاحِدَةٌ تَحْتَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: جَ، جَمَل.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/jim/form-final": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "ثَلْج",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/jim/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.55,
+  "text": "جَمَل",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/jim/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.36,
+  "text": "تَاج",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/jim/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.52,
+  "text": "نَجْمَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/jim/name": {
+  "rate": "-10%",
+  "seconds": 0.51,
+  "text": "جِيم",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/jim/v1": {
+  "rate": "-10%",
+  "seconds": 0.54,
+  "text": "جَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/jim/v2": {
+  "rate": "-10%",
+  "seconds": 0.54,
+  "text": "جُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/jim/v3": {
+  "rate": "-10%",
+  "seconds": 0.54,
+  "text": "جِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/jim/v4": {
+  "rate": "-10%",
+  "seconds": 0.31,
+  "text": "أَجْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/jim/v5": {
+  "rate": "-40%",
+  "seconds": 0.48,
+  "text": "جَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/jim/v6": {
+  "rate": "-40%",
+  "seconds": 0.46,
+  "text": "جُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/jim/v7": {
+  "rate": "-40%",
+  "seconds": 0.49,
+  "text": "جِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kaf/desc": {
+  "rate": "-15%",
+  "seconds": 8.88,
+  "text": "حَرْفُ الْكَافِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: كَ، كِتَاب.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kaf/form-final": {
+  "rate": "-10%",
+  "seconds": 0.33,
+  "text": "دِيك",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kaf/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.57,
+  "text": "كِتَاب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kaf/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.5,
+  "text": "شُبَّاك",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kaf/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.4,
+  "text": "سَمَكَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kaf/name": {
+  "rate": "-10%",
+  "seconds": 0.24,
+  "text": "كَاف",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kaf/v1": {
+  "rate": "-10%",
+  "seconds": 0.25,
+  "text": "كَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kaf/v2": {
+  "rate": "-10%",
+  "seconds": 0.25,
+  "text": "كُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kaf/v3": {
+  "rate": "-10%",
+  "seconds": 0.25,
+  "text": "كِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kaf/v4": {
+  "rate": "-10%",
+  "seconds": 0.14,
+  "text": "أَكْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kaf/v5": {
+  "rate": "-40%",
+  "seconds": 0.16,
+  "text": "كَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kaf/v6": {
+  "rate": "-40%",
+  "seconds": 0.37,
+  "text": "كُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kaf/v7": {
+  "rate": "-40%",
+  "seconds": 0.33,
+  "text": "كِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kha/desc": {
+  "rate": "-15%",
+  "seconds": 9.62,
+  "text": "حَرْفُ الْخَاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: خَ، خَرُوف.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kha/form-final": {
+  "rate": "-10%",
+  "seconds": 0.71,
+  "text": "بِطِّيخ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kha/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.37,
+  "text": "خَرُوف",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kha/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.26,
+  "text": "خَوْخ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kha/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.55,
+  "text": "نَخْلَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kha/name": {
+  "rate": "-10%",
+  "seconds": 0.2,
+  "text": "خَاء",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kha/v1": {
+  "rate": "-10%",
+  "seconds": 0.44,
+  "text": "خَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kha/v2": {
+  "rate": "-10%",
+  "seconds": 0.44,
+  "text": "خُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kha/v3": {
+  "rate": "-10%",
+  "seconds": 0.44,
+  "text": "خِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kha/v4": {
+  "rate": "-10%",
+  "seconds": 0.18,
+  "text": "أَخْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kha/v5": {
+  "rate": "-40%",
+  "seconds": 0.35,
+  "text": "خَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kha/v6": {
+  "rate": "-40%",
+  "seconds": 0.33,
+  "text": "خُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/kha/v7": {
+  "rate": "-40%",
+  "seconds": 0.36,
+  "text": "خِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/lam/desc": {
+  "rate": "-15%",
+  "seconds": 9.1,
+  "text": "حَرْفُ اللَّامِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: لَ، لَيْمُون.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/lam/form-final": {
+  "rate": "-10%",
+  "seconds": 0.4,
+  "text": "فِيل",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/lam/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.72,
+  "text": "لَيْمُون",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/lam/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.75,
+  "text": "غَزَال",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/lam/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.54,
+  "text": "قَلَم",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/lam/name": {
+  "rate": "-10%",
+  "seconds": 0.49,
+  "text": "لَام",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/lam/v1": {
+  "rate": "-10%",
+  "seconds": 0.51,
+  "text": "لَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/lam/v2": {
+  "rate": "-10%",
+  "seconds": 0.51,
+  "text": "لُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/lam/v3": {
+  "rate": "-10%",
+  "seconds": 0.51,
+  "text": "لِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/lam/v4": {
+  "rate": "-10%",
+  "seconds": 0.34,
+  "text": "أَلْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/lam/v5": {
+  "rate": "-40%",
+  "seconds": 0.51,
+  "text": "لَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/lam/v6": {
+  "rate": "-40%",
+  "seconds": 0.42,
+  "text": "لُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/lam/v7": {
+  "rate": "-40%",
+  "seconds": 0.5,
+  "text": "لِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/mim/desc": {
+  "rate": "-15%",
+  "seconds": 8.71,
+  "text": "حَرْفُ الْمِيمِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: مَ، مَوْز.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/mim/form-final": {
+  "rate": "-10%",
+  "seconds": 0.54,
+  "text": "قَلَم",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/mim/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.33,
+  "text": "مَوْز",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/mim/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.81,
+  "text": "رَسَّام",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/mim/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.38,
+  "text": "شَمْس",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/mim/name": {
+  "rate": "-10%",
+  "seconds": 0.48,
+  "text": "مِيم",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/mim/v1": {
+  "rate": "-10%",
+  "seconds": 0.51,
+  "text": "مَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/mim/v2": {
+  "rate": "-10%",
+  "seconds": 0.51,
+  "text": "مُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/mim/v3": {
+  "rate": "-10%",
+  "seconds": 0.51,
+  "text": "مِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/mim/v4": {
+  "rate": "-10%",
+  "seconds": 0.35,
+  "text": "أَمْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/mim/v5": {
+  "rate": "-40%",
+  "seconds": 0.41,
+  "text": "مَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/mim/v6": {
+  "rate": "-40%",
+  "seconds": 0.34,
+  "text": "مُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/mim/v7": {
+  "rate": "-40%",
+  "seconds": 0.46,
+  "text": "مِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/nun/desc": {
+  "rate": "-15%",
+  "seconds": 9.83,
+  "text": "حَرْفُ النُّونِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: نَ، نَحْلَة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/nun/form-final": {
+  "rate": "-10%",
+  "seconds": 0.47,
+  "text": "عَيْن",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/nun/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.58,
+  "text": "نَحْلَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/nun/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.68,
+  "text": "بَالُون",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/nun/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.49,
+  "text": "عِنَب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/nun/name": {
+  "rate": "-10%",
+  "seconds": 0.5,
+  "text": "نُون",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/nun/v1": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "نَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/nun/v2": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "نُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/nun/v3": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "نِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/nun/v4": {
+  "rate": "-10%",
+  "seconds": 0.4,
+  "text": "أَنْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/nun/v5": {
+  "rate": "-40%",
+  "seconds": 0.47,
+  "text": "نَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/nun/v6": {
+  "rate": "-40%",
+  "seconds": 0.48,
+  "text": "نُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/nun/v7": {
+  "rate": "-40%",
+  "seconds": 0.49,
+  "text": "نِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/qaf/desc": {
+  "rate": "-15%",
+  "seconds": 9.12,
+  "text": "حَرْفُ الْقَافِ لَهُ نُقْطَتَانِ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: قَ، قِطَّة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/qaf/form-final": {
+  "rate": "-10%",
+  "seconds": 0.5,
+  "text": "طَبَق",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/qaf/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.51,
+  "text": "قِطَّة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/qaf/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.67,
+  "text": "صُنْدُوق",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/qaf/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.67,
+  "text": "بَقَرَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/qaf/name": {
+  "rate": "-10%",
+  "seconds": 0.17,
+  "text": "قَاف",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/qaf/v1": {
+  "rate": "-10%",
+  "seconds": 0.26,
+  "text": "قَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/qaf/v2": {
+  "rate": "-10%",
+  "seconds": 0.26,
+  "text": "قُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/qaf/v3": {
+  "rate": "-10%",
+  "seconds": 0.26,
+  "text": "قِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/qaf/v4": {
+  "rate": "-10%",
+  "seconds": 0.26,
+  "text": "أَقْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/qaf/v5": {
+  "rate": "-40%",
+  "seconds": 0.21,
+  "text": "قَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/qaf/v6": {
+  "rate": "-40%",
+  "seconds": 0.42,
+  "text": "قُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/qaf/v7": {
+  "rate": "-40%",
+  "seconds": 0.5,
+  "text": "قِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ra/desc": {
+  "rate": "-15%",
+  "seconds": 9.12,
+  "text": "حَرْفُ الرَّاءِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: رَ، رِيشَة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ra/form-final": {
+  "rate": "-10%",
+  "seconds": 0.43,
+  "text": "قَمَر",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ra/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.44,
+  "text": "رِيشَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ra/name": {
+  "rate": "-10%",
+  "seconds": 0.26,
+  "text": "رَاء",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ra/v1": {
+  "rate": "-10%",
+  "seconds": 0.47,
+  "text": "رَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ra/v2": {
+  "rate": "-10%",
+  "seconds": 0.47,
+  "text": "رُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ra/v3": {
+  "rate": "-10%",
+  "seconds": 0.47,
+  "text": "رِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ra/v4": {
+  "rate": "-10%",
+  "seconds": 0.28,
+  "text": "أَرْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ra/v5": {
+  "rate": "-40%",
+  "seconds": 0.34,
+  "text": "رَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ra/v6": {
+  "rate": "-40%",
+  "seconds": 0.45,
+  "text": "رُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ra/v7": {
+  "rate": "-40%",
+  "seconds": 0.59,
+  "text": "رِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sad/desc": {
+  "rate": "-15%",
+  "seconds": 8.62,
+  "text": "حَرْفُ الصَّادِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: صَ، صَارُوخ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sad/form-final": {
+  "rate": "-10%",
+  "seconds": 0.37,
+  "text": "قَمِيص",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sad/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.58,
+  "text": "صَارُوخ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sad/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.48,
+  "text": "رَصَاص",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sad/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.77,
+  "text": "عُصْفُور",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sad/name": {
+  "rate": "-10%",
+  "seconds": 0.29,
+  "text": "صَاد",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sad/v1": {
+  "rate": "-10%",
+  "seconds": 0.33,
+  "text": "صَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sad/v2": {
+  "rate": "-10%",
+  "seconds": 0.33,
+  "text": "صُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sad/v3": {
+  "rate": "-10%",
+  "seconds": 0.33,
+  "text": "صِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sad/v4": {
+  "rate": "-10%",
+  "seconds": 0.25,
+  "text": "أَصْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sad/v5": {
+  "rate": "-40%",
+  "seconds": 0.42,
+  "text": "صَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sad/v6": {
+  "rate": "-40%",
+  "seconds": 0.44,
+  "text": "صُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sad/v7": {
+  "rate": "-40%",
+  "seconds": 0.48,
+  "text": "صِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/shin/desc": {
+  "rate": "-15%",
+  "seconds": 9.5,
+  "text": "حَرْفُ الشِّينِ لَهُ ثَلَاثُ نُقَطٍ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: شَ، شَمْس.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/shin/form-final": {
+  "rate": "-10%",
+  "seconds": 0.35,
+  "text": "عُشّ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/shin/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.38,
+  "text": "شَمْس",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/shin/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "قُمَاش",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/shin/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.62,
+  "text": "مُشْط",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/shin/name": {
+  "rate": "-10%",
+  "seconds": 0.49,
+  "text": "شِين",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/shin/v1": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "شَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/shin/v2": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "شُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/shin/v3": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "شِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/shin/v4": {
+  "rate": "-10%",
+  "seconds": 0.31,
+  "text": "أَشْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/shin/v5": {
+  "rate": "-40%",
+  "seconds": 0.51,
+  "text": "شَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/shin/v6": {
+  "rate": "-40%",
+  "seconds": 0.48,
+  "text": "شُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/shin/v7": {
+  "rate": "-40%",
+  "seconds": 0.56,
+  "text": "شِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sin/desc": {
+  "rate": "-15%",
+  "seconds": 8.73,
+  "text": "حَرْفُ السِّينِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: سَ، سَمَكَة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sin/form-final": {
+  "rate": "-10%",
+  "seconds": 0.38,
+  "text": "شَمْس",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sin/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.4,
+  "text": "سَمَكَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sin/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "فَانُوس",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sin/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.57,
+  "text": "مَسْجِد",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sin/name": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "سِين",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sin/v1": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "سَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sin/v2": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "سُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sin/v3": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "سِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sin/v4": {
+  "rate": "-10%",
+  "seconds": 0.21,
+  "text": "أَسْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sin/v5": {
+  "rate": "-40%",
+  "seconds": 0.37,
+  "text": "سَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sin/v6": {
+  "rate": "-40%",
+  "seconds": 0.41,
+  "text": "سُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/sin/v7": {
+  "rate": "-40%",
+  "seconds": 0.43,
+  "text": "سِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ta/desc": {
+  "rate": "-15%",
+  "seconds": 9.17,
+  "text": "حَرْفُ التَّاءِ لَهُ نُقْطَتَانِ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: تَ، تُفَّاحَة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ta/form-final": {
+  "rate": "-10%",
+  "seconds": 0.34,
+  "text": "بَيْت",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ta/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.57,
+  "text": "تُفَّاحَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ta/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.43,
+  "text": "حُوت",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ta/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.57,
+  "text": "كِتَاب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ta/name": {
+  "rate": "-10%",
+  "seconds": 0.24,
+  "text": "تَاء",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ta/v1": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "تَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ta/v2": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "تُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ta/v3": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "تِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ta/v4": {
+  "rate": "-10%",
+  "seconds": 0.22,
+  "text": "أَتْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ta/v5": {
+  "rate": "-40%",
+  "seconds": 0.18,
+  "text": "تَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ta/v6": {
+  "rate": "-40%",
+  "seconds": 0.28,
+  "text": "تُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ta/v7": {
+  "rate": "-40%",
+  "seconds": 0.39,
+  "text": "تِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/taa/desc": {
+  "rate": "-15%",
+  "seconds": 8.95,
+  "text": "حَرْفُ الطَّاءِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: طَ، طَائِرَة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/taa/form-final": {
+  "rate": "-10%",
+  "seconds": 0.25,
+  "text": "قِطّ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/taa/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "طَائِرَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/taa/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.6,
+  "text": "خُطُوط",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/taa/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.52,
+  "text": "بَطَّة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/taa/name": {
+  "rate": "-10%",
+  "seconds": 0.22,
+  "text": "طَاء",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/taa/v1": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "طَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/taa/v2": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "طُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/taa/v3": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "طِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/taa/v4": {
+  "rate": "-10%",
+  "seconds": 0.25,
+  "text": "أَطْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/taa/v5": {
+  "rate": "-40%",
+  "seconds": 0.44,
+  "text": "طَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/taa/v6": {
+  "rate": "-40%",
+  "seconds": 0.26,
+  "text": "طُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/taa/v7": {
+  "rate": "-40%",
+  "seconds": 0.57,
+  "text": "طِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/tha/desc": {
+  "rate": "-15%",
+  "seconds": 9.41,
+  "text": "حَرْفُ الثَّاءِ لَهُ ثَلَاثُ نُقَطٍ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ثَ، ثَعْلَب.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/tha/form-final": {
+  "rate": "-10%",
+  "seconds": 0.53,
+  "text": "مُثَلَّث",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/tha/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.44,
+  "text": "ثَعْلَب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/tha/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.35,
+  "text": "ثَلَاث",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/tha/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.65,
+  "text": "كُمَّثْرَى",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/tha/name": {
+  "rate": "-10%",
+  "seconds": 0.19,
+  "text": "ثَاء",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/tha/v1": {
+  "rate": "-10%",
+  "seconds": 0.2,
+  "text": "ثَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/tha/v2": {
+  "rate": "-10%",
+  "seconds": 0.2,
+  "text": "ثُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/tha/v3": {
+  "rate": "-10%",
+  "seconds": 0.2,
+  "text": "ثِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/tha/v4": {
+  "rate": "-10%",
+  "seconds": 0.32,
+  "text": "أَثْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/tha/v5": {
+  "rate": "-40%",
+  "seconds": 0.43,
+  "text": "ثَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/tha/v6": {
+  "rate": "-40%",
+  "seconds": 0.32,
+  "text": "ثُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/tha/v7": {
+  "rate": "-40%",
+  "seconds": 0.51,
+  "text": "ثِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/waw/desc": {
+  "rate": "-15%",
+  "seconds": 9.17,
+  "text": "حَرْفُ الْوَاوِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: وَ، وَرْدَة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/waw/form-final": {
+  "rate": "-10%",
+  "seconds": 0.49,
+  "text": "دَلْو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/waw/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.47,
+  "text": "وَرْدَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/waw/name": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "وَاو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/waw/v1": {
+  "rate": "-10%",
+  "seconds": 0.45,
+  "text": "وَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/waw/v2": {
+  "rate": "-10%",
+  "seconds": 0.45,
+  "text": "وُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/waw/v3": {
+  "rate": "-10%",
+  "seconds": 0.45,
+  "text": "وِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/waw/v4": {
+  "rate": "-10%",
+  "seconds": 0.31,
+  "text": "أَوْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/waw/v5": {
+  "rate": "-40%",
+  "seconds": 0.47,
+  "text": "وَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/waw/v6": {
+  "rate": "-40%",
+  "seconds": 0.44,
+  "text": "وُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/waw/v7": {
+  "rate": "-40%",
+  "seconds": 0.44,
+  "text": "وِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ya/desc": {
+  "rate": "-15%",
+  "seconds": 9.15,
+  "text": "حَرْفُ الْيَاءِ لَهُ نُقْطَتَانِ تَحْتَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: يَ، يَد.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ya/form-final": {
+  "rate": "-10%",
+  "seconds": 0.52,
+  "text": "كُرْسِيّ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ya/form-initial": {
+  "rate": "-10%",
+  "seconds": 0.38,
+  "text": "يَد",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ya/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.48,
+  "text": "شَاي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ya/form-medial": {
+  "rate": "-10%",
+  "seconds": 0.4,
+  "text": "فِيل",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ya/name": {
+  "rate": "-10%",
+  "seconds": 0.38,
+  "text": "يَاء",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ya/v1": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "يَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ya/v2": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "يُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ya/v3": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "يِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ya/v4": {
+  "rate": "-10%",
+  "seconds": 0.34,
+  "text": "أَيْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ya/v5": {
+  "rate": "-40%",
+  "seconds": 0.61,
+  "text": "يَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ya/v6": {
+  "rate": "-40%",
+  "seconds": 0.31,
+  "text": "يُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/ya/v7": {
+  "rate": "-40%",
+  "seconds": 0.36,
+  "text": "يِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/zay/desc": {
+  "rate": "-15%",
+  "seconds": 9.96,
+  "text": "حَرْفُ الزَّايِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: زَ، زَرَافَة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/zay/form-final": {
+  "rate": "-10%",
+  "seconds": 0.25,
+  "text": "خُبْز",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/zay/form-isolated": {
+  "rate": "-10%",
+  "seconds": 0.5,
+  "text": "زَرَافَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/zay/name": {
+  "rate": "-10%",
+  "seconds": 0.44,
+  "text": "زَاي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/zay/v1": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "زَ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/zay/v2": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "زُ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/zay/v3": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "زِ.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/zay/v4": {
+  "rate": "-10%",
+  "seconds": 0.29,
+  "text": "أَزْ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/zay/v5": {
+  "rate": "-40%",
+  "seconds": 0.47,
+  "text": "زَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/zay/v6": {
+  "rate": "-40%",
+  "seconds": 0.67,
+  "text": "زُو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "letters/zay/v7": {
+  "rate": "-40%",
+  "seconds": 0.57,
+  "text": "زِي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/ex_find": {
+  "rate": "-15%",
+  "seconds": 2.81,
+  "text": "اضْغَطْ عَلَى الْكَلِمَاتِ الَّتِي فِيهَا الْحَرْف.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/ex_listen": {
+  "rate": "-15%",
+  "seconds": 2.61,
+  "text": "اسْمَعْ، ثُمَّ اخْتَرِ الْحَرْفَ الصَّحِيح.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/ex_match": {
+  "rate": "-15%",
+  "seconds": 1.37,
+  "text": "صِلِ الْحَرْفَ بِالصُّورَة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/ex_trace": {
+  "rate": "-15%",
+  "seconds": 1.67,
+  "text": "اكْتُبِ الْحَرْفَ بِإِصْبَعِك.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/ex_where": {
+  "rate": "-15%",
+  "seconds": 0.7,
+  "text": "أَيْنَ الْحَرْف؟",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/great1": {
+  "rate": "-15%",
+  "seconds": 0.65,
+  "text": "أَحْسَنْت!",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/great2": {
+  "rate": "-15%",
+  "seconds": 0.6,
+  "text": "مُمْتَاز!",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/great3": {
+  "rate": "-15%",
+  "seconds": 0.67,
+  "text": "رَائِع!",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/home": {
+  "rate": "-15%",
+  "seconds": 3.15,
+  "text": "مَرْحَبًا! اخْتَرْ حَرْفًا.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/pos_final": {
+  "rate": "-15%",
+  "seconds": 0.75,
+  "text": "فِي النِّهَايَة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/pos_initial": {
+  "rate": "-15%",
+  "seconds": 0.76,
+  "text": "فِي الْبِدَايَة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/pos_medial": {
+  "rate": "-15%",
+  "seconds": 0.67,
+  "text": "فِي الْوَسَط.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/review": {
+  "rate": "-15%",
+  "seconds": 1.43,
+  "text": "تَمَارِينُ الْمُرَاجَعَة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/round_done": {
+  "rate": "-15%",
+  "seconds": 3.08,
+  "text": "رَائِع! انْتَهَتِ الْجَوْلَة.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/sec_forms": {
+  "rate": "-15%",
+  "seconds": 1.06,
+  "text": "أَشْكَالُ الْحَرْف.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/sec_meet": {
+  "rate": "-15%",
+  "seconds": 1.15,
+  "text": "تَعَرَّفْ عَلَى الْحَرْف.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/sec_practice": {
+  "rate": "-15%",
+  "seconds": 0.67,
+  "text": "تَمَرَّن.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/sec_videos": {
+  "rate": "-15%",
+  "seconds": 1.43,
+  "text": "شَاهِدْ وَتَعَلَّم.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/sec_vowels": {
+  "rate": "-15%",
+  "seconds": 0.8,
+  "text": "الْحَرَكَات.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/sec_words": {
+  "rate": "-15%",
+  "seconds": 1.33,
+  "text": "كَلِمَاتٌ وَصُوَر.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "phrases/try_again": {
+  "rate": "-15%",
+  "seconds": 1.56,
+  "text": "حَاوِلْ مَرَّةً أُخْرَى.",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/anf": {
+  "rate": "-10%",
+  "seconds": 0.28,
+  "text": "أَنْف",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/ard": {
+  "rate": "-10%",
+  "seconds": 0.4,
+  "text": "أَرْض",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/arnab": {
+  "rate": "-10%",
+  "seconds": 0.55,
+  "text": "أَرْنَب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/asad": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "أَسَد",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/ayn": {
+  "rate": "-10%",
+  "seconds": 0.47,
+  "text": "عَيْن",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/bab": {
+  "rate": "-10%",
+  "seconds": 0.4,
+  "text": "بَاب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/baba": {
+  "rate": "-10%",
+  "seconds": 0.52,
+  "text": "بَابَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/babbagha": {
+  "rate": "-10%",
+  "seconds": 0.65,
+  "text": "بَبَّغَاء",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/bahr": {
+  "rate": "-10%",
+  "seconds": 0.59,
+  "text": "بَحْر",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/balun": {
+  "rate": "-10%",
+  "seconds": 0.68,
+  "text": "بَالُون",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/baqara": {
+  "rate": "-10%",
+  "seconds": 0.67,
+  "text": "بَقَرَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/basal": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "بَصَل",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/batta": {
+  "rate": "-10%",
+  "seconds": 0.52,
+  "text": "بَطَّة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/bayd": {
+  "rate": "-10%",
+  "seconds": 0.52,
+  "text": "بَيْض",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/bayt": {
+  "rate": "-10%",
+  "seconds": 0.34,
+  "text": "بَيْت",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/bittikh": {
+  "rate": "-10%",
+  "seconds": 0.71,
+  "text": "بِطِّيخ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/dajaja": {
+  "rate": "-10%",
+  "seconds": 0.67,
+  "text": "دَجَاجَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/dalw": {
+  "rate": "-10%",
+  "seconds": 0.49,
+  "text": "دَلْو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/daw": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "ضَوْء",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/dhib": {
+  "rate": "-10%",
+  "seconds": 0.37,
+  "text": "ذِئْب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/dhura": {
+  "rate": "-10%",
+  "seconds": 0.52,
+  "text": "ذُرَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/difda": {
+  "rate": "-10%",
+  "seconds": 0.6,
+  "text": "ضِفْدَع",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/dik": {
+  "rate": "-10%",
+  "seconds": 0.33,
+  "text": "دِيك",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/dimagh": {
+  "rate": "-10%",
+  "seconds": 0.75,
+  "text": "دِمَاغ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/dubb": {
+  "rate": "-10%",
+  "seconds": 0.29,
+  "text": "دُبّ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/fam": {
+  "rate": "-10%",
+  "seconds": 0.38,
+  "text": "فَم",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/fanus": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "فَانُوس",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/far": {
+  "rate": "-10%",
+  "seconds": 0.4,
+  "text": "فَأْر",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/farasha": {
+  "rate": "-10%",
+  "seconds": 0.54,
+  "text": "فَرَاشَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/fawakih": {
+  "rate": "-10%",
+  "seconds": 0.57,
+  "text": "فَوَاكِه",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/fil": {
+  "rate": "-10%",
+  "seconds": 0.4,
+  "text": "فِيل",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/fustan": {
+  "rate": "-10%",
+  "seconds": 0.61,
+  "text": "فُسْتَان",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/ghayma": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "غَيْمَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/ghazal": {
+  "rate": "-10%",
+  "seconds": 0.75,
+  "text": "غَزَال",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/habl": {
+  "rate": "-10%",
+  "seconds": 0.38,
+  "text": "حَبْل",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/hadiyya": {
+  "rate": "-10%",
+  "seconds": 0.53,
+  "text": "هَدِيَّة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/halib": {
+  "rate": "-10%",
+  "seconds": 0.44,
+  "text": "حَلِيب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/hatif": {
+  "rate": "-10%",
+  "seconds": 0.38,
+  "text": "هَاتِف",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/hidha": {
+  "rate": "-10%",
+  "seconds": 0.52,
+  "text": "حِذَاء",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/hisan": {
+  "rate": "-10%",
+  "seconds": 0.63,
+  "text": "حِصَان",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/hut": {
+  "rate": "-10%",
+  "seconds": 0.43,
+  "text": "حُوت",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/inab": {
+  "rate": "-10%",
+  "seconds": 0.49,
+  "text": "عِنَب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/isba": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "إِصْبَع",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/jamal": {
+  "rate": "-10%",
+  "seconds": 0.55,
+  "text": "جَمَل",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/jarw": {
+  "rate": "-10%",
+  "seconds": 0.48,
+  "text": "جَرْو",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/jazar": {
+  "rate": "-10%",
+  "seconds": 0.6,
+  "text": "جَزَر",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/kabsh": {
+  "rate": "-10%",
+  "seconds": 0.48,
+  "text": "كَبْش",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/kharuf": {
+  "rate": "-10%",
+  "seconds": 0.37,
+  "text": "خَرُوف",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/khawkh": {
+  "rate": "-10%",
+  "seconds": 0.26,
+  "text": "خَوْخ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/khubz": {
+  "rate": "-10%",
+  "seconds": 0.25,
+  "text": "خُبْز",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/khudar": {
+  "rate": "-10%",
+  "seconds": 0.57,
+  "text": "خُضَار",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/kitab": {
+  "rate": "-10%",
+  "seconds": 0.57,
+  "text": "كِتَاب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/kummathra": {
+  "rate": "-10%",
+  "seconds": 0.65,
+  "text": "كُمَّثْرَى",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/kura": {
+  "rate": "-10%",
+  "seconds": 0.44,
+  "text": "كُرَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/kursi": {
+  "rate": "-10%",
+  "seconds": 0.52,
+  "text": "كُرْسِيّ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/laymun": {
+  "rate": "-10%",
+  "seconds": 0.72,
+  "text": "لَيْمُون",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/luba": {
+  "rate": "-10%",
+  "seconds": 0.54,
+  "text": "لُعْبَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/mama": {
+  "rate": "-10%",
+  "seconds": 0.51,
+  "text": "مَامَا",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/masjid": {
+  "rate": "-10%",
+  "seconds": 0.57,
+  "text": "مَسْجِد",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/mawz": {
+  "rate": "-10%",
+  "seconds": 0.33,
+  "text": "مَوْز",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/midrab": {
+  "rate": "-10%",
+  "seconds": 0.64,
+  "text": "مِضْرَب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/miftah": {
+  "rate": "-10%",
+  "seconds": 0.73,
+  "text": "مِفْتَاح",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/mighnatis": {
+  "rate": "-10%",
+  "seconds": 0.72,
+  "text": "مِغْنَاطِيس",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/miknasa": {
+  "rate": "-10%",
+  "seconds": 0.48,
+  "text": "مِكْنَسَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/milaqa": {
+  "rate": "-10%",
+  "seconds": 0.42,
+  "text": "مِلْعَقَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/miqass": {
+  "rate": "-10%",
+  "seconds": 0.67,
+  "text": "مِقَصّ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/mizalla": {
+  "rate": "-10%",
+  "seconds": 0.58,
+  "text": "مِظَلَّة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/musht": {
+  "rate": "-10%",
+  "seconds": 0.62,
+  "text": "مُشْط",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/muthallajat": {
+  "rate": "-10%",
+  "seconds": 0.77,
+  "text": "مُثَلَّجَات",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/muthallath": {
+  "rate": "-10%",
+  "seconds": 0.53,
+  "text": "مُثَلَّث",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/nafidha": {
+  "rate": "-10%",
+  "seconds": 0.65,
+  "text": "نَافِذَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/nahla": {
+  "rate": "-10%",
+  "seconds": 0.58,
+  "text": "نَحْلَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/nahr": {
+  "rate": "-10%",
+  "seconds": 0.6,
+  "text": "نَهْر",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/najma": {
+  "rate": "-10%",
+  "seconds": 0.52,
+  "text": "نَجْمَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/nakhla": {
+  "rate": "-10%",
+  "seconds": 0.55,
+  "text": "نَخْلَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/namir": {
+  "rate": "-10%",
+  "seconds": 0.52,
+  "text": "نَمِر",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/nazzara": {
+  "rate": "-10%",
+  "seconds": 0.72,
+  "text": "نَظَّارَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/qalam": {
+  "rate": "-10%",
+  "seconds": 0.54,
+  "text": "قَلَم",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/qamar": {
+  "rate": "-10%",
+  "seconds": 0.43,
+  "text": "قَمَر",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/qamis": {
+  "rate": "-10%",
+  "seconds": 0.37,
+  "text": "قَمِيص",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/qitar": {
+  "rate": "-10%",
+  "seconds": 0.59,
+  "text": "قِطَار",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/qitt": {
+  "rate": "-10%",
+  "seconds": 0.25,
+  "text": "قِطّ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/qitta": {
+  "rate": "-10%",
+  "seconds": 0.51,
+  "text": "قِطَّة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/qunfudh": {
+  "rate": "-10%",
+  "seconds": 0.6,
+  "text": "قُنْفُذ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/rassam": {
+  "rate": "-10%",
+  "seconds": 0.81,
+  "text": "رَسَّام",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/risha": {
+  "rate": "-10%",
+  "seconds": 0.44,
+  "text": "رِيشَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/saa": {
+  "rate": "-10%",
+  "seconds": 0.35,
+  "text": "سَاعَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/safina": {
+  "rate": "-10%",
+  "seconds": 0.55,
+  "text": "سَفِينَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/sakhra": {
+  "rate": "-10%",
+  "seconds": 0.5,
+  "text": "صَخْرَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/samaka": {
+  "rate": "-10%",
+  "seconds": 0.4,
+  "text": "سَمَكَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/samgh": {
+  "rate": "-10%",
+  "seconds": 0.36,
+  "text": "صَمْغ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/saqr": {
+  "rate": "-10%",
+  "seconds": 0.41,
+  "text": "صَقْر",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/sarukh": {
+  "rate": "-10%",
+  "seconds": 0.58,
+  "text": "صَارُوخ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/shajara": {
+  "rate": "-10%",
+  "seconds": 0.62,
+  "text": "شَجَرَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/shama": {
+  "rate": "-10%",
+  "seconds": 0.49,
+  "text": "شَمْعَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/shams": {
+  "rate": "-10%",
+  "seconds": 0.38,
+  "text": "شَمْس",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/shay": {
+  "rate": "-10%",
+  "seconds": 0.48,
+  "text": "شَاي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/shubbak": {
+  "rate": "-10%",
+  "seconds": 0.5,
+  "text": "شُبَّاك",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/sunduq": {
+  "rate": "-10%",
+  "seconds": 0.67,
+  "text": "صُنْدُوق",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/tabaq": {
+  "rate": "-10%",
+  "seconds": 0.5,
+  "text": "طَبَق",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/taira": {
+  "rate": "-10%",
+  "seconds": 0.56,
+  "text": "طَائِرَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/taj": {
+  "rate": "-10%",
+  "seconds": 0.36,
+  "text": "تَاج",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/tamatim": {
+  "rate": "-10%",
+  "seconds": 0.76,
+  "text": "طَمَاطِم",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/thalab": {
+  "rate": "-10%",
+  "seconds": 0.44,
+  "text": "ثَعْلَب",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/thalath": {
+  "rate": "-10%",
+  "seconds": 0.35,
+  "text": "ثَلَاث",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/thalj": {
+  "rate": "-10%",
+  "seconds": 0.39,
+  "text": "ثَلْج",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/tilmidh": {
+  "rate": "-10%",
+  "seconds": 0.64,
+  "text": "تِلْمِيذ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/tuffah": {
+  "rate": "-10%",
+  "seconds": 0.63,
+  "text": "تُفَّاح",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/tuffaha": {
+  "rate": "-10%",
+  "seconds": 0.57,
+  "text": "تُفَّاحَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/usfur": {
+  "rate": "-10%",
+  "seconds": 0.77,
+  "text": "عُصْفُور",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/ushsh": {
+  "rate": "-10%",
+  "seconds": 0.35,
+  "text": "عُشّ",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/wajh": {
+  "rate": "-10%",
+  "seconds": 0.48,
+  "text": "وَجْه",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/walad": {
+  "rate": "-10%",
+  "seconds": 0.58,
+  "text": "وَلَد",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/warda": {
+  "rate": "-10%",
+  "seconds": 0.47,
+  "text": "وَرْدَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/yad": {
+  "rate": "-10%",
+  "seconds": 0.38,
+  "text": "يَد",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/yamama": {
+  "rate": "-10%",
+  "seconds": 0.67,
+  "text": "يَمَامَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/zaby": {
+  "rate": "-10%",
+  "seconds": 0.53,
+  "text": "ظَبْي",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/zahra": {
+  "rate": "-10%",
+  "seconds": 0.59,
+  "text": "زَهْرَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/zarafa": {
+  "rate": "-10%",
+  "seconds": 0.5,
+  "text": "زَرَافَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/zarf": {
+  "rate": "-10%",
+  "seconds": 0.32,
+  "text": "ظَرْف",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
+ "words/zubda": {
+  "rate": "-10%",
+  "seconds": 0.53,
+  "text": "زُبْدَة",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ }
+}
