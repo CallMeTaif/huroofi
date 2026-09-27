@@ -118,11 +118,13 @@
     var single = !idsParam && letters.length === 1;
     var L = letters[0];
     var levelParam = parseInt(H.param("level"), 10);
-    var level = levelParam || (def.levels && single && Progress.exerciseStars(L.id, type) === 3 ? 2 : 1);
+    // similar=1 (review page, look-alike letters): always the harder level with look-alike choices.
+    var similar = H.param("similar") === "1";
+    var level = similar ? 2 : levelParam || (def.levels && single && Progress.exerciseStars(L.id, type) === 3 ? 2 : 1);
     if (single) document.body.style.setProperty("--h", H.hue(L));
 
     document.title = def.title + " – حروفي";
-    var backHref = single ? "letter.html?id=" + L.id : "review.html";
+    var backHref = single ? "letter.html?id=" + L.id : "review.html" + (similar ? "#similar" : "");
     var header = document.getElementById("ex-header");
     var replayBtn = el("button", { type: "button", class: "speak", "aria-label": "أعد التعليمات" }, [icon("speaker")]);
     header.appendChild(el("a", { class: "btn round", href: backHref, "aria-label": "رجوع" }, [

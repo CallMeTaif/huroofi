@@ -7,19 +7,45 @@
   <link rel="icon" href="img/ui/abc.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="review-page">
   <main class="wrap">
     <header class="topbar">
       <a class="btn round" href="index.html" aria-label="الصفحة الرئيسية"><img class="icon" src="img/ui/home.svg" alt=""></a>
       <span class="title">تمارين المراجعة</span>
-      <span></span>
+      <button type="button" class="speak" id="say" aria-label="استمع"><img class="icon" src="img/ui/speaker.svg" alt=""></button>
     </header>
-    <section class="block" style="text-align:center">
-      <img src="img/ui/review.svg" alt="" style="width:120px">
-      <h2 style="justify-content:center">قريبًا</h2>
-      <p>هذه الصفحة قيد الإعداد.</p>
+
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" class="tab" id="tab-mine" aria-controls="panel-mine">
+        <img class="icon" src="img/ui/abc.svg" alt=""><span>حروفي</span></button>
+      <button type="button" role="tab" class="tab" id="tab-similar" aria-controls="panel-similar">
+        <span class="tab-glyph ar">ب ت ث</span><span>الحروف المتشابهة</span></button>
+    </div>
+
+    <section class="block" id="panel-mine" role="tabpanel" aria-labelledby="tab-mine">
+      <ul class="pick-grid" id="pick"></ul>
+      <div class="pick-tools">
+        <button type="button" class="btn" id="all">الكل</button>
+        <button type="button" class="btn" id="none">لا شيء</button>
+      </div>
+    </section>
+
+    <section class="block" id="panel-similar" role="tabpanel" aria-labelledby="tab-similar" hidden>
+      <div class="group-grid" id="groups"></div>
+    </section>
+
+    <section class="block">
+      <div class="chosen ar" id="chosen" aria-live="polite"></div>
+      <div class="practice-grid" id="launch"></div>
     </section>
   </main>
+
+  <script src="data/letters.js"></script>
+  <script src="data/audio-manifest.js"></script>
+  <script src="js/arabic.js"></script>
   <script src="js/progress.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/review.js"></script>
 </body>
 </html>

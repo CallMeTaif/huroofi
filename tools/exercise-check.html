@@ -72,6 +72,39 @@
         }
       }
     });
+    // ----- Review mode: several letters, and look-alike groups -----
+    var GROUPS = ["ب ت ث", "ج ح خ", "د ذ", "ر ز", "س ش", "ص ض", "ط ظ", "ع غ", "ف ق"].map(function (g) { return g.split(" ").map(H.byLetter); });
+    function reviewRound(sel, similar, tag) {
+      var ids = sel.map(function (l) { return l.id; });
+      var R = { letter: tag };
+      D.listen.make(sel, similar ? 2 : 1, ids).forEach(function (q) {
+        n++;
+        if (sel.indexOf(q.target) < 0) fail("review-listen", R, "target outside the chosen letters");
+        if (q.choices.indexOf(q.target) < 0) fail("review-listen", R, "target missing");
+        if (similar) sel.forEach(function (l) { if (q.choices.indexOf(l) < 0 && (q.target.similarLetters || []).indexOf(l.letter) >= 0) fail("review-listen", R, "look-alike " + l.letter + " missing from choices"); });
+      });
+      D.trace.make(sel).forEach(function (q) { n++; if (sel.indexOf(q.letter) < 0) fail("review-trace", R, "letter outside selection"); });
+      D.match.make(sel).forEach(function (b) {
+        n++;
+        if (b.pairs.length !== 3) fail("review-match", R, "board has " + b.pairs.length + " pairs");
+        var em = b.pairs.map(function (p) { return p.word.emoji; });
+        if (new Set(em).size !== em.length) fail("review-match", R, "same picture twice");
+        if (sel.length >= 3 && b.pairs.some(function (p) { return sel.indexOf(p.letter) < 0; })) fail("review-match", R, "letter outside selection");
+        if (!b.pairs.some(function (p) { return sel.indexOf(p.letter) >= 0; })) fail("review-match", R, "no chosen letter on board");
+      });
+      D.find.make(sel).forEach(function (q) {
+        n++;
+        if (sel.indexOf(q.target) < 0) fail("review-find", R, "target outside selection");
+        if (q.kind === 1) q.cards.forEach(function (c) { if (!c.right && Arabic.occurrences(c.w.word, q.target.letter).length) fail("review-find", R, "wrong card contains the letter"); });
+      });
+    }
+    for (var r = 0; r < ROUNDS; r++) {
+      GROUPS.forEach(function (g) { reviewRound(g, true, g.map(function (l) { return l.letter; }).join("")); });
+      var k = 2 + Math.floor(Math.random() * 6);
+      var sel = H.shuffle(LETTERS).slice(0, k);
+      reviewRound(sel, false, sel.map(function (l) { return l.letter; }).join(""));
+    }
+
     document.getElementById("out").textContent = n + " questions checked across 28 letters. " + (bad.length ? bad.length + " problems:\n" + bad.join("\n") : "No problems.");
     window.CHECK = { n: n, bad: bad };
   })();

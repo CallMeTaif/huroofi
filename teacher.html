@@ -6,20 +6,110 @@
   <title>للمعلمة – حروفي</title>
   <link rel="icon" href="img/ui/abc.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/gate.js"></script>
 </head>
-<body>
+<body class="teacher-page">
   <main class="wrap">
     <header class="topbar">
       <a class="btn round" href="index.html" aria-label="الصفحة الرئيسية"><img class="icon" src="img/ui/home.svg" alt=""></a>
-      <span class="title">للمعلمة</span>
-      <span></span>
+      <span class="title">صفحة المعلمة</span>
+      <img class="icon" src="img/ui/teacher.svg" alt="" style="width:56px;height:56px">
     </header>
-    <section class="block" style="text-align:center">
-      <img src="img/ui/teacher.svg" alt="" style="width:120px">
-      <h2 style="justify-content:center">قريبًا</h2>
-      <p>هذه الصفحة قيد الإعداد.</p>
+
+    <!-- 1. Classroom mode -->
+    <section class="block">
+      <h2><img class="icon" src="img/ui/sun.svg" alt="">وضع الفصل</h2>
+      <div class="setting-row">
+        <button type="button" class="switch" id="classroom" role="switch" aria-checked="false" aria-labelledby="classroom-l"><span></span></button>
+        <div id="classroom-l">
+          <b>للسبورة الذكية وجهاز العرض.</b>
+          يكبّر الخط ويُخفي النجوم، ولا يحفظ التقدّم لأن الفصل كله يستخدم الجهاز نفسه.
+          يعمل على هذا الجهاز فقط.
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Progress on this device -->
+    <section class="block">
+      <h2><img class="icon" src="img/ui/trophy.svg" alt="">التقدّم على هذا الجهاز</h2>
+      <p class="muted">النجوم محفوظة في هذا المتصفح فقط، ولا تُرسَل إلى أي مكان.</p>
+      <div class="table-wrap"><table class="progress-table" id="progress"></table></div>
+      <div class="reset-row" id="reset-row">
+        <button type="button" class="btn coral" id="reset">مسح التقدّم على هذا الجهاز</button>
+      </div>
+    </section>
+
+    <!-- 3. Content review -->
+    <section class="block">
+      <h2><img class="icon" src="img/ui/book.svg" alt="">مراجعة المحتوى</h2>
+      <ul class="link-list">
+        <li><a href="content.html">صفحة المحتوى الكاملة (قابلة للطباعة)</a>: الوصف والأشكال والكلمات والصور والفيديوهات لكل الحروف.</li>
+        <li><a href="tools/audio-review.html">مراجعة الأصوات</a>: الاستماع إلى كل الأصوات، والبرتقالية منها تحتاج إلى مراجعة.</li>
+        <li><a id="review-list" href="#">قائمة ما يحتاج إلى مراجعة المعلمة</a> (الكلمات والصور والأصوات).</li>
+      </ul>
+      <h3>اختيار الصوت</h3>
+      <div class="voices">
+        <div><b>زارية (صوت نسائي)</b> <span class="muted">المستخدم الآن</span><audio controls preload="none" src="docs/voice-samples/zariyah.mp3"></audio></div>
+        <div><b>حامد (صوت رجالي)</b><audio controls preload="none" src="docs/voice-samples/hamed.mp3"></audio></div>
+      </div>
+    </section>
+
+    <!-- 4. Videos -->
+    <section class="block">
+      <h2><img class="icon" src="img/ui/film.svg" alt="">إضافة فيديو أو تغييره</h2>
+      <ol class="steps">
+        <li>افتحي الفيديو في يوتيوب وانسخي الرابط.</li>
+        <li>الصقي الرابط هنا واختاري الحرف:</li>
+      </ol>
+      <div class="vid-tool">
+        <input type="url" id="vid-url" placeholder="https://www.youtube.com/watch?v=..." dir="ltr" aria-label="رابط يوتيوب">
+        <select id="vid-letter" aria-label="الحرف"></select>
+        <input type="text" id="vid-title" placeholder="عنوان الفيديو (مثل: حرف الباء – الحلقة ٢)" aria-label="عنوان الفيديو">
+      </div>
+      <div class="vid-out" id="vid-out" hidden>
+        <img id="vid-thumb" alt="">
+        <div>
+          <p>رمز الفيديو: <code id="vid-id" dir="ltr"></code></p>
+          <p>انسخي هذا السطر:</p>
+          <pre id="vid-line" dir="ltr"></pre>
+          <button type="button" class="btn teal" id="vid-copy">نسخ السطر</button>
+        </div>
+      </div>
+      <p class="muted" id="vid-err" hidden>لم أجد رمز فيديو في هذا الرابط. الرمز ١١ حرفًا، ويأتي بعد <code dir="ltr">v=</code> أو بعد <code dir="ltr">youtu.be/</code>.</p>
+      <ol class="steps" start="3">
+        <li>افتحي <a id="edit-link" href="#" target="_blank" rel="noopener">ملف المحتوى في GitHub</a> (يحتاج إلى حساب في GitHub وصلاحية تعديل).</li>
+        <li>ابحثي عن الحرف، ثم الصقي السطر داخل <code dir="ltr">videos: [ ... ]</code>. لحذف فيديو احذفي سطره.</li>
+        <li>اضغطي <b>Commit changes</b>. يتحدّث الموقع خلال دقيقة تقريبًا.</li>
+      </ol>
+    </section>
+
+    <!-- 5. Words -->
+    <section class="block">
+      <h2><img class="icon" src="img/ui/pencil.svg" alt="">تعديل الكلمات والوصف</h2>
+      <p>كل كلمة في الملف نفسه تبدو هكذا:</p>
+      <pre dir="ltr">{ word: "بَطَّة", emoji: "🦆", image: "img/words/batta.svg", position: "initial" },</pre>
+      <ul class="steps">
+        <li><code dir="ltr">word</code>: الكلمة بالتشكيل الكامل.</li>
+        <li><code dir="ltr">position</code>: مكان الحرف: <code dir="ltr">initial</code> (البداية)، <code dir="ltr">medial</code> (الوسط)، <code dir="ltr">final</code> (النهاية).</li>
+        <li><code dir="ltr">image</code>: الصورة. يمكن استعمال أي صورة موجودة في مجلد <code dir="ltr">img/words</code>. الصورة الجديدة يضيفها المطوّر.</li>
+        <li><code dir="ltr">description</code>: وصف الحرف الذي يُقرأ للطفل.</li>
+      </ul>
+      <p class="note"><img class="icon" src="img/ui/speaker.svg" alt="">
+        الصوت لا يتغيّر وحده. بعد تعديل كلمة أو وصف، يعيد المطوّر إنشاء الأصوات بأمر واحد. إلى ذلك الحين يقرأ الجهاز الكلمة الجديدة بصوته.</p>
+    </section>
+
+    <section class="block">
+      <h2><img class="icon" src="img/ui/check.svg" alt="">الخصوصية</h2>
+      <p>لا يستخدم الموقع حسابات ولا ملفات تعريف ارتباط ولا أي تتبّع. لا يتصل بالإنترنت إلا عند عرض فيديوهات يوتيوب.</p>
     </section>
   </main>
+
+  <script src="data/letters.js"></script>
+  <script src="data/audio-manifest.js"></script>
+  <script src="js/arabic.js"></script>
   <script src="js/progress.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/teacher.js"></script>
 </body>
 </html>

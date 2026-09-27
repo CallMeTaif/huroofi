@@ -102,6 +102,15 @@ Open any letter page and scroll to «تمرّن». Things to try with a child, a
 - **Tracing strictness:** tested with simulated tracing of all 56 letter shapes. Careful and wobbly tracing always passes; half a letter, scribbles and circles fail. After 2 failed tries a «next» arrow appears so a child never gets stuck. Please watch a few children try it and say if it feels too strict or too easy.
 - **On iPad/iPhone:** Safari does not allow sound until the first tap, so the first exercise screen may show one big ▶ button. One tap starts the spoken instructions.
 
+## Phase 4 (review page and teacher page)
+
+- **تمارين المراجعة** (from the home page): the child's visited letters are chosen already; tap letters to add or remove them.
+  The tab «الحروف المتشابهة» has the 9 look-alike groups (ب ت ث، ج ح خ، د ذ، ر ز، س ش، ص ض، ط ظ، ع غ، ف ق); every question there includes the look-alike letters as choices.
+  Review rounds do not change the stars of single letters.
+- **للمعلمة** (small link at the bottom of the home page) opens after a multiplication question such as «٧ × ٨». This keeps children out; it is not a password. The answer is remembered until the browser tab is closed.
+- **وضع الفصل** is switched on the device it is used on (for example the smartboard computer). It makes text bigger, hides the stars, and saves no progress.
+- **صفحة المحتوى** (from the teacher page) shows all letters on one page and can be printed.
+
 ## Final checklist (before sharing with the children)
 
 - [ ] Choose the voice (section 6) and listen to the flagged sounds (section 7).
@@ -109,3 +118,4 @@ Open any letter page and scroll to «تمرّن». Things to try with a child, a
 - [ ] Watch every video (section 5).
 - [ ] Check the pictures (section 2) and the extra form words (section 1).
 - [ ] Try the four exercises on a real iPad or tablet with a finger.
+- [ ] Try classroom mode on the smartboard.

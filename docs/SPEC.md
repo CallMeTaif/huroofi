@@ -302,3 +302,6 @@ huroofi/
 - **Stars:** 100% right on the first try = 3, ≥ 60% = 2, otherwise 1 (finishing always earns a star).
 - **Lam-alef:** «لا» is never split when colouring or tapping letters, because the ligature must stay one shape.
 - **Autoplay:** browsers that block sound before the first tap (Safari/iPad) get a single big ▶ button; everywhere else instructions play automatically.
+- **Teacher pages** (`teacher.html`, `content.html`) sit behind a grown-up gate (`js/gate.js`, a multiplication question). It is not security: the site has no server and nothing on those pages is secret; it keeps children from resetting progress by accident.
+- **Classroom mode** also stops saving progress (the whole class shares one screen). Settings and progress are per device, because there is no server.
+- **Review rounds** (`&ids=`) do not save per-letter stars; look-alike mode (`&similar=1`) always uses the harder level.

@@ -11,6 +11,8 @@
   function save(key, value) {
     try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch (e) { return false; }
   }
+  // In classroom mode many children share one screen, so nothing is saved.
+  function saving() { return !load(SETTINGS).classroom; }
   function entry(data, id) {
     data.letters = data.letters || {};
     data.letters[id] = data.letters[id] || { visited: false, stars: {} };
@@ -31,11 +33,13 @@
     },
     // Keeps the best result: a worse round never takes stars away.
     setStars: function (id, ex, n) {
+      if (!saving()) return;
       var data = load(KEY), e = entry(data, id);
       e.stars[ex] = Math.max(e.stars[ex] || 0, Math.max(0, Math.min(3, n)));
       save(KEY, data);
     },
     markVisited: function (id) {
+      if (!saving()) return;
       var data = load(KEY), e = entry(data, id);
       if (!e.visited) { e.visited = true; save(KEY, data); }
     },

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>مراجعة المحتوى – حروفي</title>
+  <link rel="icon" href="img/ui/abc.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/gate.js"></script>
+</head>
+<body class="content-page">
+  <main class="wrap">
+    <header class="topbar no-print">
+      <a class="btn round" href="teacher.html" aria-label="رجوع"><img class="icon" src="img/ui/teacher.svg" alt=""></a>
+      <span class="title">مراجعة المحتوى</span>
+      <button type="button" class="btn teal" onclick="window.print()">طباعة</button>
+    </header>
+    <h1 class="print-only">حروفي: مراجعة المحتوى</h1>
+    <p class="muted" id="summary"></p>
+    <div id="letters"></div>
+  </main>
+  <script src="data/letters.js"></script>
+  <script src="js/arabic.js"></script>
+  <script src="js/common.js"></script>
+  <script>
+  (function () {
+    var el = H.el;
+    var POS = { initial: "في البداية", medial: "في الوسط", final: "في النهاية" };
+    var SHAPE = { isolated: "وحده", initial: "في البداية", medial: "في الوسط", final: "في النهاية" };
+    var DOTS = { "0-none": "بلا نقاط", "1-above": "نقطة فوقه", "1-below": "نقطة تحته", "2-above": "نقطتان فوقه", "2-below": "نقطتان تحته", "3-above": "ثلاث نقاط فوقه" };
+    var out = document.getElementById("letters"), words = 0, videos = 0;
+    H.LETTERS.forEach(function (L) {
+      var sec = el("section", { class: "print-letter" });
+      sec.style.setProperty("--h", H.hue(L));
+      sec.appendChild(el("div", { class: "pl-head" }, [
+        el("span", { class: "pl-glyph ar", text: L.label }),
+        el("div", {}, [
+          el("h2", { text: L.order + ". حرف " + L.name }),
+          el("p", { class: "pl-facts", text: DOTS[L.dots.count + "-" + L.dots.position] + " · " + (L.connectsToNext ? "يتصل بما بعده" : "لا يتصل بما بعده") }),
+          el("p", { class: "pl-desc ar", text: L.description }),
+        ]),
+      ]));
+      var forms = el("div", { class: "pl-forms" });
+      Object.keys(SHAPE).forEach(function (s) {
+        if (!L.forms[s]) return;
+        var ex = L.formExamples[s];
+        forms.appendChild(el("div", { class: "pl-form" }, [
+          el("span", { class: "muted", text: SHAPE[s] }),
+          el("span", { class: "pl-shape ar", text: L.forms[s] }),
+          el("span", { class: "ar", html: ex ? Arabic.highlightHTML(ex, [Arabic.indexForShape(ex, L.letter, s)]) : "—" }),
+        ]));
+      });
+      sec.appendChild(forms);
+      var ws = el("div", { class: "pl-words" });
+      L.words.forEach(function (w) {
+        words++;
+        ws.appendChild(el("div", { class: "pl-word" }, [
+          el("img", { src: w.image, alt: "" }),
+          el("span", { class: "ar", html: Arabic.highlightHTML(w.word, [Arabic.indexForPosition(w.word, L.letter, w.position)]) }),
+          el("span", { class: "muted", text: POS[w.position] }),
+        ]));
+      });
+      sec.appendChild(ws);
+      var vs = el("ul", { class: "pl-videos" });
+      (L.videos || []).forEach(function (v) {
+        videos++;
+        vs.appendChild(el("li", {}, [
+          el("a", { href: "https://www.youtube.com/watch?v=" + v.youtubeId, target: "_blank", rel: "noopener", text: v.title }),
+          el("code", { dir: "ltr", text: v.youtubeId }),
+        ]));
+      });
+      if (!L.videos || !L.videos.length) vs.appendChild(el("li", { class: "muted", text: "لا توجد فيديوهات" }));
+      sec.appendChild(vs);
+      out.appendChild(sec);
+    });
+    document.getElementById("summary").textContent = H.LETTERS.length + " حرفًا · " + words + " كلمة · " + videos + " فيديو";
+  })();
+  </script>
+</body>
+</html>
