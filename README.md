@@ -68,6 +68,12 @@ A website for first graders to learn the 28 Arabic letters, through pictures, so
 6. **كلمات إضافية في بطاقة «أشكال الحرف» فقط:** مِلْح، قُمَاش، رَصَاص، خُطُوط، مَحْفُوظ، حَظّ، مِيَاه.
 7. **الفيديوهات:** شاهديها قبل الطلاب؛ بعضها فيه موسيقى.
 
+### تسجيل الأصوات بصوت حقيقي
+الأصوات الحالية من صوت حاسوبي. لاستبدالها بصوت حقيقي:
+1. افتحي https://callmetaif.github.io/huroofi/tools/record.html (أو من صفحة المعلمة) واسمحي باستخدام الميكروفون.
+2. سجّلي النصوص واحدًا واحدًا (٤٠٠ نص؛ القائمة كاملة في [docs/RECORDING_LIST.md](docs/RECORDING_LIST.md)). التسجيلات تُحفظ في المتصفح، فيمكن التسجيل على عدة جلسات على الجهاز نفسه.
+3. اضغطي «تنزيل التسجيلات» وأرسلي ملف zip للمطوّر. يمكن الإرسال على دفعات؛ الأصوات غير المسجَّلة تبقى بالصوت الحاسوبي.
+
 ### الخصوصية
 لا حسابات، ولا ملفات تعريف ارتباط، ولا تحليلات، ولا تتبّع. التقدّم في متصفح الجهاز فقط. الاتصال الوحيد بالخارج هو يوتيوب (صور الفيديوهات، والفيديو عند الضغط عليه).
 
@@ -107,6 +113,7 @@ node tools/check_data.js          # validate data/letters.js (words contain thei
 python3 tools/fetch_assets.py     # fonts + OpenMoji pictures (already committed)
 python3 tools/generate_audio.py   # sounds with edge-tts; only new/changed texts are re-made
 python3 tools/generate_audio.py --voice hamed   # switch every sound to the male voice
+python3 tools/import_recordings.py ~/Downloads/huroofi-recordings-N.zip   # install recordings from tools/record.html (needs: brew install lame)
 ```
 Requirements: Node.js, Python 3 with `pip install edge-tts certifi fonttools brotli`. The audio script uses macOS `afconvert` to trim silence and flag doubtful clips; elsewhere it still works but skips those two steps.
 
@@ -117,6 +124,7 @@ Developer pages (serve the folder, e.g. `python3 -m http.server`, then open them
 | `tools/audio-review.html` | Plays every sound; doubtful ones in orange. |
 | `tools/trace-tuning.html` | Simulated tracing of all 56 letter shapes against the tracing thresholds. |
 | `tools/exercise-check.html` | Generates thousands of exercise rounds and checks the spec's rules. |
+| `tools/record.html` | Record a real voice for all 400 texts, one at a time; downloads a zip for `tools/import_recordings.py`. Recorded files are never overwritten by `generate_audio.py` unless their text changes. |
 
 Add `?silent=1` to any page address to turn all sound off (for automated tests).
 

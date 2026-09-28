@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>تسجيل الأصوات – حروفي</title>
+  <link rel="icon" href="../img/ui/abc.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    body { padding-bottom: 40px; }
+    .rec-top { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; padding-block: 12px; }
+    .rec-top h1 { margin: 0; font-size: 1.25em; }
+    .filters { display: flex; flex-wrap: wrap; gap: 8px; }
+    .filters button { min-height: 48px; padding: 0 14px; border-radius: 999px; border: 2px solid var(--line); background: #fff; font-weight: 700; cursor: pointer; }
+    .filters button.on { background: #fff3c4; border-color: var(--sun-deep); }
+    .bar { height: 12px; border-radius: 999px; background: var(--line); overflow: hidden; margin: 6px 0 2px; }
+    .bar i { display: block; height: 100%; width: 0; background: var(--teal); transition: width .3s; }
+    .count { font-weight: 800; }
+    .card { background: var(--paper); border-radius: 28px; box-shadow: var(--shadow); padding: 20px var(--gutter) 24px; margin-top: 12px; text-align: center; }
+    .hint { display: inline-block; padding: 4px 14px; border-radius: 999px; background: #f3ede4; font-weight: 800; }
+    .hint.syllable, .hint.name { background: #ffe6de; }
+    .text { font-family: var(--font-ar); line-height: 1.8; margin: 10px 0 4px; word-break: break-word; }
+    .text.big { font-size: clamp(90px, 26vw, 180px); line-height: 1.5; }
+    .text.mid { font-size: clamp(48px, 13vw, 96px); }
+    .text.long { font-size: clamp(24px, 5vw, 34px); text-align: start; }
+    .say { font-size: 1.1em; margin: 0 0 8px; }
+    .say b { font-family: var(--font-ar); font-size: 1.6em; }
+    .files { color: var(--ink-soft); font-size: .75em; direction: ltr; margin: 0 0 12px; }
+    .controls { display: flex; gap: 14px; justify-content: center; align-items: center; flex-wrap: wrap; }
+    .rec-btn { width: 120px; height: 120px; border-radius: 50%; border: 0; cursor: pointer; background: var(--coral); box-shadow: 0 8px 0 var(--coral-deep); color: #fff; font-size: 44px; font-weight: 800; }
+    .rec-btn.recording { background: #d62d4f; animation: pulse 1s ease-in-out infinite; }
+    .meter { width: min(320px, 80%); height: 14px; margin: 14px auto 0; border-radius: 999px; background: var(--line); overflow: hidden; }
+    .meter i { display: block; height: 100%; width: 0; background: var(--teal); }
+    .state { min-height: 1.6em; margin-top: 8px; font-weight: 700; }
+    .state.ok { color: var(--teal-deep); }
+    .nav { display: flex; justify-content: space-between; gap: 12px; margin-top: 18px; }
+    .grid { display: grid; gap: 6px; grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); margin-top: 16px; }
+    .grid button { min-height: 44px; border-radius: 10px; border: 2px solid var(--line); background: #fff; cursor: pointer; font-family: var(--font-ar); font-size: 18px; overflow: hidden; white-space: nowrap; }
+    .grid button.done { background: #d9f5e6; border-color: #8fd6b0; }
+    .grid button.current { outline: 3px solid var(--sun-deep); }
+    .help { font-size: .9em; }
+    .help kbd { background: #fff; border: 1px solid var(--line); border-radius: 6px; padding: 0 6px; direction: ltr; display: inline-block; }
+    .export { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="rec-top">
+      <h1>تسجيل الأصوات</h1>
+      <div class="filters" id="filters"></div>
+    </div>
+    <div class="bar"><i id="progress"></i></div>
+    <div class="count" id="count"></div>
+
+    <section class="card" id="card">
+      <span class="hint" id="hint"></span>
+      <div class="text" id="text"></div>
+      <p class="say" id="say" hidden></p>
+      <p class="files" id="files"></p>
+      <div class="controls">
+        <button type="button" class="btn round" id="ref" aria-label="صوت الحاسوب الحالي" title="صوت الحاسوب الحالي (للمقارنة)"><img class="icon" src="../img/ui/speaker.svg" alt=""></button>
+        <button type="button" class="rec-btn" id="rec" aria-label="تسجيل">●</button>
+        <button type="button" class="btn round teal" id="play" aria-label="استمع إلى تسجيلك" disabled><img class="icon" src="../img/ui/play.svg" alt=""></button>
+      </div>
+      <div class="meter" aria-hidden="true"><i id="meter"></i></div>
+      <div class="state" id="state"></div>
+      <div class="nav">
+        <button type="button" class="btn" id="prev"><img class="icon" src="../img/ui/prev.svg" alt="">السابق</button>
+        <button type="button" class="btn" id="nextTodo">التالي غير المسجَّل</button>
+        <button type="button" class="btn" id="next">التالي<img class="icon" src="../img/ui/next.svg" alt=""></button>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="export">
+        <button type="button" class="btn teal" id="export">تنزيل التسجيلات (zip)</button>
+        <span id="exportInfo" class="muted"></span>
+      </div>
+      <details class="help" style="margin-top:14px">
+        <summary><b>طريقة التسجيل</b></summary>
+        <ul>
+          <li>سجّلي في غرفة هادئة، وعلى المسافة نفسها من الميكروفون في كل مرة. يُفضَّل استخدام سمّاعة بميكروفون.</li>
+          <li>اضغطي ● وقولي النص بوضوح وببطء قليل، ثم اضغطي ■. يُقَص الصمت ويُضبط مستوى الصوت تلقائيًا.</li>
+          <li>في «السكون» قولي النص المكتوب تحته (مثل «أَبْ»)، لأن السكون لا يُنطَق وحده.</li>
+          <li>التسجيلات تُحفظ في هذا المتصفح، فيمكنك التوقف والعودة لاحقًا على الجهاز نفسه. في النهاية اضغطي «تنزيل التسجيلات» وأرسلي الملف.</li>
+          <li>لوحة المفاتيح: <kbd>Space</kbd> تسجيل/إيقاف، <kbd>←</kbd> التالي، <kbd>→</kbd> السابق، <kbd>P</kbd> استماع.</li>
+        </ul>
+      </details>
+      <div class="grid" id="grid"></div>
+    </section>
+  </main>
+
+  <script src="../data/letters.js"></script>
+  <script src="audio-review-data.js"></script>
+  <script src="../js/record-items.js"></script>
+  <script>
+  (function () {
+    "use strict";
+    var ITEMS = RecordItems.build(LETTERS, AUDIO_REVIEW.clips);
+    var RATE = 24000;                     // saved sample rate (same as the current sounds)
+    var FILTERS = [["all", "الكل"], ["name", "أسماء الحروف"], ["syllable", "الحركات"], ["phrase", "العبارات"], ["word", "الكلمات"], ["desc", "الأوصاف"]];
+    var $ = function (id) { return document.getElementById(id); };
+    var filter = "all", list = ITEMS, pos = 0, done = {}, stream = null, recorder = null, chunks = [], analyser = null, raf = 0, player = new Audio();
+
+    // ---------- Storage (IndexedDB: recordings survive closing the page) ----------
+    var dbp = new Promise(function (res, rej) {
+      try {
+        var r = indexedDB.open("huroofi-recordings", 1);
+        r.onupgradeneeded = function () { r.result.createObjectStore("clips"); };
+        r.onsuccess = function () { res(r.result); };
+        r.onerror = function () { rej(r.error); };
+      } catch (e) { rej(e); }
+    });
+    function tx(mode, fn) {
+      return dbp.then(function (db) { return new Promise(function (res, rej) {
+        var t = db.transaction("clips", mode), s = t.objectStore("clips"), out = fn(s);
+        t.oncomplete = function () { res(out && out.result); }; t.onerror = function () { rej(t.error); };
+      }); });
+    }
+    function saveClip(item, blob) { return tx("readwrite", function (s) { return s.put({ blob: blob, text: item.text, keys: item.keys, at: Date.now() }, item.id); }); }
+    function getClip(id) { return tx("readonly", function (s) { return s.get(id); }); }
+    function allKeys() { return tx("readonly", function (s) { return s.getAllKeys(); }); }
+
+    // ---------- Audio processing: mono, 24 kHz, silence trimmed, peak normalised, WAV ----------
+    function processRecording(blob) {
+      return blob.arrayBuffer().then(function (buf) {
+        var AC = window.AudioContext || window.webkitAudioContext, ac = new AC();
+        return new Promise(function (res, rej) { ac.decodeAudioData(buf, res, rej); }).then(function (audio) {
+          ac.close && ac.close();
+          var len = Math.ceil(audio.duration * RATE);
+          var off = new (window.OfflineAudioContext || window.webkitOfflineAudioContext)(1, len, RATE);
+          var src = off.createBufferSource(); src.buffer = audio; src.connect(off.destination); src.start();
+          return off.startRendering();
+        });
+      }).then(function (rendered) {
+        var d = rendered.getChannelData(0), fr = Math.round(RATE * 0.01), rms = [], peak = 0;
+        for (var i = 0; i + fr <= d.length; i += fr) {
+          var s = 0; for (var j = i; j < i + fr; j++) { s += d[j] * d[j]; if (Math.abs(d[j]) > peak) peak = Math.abs(d[j]); }
+          rms.push(Math.sqrt(s / fr));
+        }
+        var maxR = Math.max.apply(null, rms.concat([1e-9])), th = maxR * 0.08, on = [];
+        rms.forEach(function (v, k) { if (v > th) on.push(k); });
+        if (!on.length || maxR < 0.003) throw new Error("silent");
+        var start = Math.max(0, (on[0] - 8) * fr), end = Math.min(d.length, (on[on.length - 1] + 22) * fr);   // keep 80 ms before, 220 ms after
+        var g = peak > 0 ? 0.89 / peak : 1;   // peak at about -1 dB
+        var n = end - start, fade = Math.round(RATE * 0.01);
+        var wav = new DataView(new ArrayBuffer(44 + n * 2));
+        function str(o, t) { for (var q = 0; q < t.length; q++) wav.setUint8(o + q, t.charCodeAt(q)); }
+        str(0, "RIFF"); wav.setUint32(4, 36 + n * 2, true); str(8, "WAVE"); str(12, "fmt ");
+        wav.setUint32(16, 16, true); wav.setUint16(20, 1, true); wav.setUint16(22, 1, true);
+        wav.setUint32(24, RATE, true); wav.setUint32(28, RATE * 2, true); wav.setUint16(32, 2, true); wav.setUint16(34, 16, true);
+        str(36, "data"); wav.setUint32(40, n * 2, true);
+        for (var k = 0; k < n; k++) {
+          var f = Math.min(1, k / fade, (n - 1 - k) / fade);   // 10 ms fade in/out: no clicks
+          var v = Math.max(-1, Math.min(1, d[start + k] * g * f));
+          wav.setInt16(44 + k * 2, v < 0 ? v * 0x8000 : v * 0x7fff, true);
+        }
+        return { blob: new Blob([wav.buffer], { type: "audio/wav" }), seconds: n / RATE };
+      });
+    }
+
+    // ---------- Recording ----------
+    function getMic() {
+      if (stream) return Promise.resolve(stream);
+      if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) return Promise.reject(new Error("nomic"));
+      return navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: false, noiseSuppression: true, autoGainControl: false, channelCount: 1 } })
+        .then(function (s) {
+          stream = s;
+          var AC = window.AudioContext || window.webkitAudioContext, ac = new AC();
+          analyser = ac.createAnalyser(); analyser.fftSize = 1024;
+          ac.createMediaStreamSource(s).connect(analyser);
+          return s;
+        });
+    }
+    function meter() {
+      var a = new Float32Array(analyser.fftSize);
+      (function loop() {
+        analyser.getFloatTimeDomainData(a);
+        var p = 0; for (var i = 0; i < a.length; i++) p = Math.max(p, Math.abs(a[i]));
+        $("meter").style.width = Math.min(100, p * 140) + "%";
+        $("meter").style.background = p > 0.98 ? "#d62d4f" : "";
+        raf = requestAnimationFrame(loop);
+      })();
+    }
+    function startRec() {
+      player.pause();
+      getMic().then(function (s) {
+        chunks = [];
+        var types = ["audio/webm;codecs=opus", "audio/mp4", "audio/webm", "audio/ogg;codecs=opus"];
+        var type = types.find(function (t) { return window.MediaRecorder && MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(t); });
+        recorder = new MediaRecorder(s, type ? { mimeType: type } : undefined);
+        recorder.ondataavailable = function (e) { if (e.data.size) chunks.push(e.data); };
+        recorder.onstop = finishRec;
+        recorder.start();
+        $("rec").classList.add("recording"); $("rec").textContent = "■"; $("rec").setAttribute("aria-label", "إيقاف");
+        setState("…جارٍ التسجيل");
+        meter();
+      }, function (e) {
+        setState(e && e.message === "nomic" ? "هذا المتصفح لا يدعم التسجيل. افتحي الصفحة من رابط الموقع (https) في Chrome أو Safari." : "لم يُسمح باستخدام الميكروفون. اسمحي به من إعدادات المتصفح ثم أعيدي المحاولة.");
+      });
+    }
+    function stopRec() { if (recorder && recorder.state === "recording") recorder.stop(); }
+    function finishRec() {
+      cancelAnimationFrame(raf); $("meter").style.width = "0";
+      $("rec").classList.remove("recording"); $("rec").textContent = "●"; $("rec").setAttribute("aria-label", "تسجيل");
+      var item = list[pos];
+      setState("…تتم المعالجة");
+      processRecording(new Blob(chunks, { type: recorder.mimeType || "audio/webm" })).then(function (r) {
+        return saveClip(item, r.blob).then(function () {
+          done[item.id] = true;
+          setState("✓ حُفظ (" + r.seconds.toFixed(1) + " ث)", true);
+          refreshCounts(); drawGrid();
+          $("play").disabled = false;
+          playBlob(r.blob);
+        });
+      }).catch(function (e) {
+        setState(e && e.message === "silent" ? "لم يُسمع صوت. اقتربي من الميكروفون وأعيدي." : "تعذّرت المعالجة: " + (e && e.message));
+      });
+    }
+    function playBlob(blob) { player.src = URL.createObjectURL(blob); player.play().catch(function () {}); }
+    function setState(t, ok) { $("state").textContent = t; $("state").className = "state" + (ok ? " ok" : ""); }
+
+    // ---------- Showing an item ----------
+    function show() {
+      var it = list[pos];
+      if (!it) return;
+      $("hint").textContent = it.hint + (it.letter ? " · حرف " + it.letter.name : "");
+      $("hint").className = "hint " + it.kind;
+      $("text").textContent = it.text;
+      $("text").className = "text " + (it.kind === "syllable" || it.kind === "name" ? "big" : it.kind === "word" ? "mid" : "long");
+      $("say").hidden = !it.say;
+      $("say").innerHTML = it.say ? "قولي: <b></b>" : "";
+      if (it.say) $("say").querySelector("b").textContent = it.say;
+      $("files").textContent = it.keys.map(function (k) { return k + ".mp3"; }).join("  ·  ");
+      setState(done[it.id] ? "✓ مسجَّل. يمكنك الاستماع أو إعادة التسجيل." : "", !!done[it.id]);
+      $("play").disabled = !done[it.id];
+      refreshCounts(); drawGrid();
+      try { localStorage.setItem("huroofi.recordPos", filter + ":" + it.id); } catch (e) {}
+    }
+    function go(i) { if (recorder && recorder.state === "recording") return; pos = Math.max(0, Math.min(list.length - 1, i)); show(); }
+    function refreshCounts() {
+      var n = list.filter(function (it) { return done[it.id]; }).length;
+      var total = ITEMS.filter(function (it) { return done[it.id]; }).length;
+      $("count").textContent = (pos + 1) + " / " + list.length + " · مسجَّل: " + n + " من " + list.length + (filter !== "all" ? " (الكل: " + total + " من " + ITEMS.length + ")" : "");
+      $("progress").style.width = (100 * n / list.length) + "%";
+      $("exportInfo").textContent = total ? total + " تسجيلًا جاهزًا للتنزيل" : "لا توجد تسجيلات بعد";
+    }
+    function drawGrid() {
+      var g = $("grid"); g.innerHTML = "";
+      list.forEach(function (it, i) {
+        var b = document.createElement("button");
+        b.type = "button"; b.textContent = it.kind === "desc" ? "…" + (it.letter ? it.letter.label : "") : it.kind === "phrase" ? "💬" : it.text;
+        b.title = it.text;
+        b.className = (done[it.id] ? "done" : "") + (i === pos ? " current" : "");
+        b.addEventListener("click", function () { go(i); });
+        g.appendChild(b);
+      });
+    }
+
+    // ---------- Export: one zip with WAV files + list.json ----------
+    var CRC = (function () { var t = []; for (var n = 0; n < 256; n++) { var c = n; for (var k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; } return t; })();
+    function crc32(u8) { var c = 0xFFFFFFFF; for (var i = 0; i < u8.length; i++) c = CRC[(c ^ u8[i]) & 0xFF] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; }
+    function zip(files) {   // files: [{name, data: Uint8Array}] – stored (no compression), UTF-8 names
+      var enc = new TextEncoder(), parts = [], central = [], offset = 0;
+      files.forEach(function (f) {
+        var name = enc.encode(f.name), crc = crc32(f.data), h = new DataView(new ArrayBuffer(30));
+        h.setUint32(0, 0x04034b50, true); h.setUint16(4, 20, true); h.setUint16(6, 0x0800, true); h.setUint16(8, 0, true);
+        h.setUint32(14, crc, true); h.setUint32(18, f.data.length, true); h.setUint32(22, f.data.length, true); h.setUint16(26, name.length, true);
+        parts.push(new Uint8Array(h.buffer), name, f.data);
+        var c = new DataView(new ArrayBuffer(46));
+        c.setUint32(0, 0x02014b50, true); c.setUint16(4, 20, true); c.setUint16(6, 20, true); c.setUint16(8, 0x0800, true);
+        c.setUint32(16, crc, true); c.setUint32(20, f.data.length, true); c.setUint32(24, f.data.length, true); c.setUint16(28, name.length, true);
+        c.setUint32(42, offset, true);
+        central.push(new Uint8Array(c.buffer), name);
+        offset += 30 + name.length + f.data.length;
+      });
+      var size = central.reduce(function (s, p) { return s + p.length; }, 0), e = new DataView(new ArrayBuffer(22));
+      e.setUint32(0, 0x06054b50, true); e.setUint16(8, files.length, true); e.setUint16(10, files.length, true);
+      e.setUint32(12, size, true); e.setUint32(16, offset, true);
+      return new Blob(parts.concat(central, [new Uint8Array(e.buffer)]), { type: "application/zip" });
+    }
+    $("export").addEventListener("click", function () {
+      var btn = this; btn.disabled = true;
+      allKeys().then(function (ids) {
+        return Promise.all(ids.map(function (id) { return getClip(id); }));
+      }).then(function (clips) {
+        clips = clips.filter(Boolean);
+        return Promise.all(clips.map(function (c) { return c.blob.arrayBuffer(); })).then(function (bufs) {
+          var files = [], listJson = [];
+          clips.forEach(function (c, i) {
+            var name = "recordings/" + c.keys[0].replace(/\//g, "__") + ".wav";
+            files.push({ name: name, data: new Uint8Array(bufs[i]) });
+            listJson.push({ file: name, text: c.text, keys: c.keys });
+          });
+          files.push({ name: "list.json", data: new TextEncoder().encode(JSON.stringify(listJson, null, 1)) });
+          var a = document.createElement("a");
+          a.href = URL.createObjectURL(zip(files));
+          a.download = "huroofi-recordings-" + clips.length + ".zip";
+          document.body.appendChild(a); a.click(); a.remove();
+        });
+      }).catch(function (e) { alert("تعذّر التنزيل: " + e.message); }).then(function () { btn.disabled = false; });
+    });
+
+    // ---------- Controls ----------
+    $("rec").addEventListener("click", function () { recorder && recorder.state === "recording" ? stopRec() : startRec(); });
+    $("play").addEventListener("click", function () { getClip(list[pos].id).then(function (c) { if (c) playBlob(c.blob); }); });
+    $("ref").addEventListener("click", function () { player.src = "../audio/" + list[pos].keys[0] + ".mp3"; player.play().catch(function () {}); });
+    $("next").addEventListener("click", function () { go(pos + 1); });
+    $("prev").addEventListener("click", function () { go(pos - 1); });
+    $("nextTodo").addEventListener("click", function () {
+      for (var i = 1; i <= list.length; i++) { var k = (pos + i) % list.length; if (!done[list[k].id]) return go(k); }
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.target.tagName === "INPUT") return;
+      if (e.code === "Space") { e.preventDefault(); $("rec").click(); }
+      else if (e.key === "ArrowLeft") go(pos + 1);      // right-to-left: left is forward
+      else if (e.key === "ArrowRight") go(pos - 1);
+      else if (e.key === "p" || e.key === "P") $("play").click();
+    });
+    FILTERS.forEach(function (f) {
+      var b = document.createElement("button");
+      b.type = "button"; b.textContent = f[1]; b.dataset.f = f[0];
+      b.addEventListener("click", function () { setFilter(f[0]); });
+      $("filters").appendChild(b);
+    });
+    function setFilter(f, id) {
+      filter = f;
+      list = f === "all" ? ITEMS : ITEMS.filter(function (it) { return it.kind === f; });
+      [].forEach.call($("filters").children, function (b) { b.classList.toggle("on", b.dataset.f === f); });
+      var i = id ? list.findIndex(function (it) { return it.id === id; }) : -1;
+      pos = i >= 0 ? i : 0;
+      show();
+    }
+
+    allKeys().then(function (ids) { ids.forEach(function (id) { done[id] = true; }); }, function () {
+      setState("هذا المتصفح لا يسمح بحفظ التسجيلات (وضع التصفّح الخاص؟).");
+    }).then(function () {
+      var saved = ""; try { saved = localStorage.getItem("huroofi.recordPos") || ""; } catch (e) {}
+      var m = saved.match(/^(\w+):(.*)$/);
+      setFilter(m ? m[1] : "all", m ? m[2] : null);
+    });
+  })();
+  </script>
+</body>
+</html>
