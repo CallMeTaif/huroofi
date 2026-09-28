@@ -46,5 +46,10 @@
   function wait(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
   function param(name) { return new URLSearchParams(location.search).get(name); }
 
+  // Offline support (sw.js). Only on http(s): a site opened from the folder is offline already.
+  if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol) && !/\/tools\//.test(location.pathname)) {
+    window.addEventListener("load", function () { navigator.serviceWorker.register("sw.js").catch(function () {}); });
+  }
+
   window.H = { el: el, icon: icon, hue: hue, starsEl: starsEl, speakBtn: speakBtn, slug: slug, byId: byId, byLetter: byLetter, shuffle: shuffle, wait: wait, param: param, LETTERS: LETTERS };
 })();

@@ -111,6 +111,12 @@ Open any letter page and scroll to «تمرّن». Things to try with a child, a
 - **وضع الفصل** is switched on the device it is used on (for example the smartboard computer). It makes text bigger, hides the stars, and saves no progress.
 - **صفحة المحتوى** (from the teacher page) shows all letters on one page and can be printed.
 
+## Children on one device, and offline use
+
+- **الأطفال على هذا الجهاز** (teacher page): add one animal picture per child who shares the device. The site then asks «مَنْ يَلْعَبُ الْآنَ؟» when it opens, and each child's stars are kept separately. No names are saved. One child per device: add nothing.
+- Stars stay on each device. There is no class-wide view, because that would need an online database of children's data.
+- **Offline:** after the site is opened once with internet, it works without internet (except videos). The teacher page shows «✓ الموقع كله محفوظ على هذا الجهاز» when a device is ready.
+
 ## Final checklist (before sharing with the children)
 
 - [ ] Choose the voice (section 6) and listen to the flagged sounds (section 7).
@@ -119,3 +125,5 @@ Open any letter page and scroll to «تمرّن». Things to try with a child, a
 - [ ] Check the pictures (section 2) and the extra form words (section 1).
 - [ ] Try the four exercises on a real iPad or tablet with a finger.
 - [ ] Try classroom mode on the smartboard.
+- [ ] On each shared class tablet, add the children's animal pictures (teacher page).
+- [ ] Open the site once on each tablet with internet, and check the offline line on the teacher page.

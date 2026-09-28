@@ -9,6 +9,8 @@
     a.style.setProperty("--h", H.hue(l));
     grid.appendChild(H.el("li", {}, [a]));
   });
+  var badge = window.Profiles && Profiles.badge();
+  if (badge) document.querySelector(".home-actions").insertBefore(badge, document.getElementById("hello"));
   document.getElementById("hello").addEventListener("click", function () {
     Sound.play("phrases/home", "مَرْحَبًا! اخْتَرْ حَرْفًا.", this);
   });

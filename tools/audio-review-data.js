@@ -2613,6 +2613,13 @@ window.AUDIO_REVIEW = {
 "flag": false,
 "recorded": false
 },
+"phrases/who": {
+"spoken": "مَنْ يَلْعَبُ الْآنَ؟",
+"rate": "-15%",
+"seconds": 1.35,
+"flag": false,
+"recorded": false
+},
 "words/anf": {
 "spoken": "أَنْف",
 "rate": "-10%",

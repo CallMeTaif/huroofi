@@ -58,6 +58,7 @@ PHRASES = {
     "pos_medial": "فِي الْوَسَط.",
     "pos_final": "فِي النِّهَايَة.",
     "review": "تَمَارِينُ الْمُرَاجَعَة.",
+    "who": "مَنْ يَلْعَبُ الْآنَ؟",
 }
 
 SAMPLE_TEXT = "مَرْحَبًا يَا أَصْدِقَائِي! هَذَا حَرْفُ الْبَاءِ. بَ، بُ، بِ. بَطَّة، بَيْت."
@@ -296,6 +297,7 @@ def write_outputs(items, state, voice):
                 "window.AUDIO_FILES = " + json.dumps({k: 1 for k in present}, indent=0) + ";\n")
     (ROOT / "data" / "audio-manifest.js").write_text(manifest, encoding="utf-8")
     print(f"manifest: {len(present)} files")
+    subprocess.run(["node", str(ROOT / "tools" / "build_sw.js")], check=False)  # offline copy must include the new sounds
     flagged, review = [], {}
     for k in present:
         st = state.get(k, {})

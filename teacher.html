@@ -29,13 +29,25 @@
       </div>
     </section>
 
-    <!-- 2. Progress on this device -->
+    <!-- 2. Children on this device -->
+    <section class="block">
+      <h2><img class="icon" src="img/avatars/lion.svg" alt="">الأطفال على هذا الجهاز</h2>
+      <p>إذا كان الجهاز يستخدمه أكثر من طفل (إخوة، أو أجهزة الفصل)، أضيفي صورة حيوان لكل طفل.
+        عند فتح الموقع يضغط كل طفل على صورته، فتُحفظ نجومه وحده. لا تُحفظ أي أسماء.
+        إذا كان للجهاز طفل واحد فلا حاجة لإضافة شيء.</p>
+      <div class="kids" id="kids"></div>
+      <h3>إضافة طفل: اختاري صورة</h3>
+      <div class="avatar-pick" id="avatar-pick"></div>
+    </section>
+
+    <!-- 3. Progress on this device -->
     <section class="block">
       <h2><img class="icon" src="img/ui/trophy.svg" alt="">التقدّم على هذا الجهاز</h2>
       <p class="muted">النجوم محفوظة في هذا المتصفح فقط، ولا تُرسَل إلى أي مكان.</p>
+      <div class="kid-tabs" id="kid-tabs"></div>
       <div class="table-wrap"><table class="progress-table" id="progress"></table></div>
       <div class="reset-row" id="reset-row">
-        <button type="button" class="btn coral" id="reset">مسح التقدّم على هذا الجهاز</button>
+        <button type="button" class="btn coral" id="reset">مسح نجوم كل الأطفال على هذا الجهاز</button>
       </div>
     </section>
 
@@ -102,6 +114,7 @@
     <section class="block">
       <h2><img class="icon" src="img/ui/check.svg" alt="">الخصوصية</h2>
       <p>لا يستخدم الموقع حسابات ولا ملفات تعريف ارتباط ولا أي تتبّع. لا يتصل بالإنترنت إلا عند عرض فيديوهات يوتيوب.</p>
+      <p id="offline-status" class="muted">العمل بدون إنترنت: …</p>
     </section>
   </main>
 

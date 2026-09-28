@@ -374,6 +374,7 @@ window.AUDIO_FILES = {
 "phrases/sec_vowels": 1,
 "phrases/sec_words": 1,
 "phrases/try_again": 1,
+"phrases/who": 1,
 "words/anf": 1,
 "words/ard": 1,
 "words/arnab": 1,

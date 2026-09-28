@@ -47,6 +47,9 @@ L.forEach((l, i) => {
   });
 });
 
+const sw = require("child_process").spawnSync("node", [path.join(ROOT, "tools/build_sw.js"), "--check"], { encoding: "utf8" });
+if (sw.status !== 0) err("offline copy: " + sw.stdout.trim());
+
 warnings.forEach((w) => console.log("⚠️  " + w));
 errors.forEach((e) => console.log("❌ " + e));
 const words = L.reduce((n, l) => n + l.words.length, 0);

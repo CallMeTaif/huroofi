@@ -7,7 +7,7 @@ Needs:  pip install fonttools brotli certifi  (to convert fonts to small .woff2 
 Reads data/letters.js, finds every {emoji, image} pair, and saves the matching
 OpenMoji SVG to that image path. Existing files are kept (delete to re-fetch).
 """
-import io, pathlib, re, sys, urllib.request
+import io, pathlib, re, subprocess, sys, urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OPENMOJI = "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/svg/{}.svg"
@@ -38,6 +38,15 @@ def _ssl_context():
 
 
 _CTX = _ssl_context()
+
+# Child profile pictures (no names are ever stored; each child picks an animal).
+AVATARS = {
+    "lion": "🦁", "tiger": "🐯", "bear": "🐻", "panda": "🐼", "koala": "🐨", "rabbit": "🐰", "fox": "🦊",
+    "frog": "🐸", "monkey": "🐵", "penguin": "🐧", "owl": "🦉", "turtle": "🐢", "octopus": "🐙", "unicorn": "🦄",
+    "dolphin": "🐬", "whale": "🐳", "giraffe": "🦒", "elephant": "🐘", "ladybug": "🐞", "butterfly": "🦋",
+    "bee": "🐝", "cat": "🐱", "dog": "🐶", "cow": "🐮", "chick": "🐤", "parrot": "🦜", "fish": "🐠",
+    "dinosaur": "🦖", "hedgehog": "🦔", "snail": "🐌",
+}
 
 
 def get(url):
@@ -103,6 +112,8 @@ def main():
     pairs = dict((img, emo) for emo, img in re.findall(r'emoji:\s*"([^"]+)",\s*image:\s*"([^"]+)"', text))
     for key, emo in UI_EMOJI.items():
         pairs[f"img/ui/{key}.svg"] = emo
+    for key, emo in AVATARS.items():
+        pairs[f"img/avatars/{key}.svg"] = emo
     print(f"Pictures ({len(pairs)})")
     missing = []
     for img, emo in sorted(pairs.items()):
@@ -115,6 +126,7 @@ def main():
             print(f"  {emo}  {img}")
         sys.exit(1)
     print("All pictures present.")
+    subprocess.run(["node", str(ROOT / "tools" / "build_sw.js")], check=False)
 
 
 if __name__ == "__main__":

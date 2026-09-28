@@ -471,3 +471,25 @@ code { background: #f6f1e8; padding: 1px 5px; border-radius: 6px; font-size: .9e
   .print-letter { box-shadow: none; border: 1px solid #ccc; border-top: 6px solid hsl(var(--h) 60% 70%); break-inside: avoid; margin-block: 8px; padding: 10px; }
   .gate { display: none; }
 }
+
+/* ===== Who is playing? (child profiles) ===== */
+.who-overlay { position: fixed; inset: 0; z-index: 70; display: grid; place-items: center; padding: var(--gutter); background: var(--bg); overflow-y: auto; }
+.who-card { width: min(900px, 100%); text-align: center; }
+.who-title { display: flex; align-items: center; justify-content: center; gap: 14px; font-weight: 800; font-size: 1.6em; margin-bottom: 18px; }
+.who-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); margin-bottom: 18px; }
+.who-btn { aspect-ratio: 1; border: 0; border-radius: 28px; cursor: pointer; background: var(--paper); box-shadow: 0 7px 0 var(--line); display: grid; place-items: center; touch-action: manipulation; }
+.who-btn img { width: 78%; height: 78%; pointer-events: none; }
+.who-btn:active { transform: translateY(5px); box-shadow: 0 2px 0 var(--line); }
+.who-badge { width: var(--tap); height: var(--tap); border-radius: 50%; border: 3px solid var(--sun); background: var(--paper); padding: 6px; cursor: pointer; }
+.who-badge img { width: 100%; height: 100%; }
+.kids { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 8px; }
+.kid { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 10px; border-radius: 20px; background: var(--bg); min-width: 110px; font-weight: 800; }
+.kid img { width: 72px; height: 72px; }
+.kid .btn { min-height: 48px; font-size: .85em; padding: 0 14px; }
+.avatar-pick { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); }
+.avatar-add { aspect-ratio: 1; border: 2px dashed var(--line); border-radius: 16px; background: #fff; cursor: pointer; padding: 6px; }
+.avatar-add img { width: 100%; height: 100%; }
+.kid-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+.kid-tab { width: 64px; height: 64px; border-radius: 16px; border: 3px solid var(--line); background: #fff; padding: 6px; cursor: pointer; opacity: .6; }
+.kid-tab.on { border-color: var(--sun-deep); opacity: 1; background: #fff3c4; }
+.kid-tab img { width: 100%; height: 100%; }

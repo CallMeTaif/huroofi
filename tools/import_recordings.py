@@ -47,6 +47,7 @@ def main():
     g.STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
     g.write_outputs(items, state, "recorded voice + " + g.VOICES[g.VOICE])
     print(f"{len(entries)} recordings -> {added} sound files updated")
+    subprocess.run(["node", str(ROOT / "tools" / "build_sw.js")], check=False)  # offline copy must include the new sounds
     if stale:
         print("Skipped (text no longer in the site):", "، ".join(stale))
 

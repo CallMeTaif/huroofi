@@ -2610,6 +2610,13 @@
   "trimmed": true,
   "voice": "ar-SA-ZariyahNeural"
  },
+ "phrases/who": {
+  "rate": "-15%",
+  "seconds": 1.35,
+  "text": "مَنْ يَلْعَبُ الْآنَ؟",
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
+ },
  "words/anf": {
   "rate": "-10%",
   "seconds": 0.28,
