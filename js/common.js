@@ -48,7 +48,12 @@
 
   // Offline support (sw.js). Only on http(s): a site opened from the folder is offline already.
   if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol) && !/\/tools\//.test(location.pathname)) {
-    window.addEventListener("load", function () { navigator.serviceWorker.register("sw.js").catch(function () {}); });
+    window.addEventListener("load", function () {
+      navigator.serviceWorker.register("sw.js").then(function () {
+        // Ask the offline copy to fill in anything that failed to download on an earlier visit.
+        return navigator.serviceWorker.ready.then(function (reg) { if (reg.active) reg.active.postMessage("fill"); });
+      }).catch(function () {});
+    });
   }
 
   window.H = { el: el, icon: icon, hue: hue, starsEl: starsEl, speakBtn: speakBtn, slug: slug, byId: byId, byLetter: byLetter, shuffle: shuffle, wait: wait, param: param, LETTERS: LETTERS };
