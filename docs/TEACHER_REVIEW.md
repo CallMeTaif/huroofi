@@ -107,7 +107,7 @@ Open any letter page and scroll to «تمرّن». Things to try with a child, a
 - **تمارين المراجعة** (from the home page): the child's visited letters are chosen already; tap letters to add or remove them.
   The tab «الحروف المتشابهة» has the 9 look-alike groups (ب ت ث، ج ح خ، د ذ، ر ز، س ش، ص ض، ط ظ، ع غ، ف ق); every question there includes the look-alike letters as choices.
   Review rounds do not change the stars of single letters.
-- **للمعلمة** (small link at the bottom of the home page) opens after a multiplication question such as «٧ × ٨». This keeps children out; it is not a password. The answer is remembered until the browser tab is closed.
+- **صفحة المعلمة** has no visible link on the children's pages. To open it, press and hold the «حروفي» title on the home page for 3 seconds (or bookmark https://callmetaif.github.io/huroofi/teacher.html). It then asks a multiplication question such as «٧ × ٨». This keeps children out; it is not a password. The answer is remembered until the browser tab is closed.
 - **وضع الفصل** is switched on the device it is used on (for example the smartboard computer). It makes text bigger, hides the stars, and saves no progress.
 - **صفحة المحتوى** (from the teacher page) shows all letters on one page and can be printed.
 

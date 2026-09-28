@@ -11,7 +11,8 @@
 <body>
   <main class="wrap">
     <header class="hero-home">
-      <div class="logo">
+      <!-- Teacher entrance (hidden from children): press and hold this title for 3 seconds. -->
+      <div class="logo" id="logo">
         <img src="img/ui/book.svg" alt="" draggable="false">
         <!-- Each letter is coloured separately; &zwj; keeps them joined. -->
         <h1 aria-label="حروفي"><span>ح&zwj;</span><span>&zwj;ر</span><span>و</span><span>ف&zwj;</span><span>&zwj;ي</span></h1>
@@ -25,9 +26,6 @@
 
     <ul class="letter-grid" id="grid" aria-label="حروف الهجاء"></ul>
 
-    <footer class="topbar no-print" style="justify-content:center">
-      <a href="teacher.html" style="color:var(--ink-soft);font-size:.85em">للمعلمة</a>
-    </footer>
   </main>
 
   <script src="data/letters.js"></script>

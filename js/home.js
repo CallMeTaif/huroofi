@@ -14,4 +14,14 @@
   document.getElementById("hello").addEventListener("click", function () {
     Sound.play("phrases/home", "مَرْحَبًا! اخْتَرْ حَرْفًا.", this);
   });
+
+  // Hidden teacher entrance: press and hold the «حروفي» title for 3 seconds (finger or mouse).
+  // No visible link, so children do not find it; the teacher page still asks the grown-up question.
+  (function () {
+    var logo = document.getElementById("logo"), timer = null;
+    function cancel() { clearTimeout(timer); timer = null; }
+    logo.addEventListener("pointerdown", function () { cancel(); timer = setTimeout(function () { location.href = "teacher.html"; }, 3000); });
+    ["pointerup", "pointerleave", "pointercancel"].forEach(function (ev) { logo.addEventListener(ev, cancel); });
+    logo.addEventListener("contextmenu", function (e) { e.preventDefault(); });   // long-press menu on phones
+  })();
 })();
