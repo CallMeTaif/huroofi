@@ -2307,10 +2307,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ya/form-final": {
 "spoken": "كُرْسِيّ",
-"rate": "-10%",
-"seconds": 0.52,
+"rate": null,
+"seconds": 0.63,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ya/form-initial": {
 "spoken": "يَد",
@@ -3000,10 +3000,10 @@ window.AUDIO_REVIEW = {
 },
 "words/kursi": {
 "spoken": "كُرْسِيّ",
-"rate": "-10%",
-"seconds": 0.52,
+"rate": null,
+"seconds": 0.63,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/laymun": {
 "spoken": "لَيْمُون",
