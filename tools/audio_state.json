@@ -3638,11 +3638,13 @@
   "unchanged": true
  },
  "words/shama": {
-  "rate": "-10%",
-  "seconds": 0.49,
+  "number": 256,
+  "recorded": true,
+  "recorded_text": "شَمْعَة",
+  "seconds": 0.72,
+  "source": "256.mp3",
   "text": "شَمْعَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/shams": {
   "number": 170,

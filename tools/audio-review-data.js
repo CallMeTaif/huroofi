@@ -3280,10 +3280,10 @@ window.AUDIO_REVIEW = {
 },
 "words/shama": {
 "spoken": "شَمْعَة",
-"rate": "-10%",
-"seconds": 0.49,
+"rate": null,
+"seconds": 0.72,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/shams": {
 "spoken": "شَمْس",
