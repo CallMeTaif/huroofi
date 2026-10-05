@@ -522,10 +522,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dhal/desc": {
 "spoken": "حَرْفُ الذَّالِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ذَ، ذُرَة.",
-"rate": "-15%",
-"seconds": 9.89,
+"rate": null,
+"seconds": 9.0,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dhal/form-final": {
 "spoken": "قُنْفُذ",

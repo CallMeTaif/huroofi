@@ -548,11 +548,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dhal/desc": {
-  "rate": "-15%",
-  "seconds": 9.89,
+  "number": 130,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الذَّالِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ذَ، ذُرَة.",
+  "seconds": 9.0,
+  "source": "130.mp3",
   "text": "حَرْفُ الذَّالِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ذَ، ذُرَة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dhal/form-final": {
   "number": 128,
