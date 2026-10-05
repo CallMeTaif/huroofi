@@ -316,11 +316,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dad/name": {
-  "rate": "-10%",
-  "seconds": 0.42,
+  "number": 203,
+  "recorded": true,
+  "recorded_text": "ضَاد",
+  "seconds": 0.76,
+  "source": "203.mp3",
   "text": "ضَاد",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dad/v1": {
   "rate": "-10%",
