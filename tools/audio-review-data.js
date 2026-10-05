@@ -2160,10 +2160,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/tha/form-medial": {
 "spoken": "كُمَّثْرَى",
-"rate": "-10%",
-"seconds": 0.65,
+"rate": null,
+"seconds": 0.89,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/tha/name": {
 "spoken": "ثَاء",
@@ -2986,10 +2986,10 @@ window.AUDIO_REVIEW = {
 },
 "words/kummathra": {
 "spoken": "كُمَّثْرَى",
-"rate": "-10%",
-"seconds": 0.65,
+"rate": null,
+"seconds": 0.89,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/kura": {
 "spoken": "كُرَة",

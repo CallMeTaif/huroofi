@@ -2204,11 +2204,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/tha/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.65,
+  "number": 54,
+  "recorded": true,
+  "recorded_text": "كُمَّثْرَى",
+  "seconds": 0.89,
+  "source": "054.mp3",
   "text": "كُمَّثْرَى",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/tha/name": {
   "number": 44,
@@ -3056,11 +3058,13 @@
   "unchanged": true
  },
  "words/kummathra": {
-  "rate": "-10%",
-  "seconds": 0.65,
+  "number": 54,
+  "recorded": true,
+  "recorded_text": "كُمَّثْرَى",
+  "seconds": 0.89,
+  "source": "054.mp3",
   "text": "كُمَّثْرَى",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/kura": {
   "rate": "-10%",
