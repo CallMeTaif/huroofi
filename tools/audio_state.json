@@ -39,11 +39,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ain/name": {
-  "rate": "-10%",
-  "seconds": 0.47,
+  "number": 247,
+  "recorded": true,
+  "recorded_text": "عَيْن",
+  "seconds": 0.72,
+  "source": "247.mp3",
   "text": "عَيْن",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ain/v1": {
   "rate": "-10%",
@@ -1539,11 +1541,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/nun/form-final": {
-  "rate": "-10%",
-  "seconds": 0.47,
+  "number": 247,
+  "recorded": true,
+  "recorded_text": "عَيْن",
+  "seconds": 0.72,
+  "source": "247.mp3",
   "text": "عَيْن",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/nun/form-initial": {
   "number": 82,
@@ -2868,11 +2872,13 @@
   "unchanged": true
  },
  "words/ayn": {
-  "rate": "-10%",
-  "seconds": 0.47,
+  "number": 247,
+  "recorded": true,
+  "recorded_text": "عَيْن",
+  "seconds": 0.72,
+  "source": "247.mp3",
   "text": "عَيْن",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/bab": {
   "number": 11,

@@ -39,10 +39,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ain/name": {
 "spoken": "عَيْن",
-"rate": "-10%",
-"seconds": 0.47,
+"rate": null,
+"seconds": 0.72,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ain/v1": {
 "spoken": "عَ.",
@@ -1425,10 +1425,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/nun/form-final": {
 "spoken": "عَيْن",
-"rate": "-10%",
-"seconds": 0.47,
+"rate": null,
+"seconds": 0.72,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/nun/form-initial": {
 "spoken": "نَحْلَة",
@@ -2650,10 +2650,10 @@ window.AUDIO_REVIEW = {
 },
 "words/ayn": {
 "spoken": "عَيْن",
-"rate": "-10%",
-"seconds": 0.47,
+"rate": null,
+"seconds": 0.72,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/bab": {
 "spoken": "بَاب",
