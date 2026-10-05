@@ -283,11 +283,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dad/desc": {
-  "rate": "-15%",
-  "seconds": 9.97,
+  "number": 217,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الضَّادِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ضَ، ضِفْدَع.",
+  "seconds": 9.38,
+  "source": "217.mp3",
   "text": "حَرْفُ الضَّادِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ضَ، ضِفْدَع.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dad/form-final": {
   "number": 215,

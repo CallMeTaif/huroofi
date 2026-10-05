@@ -263,10 +263,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dad/desc": {
 "spoken": "حَرْفُ الضَّادِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ضَ، ضِفْدَع.",
-"rate": "-15%",
-"seconds": 9.97,
+"rate": null,
+"seconds": 9.38,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dad/form-final": {
 "spoken": "بَيْض",
