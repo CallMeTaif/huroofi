@@ -1990,11 +1990,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/sin/name": {
-  "rate": "-10%",
-  "seconds": 0.39,
+  "number": 158,
+  "recorded": true,
+  "recorded_text": "سِين",
+  "seconds": 0.66,
+  "source": "158.mp3",
   "text": "سِين",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/sin/v1": {
   "rate": "-10%",

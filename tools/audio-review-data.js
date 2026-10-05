@@ -1894,10 +1894,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/sin/name": {
 "spoken": "سِين",
-"rate": "-10%",
-"seconds": 0.39,
+"rate": null,
+"seconds": 0.66,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sin/v1": {
 "spoken": "سَ.",
