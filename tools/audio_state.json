@@ -2517,11 +2517,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/zay/desc": {
-  "rate": "-15%",
-  "seconds": 9.96,
+  "number": 157,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الزَّايِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: زَ، زَرَافَة.",
+  "seconds": 8.73,
+  "source": "157.mp3",
   "text": "حَرْفُ الزَّايِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: زَ، زَرَافَة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/zay/form-final": {
   "number": 97,

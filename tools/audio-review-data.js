@@ -2391,10 +2391,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/zay/desc": {
 "spoken": "حَرْفُ الزَّايِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: زَ، زَرَافَة.",
-"rate": "-15%",
-"seconds": 9.96,
+"rate": null,
+"seconds": 8.73,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/zay/form-final": {
 "spoken": "خُبْز",
