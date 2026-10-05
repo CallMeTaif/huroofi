@@ -1777,11 +1777,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/sad/desc": {
-  "rate": "-15%",
-  "seconds": 8.62,
+  "number": 202,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الصَّادِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: صَ، صَارُوخ.",
+  "seconds": 7.97,
+  "source": "202.mp3",
   "text": "حَرْفُ الصَّادِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: صَ، صَارُوخ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/sad/form-final": {
   "number": 199,
