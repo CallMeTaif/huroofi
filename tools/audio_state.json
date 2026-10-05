@@ -1807,11 +1807,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/sad/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.77,
+  "number": 197,
+  "recorded": true,
+  "recorded_text": "عُصْفُور",
+  "seconds": 0.66,
+  "source": "197.mp3",
   "text": "عُصْفُور",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/sad/name": {
   "number": 187,
@@ -3679,11 +3681,13 @@
   "unchanged": true
  },
  "words/usfur": {
-  "rate": "-10%",
-  "seconds": 0.77,
+  "number": 197,
+  "recorded": true,
+  "recorded_text": "عُصْفُور",
+  "seconds": 0.66,
+  "source": "197.mp3",
   "text": "عُصْفُور",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/ushsh": {
   "number": 183,
