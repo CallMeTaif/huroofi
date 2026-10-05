@@ -2817,11 +2817,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/far": {
-  "rate": "-10%",
-  "seconds": 0.4,
+  "number": 12,
+  "recorded": true,
+  "recorded_text": "فَأْر",
+  "seconds": 0.34,
+  "source": "012.mp3",
   "text": "فَأْر",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/farasha": {
   "rate": "-10%",
