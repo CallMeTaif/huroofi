@@ -23,11 +23,13 @@
   "unchanged": true
  },
  "letters/ain/form-isolated": {
-  "rate": "-10%",
-  "seconds": 0.6,
+  "number": 211,
+  "recorded": true,
+  "recorded_text": "ضِفْدَع",
+  "seconds": 0.66,
+  "source": "211.mp3",
   "text": "ضِفْدَع",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ain/form-medial": {
   "rate": "-10%",
@@ -295,11 +297,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dad/form-initial": {
-  "rate": "-10%",
-  "seconds": 0.6,
+  "number": 211,
+  "recorded": true,
+  "recorded_text": "ضِفْدَع",
+  "seconds": 0.66,
+  "source": "211.mp3",
   "text": "ضِفْدَع",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dad/form-isolated": {
   "rate": "-10%",
@@ -2971,11 +2975,13 @@
   "unchanged": true
  },
  "words/difda": {
-  "rate": "-10%",
-  "seconds": 0.6,
+  "number": 211,
+  "recorded": true,
+  "recorded_text": "ضِفْدَع",
+  "seconds": 0.66,
+  "source": "211.mp3",
   "text": "ضِفْدَع",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/dik": {
   "rate": "-10%",

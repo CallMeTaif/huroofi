@@ -25,10 +25,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ain/form-isolated": {
 "spoken": "ضِفْدَع",
-"rate": "-10%",
-"seconds": 0.6,
+"rate": null,
+"seconds": 0.66,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ain/form-medial": {
 "spoken": "مِلْعَقَة",
@@ -277,10 +277,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dad/form-initial": {
 "spoken": "ضِفْدَع",
-"rate": "-10%",
-"seconds": 0.6,
+"rate": null,
+"seconds": 0.66,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dad/form-isolated": {
 "spoken": "أَرْض",
@@ -2769,10 +2769,10 @@ window.AUDIO_REVIEW = {
 },
 "words/difda": {
 "spoken": "ضِفْدَع",
-"rate": "-10%",
-"seconds": 0.6,
+"rate": null,
+"seconds": 0.66,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/dik": {
 "spoken": "دِيك",
