@@ -91,11 +91,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/alif/desc": {
-  "rate": "-15%",
-  "seconds": 8.87,
+  "number": 15,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الْأَلِفِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: أَ، أَرْنَب.",
+  "seconds": 8.0,
+  "source": "015.mp3",
   "text": "حَرْفُ الْأَلِفِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: أَ، أَرْنَب.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/alif/form-final": {
   "number": 13,

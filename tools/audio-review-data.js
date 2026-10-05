@@ -95,10 +95,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/alif/desc": {
 "spoken": "حَرْفُ الْأَلِفِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: أَ، أَرْنَب.",
-"rate": "-15%",
-"seconds": 8.87,
+"rate": null,
+"seconds": 8.0,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/alif/form-final": {
 "spoken": "مَامَا",
