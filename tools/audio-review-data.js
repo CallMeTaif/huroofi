@@ -1698,10 +1698,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/sad/form-isolated": {
 "spoken": "رَصَاص",
-"rate": "-10%",
-"seconds": 0.48,
+"rate": null,
+"seconds": 0.86,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sad/form-medial": {
 "spoken": "عُصْفُور",
