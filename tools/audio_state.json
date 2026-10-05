@@ -3174,11 +3174,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/muthallajat": {
-  "rate": "-10%",
-  "seconds": 0.77,
+  "number": 55,
+  "recorded": true,
+  "recorded_text": "مُثَلَّجَات",
+  "seconds": 1.04,
+  "source": "055.mp3",
   "text": "مُثَلَّجَات",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/muthallath": {
   "rate": "-10%",

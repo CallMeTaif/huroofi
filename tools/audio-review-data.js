@@ -3098,10 +3098,10 @@ window.AUDIO_REVIEW = {
 },
 "words/muthallajat": {
 "spoken": "مُثَلَّجَات",
-"rate": "-10%",
-"seconds": 0.77,
+"rate": null,
+"seconds": 1.04,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/muthallath": {
 "spoken": "مُثَلَّث",
