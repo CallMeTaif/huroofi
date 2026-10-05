@@ -190,11 +190,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ba/form-initial": {
-  "rate": "-10%",
-  "seconds": 0.52,
+  "number": 24,
+  "recorded": true,
+  "recorded_text": "بَطَّة",
+  "seconds": 0.64,
+  "source": "024.mp3",
   "text": "بَطَّة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ba/form-isolated": {
   "rate": "-10%",
@@ -2075,11 +2077,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/taa/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.52,
+  "number": 24,
+  "recorded": true,
+  "recorded_text": "بَطَّة",
+  "seconds": 0.64,
+  "source": "024.mp3",
   "text": "بَطَّة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/taa/name": {
   "rate": "-10%",
@@ -2720,11 +2724,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/batta": {
-  "rate": "-10%",
-  "seconds": 0.52,
+  "number": 24,
+  "recorded": true,
+  "recorded_text": "بَطَّة",
+  "seconds": 0.64,
+  "source": "024.mp3",
   "text": "بَطَّة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/bayd": {
   "rate": "-10%",

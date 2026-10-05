@@ -186,10 +186,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ba/form-initial": {
 "spoken": "بَطَّة",
-"rate": "-10%",
-"seconds": 0.52,
+"rate": null,
+"seconds": 0.64,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ba/form-isolated": {
 "spoken": "كِتَاب",
@@ -2069,10 +2069,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/taa/form-medial": {
 "spoken": "بَطَّة",
-"rate": "-10%",
-"seconds": 0.52,
+"rate": null,
+"seconds": 0.64,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/taa/name": {
 "spoken": "طَاء",
@@ -2706,10 +2706,10 @@ window.AUDIO_REVIEW = {
 },
 "words/batta": {
 "spoken": "بَطَّة",
-"rate": "-10%",
-"seconds": 0.52,
+"rate": null,
+"seconds": 0.64,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/bayd": {
 "spoken": "بَيْض",
