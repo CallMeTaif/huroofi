@@ -2146,10 +2146,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/tha/form-initial": {
 "spoken": "ثَعْلَب",
-"rate": "-10%",
-"seconds": 0.44,
+"rate": null,
+"seconds": 0.73,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/tha/form-isolated": {
 "spoken": "ثَلَاث",
@@ -3343,10 +3343,10 @@ window.AUDIO_REVIEW = {
 },
 "words/thalab": {
 "spoken": "ثَعْلَب",
-"rate": "-10%",
-"seconds": 0.44,
+"rate": null,
+"seconds": 0.73,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/thalath": {
 "spoken": "ثَلَاث",

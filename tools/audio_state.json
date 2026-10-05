@@ -2186,11 +2186,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/tha/form-initial": {
-  "rate": "-10%",
-  "seconds": 0.44,
+  "number": 52,
+  "recorded": true,
+  "recorded_text": "ثَعْلَب",
+  "seconds": 0.73,
+  "source": "052.mp3",
   "text": "ثَعْلَب",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/tha/form-isolated": {
   "rate": "-10%",
@@ -3413,11 +3415,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/thalab": {
-  "rate": "-10%",
-  "seconds": 0.44,
+  "number": 52,
+  "recorded": true,
+  "recorded_text": "ثَعْلَب",
+  "seconds": 0.73,
+  "source": "052.mp3",
   "text": "ثَعْلَب",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/thalath": {
   "rate": "-10%",
