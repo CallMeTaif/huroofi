@@ -379,11 +379,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dal/form-final": {
-  "rate": "-10%",
-  "seconds": 0.38,
+  "number": 114,
+  "recorded": true,
+  "recorded_text": "يَد",
+  "seconds": 0.5,
+  "source": "114.mp3",
   "text": "يَد",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dal/form-isolated": {
   "number": 111,
@@ -2412,11 +2414,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ya/form-initial": {
-  "rate": "-10%",
-  "seconds": 0.38,
+  "number": 114,
+  "recorded": true,
+  "recorded_text": "يَد",
+  "seconds": 0.5,
+  "source": "114.mp3",
   "text": "يَد",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ya/form-isolated": {
   "rate": "-10%",
@@ -3600,11 +3604,13 @@
   "unchanged": true
  },
  "words/yad": {
-  "rate": "-10%",
-  "seconds": 0.38,
+  "number": 114,
+  "recorded": true,
+  "recorded_text": "يَد",
+  "seconds": 0.5,
+  "source": "114.mp3",
   "text": "يَد",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/yamama": {
   "rate": "-10%",

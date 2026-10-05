@@ -361,10 +361,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dal/form-final": {
 "spoken": "يَد",
-"rate": "-10%",
-"seconds": 0.38,
+"rate": null,
+"seconds": 0.5,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dal/form-isolated": {
 "spoken": "دُبّ",
@@ -2314,10 +2314,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ya/form-initial": {
 "spoken": "يَد",
-"rate": "-10%",
-"seconds": 0.38,
+"rate": null,
+"seconds": 0.5,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ya/form-isolated": {
 "spoken": "شَاي",
@@ -3420,10 +3420,10 @@ window.AUDIO_REVIEW = {
 },
 "words/yad": {
 "spoken": "يَد",
-"rate": "-10%",
-"seconds": 0.38,
+"rate": null,
+"seconds": 0.5,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/yamama": {
 "spoken": "يَمَامَة",
