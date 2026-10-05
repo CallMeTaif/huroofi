@@ -1348,10 +1348,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/mim/form-isolated": {
 "spoken": "رَسَّام",
-"rate": "-10%",
-"seconds": 0.81,
+"rate": null,
+"seconds": 0.72,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/mim/form-medial": {
 "spoken": "شَمْس",
@@ -3210,10 +3210,10 @@ window.AUDIO_REVIEW = {
 },
 "words/rassam": {
 "spoken": "رَسَّام",
-"rate": "-10%",
-"seconds": 0.81,
+"rate": null,
+"seconds": 0.72,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/risha": {
 "spoken": "رِيشَة",
