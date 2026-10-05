@@ -4,8 +4,10 @@
     python3 tools/import_numbered.py ~/Desktop/001.mp3 ~/Downloads/recordings/      (files and/or folders)
     python3 tools/import_numbered.py --check ~/Downloads/recordings/               (report only, change nothing)
 
-Each recording is trimmed, matched in loudness to the computer voice, converted to MP3 and saved under every
-sound file its text is used for. Those files are marked "recorded", so tools/generate_audio.py never replaces
+Recordings are put on the site UNCHANGED (the owner's choice): an MP3 is copied byte for byte; any other
+format is only converted to MP3 (the site plays MP3), with no trimming and no volume change.
+Each file is still checked (cut-off start/end, clipping, noise) and problems are reported, never fixed.
+The recording is saved under every sound file its text is used for. Those files are marked "recorded", so tools/generate_audio.py never replaces
 them (unless the text changes). Numbers come from tools/recording_numbers.json, written together with the list
 that was sent out, so they stay valid even if the list is regenerated later.
 """
@@ -54,23 +56,27 @@ def main():
         if not keys:
             continue
         try:
-            samples, problems, info = voice.process(voice.decode(f))
+            _, problems, info = voice.process(voice.decode(f))      # analysis only: the audio is not changed
         except Exception as e:
             print(f"✗ {n:03d} «{entry['text']}»: {e}"); continue
         mark = "⚠" if problems else "✓"
-        print(f"{mark} {n:03d} «{entry['text']}» {info['spoken']}s spoken, noise {info['noise_db']} dB, "
-              f"volume {info['gain_db']:+} dB → {len(keys)} file(s)" + ("".join("\n      - " + p for p in problems)))
+        how = "copied unchanged" if f.suffix.lower() == ".mp3" else "converted to MP3 only"
+        print(f"{mark} {n:03d} «{entry['text']}» {info['spoken']}s spoken, noise {info['noise_db']} dB, {how} → {len(keys)} file(s)"
+              + ("".join("\n      - " + p for p in problems)))
         if check:
             continue
         with tempfile.TemporaryDirectory() as d:
             mp3 = pathlib.Path(d) / "out.mp3"
-            voice.encode(samples, mp3)
+            if f.suffix.lower() == ".mp3":
+                shutil.copyfile(f, mp3)
+            else:
+                voice.to_mp3_unchanged(f, mp3)
             for k in keys:
                 dest = ROOT / "audio" / f"{k}.mp3"
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copyfile(mp3, dest)
                 state[k] = {"text": items[k][0], "recorded": True, "recorded_text": entry["text"],
-                            "source": f.name, "number": n, "seconds": info["spoken"]}
+                            "source": f.name, "number": n, "seconds": info["spoken"], "unchanged": f.suffix.lower() == ".mp3"}
         done += 1
     if check:
         print("\n(check only: nothing was changed)"); return

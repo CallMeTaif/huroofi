@@ -117,7 +117,8 @@
   "recorded_text": "أَلِف",
   "seconds": 0.61,
   "source": "001.mp3",
-  "text": "أَلِف"
+  "text": "أَلِف",
+  "unchanged": true
  },
  "letters/alif/v1": {
   "rate": "-10%",

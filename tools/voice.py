@@ -76,3 +76,18 @@ def encode(samples, mp3):
         with wave.open(str(wav), "wb") as w:
             w.setnchannels(1); w.setsampwidth(2); w.setframerate(RATE); w.writeframes(samples.tobytes())
         subprocess.run(["lame", "--quiet", "-m", "m", "-V", "5", str(wav), str(mp3)], check=True)
+
+
+def to_mp3_unchanged(src, mp3):
+    """Change only the file format to MP3: same sample rate and channels, no trimming, no volume change."""
+    src = pathlib.Path(src)
+    with tempfile.TemporaryDirectory() as d:
+        wav = pathlib.Path(d) / "x.wav"
+        ok = shutil.which("afconvert") and subprocess.run(
+            ["afconvert", "-f", "WAVE", "-d", "LEI16", str(src), str(wav)], capture_output=True).returncode == 0
+        if not ok and shutil.which("ffmpeg"):
+            ok = subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(src), "-sample_fmt", "s16", str(wav)],
+                                capture_output=True).returncode == 0
+        if not ok:
+            raise RuntimeError(f"cannot read {src.name} (for WhatsApp .opus/.ogg files: brew install ffmpeg)")
+        subprocess.run(["lame", "--quiet", "-V", "2", str(wav), str(mp3)], check=True)   # high quality
