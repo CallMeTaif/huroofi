@@ -3156,11 +3156,13 @@
   "unchanged": true
  },
  "words/kabsh": {
-  "rate": "-10%",
-  "seconds": 0.48,
+  "number": 184,
+  "recorded": true,
+  "recorded_text": "كَبْش",
+  "seconds": 0.62,
+  "source": "184.mp3",
   "text": "كَبْش",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/kharuf": {
   "number": 96,
