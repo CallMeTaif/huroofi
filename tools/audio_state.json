@@ -3531,11 +3531,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/saqr": {
-  "rate": "-10%",
-  "seconds": 0.41,
+  "number": 196,
+  "recorded": true,
+  "recorded_text": "صَقْر",
+  "seconds": 0.62,
+  "source": "196.mp3",
   "text": "صَقْر",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/sarukh": {
   "number": 195,

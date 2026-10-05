@@ -3259,10 +3259,10 @@ window.AUDIO_REVIEW = {
 },
 "words/saqr": {
 "spoken": "صَقْر",
-"rate": "-10%",
-"seconds": 0.41,
+"rate": null,
+"seconds": 0.62,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/sarukh": {
 "spoken": "صَارُوخ",
