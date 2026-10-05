@@ -18,10 +18,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ain/form-initial": {
 "spoken": "عِنَب",
-"rate": "-10%",
-"seconds": 0.49,
+"rate": null,
+"seconds": 0.73,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ain/form-isolated": {
 "spoken": "ضِفْدَع",
@@ -179,10 +179,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ba/form-final": {
 "spoken": "عِنَب",
-"rate": "-10%",
-"seconds": 0.49,
+"rate": null,
+"seconds": 0.73,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ba/form-initial": {
 "spoken": "بَطَّة",
@@ -1446,10 +1446,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/nun/form-medial": {
 "spoken": "عِنَب",
-"rate": "-10%",
-"seconds": 0.49,
+"rate": null,
+"seconds": 0.73,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/nun/name": {
 "spoken": "نُون",
@@ -2909,10 +2909,10 @@ window.AUDIO_REVIEW = {
 },
 "words/inab": {
 "spoken": "عِنَب",
-"rate": "-10%",
-"seconds": 0.49,
+"rate": null,
+"seconds": 0.73,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/isba": {
 "spoken": "إِصْبَع",
