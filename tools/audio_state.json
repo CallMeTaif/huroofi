@@ -1017,11 +1017,13 @@
   "unchanged": true
  },
  "letters/jim/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.52,
+  "number": 70,
+  "recorded": true,
+  "recorded_text": "نَجْمَة",
+  "seconds": 0.66,
+  "source": "070.mp3",
   "text": "نَجْمَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/jim/name": {
   "number": 59,
@@ -3229,11 +3231,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/najma": {
-  "rate": "-10%",
-  "seconds": 0.52,
+  "number": 70,
+  "recorded": true,
+  "recorded_text": "نَجْمَة",
+  "seconds": 0.66,
+  "source": "070.mp3",
   "text": "نَجْمَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/nakhla": {
   "rate": "-10%",
