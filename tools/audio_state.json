@@ -3560,11 +3560,13 @@
   "unchanged": true
  },
  "words/tilmidh": {
-  "rate": "-10%",
-  "seconds": 0.64,
+  "number": 129,
+  "recorded": true,
+  "recorded_text": "تِلْمِيذ",
+  "seconds": 0.74,
+  "source": "129.mp3",
   "text": "تِلْمِيذ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/tuffah": {
   "number": 84,
