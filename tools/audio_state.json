@@ -1193,11 +1193,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/kha/desc": {
-  "rate": "-15%",
-  "seconds": 9.62,
+  "number": 102,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الْخَاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: خَ، خَرُوف.",
+  "seconds": 9.03,
+  "source": "102.mp3",
   "text": "حَرْفُ الْخَاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: خَ، خَرُوف.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kha/form-final": {
   "number": 100,

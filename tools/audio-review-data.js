@@ -1145,10 +1145,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kha/desc": {
 "spoken": "حَرْفُ الْخَاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: خَ، خَرُوف.",
-"rate": "-15%",
-"seconds": 9.62,
+"rate": null,
+"seconds": 9.03,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kha/form-final": {
 "spoken": "بِطِّيخ",
