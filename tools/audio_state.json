@@ -3019,11 +3019,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/jazar": {
-  "rate": "-10%",
-  "seconds": 0.6,
+  "number": 68,
+  "recorded": true,
+  "recorded_text": "جَزَر",
+  "seconds": 0.72,
+  "source": "068.mp3",
   "text": "جَزَر",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/kabsh": {
   "rate": "-10%",

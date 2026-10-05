@@ -2937,10 +2937,10 @@ window.AUDIO_REVIEW = {
 },
 "words/jazar": {
 "spoken": "جَزَر",
-"rate": "-10%",
-"seconds": 0.6,
+"rate": null,
+"seconds": 0.72,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/kabsh": {
 "spoken": "كَبْش",
