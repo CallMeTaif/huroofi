@@ -2661,11 +2661,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/bab": {
-  "rate": "-10%",
-  "seconds": 0.4,
+  "number": 11,
+  "recorded": true,
+  "recorded_text": "بَاب",
+  "seconds": 0.52,
+  "source": "011.mp3",
   "text": "بَاب",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/baba": {
   "rate": "-10%",
