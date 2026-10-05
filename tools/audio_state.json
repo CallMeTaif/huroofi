@@ -1784,11 +1784,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/sad/form-final": {
-  "rate": "-10%",
-  "seconds": 0.37,
+  "number": 199,
+  "recorded": true,
+  "recorded_text": "قَمِيص",
+  "seconds": 0.81,
+  "source": "199.mp3",
   "text": "قَمِيص",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/sad/form-initial": {
   "number": 195,
@@ -2879,11 +2881,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/basal": {
-  "rate": "-10%",
-  "seconds": 0.56,
+  "number": 198,
+  "recorded": true,
+  "recorded_text": "بَصَل",
+  "seconds": 0.7,
+  "source": "198.mp3",
   "text": "بَصَل",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/batta": {
   "number": 24,
@@ -3437,11 +3441,13 @@
   "unchanged": true
  },
  "words/qamis": {
-  "rate": "-10%",
-  "seconds": 0.37,
+  "number": 199,
+  "recorded": true,
+  "recorded_text": "قَمِيص",
+  "seconds": 0.81,
+  "source": "199.mp3",
   "text": "قَمِيص",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/qitar": {
   "rate": "-10%",

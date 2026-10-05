@@ -1684,10 +1684,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/sad/form-final": {
 "spoken": "قَمِيص",
-"rate": "-10%",
-"seconds": 0.37,
+"rate": null,
+"seconds": 0.81,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sad/form-initial": {
 "spoken": "صَارُوخ",
@@ -2699,10 +2699,10 @@ window.AUDIO_REVIEW = {
 },
 "words/basal": {
 "spoken": "بَصَل",
-"rate": "-10%",
-"seconds": 0.56,
+"rate": null,
+"seconds": 0.7,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/batta": {
 "spoken": "بَطَّة",
@@ -3175,10 +3175,10 @@ window.AUDIO_REVIEW = {
 },
 "words/qamis": {
 "spoken": "قَمِيص",
-"rate": "-10%",
-"seconds": 0.37,
+"rate": null,
+"seconds": 0.81,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/qitar": {
 "spoken": "قِطَار",
