@@ -1789,10 +1789,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/shin/form-isolated": {
 "spoken": "قُمَاش",
-"rate": "-10%",
-"seconds": 0.56,
+"rate": null,
+"seconds": 0.71,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/shin/form-medial": {
 "spoken": "مُشْط",
