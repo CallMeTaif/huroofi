@@ -1022,11 +1022,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/jim/name": {
-  "rate": "-10%",
-  "seconds": 0.51,
+  "number": 59,
+  "recorded": true,
+  "recorded_text": "جِيم",
+  "seconds": 0.59,
+  "source": "059.mp3",
   "text": "جِيم",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/jim/v1": {
   "rate": "-10%",
