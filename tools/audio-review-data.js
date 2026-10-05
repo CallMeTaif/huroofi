@@ -375,10 +375,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dal/name": {
 "spoken": "دَال",
-"rate": "-10%",
-"seconds": 0.45,
+"rate": null,
+"seconds": 0.56,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dal/v1": {
 "spoken": "دَ.",

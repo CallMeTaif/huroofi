@@ -393,11 +393,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dal/name": {
-  "rate": "-10%",
-  "seconds": 0.45,
+  "number": 103,
+  "recorded": true,
+  "recorded_text": "دَال",
+  "seconds": 0.56,
+  "source": "103.mp3",
   "text": "دَال",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dal/v1": {
   "rate": "-10%",
