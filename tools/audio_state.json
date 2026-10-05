@@ -2950,11 +2950,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/daw": {
-  "rate": "-10%",
-  "seconds": 0.39,
+  "number": 212,
+  "recorded": true,
+  "recorded_text": "ضَوْء",
+  "seconds": 0.62,
+  "source": "212.mp3",
   "text": "ضَوْء",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/dhib": {
   "number": 125,

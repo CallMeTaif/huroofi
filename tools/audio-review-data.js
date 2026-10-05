@@ -2748,10 +2748,10 @@ window.AUDIO_REVIEW = {
 },
 "words/daw": {
 "spoken": "ضَوْء",
-"rate": "-10%",
-"seconds": 0.39,
+"rate": null,
+"seconds": 0.62,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/dhib": {
 "spoken": "ذِئْب",
