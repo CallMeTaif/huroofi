@@ -1082,10 +1082,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kaf/form-medial": {
 "spoken": "سَمَكَة",
-"rate": "-10%",
-"seconds": 0.4,
+"rate": null,
+"seconds": 0.8,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kaf/name": {
 "spoken": "كَاف",
@@ -1873,10 +1873,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/sin/form-initial": {
 "spoken": "سَمَكَة",
-"rate": "-10%",
-"seconds": 0.4,
+"rate": null,
+"seconds": 0.8,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sin/form-isolated": {
 "spoken": "فَانُوس",
@@ -3245,10 +3245,10 @@ window.AUDIO_REVIEW = {
 },
 "words/samaka": {
 "spoken": "سَمَكَة",
-"rate": "-10%",
-"seconds": 0.4,
+"rate": null,
+"seconds": 0.8,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/samgh": {
 "spoken": "صَمْغ",

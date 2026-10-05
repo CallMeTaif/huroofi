@@ -1148,11 +1148,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/kaf/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.4,
+  "number": 166,
+  "recorded": true,
+  "recorded_text": "سَمَكَة",
+  "seconds": 0.8,
+  "source": "166.mp3",
   "text": "سَمَكَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kaf/name": {
   "rate": "-10%",
@@ -1969,11 +1971,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/sin/form-initial": {
-  "rate": "-10%",
-  "seconds": 0.4,
+  "number": 166,
+  "recorded": true,
+  "recorded_text": "سَمَكَة",
+  "seconds": 0.8,
+  "source": "166.mp3",
   "text": "سَمَكَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/sin/form-isolated": {
   "rate": "-10%",
@@ -3471,11 +3475,13 @@
   "unchanged": true
  },
  "words/samaka": {
-  "rate": "-10%",
-  "seconds": 0.4,
+  "number": 166,
+  "recorded": true,
+  "recorded_text": "سَمَكَة",
+  "seconds": 0.8,
+  "source": "166.mp3",
   "text": "سَمَكَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/samgh": {
   "rate": "-10%",
