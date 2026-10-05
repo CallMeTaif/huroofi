@@ -32,11 +32,13 @@
   "unchanged": true
  },
  "letters/ain/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.42,
+  "number": 255,
+  "recorded": true,
+  "recorded_text": "مِلْعَقَة",
+  "seconds": 0.79,
+  "source": "255.mp3",
   "text": "مِلْعَقَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ain/name": {
   "number": 247,
@@ -3376,11 +3378,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/milaqa": {
-  "rate": "-10%",
-  "seconds": 0.42,
+  "number": 255,
+  "recorded": true,
+  "recorded_text": "مِلْعَقَة",
+  "seconds": 0.79,
+  "source": "255.mp3",
   "text": "مِلْعَقَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/miqass": {
   "number": 200,

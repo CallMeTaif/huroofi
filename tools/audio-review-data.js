@@ -32,10 +32,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ain/form-medial": {
 "spoken": "مِلْعَقَة",
-"rate": "-10%",
-"seconds": 0.42,
+"rate": null,
+"seconds": 0.79,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ain/name": {
 "spoken": "عَيْن",
@@ -3070,10 +3070,10 @@ window.AUDIO_REVIEW = {
 },
 "words/milaqa": {
 "spoken": "مِلْعَقَة",
-"rate": "-10%",
-"seconds": 0.42,
+"rate": null,
+"seconds": 0.79,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/miqass": {
 "spoken": "مِقَصّ",
