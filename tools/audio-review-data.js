@@ -886,10 +886,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/haa/form-initial": {
 "spoken": "هَدِيَّة",
-"rate": "-10%",
-"seconds": 0.53,
+"rate": null,
+"seconds": 0.76,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/haa/form-isolated": {
 "spoken": "مِيَاه",
@@ -2867,10 +2867,10 @@ window.AUDIO_REVIEW = {
 },
 "words/hadiyya": {
 "spoken": "هَدِيَّة",
-"rate": "-10%",
-"seconds": 0.53,
+"rate": null,
+"seconds": 0.76,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/halib": {
 "spoken": "حَلِيب",

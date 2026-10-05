@@ -924,11 +924,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/haa/form-initial": {
-  "rate": "-10%",
-  "seconds": 0.53,
+  "number": 113,
+  "recorded": true,
+  "recorded_text": "هَدِيَّة",
+  "seconds": 0.76,
+  "source": "113.mp3",
   "text": "هَدِيَّة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/haa/form-isolated": {
   "rate": "-10%",
@@ -2991,11 +2993,13 @@
   "unchanged": true
  },
  "words/hadiyya": {
-  "rate": "-10%",
-  "seconds": 0.53,
+  "number": 113,
+  "recorded": true,
+  "recorded_text": "هَدِيَّة",
+  "seconds": 0.76,
+  "source": "113.mp3",
   "text": "هَدِيَّة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/halib": {
   "number": 81,
