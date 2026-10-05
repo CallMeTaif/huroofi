@@ -815,11 +815,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ha/form-initial": {
-  "rate": "-10%",
-  "seconds": 0.63,
+  "number": 80,
+  "recorded": true,
+  "recorded_text": "حِصَان",
+  "seconds": 0.71,
+  "source": "080.mp3",
   "text": "حِصَان",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ha/form-isolated": {
   "rate": "-10%",
@@ -2979,11 +2981,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/hisan": {
-  "rate": "-10%",
-  "seconds": 0.63,
+  "number": 80,
+  "recorded": true,
+  "recorded_text": "حِصَان",
+  "seconds": 0.71,
+  "source": "080.mp3",
   "text": "حِصَان",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/hut": {
   "number": 42,

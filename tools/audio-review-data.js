@@ -795,10 +795,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ha/form-initial": {
 "spoken": "حِصَان",
-"rate": "-10%",
-"seconds": 0.63,
+"rate": null,
+"seconds": 0.71,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ha/form-isolated": {
 "spoken": "تُفَّاح",
@@ -2895,10 +2895,10 @@ window.AUDIO_REVIEW = {
 },
 "words/hisan": {
 "spoken": "حِصَان",
-"rate": "-10%",
-"seconds": 0.63,
+"rate": null,
+"seconds": 0.71,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/hut": {
 "spoken": "حُوت",
