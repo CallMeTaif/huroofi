@@ -2210,11 +2210,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/taa/form-final": {
-  "rate": "-10%",
-  "seconds": 0.25,
+  "number": 229,
+  "recorded": true,
+  "recorded_text": "قِطّ",
+  "seconds": 0.51,
+  "source": "229.mp3",
   "text": "قِطّ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/taa/form-initial": {
   "number": 226,
@@ -3495,11 +3497,13 @@
   "unchanged": true
  },
  "words/qitt": {
-  "rate": "-10%",
-  "seconds": 0.25,
+  "number": 229,
+  "recorded": true,
+  "recorded_text": "قِطّ",
+  "seconds": 0.51,
+  "source": "229.mp3",
   "text": "قِطّ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/qitta": {
   "rate": "-10%",

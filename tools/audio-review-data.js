@@ -2048,10 +2048,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/taa/form-final": {
 "spoken": "قِطّ",
-"rate": "-10%",
-"seconds": 0.25,
+"rate": null,
+"seconds": 0.51,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/taa/form-initial": {
 "spoken": "طَائِرَة",
@@ -3189,10 +3189,10 @@ window.AUDIO_REVIEW = {
 },
 "words/qitt": {
 "spoken": "قِطّ",
-"rate": "-10%",
-"seconds": 0.25,
+"rate": null,
+"seconds": 0.51,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/qitta": {
 "spoken": "قِطَّة",
