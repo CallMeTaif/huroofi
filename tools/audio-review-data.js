@@ -2139,10 +2139,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/tha/form-final": {
 "spoken": "مُثَلَّث",
-"rate": "-10%",
-"seconds": 0.53,
+"rate": null,
+"seconds": 0.9,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/tha/form-initial": {
 "spoken": "ثَعْلَب",
@@ -3105,10 +3105,10 @@ window.AUDIO_REVIEW = {
 },
 "words/muthallath": {
 "spoken": "مُثَلَّث",
-"rate": "-10%",
-"seconds": 0.53,
+"rate": null,
+"seconds": 0.9,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/nafidha": {
 "spoken": "نَافِذَة",

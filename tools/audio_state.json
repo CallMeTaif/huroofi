@@ -2181,11 +2181,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/tha/form-final": {
-  "rate": "-10%",
-  "seconds": 0.53,
+  "number": 56,
+  "recorded": true,
+  "recorded_text": "مُثَلَّث",
+  "seconds": 0.9,
+  "source": "056.mp3",
   "text": "مُثَلَّث",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/tha/form-initial": {
   "number": 52,
@@ -3183,11 +3185,13 @@
   "unchanged": true
  },
  "words/muthallath": {
-  "rate": "-10%",
-  "seconds": 0.53,
+  "number": 56,
+  "recorded": true,
+  "recorded_text": "مُثَلَّث",
+  "seconds": 0.9,
+  "source": "056.mp3",
   "text": "مُثَلَّث",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/nafidha": {
   "rate": "-10%",
