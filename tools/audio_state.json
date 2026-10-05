@@ -506,11 +506,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dhaa/name": {
-  "rate": "-10%",
-  "seconds": 0.34,
+  "number": 232,
+  "recorded": true,
+  "recorded_text": "ظَاء",
+  "seconds": 0.65,
+  "source": "232.mp3",
   "text": "ظَاء",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dhaa/v1": {
   "rate": "-10%",
