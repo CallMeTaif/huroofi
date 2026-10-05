@@ -2883,11 +2883,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/dhib": {
-  "rate": "-10%",
-  "seconds": 0.37,
+  "number": 125,
+  "recorded": true,
+  "recorded_text": "ذِئْب",
+  "seconds": 0.55,
+  "source": "125.mp3",
   "text": "ذِئْب",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/dhura": {
   "number": 124,

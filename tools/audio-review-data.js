@@ -2755,10 +2755,10 @@ window.AUDIO_REVIEW = {
 },
 "words/dhib": {
 "spoken": "ذِئْب",
-"rate": "-10%",
-"seconds": 0.37,
+"rate": null,
+"seconds": 0.55,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/dhura": {
 "spoken": "ذُرَة",
