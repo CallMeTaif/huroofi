@@ -211,11 +211,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ba/name": {
-  "rate": "-10%",
-  "seconds": 0.38,
+  "number": 16,
+  "recorded": true,
+  "recorded_text": "بَاء",
+  "seconds": 0.54,
+  "source": "016.mp3",
   "text": "بَاء",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ba/v1": {
   "rate": "-10%",

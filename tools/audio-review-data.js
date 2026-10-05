@@ -207,10 +207,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ba/name": {
 "spoken": "بَاء",
-"rate": "-10%",
-"seconds": 0.38,
+"rate": null,
+"seconds": 0.54,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ba/v1": {
 "spoken": "بَ.",
