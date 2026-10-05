@@ -970,10 +970,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/jim/form-final": {
 "spoken": "ثَلْج",
-"rate": "-10%",
-"seconds": 0.39,
+"rate": null,
+"seconds": 0.72,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/jim/form-initial": {
 "spoken": "جَمَل",
@@ -3357,10 +3357,10 @@ window.AUDIO_REVIEW = {
 },
 "words/thalj": {
 "spoken": "ثَلْج",
-"rate": "-10%",
-"seconds": 0.39,
+"rate": null,
+"seconds": 0.72,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/tilmidh": {
 "spoken": "تِلْمِيذ",

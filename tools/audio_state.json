@@ -990,11 +990,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/jim/form-final": {
-  "rate": "-10%",
-  "seconds": 0.39,
+  "number": 53,
+  "recorded": true,
+  "recorded_text": "ثَلْج",
+  "seconds": 0.72,
+  "source": "053.mp3",
   "text": "ثَلْج",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/jim/form-initial": {
   "rate": "-10%",
@@ -3431,11 +3433,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/thalj": {
-  "rate": "-10%",
-  "seconds": 0.39,
+  "number": 53,
+  "recorded": true,
+  "recorded_text": "ثَلْج",
+  "seconds": 0.72,
+  "source": "053.mp3",
   "text": "ثَلْج",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/tilmidh": {
   "rate": "-10%",
