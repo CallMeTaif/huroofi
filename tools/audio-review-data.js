@@ -2153,10 +2153,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/tha/form-isolated": {
 "spoken": "ثَلَاث",
-"rate": "-10%",
-"seconds": 0.35,
+"rate": null,
+"seconds": 0.67,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/tha/form-medial": {
 "spoken": "كُمَّثْرَى",
@@ -3350,10 +3350,10 @@ window.AUDIO_REVIEW = {
 },
 "words/thalath": {
 "spoken": "ثَلَاث",
-"rate": "-10%",
-"seconds": 0.35,
+"rate": null,
+"seconds": 0.67,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/thalj": {
 "spoken": "ثَلْج",
