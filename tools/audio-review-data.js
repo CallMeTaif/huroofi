@@ -809,10 +809,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ha/form-medial": {
 "spoken": "نَحْلَة",
-"rate": "-10%",
-"seconds": 0.58,
+"rate": null,
+"seconds": 0.71,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ha/name": {
 "spoken": "حَاء",
@@ -1432,10 +1432,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/nun/form-initial": {
 "spoken": "نَحْلَة",
-"rate": "-10%",
-"seconds": 0.58,
+"rate": null,
+"seconds": 0.71,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/nun/form-isolated": {
 "spoken": "بَالُون",
@@ -3119,10 +3119,10 @@ window.AUDIO_REVIEW = {
 },
 "words/nahla": {
 "spoken": "نَحْلَة",
-"rate": "-10%",
-"seconds": 0.58,
+"rate": null,
+"seconds": 0.71,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/nahr": {
 "spoken": "نَهْر",

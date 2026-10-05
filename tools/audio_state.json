@@ -831,11 +831,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ha/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.58,
+  "number": 82,
+  "recorded": true,
+  "recorded_text": "نَحْلَة",
+  "seconds": 0.71,
+  "source": "082.mp3",
   "text": "نَحْلَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ha/name": {
   "number": 72,
@@ -1470,11 +1472,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/nun/form-initial": {
-  "rate": "-10%",
-  "seconds": 0.58,
+  "number": 82,
+  "recorded": true,
+  "recorded_text": "نَحْلَة",
+  "seconds": 0.71,
+  "source": "082.mp3",
   "text": "نَحْلَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/nun/form-isolated": {
   "rate": "-10%",
@@ -3227,11 +3231,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/nahla": {
-  "rate": "-10%",
-  "seconds": 0.58,
+  "number": 82,
+  "recorded": true,
+  "recorded_text": "نَحْلَة",
+  "seconds": 0.71,
+  "source": "082.mp3",
   "text": "نَحْلَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/nahr": {
   "rate": "-10%",
