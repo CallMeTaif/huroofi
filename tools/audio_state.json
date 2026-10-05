@@ -3486,11 +3486,13 @@
   "unchanged": true
  },
  "words/qitar": {
-  "rate": "-10%",
-  "seconds": 0.59,
+  "number": 228,
+  "recorded": true,
+  "recorded_text": "قِطَار",
+  "seconds": 0.68,
+  "source": "228.mp3",
   "text": "قِطَار",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/qitt": {
   "rate": "-10%",

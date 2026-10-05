@@ -3182,10 +3182,10 @@ window.AUDIO_REVIEW = {
 },
 "words/qitar": {
 "spoken": "قِطَار",
-"rate": "-10%",
-"seconds": 0.59,
+"rate": null,
+"seconds": 0.68,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/qitt": {
 "spoken": "قِطّ",
