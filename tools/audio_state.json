@@ -2756,11 +2756,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/bahr": {
-  "rate": "-10%",
-  "seconds": 0.59,
+  "number": 83,
+  "recorded": true,
+  "recorded_text": "بَحْر",
+  "seconds": 0.63,
+  "source": "083.mp3",
   "text": "بَحْر",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/balun": {
   "rate": "-10%",

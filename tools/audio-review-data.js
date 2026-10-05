@@ -2678,10 +2678,10 @@ window.AUDIO_REVIEW = {
 },
 "words/bahr": {
 "spoken": "بَحْر",
-"rate": "-10%",
-"seconds": 0.59,
+"rate": null,
+"seconds": 0.63,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/balun": {
 "spoken": "بَالُون",
