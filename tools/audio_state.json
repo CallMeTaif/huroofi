@@ -2964,11 +2964,13 @@
   "unchanged": true
  },
  "words/farasha": {
-  "rate": "-10%",
-  "seconds": 0.54,
+  "number": 141,
+  "recorded": true,
+  "recorded_text": "فَرَاشَة",
+  "seconds": 0.88,
+  "source": "141.mp3",
   "text": "فَرَاشَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/fawakih": {
   "rate": "-10%",
