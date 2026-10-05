@@ -3434,10 +3434,10 @@ window.AUDIO_REVIEW = {
 },
 "words/zaby": {
 "spoken": "ظَبْي",
-"rate": "-10%",
-"seconds": 0.53,
+"rate": null,
+"seconds": 0.57,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/zahra": {
 "spoken": "زَهْرَة",

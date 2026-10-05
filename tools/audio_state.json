@@ -3798,11 +3798,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/zaby": {
-  "rate": "-10%",
-  "seconds": 0.53,
+  "number": 241,
+  "recorded": true,
+  "recorded_text": "ظَبْي",
+  "seconds": 0.57,
+  "source": "241.mp3",
   "text": "ظَبْي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/zahra": {
   "number": 154,
