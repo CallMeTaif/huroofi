@@ -386,11 +386,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dal/form-isolated": {
-  "rate": "-10%",
-  "seconds": 0.29,
+  "number": 111,
+  "recorded": true,
+  "recorded_text": "دُبّ",
+  "seconds": 0.61,
+  "source": "111.mp3",
   "text": "دُبّ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dal/name": {
   "number": 103,
@@ -2902,11 +2904,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/dubb": {
-  "rate": "-10%",
-  "seconds": 0.29,
+  "number": 111,
+  "recorded": true,
+  "recorded_text": "دُبّ",
+  "seconds": 0.61,
+  "source": "111.mp3",
   "text": "دُبّ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/fam": {
   "rate": "-10%",

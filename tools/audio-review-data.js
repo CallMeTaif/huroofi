@@ -368,10 +368,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dal/form-isolated": {
 "spoken": "دُبّ",
-"rate": "-10%",
-"seconds": 0.29,
+"rate": null,
+"seconds": 0.61,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dal/name": {
 "spoken": "دَال",
@@ -2790,10 +2790,10 @@ window.AUDIO_REVIEW = {
 },
 "words/dubb": {
 "spoken": "دُبّ",
-"rate": "-10%",
-"seconds": 0.29,
+"rate": null,
+"seconds": 0.61,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/fam": {
 "spoken": "فَم",
