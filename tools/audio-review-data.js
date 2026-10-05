@@ -3441,10 +3441,10 @@ window.AUDIO_REVIEW = {
 },
 "words/zahra": {
 "spoken": "زَهْرَة",
-"rate": "-10%",
-"seconds": 0.59,
+"rate": null,
+"seconds": 0.64,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/zarafa": {
 "spoken": "زَرَافَة",

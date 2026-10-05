@@ -3673,11 +3673,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/zahra": {
-  "rate": "-10%",
-  "seconds": 0.59,
+  "number": 154,
+  "recorded": true,
+  "recorded_text": "زَهْرَة",
+  "seconds": 0.64,
+  "source": "154.mp3",
   "text": "زَهْرَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/zarafa": {
   "number": 153,
