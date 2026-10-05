@@ -206,11 +206,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ba/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.38,
+  "number": 26,
+  "recorded": true,
+  "recorded_text": "حَبْل",
+  "seconds": 0.7,
+  "source": "026.mp3",
   "text": "حَبْل",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ba/name": {
   "number": 16,
@@ -2886,11 +2888,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/habl": {
-  "rate": "-10%",
-  "seconds": 0.38,
+  "number": 26,
+  "recorded": true,
+  "recorded_text": "حَبْل",
+  "seconds": 0.7,
+  "source": "026.mp3",
   "text": "حَبْل",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/hadiyya": {
   "rate": "-10%",

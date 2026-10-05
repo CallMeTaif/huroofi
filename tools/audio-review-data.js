@@ -200,10 +200,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ba/form-medial": {
 "spoken": "حَبْل",
-"rate": "-10%",
-"seconds": 0.38,
+"rate": null,
+"seconds": 0.7,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ba/name": {
 "spoken": "بَاء",
@@ -2860,10 +2860,10 @@ window.AUDIO_REVIEW = {
 },
 "words/habl": {
 "spoken": "حَبْل",
-"rate": "-10%",
-"seconds": 0.38,
+"rate": null,
+"seconds": 0.7,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/hadiyya": {
 "spoken": "هَدِيَّة",
