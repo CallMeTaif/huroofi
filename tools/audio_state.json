@@ -2804,11 +2804,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/dajaja": {
-  "rate": "-10%",
-  "seconds": 0.67,
+  "number": 69,
+  "recorded": true,
+  "recorded_text": "دَجَاجَة",
+  "seconds": 0.78,
+  "source": "069.mp3",
   "text": "دَجَاجَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/dalw": {
   "rate": "-10%",

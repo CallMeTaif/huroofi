@@ -2734,10 +2734,10 @@ window.AUDIO_REVIEW = {
 },
 "words/dajaja": {
 "spoken": "دَجَاجَة",
-"rate": "-10%",
-"seconds": 0.67,
+"rate": null,
+"seconds": 0.78,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/dalw": {
 "spoken": "دَلْو",
