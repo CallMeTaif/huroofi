@@ -1796,10 +1796,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/shin/form-medial": {
 "spoken": "مُشْط",
-"rate": "-10%",
-"seconds": 0.62,
+"rate": null,
+"seconds": 0.59,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/shin/name": {
 "spoken": "شِين",
@@ -3091,10 +3091,10 @@ window.AUDIO_REVIEW = {
 },
 "words/musht": {
 "spoken": "مُشْط",
-"rate": "-10%",
-"seconds": 0.62,
+"rate": null,
+"seconds": 0.59,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/muthallajat": {
 "spoken": "مُثَلَّجَات",

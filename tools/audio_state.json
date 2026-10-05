@@ -1898,11 +1898,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/shin/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.62,
+  "number": 182,
+  "recorded": true,
+  "recorded_text": "مُشْط",
+  "seconds": 0.59,
+  "source": "182.mp3",
   "text": "مُشْط",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/shin/name": {
   "number": 173,
@@ -3319,11 +3321,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/musht": {
-  "rate": "-10%",
-  "seconds": 0.62,
+  "number": 182,
+  "recorded": true,
+  "recorded_text": "مُشْط",
+  "seconds": 0.59,
+  "source": "182.mp3",
   "text": "مُشْط",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/muthallajat": {
   "number": 55,
