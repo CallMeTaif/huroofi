@@ -290,11 +290,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dad/form-final": {
-  "rate": "-10%",
-  "seconds": 0.52,
+  "number": 215,
+  "recorded": true,
+  "recorded_text": "بَيْض",
+  "seconds": 0.67,
+  "source": "215.mp3",
   "text": "بَيْض",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dad/form-initial": {
   "number": 211,
@@ -2911,11 +2913,13 @@
   "unchanged": true
  },
  "words/bayd": {
-  "rate": "-10%",
-  "seconds": 0.52,
+  "number": 215,
+  "recorded": true,
+  "recorded_text": "بَيْض",
+  "seconds": 0.67,
+  "source": "215.mp3",
   "text": "بَيْض",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/bayt": {
   "number": 25,

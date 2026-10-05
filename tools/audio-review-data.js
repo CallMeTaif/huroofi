@@ -270,10 +270,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dad/form-final": {
 "spoken": "بَيْض",
-"rate": "-10%",
-"seconds": 0.52,
+"rate": null,
+"seconds": 0.67,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dad/form-initial": {
 "spoken": "ضِفْدَع",
@@ -2713,10 +2713,10 @@ window.AUDIO_REVIEW = {
 },
 "words/bayd": {
 "spoken": "بَيْض",
-"rate": "-10%",
-"seconds": 0.52,
+"rate": null,
+"seconds": 0.67,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/bayt": {
 "spoken": "بَيْت",
