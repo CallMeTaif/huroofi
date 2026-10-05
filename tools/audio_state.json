@@ -3343,11 +3343,13 @@
   "unchanged": true
  },
  "words/namir": {
-  "rate": "-10%",
-  "seconds": 0.52,
+  "number": 143,
+  "recorded": true,
+  "recorded_text": "نَمِر",
+  "seconds": 0.57,
+  "source": "143.mp3",
   "text": "نَمِر",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/nazzara": {
   "rate": "-10%",

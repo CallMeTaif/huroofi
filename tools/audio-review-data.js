@@ -3147,10 +3147,10 @@ window.AUDIO_REVIEW = {
 },
 "words/namir": {
 "spoken": "نَمِر",
-"rate": "-10%",
-"seconds": 0.52,
+"rate": null,
+"seconds": 0.57,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/nazzara": {
 "spoken": "نَظَّارَة",
