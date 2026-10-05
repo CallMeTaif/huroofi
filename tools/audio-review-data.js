@@ -2167,10 +2167,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/tha/name": {
 "spoken": "ثَاء",
-"rate": "-10%",
-"seconds": 0.19,
-"flag": true,
-"recorded": false
+"rate": null,
+"seconds": 0.68,
+"flag": false,
+"recorded": true
 },
 "letters/tha/v1": {
 "spoken": "ثَ.",

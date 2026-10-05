@@ -2207,11 +2207,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/tha/name": {
-  "rate": "-10%",
-  "seconds": 0.19,
+  "number": 44,
+  "recorded": true,
+  "recorded_text": "ثَاء",
+  "seconds": 0.68,
+  "source": "044.mp3",
   "text": "ثَاء",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/tha/v1": {
   "rate": "-10%",
