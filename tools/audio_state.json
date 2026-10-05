@@ -2217,11 +2217,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/taa/form-initial": {
-  "rate": "-10%",
-  "seconds": 0.56,
+  "number": 226,
+  "recorded": true,
+  "recorded_text": "طَائِرَة",
+  "seconds": 0.7,
+  "source": "226.mp3",
   "text": "طَائِرَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/taa/form-isolated": {
   "rate": "-10%",
@@ -3644,11 +3646,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/taira": {
-  "rate": "-10%",
-  "seconds": 0.56,
+  "number": 226,
+  "recorded": true,
+  "recorded_text": "طَائِرَة",
+  "seconds": 0.7,
+  "source": "226.mp3",
   "text": "طَائِرَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/taj": {
   "number": 40,
