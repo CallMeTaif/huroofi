@@ -38,3 +38,15 @@ items.forEach((it, i) => {
 });
 fs.writeFileSync(path.join(ROOT, "tools/recording_numbers.json"), JSON.stringify(numbers, null, 1));
 console.log(`docs/RECORDING_LIST.md: ${n} texts, ${files} sound files`);
+
+// Plain-text copy of the same list (easy to copy into WhatsApp or a document; same numbers as the PDF/Markdown).
+let txt = "حروفي — النصوص المطلوب تسجيلها (" + ar(items.length) + " نصًا)\n";
+txt += "سمّي كل تسجيل برقمه، مثل 012. في السكون قولي ما بعد «قولي:».\n";
+let head = null;
+items.forEach((it, i) => {
+  const h = it.letter ? "حرف " + it.letter.label + " — " + it.letter.name : "العبارات";
+  if (h !== head) { head = h; txt += "\n===== " + h + " =====\n"; }
+  txt += String(i + 1).padStart(3, "0") + "  " + it.text + (it.say ? "   — قولي: " + it.say : "") + "   (" + it.hint + ")\n";
+});
+fs.writeFileSync(path.join(ROOT, "docs/RECORDING_LIST.txt"), txt);
+console.log("docs/RECORDING_LIST.txt written");
