@@ -7,11 +7,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ain/form-final": {
-  "rate": "-10%",
-  "seconds": 0.56,
+  "number": 257,
+  "recorded": true,
+  "recorded_text": "إِصْبَع",
+  "seconds": 0.64,
+  "source": "257.mp3",
   "text": "إِصْبَع",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ain/form-initial": {
   "number": 29,
@@ -3194,11 +3196,13 @@
   "unchanged": true
  },
  "words/isba": {
-  "rate": "-10%",
-  "seconds": 0.56,
+  "number": 257,
+  "recorded": true,
+  "recorded_text": "إِصْبَع",
+  "seconds": 0.64,
+  "source": "257.mp3",
   "text": "إِصْبَع",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/jamal": {
   "number": 67,
