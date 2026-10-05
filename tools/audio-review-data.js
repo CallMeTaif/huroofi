@@ -2839,10 +2839,10 @@ window.AUDIO_REVIEW = {
 },
 "words/fustan": {
 "spoken": "فُسْتَان",
-"rate": "-10%",
-"seconds": 0.61,
+"rate": null,
+"seconds": 0.89,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/ghayma": {
 "spoken": "غَيْمَة",
