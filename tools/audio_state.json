@@ -1684,11 +1684,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ra/desc": {
-  "rate": "-15%",
-  "seconds": 9.12,
+  "number": 144,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الرَّاءِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: رَ، رِيشَة.",
+  "seconds": 7.86,
+  "source": "144.mp3",
   "text": "حَرْفُ الرَّاءِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: رَ، رِيشَة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ra/form-final": {
   "number": 142,

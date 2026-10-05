@@ -1600,10 +1600,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ra/desc": {
 "spoken": "حَرْفُ الرَّاءِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: رَ، رِيشَة.",
-"rate": "-15%",
-"seconds": 9.12,
+"rate": null,
+"seconds": 7.86,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ra/form-final": {
 "spoken": "قَمَر",
