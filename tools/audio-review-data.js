@@ -2041,10 +2041,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/taa/desc": {
 "spoken": "حَرْفُ الطَّاءِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: طَ، طَائِرَة.",
-"rate": "-15%",
-"seconds": 8.95,
+"rate": null,
+"seconds": 7.62,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/taa/form-final": {
 "spoken": "قِطّ",

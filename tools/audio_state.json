@@ -2203,11 +2203,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/taa/desc": {
-  "rate": "-15%",
-  "seconds": 8.95,
+  "number": 231,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الطَّاءِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: طَ، طَائِرَة.",
+  "seconds": 7.62,
+  "source": "231.mp3",
   "text": "حَرْفُ الطَّاءِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: طَ، طَائِرَة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/taa/form-final": {
   "number": 229,
