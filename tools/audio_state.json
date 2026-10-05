@@ -1226,11 +1226,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/kha/name": {
-  "rate": "-10%",
-  "seconds": 0.2,
+  "number": 88,
+  "recorded": true,
+  "recorded_text": "خَاء",
+  "seconds": 0.64,
+  "source": "088.mp3",
   "text": "خَاء",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kha/v1": {
   "rate": "-10%",

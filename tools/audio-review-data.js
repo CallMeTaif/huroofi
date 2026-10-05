@@ -1180,10 +1180,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kha/name": {
 "spoken": "خَاء",
-"rate": "-10%",
-"seconds": 0.2,
+"rate": null,
+"seconds": 0.64,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kha/v1": {
 "spoken": "خَ.",
