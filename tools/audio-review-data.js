@@ -445,10 +445,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dhaa/form-initial": {
 "spoken": "ظَرْف",
-"rate": "-10%",
-"seconds": 0.32,
+"rate": null,
+"seconds": 0.67,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dhaa/form-isolated": {
 "spoken": "مَحْفُوظ",
@@ -3455,10 +3455,10 @@ window.AUDIO_REVIEW = {
 },
 "words/zarf": {
 "spoken": "ظَرْف",
-"rate": "-10%",
-"seconds": 0.32,
+"rate": null,
+"seconds": 0.67,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/zubda": {
 "spoken": "زُبْدَة",
