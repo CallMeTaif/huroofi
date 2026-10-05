@@ -3325,11 +3325,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/miqass": {
-  "rate": "-10%",
-  "seconds": 0.67,
+  "number": 200,
+  "recorded": true,
+  "recorded_text": "مِقَصّ",
+  "seconds": 0.73,
+  "source": "200.mp3",
   "text": "مِقَصّ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/mizalla": {
   "rate": "-10%",
