@@ -452,10 +452,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dhaa/form-isolated": {
 "spoken": "مَحْفُوظ",
-"rate": "-10%",
-"seconds": 0.77,
+"rate": null,
+"seconds": 0.8,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dhaa/form-medial": {
 "spoken": "نَظَّارَة",
