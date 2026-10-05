@@ -372,11 +372,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dal/desc": {
-  "rate": "-15%",
-  "seconds": 8.7,
+  "number": 115,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الدَّالِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: دَ، دُبّ.",
+  "seconds": 8.0,
+  "source": "115.mp3",
   "text": "حَرْفُ الدَّالِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: دَ، دُبّ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dal/form-final": {
   "number": 114,

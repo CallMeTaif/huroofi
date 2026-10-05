@@ -354,10 +354,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dal/desc": {
 "spoken": "حَرْفُ الدَّالِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: دَ، دُبّ.",
-"rate": "-15%",
-"seconds": 8.7,
+"rate": null,
+"seconds": 8.0,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dal/form-final": {
 "spoken": "يَد",
