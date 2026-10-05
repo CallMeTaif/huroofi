@@ -2076,10 +2076,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/taa/name": {
 "spoken": "طَاء",
-"rate": "-10%",
-"seconds": 0.22,
+"rate": null,
+"seconds": 0.61,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/taa/v1": {
 "spoken": "طَ.",

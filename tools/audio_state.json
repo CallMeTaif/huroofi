@@ -2240,11 +2240,13 @@
   "unchanged": true
  },
  "letters/taa/name": {
-  "rate": "-10%",
-  "seconds": 0.22,
+  "number": 218,
+  "recorded": true,
+  "recorded_text": "طَاء",
+  "seconds": 0.61,
+  "source": "218.mp3",
   "text": "طَاء",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/taa/v1": {
   "rate": "-10%",
