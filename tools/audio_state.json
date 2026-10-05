@@ -1812,11 +1812,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/sad/name": {
-  "rate": "-10%",
-  "seconds": 0.29,
+  "number": 187,
+  "recorded": true,
+  "recorded_text": "صَاد",
+  "seconds": 0.74,
+  "source": "187.mp3",
   "text": "صَاد",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/sad/v1": {
   "rate": "-10%",

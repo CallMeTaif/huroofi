@@ -1712,10 +1712,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/sad/name": {
 "spoken": "صَاد",
-"rate": "-10%",
-"seconds": 0.29,
+"rate": null,
+"seconds": 0.74,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sad/v1": {
 "spoken": "صَ.",
