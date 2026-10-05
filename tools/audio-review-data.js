@@ -431,10 +431,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dhaa/desc": {
 "spoken": "حَرْفُ الظَّاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ظَ، ظَرْف.",
-"rate": "-15%",
-"seconds": 9.45,
+"rate": null,
+"seconds": 8.88,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dhaa/form-final": {
 "spoken": "حَظّ",

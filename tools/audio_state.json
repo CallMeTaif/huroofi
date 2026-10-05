@@ -471,11 +471,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dhaa/desc": {
-  "rate": "-15%",
-  "seconds": 9.45,
+  "number": 246,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الظَّاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ظَ، ظَرْف.",
+  "seconds": 8.88,
+  "source": "246.mp3",
   "text": "حَرْفُ الظَّاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ظَ، ظَرْف.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dhaa/form-final": {
   "number": 245,
