@@ -569,11 +569,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dhal/name": {
-  "rate": "-10%",
-  "seconds": 0.61,
+  "number": 116,
+  "recorded": true,
+  "recorded_text": "ذَال",
+  "seconds": 0.68,
+  "source": "116.mp3",
   "text": "ذَال",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dhal/v1": {
   "rate": "-10%",
