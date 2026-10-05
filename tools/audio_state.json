@@ -1223,11 +1223,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/kha/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.55,
+  "number": 98,
+  "recorded": true,
+  "recorded_text": "نَخْلَة",
+  "seconds": 0.68,
+  "source": "098.mp3",
   "text": "نَخْلَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kha/name": {
   "number": 88,
@@ -3278,11 +3280,13 @@
   "unchanged": true
  },
  "words/nakhla": {
-  "rate": "-10%",
-  "seconds": 0.55,
+  "number": 98,
+  "recorded": true,
+  "recorded_text": "نَخْلَة",
+  "seconds": 0.68,
+  "source": "098.mp3",
   "text": "نَخْلَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/namir": {
   "rate": "-10%",

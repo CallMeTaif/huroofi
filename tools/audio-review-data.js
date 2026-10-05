@@ -1173,10 +1173,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kha/form-medial": {
 "spoken": "نَخْلَة",
-"rate": "-10%",
-"seconds": 0.55,
+"rate": null,
+"seconds": 0.68,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kha/name": {
 "spoken": "خَاء",
@@ -3140,10 +3140,10 @@ window.AUDIO_REVIEW = {
 },
 "words/nakhla": {
 "spoken": "نَخْلَة",
-"rate": "-10%",
-"seconds": 0.55,
+"rate": null,
+"seconds": 0.68,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/namir": {
 "spoken": "نَمِر",
