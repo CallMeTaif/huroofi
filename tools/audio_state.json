@@ -105,11 +105,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/alif/form-isolated": {
-  "rate": "-10%",
-  "seconds": 0.55,
+  "number": 9,
+  "recorded": true,
+  "recorded_text": "أَرْنَب",
+  "seconds": 0.64,
+  "source": "009.mp3",
   "text": "أَرْنَب",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/alif/name": {
   "number": 1,
@@ -2634,11 +2636,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/arnab": {
-  "rate": "-10%",
-  "seconds": 0.55,
+  "number": 9,
+  "recorded": true,
+  "recorded_text": "أَرْنَب",
+  "seconds": 0.64,
+  "source": "009.mp3",
   "text": "أَرْنَب",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/asad": {
   "rate": "-10%",

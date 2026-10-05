@@ -109,10 +109,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/alif/form-isolated": {
 "spoken": "أَرْنَب",
-"rate": "-10%",
-"seconds": 0.55,
+"rate": null,
+"seconds": 0.64,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/alif/name": {
 "spoken": "أَلِف",
@@ -2636,10 +2636,10 @@ window.AUDIO_REVIEW = {
 },
 "words/arnab": {
 "spoken": "أَرْنَب",
-"rate": "-10%",
-"seconds": 0.55,
+"rate": null,
+"seconds": 0.64,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/asad": {
 "spoken": "أَسَد",
