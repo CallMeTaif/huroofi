@@ -308,11 +308,13 @@
   "unchanged": true
  },
  "letters/dad/form-isolated": {
-  "rate": "-10%",
-  "seconds": 0.4,
+  "number": 216,
+  "recorded": true,
+  "recorded_text": "أَرْض",
+  "seconds": 0.51,
+  "source": "216.mp3",
   "text": "أَرْض",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dad/form-medial": {
   "number": 213,
@@ -2815,11 +2817,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/ard": {
-  "rate": "-10%",
-  "seconds": 0.4,
+  "number": 216,
+  "recorded": true,
+  "recorded_text": "أَرْض",
+  "seconds": 0.51,
+  "source": "216.mp3",
   "text": "أَرْض",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/arnab": {
   "number": 9,

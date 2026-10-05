@@ -284,10 +284,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dad/form-isolated": {
 "spoken": "أَرْض",
-"rate": "-10%",
-"seconds": 0.4,
+"rate": null,
+"seconds": 0.51,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dad/form-medial": {
 "spoken": "خُضَار",
@@ -2629,10 +2629,10 @@ window.AUDIO_REVIEW = {
 },
 "words/ard": {
 "spoken": "أَرْض",
-"rate": "-10%",
-"seconds": 0.4,
+"rate": null,
+"seconds": 0.51,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/arnab": {
 "spoken": "أَرْنَب",
