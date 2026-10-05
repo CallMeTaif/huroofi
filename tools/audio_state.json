@@ -3032,11 +3032,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/hidha": {
-  "rate": "-10%",
-  "seconds": 0.52,
+  "number": 126,
+  "recorded": true,
+  "recorded_text": "حِذَاء",
+  "seconds": 0.69,
+  "source": "126.mp3",
   "text": "حِذَاء",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/hisan": {
   "number": 80,

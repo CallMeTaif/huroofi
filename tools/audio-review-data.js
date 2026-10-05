@@ -2888,10 +2888,10 @@ window.AUDIO_REVIEW = {
 },
 "words/hidha": {
 "spoken": "حِذَاء",
-"rate": "-10%",
-"seconds": 0.52,
+"rate": null,
+"seconds": 0.69,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/hisan": {
 "spoken": "حِصَان",
