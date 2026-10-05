@@ -2237,10 +2237,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/waw/form-isolated": {
 "spoken": "وَرْدَة",
-"rate": "-10%",
-"seconds": 0.47,
+"rate": null,
+"seconds": 0.64,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/waw/name": {
 "spoken": "وَاو",
@@ -3413,10 +3413,10 @@ window.AUDIO_REVIEW = {
 },
 "words/warda": {
 "spoken": "وَرْدَة",
-"rate": "-10%",
-"seconds": 0.47,
+"rate": null,
+"seconds": 0.64,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/yad": {
 "spoken": "يَد",

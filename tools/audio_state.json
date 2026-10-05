@@ -2331,11 +2331,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/waw/form-isolated": {
-  "rate": "-10%",
-  "seconds": 0.47,
+  "number": 112,
+  "recorded": true,
+  "recorded_text": "وَرْدَة",
+  "seconds": 0.64,
+  "source": "112.mp3",
   "text": "وَرْدَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/waw/name": {
   "rate": "-10%",
@@ -3585,11 +3587,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/warda": {
-  "rate": "-10%",
-  "seconds": 0.47,
+  "number": 112,
+  "recorded": true,
+  "recorded_text": "وَرْدَة",
+  "seconds": 0.64,
+  "source": "112.mp3",
   "text": "وَرْدَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/yad": {
   "rate": "-10%",
