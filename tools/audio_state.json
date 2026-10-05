@@ -1965,11 +1965,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ta/form-final": {
-  "rate": "-10%",
-  "seconds": 0.34,
+  "number": 25,
+  "recorded": true,
+  "recorded_text": "بَيْت",
+  "seconds": 0.68,
+  "source": "025.mp3",
   "text": "بَيْت",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ta/form-initial": {
   "rate": "-10%",
@@ -2740,11 +2742,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/bayt": {
-  "rate": "-10%",
-  "seconds": 0.34,
+  "number": 25,
+  "recorded": true,
+  "recorded_text": "بَيْت",
+  "seconds": 0.68,
+  "source": "025.mp3",
   "text": "بَيْت",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/bittikh": {
   "rate": "-10%",

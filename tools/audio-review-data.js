@@ -1957,10 +1957,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ta/form-final": {
 "spoken": "بَيْت",
-"rate": "-10%",
-"seconds": 0.34,
+"rate": null,
+"seconds": 0.68,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ta/form-initial": {
 "spoken": "تُفَّاحَة",
@@ -2720,10 +2720,10 @@ window.AUDIO_REVIEW = {
 },
 "words/bayt": {
 "spoken": "بَيْت",
-"rate": "-10%",
-"seconds": 0.34,
+"rate": null,
+"seconds": 0.68,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/bittikh": {
 "spoken": "بِطِّيخ",
