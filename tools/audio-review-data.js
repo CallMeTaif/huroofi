@@ -1887,10 +1887,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/sin/form-medial": {
 "spoken": "مَسْجِد",
-"rate": "-10%",
-"seconds": 0.57,
+"rate": null,
+"seconds": 0.8,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sin/name": {
 "spoken": "سِين",
@@ -3028,10 +3028,10 @@ window.AUDIO_REVIEW = {
 },
 "words/masjid": {
 "spoken": "مَسْجِد",
-"rate": "-10%",
-"seconds": 0.57,
+"rate": null,
+"seconds": 0.8,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/mawz": {
 "spoken": "مَوْز",

@@ -1987,11 +1987,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/sin/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.57,
+  "number": 168,
+  "recorded": true,
+  "recorded_text": "مَسْجِد",
+  "seconds": 0.8,
+  "source": "168.mp3",
   "text": "مَسْجِد",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/sin/name": {
   "number": 158,
@@ -3230,11 +3232,13 @@
   "unchanged": true
  },
  "words/masjid": {
-  "rate": "-10%",
-  "seconds": 0.57,
+  "number": 168,
+  "recorded": true,
+  "recorded_text": "مَسْجِد",
+  "seconds": 0.8,
+  "source": "168.mp3",
   "text": "مَسْجِد",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/mawz": {
   "number": 156,
