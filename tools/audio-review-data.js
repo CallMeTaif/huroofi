@@ -620,10 +620,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/fa/form-isolated": {
 "spoken": "خَرُوف",
-"rate": "-10%",
-"seconds": 0.37,
+"rate": null,
+"seconds": 0.73,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/fa/form-medial": {
 "spoken": "تُفَّاحَة",
@@ -1159,10 +1159,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kha/form-initial": {
 "spoken": "خَرُوف",
-"rate": "-10%",
-"seconds": 0.37,
+"rate": null,
+"seconds": 0.73,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kha/form-isolated": {
 "spoken": "خَوْخ",
@@ -2951,10 +2951,10 @@ window.AUDIO_REVIEW = {
 },
 "words/kharuf": {
 "spoken": "خَرُوف",
-"rate": "-10%",
-"seconds": 0.37,
+"rate": null,
+"seconds": 0.73,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/khawkh": {
 "spoken": "خَوْخ",
