@@ -3306,11 +3306,13 @@
   "unchanged": true
  },
  "words/midrab": {
-  "rate": "-10%",
-  "seconds": 0.64,
+  "number": 214,
+  "recorded": true,
+  "recorded_text": "مِضْرَب",
+  "seconds": 0.67,
+  "source": "214.mp3",
   "text": "مِضْرَب",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/miftah": {
   "number": 85,
