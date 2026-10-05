@@ -3161,11 +3161,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/miftah": {
-  "rate": "-10%",
-  "seconds": 0.73,
+  "number": 85,
+  "recorded": true,
+  "recorded_text": "مِفْتَاح",
+  "seconds": 0.99,
+  "source": "085.mp3",
   "text": "مِفْتَاح",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/mighnatis": {
   "rate": "-10%",
