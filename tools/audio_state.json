@@ -3380,11 +3380,13 @@
   "unchanged": true
  },
  "words/mizalla": {
-  "rate": "-10%",
-  "seconds": 0.58,
+  "number": 243,
+  "recorded": true,
+  "recorded_text": "مِظَلَّة",
+  "seconds": 0.61,
+  "source": "243.mp3",
   "text": "مِظَلَّة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/musht": {
   "number": 182,

@@ -3084,10 +3084,10 @@ window.AUDIO_REVIEW = {
 },
 "words/mizalla": {
 "spoken": "مِظَلَّة",
-"rate": "-10%",
-"seconds": 0.58,
+"rate": null,
+"seconds": 0.61,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/musht": {
 "spoken": "مُشْط",
