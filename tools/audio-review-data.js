@@ -2874,10 +2874,10 @@ window.AUDIO_REVIEW = {
 },
 "words/halib": {
 "spoken": "حَلِيب",
-"rate": "-10%",
-"seconds": 0.44,
+"rate": null,
+"seconds": 0.77,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/hatif": {
 "spoken": "هَاتِف",

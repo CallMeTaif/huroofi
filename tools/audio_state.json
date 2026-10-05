@@ -2960,11 +2960,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/halib": {
-  "rate": "-10%",
-  "seconds": 0.44,
+  "number": 81,
+  "recorded": true,
+  "recorded_text": "حَلِيب",
+  "seconds": 0.77,
+  "source": "081.mp3",
   "text": "حَلِيب",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/hatif": {
   "rate": "-10%",
