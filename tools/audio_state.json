@@ -178,11 +178,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ba/desc": {
-  "rate": "-15%",
-  "seconds": 9.69,
+  "number": 30,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الْبَاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ تَحْتَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: بَ، بَطَّة.",
+  "seconds": 9.23,
+  "source": "030.mp3",
   "text": "حَرْفُ الْبَاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ تَحْتَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: بَ، بَطَّة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ba/form-final": {
   "number": 29,

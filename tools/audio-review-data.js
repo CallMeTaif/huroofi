@@ -172,10 +172,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ba/desc": {
 "spoken": "حَرْفُ الْبَاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ تَحْتَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: بَ، بَطَّة.",
-"rate": "-15%",
-"seconds": 9.69,
+"rate": null,
+"seconds": 9.23,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ba/form-final": {
 "spoken": "عِنَب",
