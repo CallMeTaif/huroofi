@@ -2412,10 +2412,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/zay/name": {
 "spoken": "زَاي",
-"rate": "-10%",
-"seconds": 0.44,
+"rate": null,
+"seconds": 0.59,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/zay/v1": {
 "spoken": "زَ.",
