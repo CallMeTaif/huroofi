@@ -1257,10 +1257,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/lam/form-isolated": {
 "spoken": "غَزَال",
-"rate": "-10%",
-"seconds": 0.75,
+"rate": null,
+"seconds": 0.7,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/lam/form-medial": {
 "spoken": "قَلَم",
@@ -1341,10 +1341,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/mim/form-initial": {
 "spoken": "مَوْز",
-"rate": "-10%",
-"seconds": 0.33,
+"rate": null,
+"seconds": 0.75,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/mim/form-isolated": {
 "spoken": "رَسَّام",
@@ -2853,10 +2853,10 @@ window.AUDIO_REVIEW = {
 },
 "words/ghazal": {
 "spoken": "غَزَال",
-"rate": "-10%",
-"seconds": 0.75,
+"rate": null,
+"seconds": 0.7,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/habl": {
 "spoken": "حَبْل",
@@ -3035,10 +3035,10 @@ window.AUDIO_REVIEW = {
 },
 "words/mawz": {
 "spoken": "مَوْز",
-"rate": "-10%",
-"seconds": 0.33,
+"rate": null,
+"seconds": 0.75,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/midrab": {
 "spoken": "مِضْرَب",
