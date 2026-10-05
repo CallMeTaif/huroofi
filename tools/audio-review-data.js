@@ -1152,10 +1152,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kha/form-final": {
 "spoken": "بِطِّيخ",
-"rate": "-10%",
-"seconds": 0.71,
+"rate": null,
+"seconds": 0.9,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kha/form-initial": {
 "spoken": "خَرُوف",
@@ -1166,10 +1166,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kha/form-isolated": {
 "spoken": "خَوْخ",
-"rate": "-10%",
-"seconds": 0.26,
+"rate": null,
+"seconds": 0.64,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kha/form-medial": {
 "spoken": "نَخْلَة",
@@ -2727,10 +2727,10 @@ window.AUDIO_REVIEW = {
 },
 "words/bittikh": {
 "spoken": "بِطِّيخ",
-"rate": "-10%",
-"seconds": 0.71,
+"rate": null,
+"seconds": 0.9,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/dajaja": {
 "spoken": "دَجَاجَة",
@@ -2958,10 +2958,10 @@ window.AUDIO_REVIEW = {
 },
 "words/khawkh": {
 "spoken": "خَوْخ",
-"rate": "-10%",
-"seconds": 0.26,
+"rate": null,
+"seconds": 0.64,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/khubz": {
 "spoken": "خُبْز",

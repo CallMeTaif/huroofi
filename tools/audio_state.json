@@ -1200,11 +1200,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/kha/form-final": {
-  "rate": "-10%",
-  "seconds": 0.71,
+  "number": 100,
+  "recorded": true,
+  "recorded_text": "بِطِّيخ",
+  "seconds": 0.9,
+  "source": "100.mp3",
   "text": "بِطِّيخ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kha/form-initial": {
   "number": 96,
@@ -1216,11 +1218,13 @@
   "unchanged": true
  },
  "letters/kha/form-isolated": {
-  "rate": "-10%",
-  "seconds": 0.26,
+  "number": 101,
+  "recorded": true,
+  "recorded_text": "خَوْخ",
+  "seconds": 0.64,
+  "source": "101.mp3",
   "text": "خَوْخ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kha/form-medial": {
   "number": 98,
@@ -2827,11 +2831,13 @@
   "unchanged": true
  },
  "words/bittikh": {
-  "rate": "-10%",
-  "seconds": 0.71,
+  "number": 100,
+  "recorded": true,
+  "recorded_text": "بِطِّيخ",
+  "seconds": 0.9,
+  "source": "100.mp3",
   "text": "بِطِّيخ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/dajaja": {
   "number": 69,
@@ -3080,11 +3086,13 @@
   "unchanged": true
  },
  "words/khawkh": {
-  "rate": "-10%",
-  "seconds": 0.26,
+  "number": 101,
+  "recorded": true,
+  "recorded_text": "خَوْخ",
+  "seconds": 0.64,
+  "source": "101.mp3",
   "text": "خَوْخ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/khubz": {
   "number": 97,
