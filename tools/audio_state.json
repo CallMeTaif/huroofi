@@ -112,11 +112,12 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/alif/name": {
-  "rate": "-10%",
-  "seconds": 0.31,
-  "text": "أَلِف",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "number": 1,
+  "recorded": true,
+  "recorded_text": "أَلِف",
+  "seconds": 0.61,
+  "source": "001.mp3",
+  "text": "أَلِف"
  },
  "letters/alif/v1": {
   "rate": "-10%",

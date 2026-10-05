@@ -14,6 +14,7 @@ import json, pathlib, shutil, subprocess, sys, tempfile, zipfile
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 import generate_audio as g  # noqa: E402  (reuse the item list, manifest and review-data writers)
+import voice                # noqa: E402  (same trimming and loudness as tools/import_numbered.py)
 
 
 def main():
@@ -35,14 +36,16 @@ def main():
             wav = pathlib.Path(tmp) / "in.wav"
             wav.write_bytes(z.read(e["file"]))
             mp3 = pathlib.Path(tmp) / "out.mp3"
-            # 24 kHz mono, VBR good quality for speech; small files.
-            subprocess.run(["lame", "--quiet", "-m", "m", "--resample", "24", "-V", "5", str(wav), str(mp3)], check=True)
+            samples, problems, info = voice.process(voice.decode(wav))
+            voice.encode(samples, mp3)
+            if problems:
+                print(f"⚠ «{e['text']}»: " + "; ".join(problems))
             for k in keys:
                 dest = ROOT / "audio" / f"{k}.mp3"
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copyfile(mp3, dest)
                 state[k] = {"text": items[k][0], "recorded": True, "recorded_text": e["text"],
-                            "seconds": g.voiced_seconds(dest)}
+                            "seconds": info["spoken"]}
                 added += 1
     g.STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
     g.write_outputs(items, state, "recorded voice + " + g.VOICES[g.VOICE])

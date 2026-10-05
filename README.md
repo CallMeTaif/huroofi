@@ -132,6 +132,7 @@ node tools/recording_list.js      # rebuild docs/RECORDING_LIST.md (numbered tex
 python3 tools/fetch_assets.py     # fonts + OpenMoji pictures (already committed)
 python3 tools/generate_audio.py   # sounds with edge-tts; only new/changed texts are re-made
 python3 tools/generate_audio.py --voice hamed   # switch every sound to the male voice
+python3 tools/import_numbered.py ~/Downloads/recordings/   # install recordings named by list number (001.mp3, 012.m4a …); --check = report only
 python3 tools/import_recordings.py ~/Downloads/huroofi-recordings-N.zip   # install recordings from tools/record.html (needs: brew install lame)
 ```
 Requirements: Node.js, Python 3 with `pip install edge-tts certifi fonttools brotli`. The audio script uses macOS `afconvert` to trim silence and flag doubtful clips; elsewhere it still works but skips those two steps.

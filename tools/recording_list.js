@@ -28,4 +28,13 @@ for (const i of items) {
   md += "| " + String(n).padStart(3, "0") + " | " + i.text + (i.say ? " (قولي: " + i.say + ")" : "") + " | " + i.hint + " |\n";
 }
 fs.writeFileSync(path.join(ROOT, "docs/RECORDING_LIST.md"), md);
+// The numbers in the list, frozen with the exact site text of every sound file (used by tools/import_numbered.py).
+const clips = window.AUDIO_REVIEW.clips, state = JSON.parse(fs.readFileSync(path.join(ROOT, "tools/audio_state.json"), "utf8"));
+const numbers = {};
+items.forEach((it, i) => {
+  const keys = {};
+  it.keys.forEach((k) => { keys[k] = state[k] ? state[k].text : (clips[k] && clips[k].spoken); });
+  numbers[i + 1] = { text: it.text, say: it.say || undefined, keys };
+});
+fs.writeFileSync(path.join(ROOT, "tools/recording_numbers.json"), JSON.stringify(numbers, null, 1));
 console.log(`docs/RECORDING_LIST.md: ${n} texts, ${files} sound files`);

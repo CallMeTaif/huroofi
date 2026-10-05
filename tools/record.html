@@ -138,10 +138,13 @@
           var s = 0; for (var j = i; j < i + fr; j++) { s += d[j] * d[j]; if (Math.abs(d[j]) > peak) peak = Math.abs(d[j]); }
           rms.push(Math.sqrt(s / fr));
         }
-        var maxR = Math.max.apply(null, rms.concat([1e-9])), th = maxR * 0.08, on = [];
+        var maxR = Math.max.apply(null, rms.concat([1e-9])), on = [];
+        // 10 dB above the room noise (at most 40 dB below the voice): keeps soft endings such as ف س ش ث ح
+        var noise = rms.slice().sort(function (x, y) { return x - y; })[Math.floor(rms.length / 10)] || 0;
+        var th = Math.max(noise * 3.2, maxR * 0.01);
         rms.forEach(function (v, k) { if (v > th) on.push(k); });
         if (!on.length || maxR < 0.003) throw new Error("silent");
-        var start = Math.max(0, (on[0] - 8) * fr), end = Math.min(d.length, (on[on.length - 1] + 22) * fr);   // keep 80 ms before, 220 ms after
+        var start = Math.max(0, (on[0] - 8) * fr), end = Math.min(d.length, (on[on.length - 1] + 25) * fr);   // keep 80 ms before, 250 ms after
         var g = peak > 0 ? 0.89 / peak : 1;   // peak at about -1 dB
         var n = end - start, fade = Math.round(RATE * 0.01);
         var wav = new DataView(new ArrayBuffer(44 + n * 2));
