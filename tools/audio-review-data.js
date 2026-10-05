@@ -2398,10 +2398,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/zay/form-final": {
 "spoken": "خُبْز",
-"rate": "-10%",
-"seconds": 0.25,
+"rate": null,
+"seconds": 0.63,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/zay/form-isolated": {
 "spoken": "زَرَافَة",
@@ -2965,10 +2965,10 @@ window.AUDIO_REVIEW = {
 },
 "words/khubz": {
 "spoken": "خُبْز",
-"rate": "-10%",
-"seconds": 0.25,
+"rate": null,
+"seconds": 0.63,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/khudar": {
 "spoken": "خُضَار",

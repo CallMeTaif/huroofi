@@ -2480,11 +2480,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/zay/form-final": {
-  "rate": "-10%",
-  "seconds": 0.25,
+  "number": 97,
+  "recorded": true,
+  "recorded_text": "خُبْز",
+  "seconds": 0.63,
+  "source": "097.mp3",
   "text": "خُبْز",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/zay/form-isolated": {
   "rate": "-10%",
@@ -3083,11 +3085,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/khubz": {
-  "rate": "-10%",
-  "seconds": 0.25,
+  "number": 97,
+  "recorded": true,
+  "recorded_text": "خُبْز",
+  "seconds": 0.63,
+  "source": "097.mp3",
   "text": "خُبْز",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/khudar": {
   "rate": "-10%",
