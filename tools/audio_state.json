@@ -1691,11 +1691,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ra/form-final": {
-  "rate": "-10%",
-  "seconds": 0.43,
+  "number": 142,
+  "recorded": true,
+  "recorded_text": "قَمَر",
+  "seconds": 0.66,
+  "source": "142.mp3",
   "text": "قَمَر",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ra/form-isolated": {
   "number": 139,
@@ -3362,11 +3364,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/qamar": {
-  "rate": "-10%",
-  "seconds": 0.43,
+  "number": 142,
+  "recorded": true,
+  "recorded_text": "قَمَر",
+  "seconds": 0.66,
+  "source": "142.mp3",
   "text": "قَمَر",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/qamis": {
   "rate": "-10%",
