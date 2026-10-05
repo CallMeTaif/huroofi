@@ -824,11 +824,13 @@
   "unchanged": true
  },
  "letters/ha/form-isolated": {
-  "rate": "-10%",
-  "seconds": 0.63,
+  "number": 84,
+  "recorded": true,
+  "recorded_text": "تُفَّاح",
+  "seconds": 1.21,
+  "source": "084.mp3",
   "text": "تُفَّاح",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ha/form-medial": {
   "number": 82,
@@ -3497,11 +3499,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/tuffah": {
-  "rate": "-10%",
-  "seconds": 0.63,
+  "number": 84,
+  "recorded": true,
+  "recorded_text": "تُفَّاح",
+  "seconds": 1.21,
+  "source": "084.mp3",
   "text": "تُفَّاح",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/tuffaha": {
   "number": 39,

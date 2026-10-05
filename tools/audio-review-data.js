@@ -802,10 +802,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ha/form-isolated": {
 "spoken": "تُفَّاح",
-"rate": "-10%",
-"seconds": 0.63,
+"rate": null,
+"seconds": 1.21,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ha/form-medial": {
 "spoken": "نَحْلَة",
@@ -3371,10 +3371,10 @@ window.AUDIO_REVIEW = {
 },
 "words/tuffah": {
 "spoken": "تُفَّاح",
-"rate": "-10%",
-"seconds": 0.63,
+"rate": null,
+"seconds": 1.21,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/tuffaha": {
 "spoken": "تُفَّاحَة",
