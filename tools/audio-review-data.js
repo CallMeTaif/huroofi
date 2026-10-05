@@ -3462,10 +3462,10 @@ window.AUDIO_REVIEW = {
 },
 "words/zubda": {
 "spoken": "زُبْدَة",
-"rate": "-10%",
-"seconds": 0.53,
+"rate": null,
+"seconds": 0.78,
 "flag": false,
-"recorded": false
+"recorded": true
 }
 }
 };

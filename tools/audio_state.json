@@ -3494,10 +3494,12 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/zubda": {
-  "rate": "-10%",
-  "seconds": 0.53,
+  "number": 27,
+  "recorded": true,
+  "recorded_text": "زُبْدَة",
+  "seconds": 0.78,
+  "source": "027.mp3",
   "text": "زُبْدَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  }
 }
