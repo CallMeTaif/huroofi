@@ -2132,10 +2132,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/tha/desc": {
 "spoken": "حَرْفُ الثَّاءِ لَهُ ثَلَاثُ نُقَطٍ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ثَ، ثَعْلَب.",
-"rate": "-15%",
-"seconds": 9.41,
+"rate": null,
+"seconds": 9.21,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/tha/form-final": {
 "spoken": "مُثَلَّث",

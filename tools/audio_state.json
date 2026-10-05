@@ -2174,11 +2174,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/tha/desc": {
-  "rate": "-15%",
-  "seconds": 9.41,
+  "number": 58,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الثَّاءِ لَهُ ثَلَاثُ نُقَطٍ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ثَ، ثَعْلَب.",
+  "seconds": 9.21,
+  "source": "058.mp3",
   "text": "حَرْفُ الثَّاءِ لَهُ ثَلَاثُ نُقَطٍ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ثَ، ثَعْلَب.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/tha/form-final": {
   "number": 56,
