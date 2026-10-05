@@ -1621,10 +1621,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ra/name": {
 "spoken": "رَاء",
-"rate": "-10%",
-"seconds": 0.26,
+"rate": null,
+"seconds": 0.47,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ra/v1": {
 "spoken": "رَ.",

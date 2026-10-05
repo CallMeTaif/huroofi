@@ -1703,11 +1703,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ra/name": {
-  "rate": "-10%",
-  "seconds": 0.26,
+  "number": 131,
+  "recorded": true,
+  "recorded_text": "رَاء",
+  "seconds": 0.47,
+  "source": "131.mp3",
   "text": "رَاء",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ra/v1": {
   "rate": "-10%",
