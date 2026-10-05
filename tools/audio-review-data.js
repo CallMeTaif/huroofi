@@ -3273,10 +3273,10 @@ window.AUDIO_REVIEW = {
 },
 "words/shajara": {
 "spoken": "شَجَرَة",
-"rate": "-10%",
-"seconds": 0.62,
+"rate": null,
+"seconds": 0.74,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/shama": {
 "spoken": "شَمْعَة",

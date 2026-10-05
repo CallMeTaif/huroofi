@@ -3529,11 +3529,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/shajara": {
-  "rate": "-10%",
-  "seconds": 0.62,
+  "number": 181,
+  "recorded": true,
+  "recorded_text": "شَجَرَة",
+  "seconds": 0.74,
+  "source": "181.mp3",
   "text": "شَجَرَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/shama": {
   "rate": "-10%",
