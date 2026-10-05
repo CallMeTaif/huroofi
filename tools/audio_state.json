@@ -1976,11 +1976,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ta/desc": {
-  "rate": "-15%",
-  "seconds": 9.17,
+  "number": 43,
+  "recorded": true,
+  "recorded_text": "حَرْفُ التَّاءِ لَهُ نُقْطَتَانِ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: تَ، تُفَّاحَة.",
+  "seconds": 8.89,
+  "source": "043.mp3",
   "text": "حَرْفُ التَّاءِ لَهُ نُقْطَتَانِ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: تَ، تُفَّاحَة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ta/form-final": {
   "number": 25,

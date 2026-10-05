@@ -1950,10 +1950,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ta/desc": {
 "spoken": "حَرْفُ التَّاءِ لَهُ نُقْطَتَانِ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: تَ، تُفَّاحَة.",
-"rate": "-15%",
-"seconds": 9.17,
+"rate": null,
+"seconds": 8.89,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ta/form-final": {
 "spoken": "بَيْت",
