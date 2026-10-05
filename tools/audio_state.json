@@ -808,11 +808,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ha/form-final": {
-  "rate": "-10%",
-  "seconds": 0.59,
+  "number": 86,
+  "recorded": true,
+  "recorded_text": "مِلْح",
+  "seconds": 0.65,
+  "source": "086.mp3",
   "text": "مِلْح",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ha/form-initial": {
   "number": 80,
