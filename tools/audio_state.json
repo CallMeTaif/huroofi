@@ -3452,11 +3452,13 @@
   "unchanged": true
  },
  "words/saa": {
-  "rate": "-10%",
-  "seconds": 0.35,
+  "number": 167,
+  "recorded": true,
+  "recorded_text": "سَاعَة",
+  "seconds": 0.78,
+  "source": "167.mp3",
   "text": "سَاعَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/safina": {
   "rate": "-10%",

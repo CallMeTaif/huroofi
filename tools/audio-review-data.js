@@ -3224,10 +3224,10 @@ window.AUDIO_REVIEW = {
 },
 "words/saa": {
 "spoken": "سَاعَة",
-"rate": "-10%",
-"seconds": 0.35,
+"rate": null,
+"seconds": 0.78,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/safina": {
 "spoken": "سَفِينَة",
