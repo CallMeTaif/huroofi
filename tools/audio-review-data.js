@@ -1859,10 +1859,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/sin/desc": {
 "spoken": "حَرْفُ السِّينِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: سَ، سَمَكَة.",
-"rate": "-15%",
-"seconds": 8.73,
+"rate": null,
+"seconds": 7.68,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sin/form-final": {
 "spoken": "شَمْس",

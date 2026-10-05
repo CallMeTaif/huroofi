@@ -1961,11 +1961,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/sin/desc": {
-  "rate": "-15%",
-  "seconds": 8.73,
+  "number": 172,
+  "recorded": true,
+  "recorded_text": "حَرْفُ السِّينِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: سَ، سَمَكَة.",
+  "seconds": 7.68,
+  "source": "172.mp3",
   "text": "حَرْفُ السِّينِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: سَ، سَمَكَة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/sin/form-final": {
   "number": 170,
