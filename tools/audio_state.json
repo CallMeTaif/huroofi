@@ -3286,11 +3286,13 @@
   "unchanged": true
  },
  "words/nafidha": {
-  "rate": "-10%",
-  "seconds": 0.65,
+  "number": 127,
+  "recorded": true,
+  "recorded_text": "نَافِذَة",
+  "seconds": 0.8,
+  "source": "127.mp3",
   "text": "نَافِذَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/nahla": {
   "number": 82,

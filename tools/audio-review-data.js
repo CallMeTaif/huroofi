@@ -3112,10 +3112,10 @@ window.AUDIO_REVIEW = {
 },
 "words/nafidha": {
 "spoken": "نَافِذَة",
-"rate": "-10%",
-"seconds": 0.65,
+"rate": null,
+"seconds": 0.8,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/nahla": {
 "spoken": "نَحْلَة",
