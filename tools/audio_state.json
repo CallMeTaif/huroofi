@@ -836,11 +836,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ha/name": {
-  "rate": "-10%",
-  "seconds": 0.34,
+  "number": 72,
+  "recorded": true,
+  "recorded_text": "حَاء",
+  "seconds": 0.68,
+  "source": "072.mp3",
   "text": "حَاء",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ha/v1": {
   "rate": "-10%",

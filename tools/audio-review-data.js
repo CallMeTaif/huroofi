@@ -816,10 +816,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ha/name": {
 "spoken": "حَاء",
-"rate": "-10%",
-"seconds": 0.34,
+"rate": null,
+"seconds": 0.68,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ha/v1": {
 "spoken": "حَ.",
