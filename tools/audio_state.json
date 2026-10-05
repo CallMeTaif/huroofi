@@ -999,11 +999,13 @@
   "unchanged": true
  },
  "letters/jim/form-initial": {
-  "rate": "-10%",
-  "seconds": 0.55,
+  "number": 67,
+  "recorded": true,
+  "recorded_text": "جَمَل",
+  "seconds": 0.73,
+  "source": "067.mp3",
   "text": "جَمَل",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/jim/form-isolated": {
   "number": 40,
@@ -3001,11 +3003,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/jamal": {
-  "rate": "-10%",
-  "seconds": 0.55,
+  "number": 67,
+  "recorded": true,
+  "recorded_text": "جَمَل",
+  "seconds": 0.73,
+  "source": "067.mp3",
   "text": "جَمَل",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/jarw": {
   "rate": "-10%",
