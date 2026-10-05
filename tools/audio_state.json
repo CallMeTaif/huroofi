@@ -983,11 +983,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/jim/desc": {
-  "rate": "-15%",
-  "seconds": 9.77,
+  "number": 71,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الْجِيمِ لَهُ نُقْطَةٌ وَاحِدَةٌ تَحْتَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: جَ، جَمَل.",
+  "seconds": 8.72,
+  "source": "071.mp3",
   "text": "حَرْفُ الْجِيمِ لَهُ نُقْطَةٌ وَاحِدَةٌ تَحْتَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: جَ، جَمَل.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/jim/form-final": {
   "number": 53,

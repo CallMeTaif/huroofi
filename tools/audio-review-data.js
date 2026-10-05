@@ -963,10 +963,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/jim/desc": {
 "spoken": "حَرْفُ الْجِيمِ لَهُ نُقْطَةٌ وَاحِدَةٌ تَحْتَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: جَ، جَمَل.",
-"rate": "-15%",
-"seconds": 9.77,
+"rate": null,
+"seconds": 8.72,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/jim/form-final": {
 "spoken": "ثَلْج",
