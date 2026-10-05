@@ -1875,11 +1875,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/shin/form-final": {
-  "rate": "-10%",
-  "seconds": 0.35,
+  "number": 183,
+  "recorded": true,
+  "recorded_text": "عُشّ",
+  "seconds": 0.67,
+  "source": "183.mp3",
   "text": "عُشّ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/shin/form-initial": {
   "number": 170,
@@ -3670,11 +3672,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/ushsh": {
-  "rate": "-10%",
-  "seconds": 0.35,
+  "number": 183,
+  "recorded": true,
+  "recorded_text": "عُشّ",
+  "seconds": 0.67,
+  "source": "183.mp3",
   "text": "عُشّ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/wajh": {
   "rate": "-10%",

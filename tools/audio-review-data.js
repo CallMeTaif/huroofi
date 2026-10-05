@@ -1775,10 +1775,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/shin/form-final": {
 "spoken": "عُشّ",
-"rate": "-10%",
-"seconds": 0.35,
+"rate": null,
+"seconds": 0.67,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/shin/form-initial": {
 "spoken": "شَمْس",
@@ -3392,10 +3392,10 @@ window.AUDIO_REVIEW = {
 },
 "words/ushsh": {
 "spoken": "عُشّ",
-"rate": "-10%",
-"seconds": 0.35,
+"rate": null,
+"seconds": 0.67,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/wajh": {
 "spoken": "وَجْه",
