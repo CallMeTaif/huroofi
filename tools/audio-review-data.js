@@ -781,10 +781,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ha/desc": {
 "spoken": "حَرْفُ الْحَاءِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: حَ، حِصَان.",
-"rate": "-15%",
-"seconds": 8.85,
+"rate": null,
+"seconds": 8.11,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ha/form-final": {
 "spoken": "مِلْح",
