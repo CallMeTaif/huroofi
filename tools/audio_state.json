@@ -1905,11 +1905,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/shin/name": {
-  "rate": "-10%",
-  "seconds": 0.49,
+  "number": 173,
+  "recorded": true,
+  "recorded_text": "شِين",
+  "seconds": 0.71,
+  "source": "173.mp3",
   "text": "شِين",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/shin/v1": {
   "rate": "-10%",

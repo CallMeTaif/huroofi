@@ -1803,10 +1803,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/shin/name": {
 "spoken": "شِين",
-"rate": "-10%",
-"seconds": 0.49,
+"rate": null,
+"seconds": 0.71,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/shin/v1": {
 "spoken": "شَ.",
