@@ -529,10 +529,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dhal/form-final": {
 "spoken": "قُنْفُذ",
-"rate": "-10%",
-"seconds": 0.6,
+"rate": null,
+"seconds": 0.9,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dhal/form-isolated": {
 "spoken": "ذُرَة",
@@ -3203,10 +3203,10 @@ window.AUDIO_REVIEW = {
 },
 "words/qunfudh": {
 "spoken": "قُنْفُذ",
-"rate": "-10%",
-"seconds": 0.6,
+"rate": null,
+"seconds": 0.9,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/rassam": {
 "spoken": "رَسَّام",

@@ -555,11 +555,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dhal/form-final": {
-  "rate": "-10%",
-  "seconds": 0.6,
+  "number": 128,
+  "recorded": true,
+  "recorded_text": "قُنْفُذ",
+  "seconds": 0.9,
+  "source": "128.mp3",
   "text": "قُنْفُذ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dhal/form-isolated": {
   "number": 124,
@@ -3385,11 +3387,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/qunfudh": {
-  "rate": "-10%",
-  "seconds": 0.6,
+  "number": 128,
+  "recorded": true,
+  "recorded_text": "قُنْفُذ",
+  "seconds": 0.9,
+  "source": "128.mp3",
   "text": "قُنْفُذ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/rassam": {
   "rate": "-10%",
