@@ -4,10 +4,10 @@ window.AUDIO_REVIEW = {
 "clips": {
 "letters/ain/desc": {
 "spoken": "حَرْفُ الْعَيْنِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: عَ، عِنَب.",
-"rate": "-15%",
-"seconds": 8.83,
+"rate": null,
+"seconds": 7.8,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ain/form-final": {
 "spoken": "إِصْبَع",

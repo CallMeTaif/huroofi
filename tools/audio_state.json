@@ -1,10 +1,12 @@
 {
  "letters/ain/desc": {
-  "rate": "-15%",
-  "seconds": 8.83,
+  "number": 258,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الْعَيْنِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: عَ، عِنَب.",
+  "seconds": 7.8,
+  "source": "258.mp3",
   "text": "حَرْفُ الْعَيْنِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: عَ، عِنَب.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ain/form-final": {
   "number": 257,
