@@ -98,11 +98,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/alif/form-final": {
-  "rate": "-10%",
-  "seconds": 0.51,
+  "number": 13,
+  "recorded": true,
+  "recorded_text": "مَامَا",
+  "seconds": 0.63,
+  "source": "013.mp3",
   "text": "مَامَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/alif/form-isolated": {
   "number": 9,
@@ -3029,11 +3031,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/mama": {
-  "rate": "-10%",
-  "seconds": 0.51,
+  "number": 13,
+  "recorded": true,
+  "recorded_text": "مَامَا",
+  "seconds": 0.63,
+  "source": "013.mp3",
   "text": "مَامَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/masjid": {
   "rate": "-10%",

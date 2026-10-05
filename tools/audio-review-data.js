@@ -102,10 +102,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/alif/form-final": {
 "spoken": "مَامَا",
-"rate": "-10%",
-"seconds": 0.51,
+"rate": null,
+"seconds": 0.63,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/alif/form-isolated": {
 "spoken": "أَرْنَب",
@@ -3021,10 +3021,10 @@ window.AUDIO_REVIEW = {
 },
 "words/mama": {
 "spoken": "مَامَا",
-"rate": "-10%",
-"seconds": 0.51,
+"rate": null,
+"seconds": 0.63,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/masjid": {
 "spoken": "مَسْجِد",
