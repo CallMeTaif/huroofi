@@ -193,10 +193,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ba/form-isolated": {
 "spoken": "كِتَاب",
-"rate": "-10%",
-"seconds": 0.57,
+"rate": null,
+"seconds": 0.67,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ba/form-medial": {
 "spoken": "حَبْل",
@@ -1068,10 +1068,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kaf/form-initial": {
 "spoken": "كِتَاب",
-"rate": "-10%",
-"seconds": 0.57,
+"rate": null,
+"seconds": 0.67,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kaf/form-isolated": {
 "spoken": "شُبَّاك",
@@ -1978,10 +1978,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ta/form-medial": {
 "spoken": "كِتَاب",
-"rate": "-10%",
-"seconds": 0.57,
+"rate": null,
+"seconds": 0.67,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ta/name": {
 "spoken": "تَاء",
@@ -2979,10 +2979,10 @@ window.AUDIO_REVIEW = {
 },
 "words/kitab": {
 "spoken": "كِتَاب",
-"rate": "-10%",
-"seconds": 0.57,
+"rate": null,
+"seconds": 0.67,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/kummathra": {
 "spoken": "كُمَّثْرَى",

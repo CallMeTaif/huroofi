@@ -199,11 +199,13 @@
   "unchanged": true
  },
  "letters/ba/form-isolated": {
-  "rate": "-10%",
-  "seconds": 0.57,
+  "number": 28,
+  "recorded": true,
+  "recorded_text": "كِتَاب",
+  "seconds": 0.67,
+  "source": "028.mp3",
   "text": "كِتَاب",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ba/form-medial": {
   "number": 26,
@@ -1078,11 +1080,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/kaf/form-initial": {
-  "rate": "-10%",
-  "seconds": 0.57,
+  "number": 28,
+  "recorded": true,
+  "recorded_text": "كِتَاب",
+  "seconds": 0.67,
+  "source": "028.mp3",
   "text": "كِتَاب",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kaf/form-isolated": {
   "rate": "-10%",
@@ -1990,11 +1994,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ta/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.57,
+  "number": 28,
+  "recorded": true,
+  "recorded_text": "كِتَاب",
+  "seconds": 0.67,
+  "source": "028.mp3",
   "text": "كِتَاب",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ta/name": {
   "rate": "-10%",
@@ -3009,11 +3015,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/kitab": {
-  "rate": "-10%",
-  "seconds": 0.57,
+  "number": 28,
+  "recorded": true,
+  "recorded_text": "كِتَاب",
+  "seconds": 0.67,
+  "source": "028.mp3",
   "text": "كِتَاب",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/kummathra": {
   "rate": "-10%",
