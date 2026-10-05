@@ -49,10 +49,13 @@ def process(s):
         report.append("clipping (too loud / distorted)")
     if _db(noise) > -45:
         report.append(f"background noise is high ({_db(noise):.0f} dB)")
-    if first * fr < RATE * 0.015:
-        report.append("speech starts at the very beginning: the first sound may be cut")
-    if (len(rms) - 1 - last) * fr < RATE * 0.04:
-        report.append("speech runs to the very end: the last sound may be cut")
+    # A cut-off word is LOUD at the very edge of the file (within 20 dB of the voice);
+    # a natural start or ending is quiet there, even when it begins early.
+    edge = peak_rms * 0.1
+    if max(rms[:2]) > edge:
+        report.append("loud at the very first moment: the first sound may be cut")
+    if max(rms[-3:]) > edge:
+        report.append("loud at the very last moment: the last sound may be cut")
     start = max(0, int((first * 0.01 - LEAD) * RATE))
     end = min(len(s), int(((last + 1) * 0.01 + TAIL) * RATE))
     seg = s[start:end]

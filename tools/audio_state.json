@@ -2645,11 +2645,13 @@
   "unchanged": true
  },
  "words/asad": {
-  "rate": "-10%",
-  "seconds": 0.56,
+  "number": 10,
+  "recorded": true,
+  "recorded_text": "أَسَد",
+  "seconds": 0.67,
+  "source": "010.mp3",
   "text": "أَسَد",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/ayn": {
   "rate": "-10%",

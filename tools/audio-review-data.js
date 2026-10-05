@@ -2643,10 +2643,10 @@ window.AUDIO_REVIEW = {
 },
 "words/asad": {
 "spoken": "أَسَد",
-"rate": "-10%",
-"seconds": 0.56,
+"rate": null,
+"seconds": 0.67,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/ayn": {
 "spoken": "عَيْن",
