@@ -984,10 +984,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/jim/form-isolated": {
 "spoken": "تَاج",
-"rate": "-10%",
-"seconds": 0.36,
+"rate": null,
+"seconds": 0.65,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/jim/form-medial": {
 "spoken": "نَجْمَة",
@@ -3329,10 +3329,10 @@ window.AUDIO_REVIEW = {
 },
 "words/taj": {
 "spoken": "تَاج",
-"rate": "-10%",
-"seconds": 0.36,
+"rate": null,
+"seconds": 0.65,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/tamatim": {
 "spoken": "طَمَاطِم",
