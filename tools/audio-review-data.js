@@ -3336,10 +3336,10 @@ window.AUDIO_REVIEW = {
 },
 "words/tamatim": {
 "spoken": "طَمَاطِم",
-"rate": "-10%",
-"seconds": 0.76,
+"rate": null,
+"seconds": 0.81,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/thalab": {
 "spoken": "ثَعْلَب",

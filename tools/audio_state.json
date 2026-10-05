@@ -3664,11 +3664,13 @@
   "unchanged": true
  },
  "words/tamatim": {
-  "rate": "-10%",
-  "seconds": 0.76,
+  "number": 227,
+  "recorded": true,
+  "recorded_text": "طَمَاطِم",
+  "seconds": 0.81,
+  "source": "227.mp3",
   "text": "طَمَاطِم",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/thalab": {
   "number": 52,
