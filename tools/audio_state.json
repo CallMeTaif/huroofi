@@ -478,11 +478,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dhaa/form-final": {
-  "rate": "-10%",
-  "seconds": 0.39,
+  "number": 245,
+  "recorded": true,
+  "recorded_text": "حَظّ",
+  "seconds": 0.66,
+  "source": "245.mp3",
   "text": "حَظّ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dhaa/form-initial": {
   "number": 240,

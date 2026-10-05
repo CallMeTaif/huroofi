@@ -438,10 +438,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dhaa/form-final": {
 "spoken": "حَظّ",
-"rate": "-10%",
-"seconds": 0.39,
+"rate": null,
+"seconds": 0.66,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dhaa/form-initial": {
 "spoken": "ظَرْف",
