@@ -313,11 +313,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dad/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.57,
+  "number": 213,
+  "recorded": true,
+  "recorded_text": "خُضَار",
+  "seconds": 0.79,
+  "source": "213.mp3",
   "text": "خُضَار",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dad/name": {
   "number": 203,
@@ -3220,11 +3222,13 @@
   "unchanged": true
  },
  "words/khudar": {
-  "rate": "-10%",
-  "seconds": 0.57,
+  "number": 213,
+  "recorded": true,
+  "recorded_text": "خُضَار",
+  "seconds": 0.79,
+  "source": "213.mp3",
   "text": "خُضَار",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/kitab": {
   "number": 28,

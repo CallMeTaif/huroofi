@@ -291,10 +291,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dad/form-medial": {
 "spoken": "خُضَار",
-"rate": "-10%",
-"seconds": 0.57,
+"rate": null,
+"seconds": 0.79,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dad/name": {
 "spoken": "ضَاد",
@@ -2972,10 +2972,10 @@ window.AUDIO_REVIEW = {
 },
 "words/khudar": {
 "spoken": "خُضَار",
-"rate": "-10%",
-"seconds": 0.57,
+"rate": null,
+"seconds": 0.79,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/kitab": {
 "spoken": "كِتَاب",
