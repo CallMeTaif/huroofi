@@ -1614,10 +1614,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ra/form-isolated": {
 "spoken": "رِيشَة",
-"rate": "-10%",
-"seconds": 0.44,
+"rate": null,
+"seconds": 0.54,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ra/name": {
 "spoken": "رَاء",
@@ -3217,10 +3217,10 @@ window.AUDIO_REVIEW = {
 },
 "words/risha": {
 "spoken": "رِيشَة",
-"rate": "-10%",
-"seconds": 0.44,
+"rate": null,
+"seconds": 0.54,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/saa": {
 "spoken": "سَاعَة",

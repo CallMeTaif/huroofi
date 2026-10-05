@@ -1696,11 +1696,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ra/form-isolated": {
-  "rate": "-10%",
-  "seconds": 0.44,
+  "number": 139,
+  "recorded": true,
+  "recorded_text": "رِيشَة",
+  "seconds": 0.54,
+  "source": "139.mp3",
   "text": "رِيشَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ra/name": {
   "number": 131,
@@ -3407,11 +3409,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/risha": {
-  "rate": "-10%",
-  "seconds": 0.44,
+  "number": 139,
+  "recorded": true,
+  "recorded_text": "رِيشَة",
+  "seconds": 0.54,
+  "source": "139.mp3",
   "text": "رِيشَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/saa": {
   "rate": "-10%",
