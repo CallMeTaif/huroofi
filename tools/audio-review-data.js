@@ -2405,10 +2405,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/zay/form-isolated": {
 "spoken": "زَرَافَة",
-"rate": "-10%",
-"seconds": 0.5,
+"rate": null,
+"seconds": 0.83,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/zay/name": {
 "spoken": "زَاي",
@@ -3448,10 +3448,10 @@ window.AUDIO_REVIEW = {
 },
 "words/zarafa": {
 "spoken": "زَرَافَة",
-"rate": "-10%",
-"seconds": 0.5,
+"rate": null,
+"seconds": 0.83,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/zarf": {
 "spoken": "ظَرْف",
