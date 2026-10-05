@@ -1768,10 +1768,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/shin/desc": {
 "spoken": "حَرْفُ الشِّينِ لَهُ ثَلَاثُ نُقَطٍ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: شَ، شَمْس.",
-"rate": "-15%",
-"seconds": 9.5,
+"rate": null,
+"seconds": 9.17,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/shin/form-final": {
 "spoken": "عُشّ",
