@@ -3238,10 +3238,10 @@ window.AUDIO_REVIEW = {
 },
 "words/sakhra": {
 "spoken": "صَخْرَة",
-"rate": "-10%",
-"seconds": 0.5,
+"rate": null,
+"seconds": 0.73,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/samaka": {
 "spoken": "سَمَكَة",

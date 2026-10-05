@@ -3380,11 +3380,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/sakhra": {
-  "rate": "-10%",
-  "seconds": 0.5,
+  "number": 99,
+  "recorded": true,
+  "recorded_text": "صَخْرَة",
+  "seconds": 0.73,
+  "source": "099.mp3",
   "text": "صَخْرَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/samaka": {
   "rate": "-10%",
