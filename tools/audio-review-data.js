@@ -1691,10 +1691,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/sad/form-initial": {
 "spoken": "صَارُوخ",
-"rate": "-10%",
-"seconds": 0.58,
+"rate": null,
+"seconds": 0.98,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sad/form-isolated": {
 "spoken": "رَصَاص",
@@ -3266,10 +3266,10 @@ window.AUDIO_REVIEW = {
 },
 "words/sarukh": {
 "spoken": "صَارُوخ",
-"rate": "-10%",
-"seconds": 0.58,
+"rate": null,
+"seconds": 0.98,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/shajara": {
 "spoken": "شَجَرَة",
