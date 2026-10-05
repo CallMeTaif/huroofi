@@ -2664,10 +2664,10 @@ window.AUDIO_REVIEW = {
 },
 "words/baba": {
 "spoken": "بَابَا",
-"rate": "-10%",
-"seconds": 0.52,
+"rate": null,
+"seconds": 0.57,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/babbagha": {
 "spoken": "بَبَّغَاء",

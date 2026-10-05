@@ -2672,11 +2672,13 @@
   "unchanged": true
  },
  "words/baba": {
-  "rate": "-10%",
-  "seconds": 0.52,
+  "number": 14,
+  "recorded": true,
+  "recorded_text": "بَابَا",
+  "seconds": 0.57,
+  "source": "014.mp3",
   "text": "بَابَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/babbagha": {
   "rate": "-10%",
