@@ -1441,11 +1441,13 @@
   "unchanged": true
  },
  "letters/mim/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.38,
+  "number": 170,
+  "recorded": true,
+  "recorded_text": "شَمْس",
+  "seconds": 0.71,
+  "source": "170.mp3",
   "text": "شَمْس",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/mim/name": {
   "rate": "-10%",
@@ -1880,11 +1882,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/shin/form-initial": {
-  "rate": "-10%",
-  "seconds": 0.38,
+  "number": 170,
+  "recorded": true,
+  "recorded_text": "شَمْس",
+  "seconds": 0.71,
+  "source": "170.mp3",
   "text": "شَمْس",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/shin/form-isolated": {
   "rate": "-10%",
@@ -1964,11 +1968,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/sin/form-final": {
-  "rate": "-10%",
-  "seconds": 0.38,
+  "number": 170,
+  "recorded": true,
+  "recorded_text": "شَمْس",
+  "seconds": 0.71,
+  "source": "170.mp3",
   "text": "شَمْس",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/sin/form-initial": {
   "number": 166,
@@ -3529,11 +3535,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/shams": {
-  "rate": "-10%",
-  "seconds": 0.38,
+  "number": 170,
+  "recorded": true,
+  "recorded_text": "شَمْس",
+  "seconds": 0.71,
+  "source": "170.mp3",
   "text": "شَمْس",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/shay": {
   "rate": "-10%",

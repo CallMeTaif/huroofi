@@ -1355,10 +1355,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/mim/form-medial": {
 "spoken": "شَمْس",
-"rate": "-10%",
-"seconds": 0.38,
+"rate": null,
+"seconds": 0.71,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/mim/name": {
 "spoken": "مِيم",
@@ -1782,10 +1782,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/shin/form-initial": {
 "spoken": "شَمْس",
-"rate": "-10%",
-"seconds": 0.38,
+"rate": null,
+"seconds": 0.71,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/shin/form-isolated": {
 "spoken": "قُمَاش",
@@ -1866,10 +1866,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/sin/form-final": {
 "spoken": "شَمْس",
-"rate": "-10%",
-"seconds": 0.38,
+"rate": null,
+"seconds": 0.71,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sin/form-initial": {
 "spoken": "سَمَكَة",
@@ -3287,10 +3287,10 @@ window.AUDIO_REVIEW = {
 },
 "words/shams": {
 "spoken": "شَمْس",
-"rate": "-10%",
-"seconds": 0.38,
+"rate": null,
+"seconds": 0.71,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/shay": {
 "spoken": "شَاي",
