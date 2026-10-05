@@ -1880,10 +1880,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/sin/form-isolated": {
 "spoken": "فَانُوس",
-"rate": "-10%",
-"seconds": 0.39,
+"rate": null,
+"seconds": 0.87,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sin/form-medial": {
 "spoken": "مَسْجِد",
@@ -2804,10 +2804,10 @@ window.AUDIO_REVIEW = {
 },
 "words/fanus": {
 "spoken": "فَانُوس",
-"rate": "-10%",
-"seconds": 0.39,
+"rate": null,
+"seconds": 0.87,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/far": {
 "spoken": "فَأْر",
