@@ -562,11 +562,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dhal/form-isolated": {
-  "rate": "-10%",
-  "seconds": 0.52,
+  "number": 124,
+  "recorded": true,
+  "recorded_text": "ذُرَة",
+  "seconds": 0.59,
+  "source": "124.mp3",
   "text": "ذُرَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dhal/name": {
   "number": 116,
@@ -2888,11 +2890,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/dhura": {
-  "rate": "-10%",
-  "seconds": 0.52,
+  "number": 124,
+  "recorded": true,
+  "recorded_text": "ذُرَة",
+  "seconds": 0.59,
+  "source": "124.mp3",
   "text": "ذُرَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/difda": {
   "rate": "-10%",

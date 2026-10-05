@@ -536,10 +536,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dhal/form-isolated": {
 "spoken": "ذُرَة",
-"rate": "-10%",
-"seconds": 0.52,
+"rate": null,
+"seconds": 0.59,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dhal/name": {
 "spoken": "ذَال",
@@ -2762,10 +2762,10 @@ window.AUDIO_REVIEW = {
 },
 "words/dhura": {
 "spoken": "ذُرَة",
-"rate": "-10%",
-"seconds": 0.52,
+"rate": null,
+"seconds": 0.59,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/difda": {
 "spoken": "ضِفْدَع",
