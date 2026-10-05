@@ -1985,10 +1985,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ta/name": {
 "spoken": "تَاء",
-"rate": "-10%",
-"seconds": 0.24,
+"rate": null,
+"seconds": 0.48,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ta/v1": {
 "spoken": "تَ.",

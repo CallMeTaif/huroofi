@@ -2011,11 +2011,13 @@
   "unchanged": true
  },
  "letters/ta/name": {
-  "rate": "-10%",
-  "seconds": 0.24,
+  "number": 31,
+  "recorded": true,
+  "recorded_text": "تَاء",
+  "seconds": 0.48,
+  "source": "031.mp3",
   "text": "تَاء",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ta/v1": {
   "rate": "-10%",
