@@ -501,11 +501,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/dhaa/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.72,
+  "number": 242,
+  "recorded": true,
+  "recorded_text": "نَظَّارَة",
+  "seconds": 0.84,
+  "source": "242.mp3",
   "text": "نَظَّارَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dhaa/name": {
   "number": 232,
@@ -3464,11 +3466,13 @@
   "unchanged": true
  },
  "words/nazzara": {
-  "rate": "-10%",
-  "seconds": 0.72,
+  "number": 242,
+  "recorded": true,
+  "recorded_text": "نَظَّارَة",
+  "seconds": 0.84,
+  "source": "242.mp3",
   "text": "نَظَّارَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/qalam": {
   "rate": "-10%",

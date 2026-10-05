@@ -459,10 +459,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dhaa/form-medial": {
 "spoken": "نَظَّارَة",
-"rate": "-10%",
-"seconds": 0.72,
+"rate": null,
+"seconds": 0.84,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dhaa/name": {
 "spoken": "ظَاء",
@@ -3154,10 +3154,10 @@ window.AUDIO_REVIEW = {
 },
 "words/nazzara": {
 "spoken": "نَظَّارَة",
-"rate": "-10%",
-"seconds": 0.72,
+"rate": null,
+"seconds": 0.84,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/qalam": {
 "spoken": "قَلَم",
