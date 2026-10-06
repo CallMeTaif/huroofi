@@ -2920,11 +2920,13 @@
   "unchanged": true
  },
  "phrases/sec_practice": {
-  "rate": "-15%",
-  "seconds": 0.67,
+  "number": 396,
+  "recorded": true,
+  "recorded_text": "تَمَرَّن.",
+  "seconds": 0.72,
+  "source": "396.mp3",
   "text": "تَمَرَّن.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/sec_videos": {
   "rate": "-15%",

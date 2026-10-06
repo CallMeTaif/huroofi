@@ -2580,10 +2580,10 @@ window.AUDIO_REVIEW = {
 },
 "phrases/sec_practice": {
 "spoken": "تَمَرَّن.",
-"rate": "-15%",
-"seconds": 0.67,
+"rate": null,
+"seconds": 0.72,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/sec_videos": {
 "spoken": "شَاهِدْ وَتَعَلَّم.",
