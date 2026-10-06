@@ -2475,10 +2475,10 @@ window.AUDIO_REVIEW = {
 },
 "phrases/ex_listen": {
 "spoken": "اسْمَعْ، ثُمَّ اخْتَرِ الْحَرْفَ الصَّحِيح.",
-"rate": "-15%",
-"seconds": 2.61,
+"rate": null,
+"seconds": 2.7,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/ex_match": {
 "spoken": "صِلِ الْحَرْفَ بِالصُّورَة.",

@@ -2785,11 +2785,13 @@
   "unchanged": true
  },
  "phrases/ex_listen": {
-  "rate": "-15%",
-  "seconds": 2.61,
+  "number": 381,
+  "recorded": true,
+  "recorded_text": "اسْمَعْ، ثُمَّ اخْتَرِ الْحَرْفَ الصَّحِيح.",
+  "seconds": 2.7,
+  "source": "381.mp3",
   "text": "اسْمَعْ، ثُمَّ اخْتَرِ الْحَرْفَ الصَّحِيح.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/ex_match": {
   "rate": "-15%",
