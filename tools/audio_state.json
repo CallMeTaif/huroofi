@@ -2588,11 +2588,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ya/desc": {
-  "rate": "-15%",
-  "seconds": 9.15,
+  "number": 379,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الْيَاءِ لَهُ نُقْطَتَانِ تَحْتَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: يَ، يَد.",
+  "seconds": 8.03,
+  "source": "379.mp3",
   "text": "حَرْفُ الْيَاءِ لَهُ نُقْطَتَانِ تَحْتَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: يَ، يَد.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ya/form-final": {
   "number": 169,

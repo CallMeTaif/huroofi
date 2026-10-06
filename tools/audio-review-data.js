@@ -2300,10 +2300,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ya/desc": {
 "spoken": "حَرْفُ الْيَاءِ لَهُ نُقْطَتَانِ تَحْتَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: يَ، يَد.",
-"rate": "-15%",
-"seconds": 9.15,
+"rate": null,
+"seconds": 8.03,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ya/form-final": {
 "spoken": "كُرْسِيّ",
