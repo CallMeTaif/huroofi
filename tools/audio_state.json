@@ -2857,11 +2857,13 @@
   "unchanged": true
  },
  "phrases/pos_final": {
-  "rate": "-15%",
-  "seconds": 0.75,
+  "number": 389,
+  "recorded": true,
+  "recorded_text": "فِي النِّهَايَة.",
+  "seconds": 0.93,
+  "source": "389.mp3",
   "text": "فِي النِّهَايَة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/pos_initial": {
   "rate": "-15%",

@@ -2531,10 +2531,10 @@ window.AUDIO_REVIEW = {
 },
 "phrases/pos_final": {
 "spoken": "فِي النِّهَايَة.",
-"rate": "-15%",
-"seconds": 0.75,
+"rate": null,
+"seconds": 0.93,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/pos_initial": {
 "spoken": "فِي الْبِدَايَة.",
