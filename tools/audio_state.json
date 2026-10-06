@@ -3121,11 +3121,13 @@
   "unchanged": true
  },
  "words/fam": {
-  "rate": "-10%",
-  "seconds": 0.38,
+  "number": 331,
+  "recorded": true,
+  "recorded_text": "فَم",
+  "seconds": 0.46,
+  "source": "331.mp3",
   "text": "فَم",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/fanus": {
   "number": 171,
