@@ -3173,11 +3173,13 @@
   "unchanged": true
  },
  "words/fawakih": {
-  "rate": "-10%",
-  "seconds": 0.57,
+  "number": 354,
+  "recorded": true,
+  "recorded_text": "فَوَاكِه",
+  "seconds": 0.94,
+  "source": "354.mp3",
   "text": "فَوَاكِه",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/fil": {
   "number": 281,
