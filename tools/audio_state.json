@@ -1412,11 +1412,13 @@
   "unchanged": true
  },
  "letters/lam/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.54,
+  "number": 321,
+  "recorded": true,
+  "recorded_text": "قَلَم",
+  "seconds": 0.53,
+  "source": "321.mp3",
   "text": "قَلَم",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/lam/name": {
   "number": 311,
@@ -1484,11 +1486,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/mim/form-final": {
-  "rate": "-10%",
-  "seconds": 0.54,
+  "number": 321,
+  "recorded": true,
+  "recorded_text": "قَلَم",
+  "seconds": 0.53,
+  "source": "321.mp3",
   "text": "قَلَم",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/mim/form-initial": {
   "number": 156,
@@ -3571,11 +3575,13 @@
   "unchanged": true
  },
  "words/qalam": {
-  "rate": "-10%",
-  "seconds": 0.54,
+  "number": 321,
+  "recorded": true,
+  "recorded_text": "قَلَم",
+  "seconds": 0.53,
+  "source": "321.mp3",
   "text": "قَلَم",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/qamar": {
   "number": 142,

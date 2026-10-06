@@ -1264,10 +1264,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/lam/form-medial": {
 "spoken": "قَلَم",
-"rate": "-10%",
-"seconds": 0.54,
+"rate": null,
+"seconds": 0.53,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/lam/name": {
 "spoken": "لَام",
@@ -1334,10 +1334,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/mim/form-final": {
 "spoken": "قَلَم",
-"rate": "-10%",
-"seconds": 0.54,
+"rate": null,
+"seconds": 0.53,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/mim/form-initial": {
 "spoken": "مَوْز",
@@ -3161,10 +3161,10 @@ window.AUDIO_REVIEW = {
 },
 "words/qalam": {
 "spoken": "قَلَم",
-"rate": "-10%",
-"seconds": 0.54,
+"rate": null,
+"seconds": 0.53,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/qamar": {
 "spoken": "قَمَر",
