@@ -3239,11 +3239,13 @@
   "unchanged": true
  },
  "words/hatif": {
-  "rate": "-10%",
-  "seconds": 0.38,
+  "number": 351,
+  "recorded": true,
+  "recorded_text": "هَاتِف",
+  "seconds": 0.77,
+  "source": "351.mp3",
   "text": "هَاتِف",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/hidha": {
   "number": 126,

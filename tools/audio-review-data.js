@@ -2881,10 +2881,10 @@ window.AUDIO_REVIEW = {
 },
 "words/hatif": {
 "spoken": "هَاتِف",
-"rate": "-10%",
-"seconds": 0.38,
+"rate": null,
+"seconds": 0.77,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/hidha": {
 "spoken": "حِذَاء",
