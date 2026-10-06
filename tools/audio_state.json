@@ -2839,11 +2839,13 @@
   "unchanged": true
  },
  "phrases/great3": {
-  "rate": "-15%",
-  "seconds": 0.67,
+  "number": 387,
+  "recorded": true,
+  "recorded_text": "رَائِع!",
+  "seconds": 0.91,
+  "source": "387.mp3",
   "text": "رَائِع!",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/home": {
   "rate": "-15%",

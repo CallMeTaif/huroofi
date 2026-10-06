@@ -2517,10 +2517,10 @@ window.AUDIO_REVIEW = {
 },
 "phrases/great3": {
 "spoken": "رَائِع!",
-"rate": "-15%",
-"seconds": 0.67,
+"rate": null,
+"seconds": 0.91,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/home": {
 "spoken": "مَرْحَبًا! اخْتَرْ حَرْفًا.",
