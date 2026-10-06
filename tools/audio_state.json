@@ -3380,11 +3380,13 @@
   "unchanged": true
  },
  "words/mighnatis": {
-  "rate": "-10%",
-  "seconds": 0.72,
+  "number": 269,
+  "recorded": true,
+  "recorded_text": "مِغْنَاطِيس",
+  "seconds": 0.93,
+  "source": "269.mp3",
   "text": "مِغْنَاطِيس",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/miknasa": {
   "rate": "-10%",

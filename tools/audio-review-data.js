@@ -3056,10 +3056,10 @@ window.AUDIO_REVIEW = {
 },
 "words/mighnatis": {
 "spoken": "مِغْنَاطِيس",
-"rate": "-10%",
-"seconds": 0.72,
+"rate": null,
+"seconds": 0.93,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/miknasa": {
 "spoken": "مِكْنَسَة",
