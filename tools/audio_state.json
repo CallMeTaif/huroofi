@@ -1172,11 +1172,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/kaf/desc": {
-  "rate": "-15%",
-  "seconds": 8.88,
+  "number": 310,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الْكَافِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: كَ، كِتَاب.",
+  "seconds": 7.97,
+  "source": "310.mp3",
   "text": "حَرْفُ الْكَافِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: كَ، كِتَاب.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kaf/form-final": {
   "number": 308,

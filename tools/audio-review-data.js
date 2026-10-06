@@ -1054,10 +1054,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kaf/desc": {
 "spoken": "حَرْفُ الْكَافِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: كَ، كِتَاب.",
-"rate": "-15%",
-"seconds": 8.88,
+"rate": null,
+"seconds": 7.97,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kaf/form-final": {
 "spoken": "دِيك",
