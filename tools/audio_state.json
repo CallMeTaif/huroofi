@@ -762,11 +762,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ghain/desc": {
-  "rate": "-15%",
-  "seconds": 9.98,
+  "number": 272,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الْغَيْنِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: غَ، غَيْمَة.",
+  "seconds": 8.89,
+  "source": "272.mp3",
   "text": "حَرْفُ الْغَيْنِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: غَ، غَيْمَة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ghain/form-final": {
   "number": 271,

@@ -690,10 +690,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ghain/desc": {
 "spoken": "حَرْفُ الْغَيْنِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: غَ، غَيْمَة.",
-"rate": "-15%",
-"seconds": 9.98,
+"rate": null,
+"seconds": 8.89,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ghain/form-final": {
 "spoken": "صَمْغ",
