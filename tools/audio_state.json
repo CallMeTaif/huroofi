@@ -2893,11 +2893,13 @@
   "unchanged": true
  },
  "phrases/round_done": {
-  "rate": "-15%",
-  "seconds": 3.08,
+  "number": 393,
+  "recorded": true,
+  "recorded_text": "رَائِع! انْتَهَتِ الْجَوْلَة.",
+  "seconds": 2.16,
+  "source": "393.mp3",
   "text": "رَائِع! انْتَهَتِ الْجَوْلَة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/sec_forms": {
   "rate": "-15%",

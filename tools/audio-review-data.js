@@ -2559,10 +2559,10 @@ window.AUDIO_REVIEW = {
 },
 "phrases/round_done": {
 "spoken": "رَائِع! انْتَهَتِ الْجَوْلَة.",
-"rate": "-15%",
-"seconds": 3.08,
+"rate": null,
+"seconds": 2.16,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/sec_forms": {
 "spoken": "أَشْكَالُ الْحَرْف.",
