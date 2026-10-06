@@ -2524,10 +2524,10 @@ window.AUDIO_REVIEW = {
 },
 "phrases/home": {
 "spoken": "مَرْحَبًا! اخْتَرْ حَرْفًا.",
-"rate": "-15%",
-"seconds": 3.15,
+"rate": null,
+"seconds": 2.19,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/pos_final": {
 "spoken": "فِي النِّهَايَة.",

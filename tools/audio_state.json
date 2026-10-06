@@ -2848,11 +2848,13 @@
   "unchanged": true
  },
  "phrases/home": {
-  "rate": "-15%",
-  "seconds": 3.15,
+  "number": 388,
+  "recorded": true,
+  "recorded_text": "مَرْحَبًا! اخْتَرْ حَرْفًا.",
+  "seconds": 2.19,
+  "source": "388.mp3",
   "text": "مَرْحَبًا! اخْتَرْ حَرْفًا.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/pos_final": {
   "rate": "-15%",
