@@ -2503,17 +2503,17 @@ window.AUDIO_REVIEW = {
 },
 "phrases/great1": {
 "spoken": "أَحْسَنْت!",
-"rate": "-15%",
-"seconds": 0.65,
+"rate": null,
+"seconds": 0.94,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/great2": {
 "spoken": "مُمْتَاز!",
-"rate": "-15%",
-"seconds": 0.6,
+"rate": null,
+"seconds": 0.93,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/great3": {
 "spoken": "رَائِع!",

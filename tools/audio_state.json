@@ -2821,18 +2821,22 @@
   "unchanged": true
  },
  "phrases/great1": {
-  "rate": "-15%",
-  "seconds": 0.65,
+  "number": 385,
+  "recorded": true,
+  "recorded_text": "أَحْسَنْت!",
+  "seconds": 0.94,
+  "source": "385.mp3",
   "text": "أَحْسَنْت!",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/great2": {
-  "rate": "-15%",
-  "seconds": 0.6,
+  "number": 386,
+  "recorded": true,
+  "recorded_text": "مُمْتَاز!",
+  "seconds": 0.93,
+  "source": "386.mp3",
   "text": "مُمْتَاز!",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/great3": {
   "rate": "-15%",
