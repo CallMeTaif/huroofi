@@ -3384,11 +3384,13 @@
   "unchanged": true
  },
  "words/luba": {
-  "rate": "-10%",
-  "seconds": 0.54,
+  "number": 320,
+  "recorded": true,
+  "recorded_text": "لُعْبَة",
+  "seconds": 0.73,
+  "source": "320.mp3",
   "text": "لُعْبَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/mama": {
   "number": 13,
