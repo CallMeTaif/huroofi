@@ -725,10 +725,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ghain/name": {
 "spoken": "غَيْن",
-"rate": "-10%",
-"seconds": 0.54,
+"rate": null,
+"seconds": 0.81,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ghain/v1": {
 "spoken": "غَ.",

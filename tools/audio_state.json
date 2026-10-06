@@ -797,11 +797,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ghain/name": {
-  "rate": "-10%",
-  "seconds": 0.54,
+  "number": 259,
+  "recorded": true,
+  "recorded_text": "غَيْن",
+  "seconds": 0.81,
+  "source": "259.mp3",
   "text": "غَيْن",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ghain/v1": {
   "rate": "-10%",
