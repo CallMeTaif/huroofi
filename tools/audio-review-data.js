@@ -2538,10 +2538,10 @@ window.AUDIO_REVIEW = {
 },
 "phrases/pos_initial": {
 "spoken": "فِي الْبِدَايَة.",
-"rate": "-15%",
-"seconds": 0.76,
+"rate": null,
+"seconds": 0.81,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/pos_medial": {
 "spoken": "فِي الْوَسَط.",

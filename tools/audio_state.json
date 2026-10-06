@@ -2866,11 +2866,13 @@
   "unchanged": true
  },
  "phrases/pos_initial": {
-  "rate": "-15%",
-  "seconds": 0.76,
+  "number": 390,
+  "recorded": true,
+  "recorded_text": "فِي الْبِدَايَة.",
+  "seconds": 0.81,
+  "source": "390.mp3",
   "text": "فِي الْبِدَايَة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/pos_medial": {
   "rate": "-15%",
