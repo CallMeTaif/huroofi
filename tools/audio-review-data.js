@@ -1516,10 +1516,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/qaf/form-final": {
 "spoken": "طَبَق",
-"rate": "-10%",
-"seconds": 0.5,
+"rate": null,
+"seconds": 0.59,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/qaf/form-initial": {
 "spoken": "قِطَّة",
@@ -3315,10 +3315,10 @@ window.AUDIO_REVIEW = {
 },
 "words/tabaq": {
 "spoken": "طَبَق",
-"rate": "-10%",
-"seconds": 0.5,
+"rate": null,
+"seconds": 0.59,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/taira": {
 "spoken": "طَائِرَة",

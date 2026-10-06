@@ -1666,11 +1666,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/qaf/form-final": {
-  "rate": "-10%",
-  "seconds": 0.5,
+  "number": 296,
+  "recorded": true,
+  "recorded_text": "طَبَق",
+  "seconds": 0.59,
+  "source": "296.mp3",
   "text": "طَبَق",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/qaf/form-initial": {
   "number": 293,
@@ -3737,11 +3739,13 @@
   "unchanged": true
  },
  "words/tabaq": {
-  "rate": "-10%",
-  "seconds": 0.5,
+  "number": 296,
+  "recorded": true,
+  "recorded_text": "طَبَق",
+  "seconds": 0.59,
+  "source": "296.mp3",
   "text": "طَبَق",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/taira": {
   "number": 226,
