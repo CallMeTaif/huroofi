@@ -2489,10 +2489,10 @@ window.AUDIO_REVIEW = {
 },
 "phrases/ex_trace": {
 "spoken": "اكْتُبِ الْحَرْفَ بِإِصْبَعِك.",
-"rate": "-15%",
-"seconds": 1.67,
+"rate": null,
+"seconds": 1.91,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/ex_where": {
 "spoken": "أَيْنَ الْحَرْف؟",

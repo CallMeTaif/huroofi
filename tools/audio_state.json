@@ -2803,11 +2803,13 @@
   "unchanged": true
  },
  "phrases/ex_trace": {
-  "rate": "-15%",
-  "seconds": 1.67,
+  "number": 383,
+  "recorded": true,
+  "recorded_text": "اكْتُبِ الْحَرْفَ بِإِصْبَعِك.",
+  "seconds": 1.91,
+  "source": "383.mp3",
   "text": "اكْتُبِ الْحَرْفَ بِإِصْبَعِك.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/ex_where": {
   "rate": "-15%",
