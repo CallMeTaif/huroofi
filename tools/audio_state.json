@@ -2875,11 +2875,13 @@
   "unchanged": true
  },
  "phrases/pos_medial": {
-  "rate": "-15%",
-  "seconds": 0.67,
+  "number": 391,
+  "recorded": true,
+  "recorded_text": "فِي الْوَسَط.",
+  "seconds": 0.74,
+  "source": "391.mp3",
   "text": "فِي الْوَسَط.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/review": {
   "rate": "-15%",
