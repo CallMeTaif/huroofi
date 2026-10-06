@@ -613,10 +613,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/fa/form-initial": {
 "spoken": "فِيل",
-"rate": "-10%",
-"seconds": 0.4,
+"rate": null,
+"seconds": 0.35,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/fa/form-isolated": {
 "spoken": "خَرُوف",
@@ -1243,10 +1243,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/lam/form-final": {
 "spoken": "فِيل",
-"rate": "-10%",
-"seconds": 0.4,
+"rate": null,
+"seconds": 0.35,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/lam/form-initial": {
 "spoken": "لَيْمُون",
@@ -2328,10 +2328,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ya/form-medial": {
 "spoken": "فِيل",
-"rate": "-10%",
-"seconds": 0.4,
+"rate": null,
+"seconds": 0.35,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ya/name": {
 "spoken": "يَاء",
@@ -2832,10 +2832,10 @@ window.AUDIO_REVIEW = {
 },
 "words/fil": {
 "spoken": "فِيل",
-"rate": "-10%",
-"seconds": 0.4,
+"rate": null,
+"seconds": 0.35,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/fustan": {
 "spoken": "فُسْتَان",
