@@ -792,11 +792,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ghain/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.65,
+  "number": 268,
+  "recorded": true,
+  "recorded_text": "بَبَّغَاء",
+  "seconds": 1.07,
+  "source": "268.mp3",
   "text": "بَبَّغَاء",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ghain/name": {
   "number": 259,
@@ -2909,11 +2911,13 @@
   "unchanged": true
  },
  "words/babbagha": {
-  "rate": "-10%",
-  "seconds": 0.65,
+  "number": 268,
+  "recorded": true,
+  "recorded_text": "بَبَّغَاء",
+  "seconds": 1.07,
+  "source": "268.mp3",
   "text": "بَبَّغَاء",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/bahr": {
   "number": 83,

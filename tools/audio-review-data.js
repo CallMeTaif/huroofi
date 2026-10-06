@@ -718,10 +718,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ghain/form-medial": {
 "spoken": "بَبَّغَاء",
-"rate": "-10%",
-"seconds": 0.65,
+"rate": null,
+"seconds": 1.07,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ghain/name": {
 "spoken": "غَيْن",
@@ -2671,10 +2671,10 @@ window.AUDIO_REVIEW = {
 },
 "words/babbagha": {
 "spoken": "بَبَّغَاء",
-"rate": "-10%",
-"seconds": 0.65,
+"rate": null,
+"seconds": 1.07,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/bahr": {
 "spoken": "بَحْر",
