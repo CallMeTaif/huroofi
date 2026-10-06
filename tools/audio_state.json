@@ -706,11 +706,13 @@
   "unchanged": true
  },
  "letters/fa/name": {
-  "rate": "-10%",
-  "seconds": 0.25,
+  "number": 273,
+  "recorded": true,
+  "recorded_text": "فَاء",
+  "seconds": 0.68,
+  "source": "273.mp3",
   "text": "فَاء",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/fa/v1": {
   "rate": "-10%",

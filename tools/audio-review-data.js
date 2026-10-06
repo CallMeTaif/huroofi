@@ -634,10 +634,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/fa/name": {
 "spoken": "فَاء",
-"rate": "-10%",
-"seconds": 0.25,
+"rate": null,
+"seconds": 0.68,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/fa/v1": {
 "spoken": "فَ.",
