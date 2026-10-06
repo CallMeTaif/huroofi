@@ -1530,10 +1530,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/qaf/form-isolated": {
 "spoken": "صُنْدُوق",
-"rate": "-10%",
-"seconds": 0.67,
+"rate": null,
+"seconds": 0.88,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/qaf/form-medial": {
 "spoken": "بَقَرَة",
@@ -3308,10 +3308,10 @@ window.AUDIO_REVIEW = {
 },
 "words/sunduq": {
 "spoken": "صُنْدُوق",
-"rate": "-10%",
-"seconds": 0.67,
+"rate": null,
+"seconds": 0.88,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/tabaq": {
 "spoken": "طَبَق",

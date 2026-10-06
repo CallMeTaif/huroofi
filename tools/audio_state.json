@@ -1682,11 +1682,13 @@
   "unchanged": true
  },
  "letters/qaf/form-isolated": {
-  "rate": "-10%",
-  "seconds": 0.67,
+  "number": 295,
+  "recorded": true,
+  "recorded_text": "صُنْدُوق",
+  "seconds": 0.88,
+  "source": "295.mp3",
   "text": "صُنْدُوق",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/qaf/form-medial": {
   "number": 294,
@@ -3726,11 +3728,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/sunduq": {
-  "rate": "-10%",
-  "seconds": 0.67,
+  "number": 295,
+  "recorded": true,
+  "recorded_text": "صُنْدُوق",
+  "seconds": 0.88,
+  "source": "295.mp3",
   "text": "صُنْدُوق",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/tabaq": {
   "rate": "-10%",
