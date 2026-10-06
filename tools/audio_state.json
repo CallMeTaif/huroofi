@@ -1394,11 +1394,13 @@
   "unchanged": true
  },
  "letters/lam/form-initial": {
-  "rate": "-10%",
-  "seconds": 0.72,
+  "number": 319,
+  "recorded": true,
+  "recorded_text": "لَيْمُون",
+  "seconds": 0.79,
+  "source": "319.mp3",
   "text": "لَيْمُون",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/lam/form-isolated": {
   "number": 155,
@@ -1417,11 +1419,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/lam/name": {
-  "rate": "-10%",
-  "seconds": 0.49,
+  "number": 311,
+  "recorded": true,
+  "recorded_text": "لَام",
+  "seconds": 0.77,
+  "source": "311.mp3",
   "text": "لَام",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/lam/v1": {
   "rate": "-10%",
@@ -3371,11 +3375,13 @@
   "unchanged": true
  },
  "words/laymun": {
-  "rate": "-10%",
-  "seconds": 0.72,
+  "number": 319,
+  "recorded": true,
+  "recorded_text": "لَيْمُون",
+  "seconds": 0.79,
+  "source": "319.mp3",
   "text": "لَيْمُون",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/luba": {
   "rate": "-10%",

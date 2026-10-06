@@ -1250,10 +1250,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/lam/form-initial": {
 "spoken": "لَيْمُون",
-"rate": "-10%",
-"seconds": 0.72,
+"rate": null,
+"seconds": 0.79,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/lam/form-isolated": {
 "spoken": "غَزَال",
@@ -1271,10 +1271,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/lam/name": {
 "spoken": "لَام",
-"rate": "-10%",
-"seconds": 0.49,
+"rate": null,
+"seconds": 0.77,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/lam/v1": {
 "spoken": "لَ.",
@@ -3007,10 +3007,10 @@ window.AUDIO_REVIEW = {
 },
 "words/laymun": {
 "spoken": "لَيْمُون",
-"rate": "-10%",
-"seconds": 0.72,
+"rate": null,
+"seconds": 0.79,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/luba": {
 "spoken": "لُعْبَة",
