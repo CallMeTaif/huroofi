@@ -1544,10 +1544,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/qaf/name": {
 "spoken": "قَاف",
-"rate": "-10%",
-"seconds": 0.17,
-"flag": true,
-"recorded": false
+"rate": null,
+"seconds": 0.69,
+"flag": false,
+"recorded": true
 },
 "letters/qaf/v1": {
 "spoken": "قَ.",

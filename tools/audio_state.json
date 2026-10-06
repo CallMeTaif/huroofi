@@ -1694,11 +1694,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/qaf/name": {
-  "rate": "-10%",
-  "seconds": 0.17,
+  "number": 285,
+  "recorded": true,
+  "recorded_text": "قَاف",
+  "seconds": 0.69,
+  "source": "285.mp3",
   "text": "قَاف",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/qaf/v1": {
   "rate": "-10%",
