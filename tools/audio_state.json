@@ -1524,11 +1524,13 @@
   "unchanged": true
  },
  "letters/mim/name": {
-  "rate": "-10%",
-  "seconds": 0.48,
+  "number": 323,
+  "recorded": true,
+  "recorded_text": "مِيم",
+  "seconds": 0.58,
+  "source": "323.mp3",
   "text": "مِيم",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/mim/v1": {
   "rate": "-10%",

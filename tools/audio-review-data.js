@@ -1362,10 +1362,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/mim/name": {
 "spoken": "مِيم",
-"rate": "-10%",
-"seconds": 0.48,
+"rate": null,
+"seconds": 0.58,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/mim/v1": {
 "spoken": "مَ.",
