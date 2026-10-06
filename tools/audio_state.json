@@ -2794,11 +2794,13 @@
   "unchanged": true
  },
  "phrases/ex_match": {
-  "rate": "-15%",
-  "seconds": 1.37,
+  "number": 382,
+  "recorded": true,
+  "recorded_text": "صِلِ الْحَرْفَ بِالصُّورَة.",
+  "seconds": 1.7,
+  "source": "382.mp3",
   "text": "صِلِ الْحَرْفَ بِالصُّورَة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/ex_trace": {
   "rate": "-15%",

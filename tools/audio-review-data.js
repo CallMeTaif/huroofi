@@ -2482,10 +2482,10 @@ window.AUDIO_REVIEW = {
 },
 "phrases/ex_match": {
 "spoken": "صِلِ الْحَرْفَ بِالصُّورَة.",
-"rate": "-15%",
-"seconds": 1.37,
+"rate": null,
+"seconds": 1.7,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/ex_trace": {
 "spoken": "اكْتُبِ الْحَرْفَ بِإِصْبَعِك.",
