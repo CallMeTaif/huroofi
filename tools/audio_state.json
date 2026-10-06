@@ -1625,11 +1625,13 @@
   "unchanged": true
  },
  "letters/nun/name": {
-  "rate": "-10%",
-  "seconds": 0.5,
+  "number": 333,
+  "recorded": true,
+  "recorded_text": "نُون",
+  "seconds": 0.67,
+  "source": "333.mp3",
   "text": "نُون",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/nun/v1": {
   "rate": "-10%",
