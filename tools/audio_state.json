@@ -2812,11 +2812,13 @@
   "unchanged": true
  },
  "phrases/ex_where": {
-  "rate": "-15%",
-  "seconds": 0.7,
+  "number": 384,
+  "recorded": true,
+  "recorded_text": "أَيْنَ الْحَرْف؟",
+  "seconds": 0.96,
+  "source": "384.mp3",
   "text": "أَيْنَ الْحَرْف؟",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/great1": {
   "rate": "-15%",

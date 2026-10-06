@@ -2496,10 +2496,10 @@ window.AUDIO_REVIEW = {
 },
 "phrases/ex_where": {
 "spoken": "أَيْنَ الْحَرْف؟",
-"rate": "-15%",
-"seconds": 0.7,
+"rate": null,
+"seconds": 0.96,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/great1": {
 "spoken": "أَحْسَنْت!",
