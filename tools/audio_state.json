@@ -769,11 +769,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ghain/form-final": {
-  "rate": "-10%",
-  "seconds": 0.36,
+  "number": 271,
+  "recorded": true,
+  "recorded_text": "صَمْغ",
+  "seconds": 0.74,
+  "source": "271.mp3",
   "text": "صَمْغ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ghain/form-initial": {
   "number": 267,
@@ -3626,11 +3628,13 @@
   "unchanged": true
  },
  "words/samgh": {
-  "rate": "-10%",
-  "seconds": 0.36,
+  "number": 271,
+  "recorded": true,
+  "recorded_text": "صَمْغ",
+  "seconds": 0.74,
+  "source": "271.mp3",
   "text": "صَمْغ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/saqr": {
   "number": 196,

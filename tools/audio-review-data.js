@@ -697,10 +697,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ghain/form-final": {
 "spoken": "صَمْغ",
-"rate": "-10%",
-"seconds": 0.36,
+"rate": null,
+"seconds": 0.74,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ghain/form-initial": {
 "spoken": "غَيْمَة",
@@ -3252,10 +3252,10 @@ window.AUDIO_REVIEW = {
 },
 "words/samgh": {
 "spoken": "صَمْغ",
-"rate": "-10%",
-"seconds": 0.36,
+"rate": null,
+"seconds": 0.74,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/saqr": {
 "spoken": "صَقْر",
