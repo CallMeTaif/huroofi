@@ -776,11 +776,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ghain/form-initial": {
-  "rate": "-10%",
-  "seconds": 0.56,
+  "number": 267,
+  "recorded": true,
+  "recorded_text": "غَيْمَة",
+  "seconds": 0.81,
+  "source": "267.mp3",
   "text": "غَيْمَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ghain/form-isolated": {
   "rate": "-10%",
@@ -3114,11 +3116,13 @@
   "unchanged": true
  },
  "words/ghayma": {
-  "rate": "-10%",
-  "seconds": 0.56,
+  "number": 267,
+  "recorded": true,
+  "recorded_text": "غَيْمَة",
+  "seconds": 0.81,
+  "source": "267.mp3",
   "text": "غَيْمَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/ghazal": {
   "number": 155,
