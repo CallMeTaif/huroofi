@@ -2587,38 +2587,38 @@ window.AUDIO_REVIEW = {
 },
 "phrases/sec_videos": {
 "spoken": "شَاهِدْ وَتَعَلَّم.",
-"rate": "-15%",
-"seconds": 1.43,
+"rate": null,
+"seconds": 1.83,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/sec_vowels": {
 "spoken": "الْحَرَكَات.",
-"rate": "-15%",
-"seconds": 0.8,
+"rate": null,
+"seconds": 1.1,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/sec_words": {
 "spoken": "كَلِمَاتٌ وَصُوَر.",
-"rate": "-15%",
-"seconds": 1.33,
+"rate": null,
+"seconds": 1.6,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/try_again": {
 "spoken": "حَاوِلْ مَرَّةً أُخْرَى.",
-"rate": "-15%",
-"seconds": 1.56,
+"rate": null,
+"seconds": 1.71,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/who": {
 "spoken": "مَنْ يَلْعَبُ الْآنَ؟",
-"rate": "-15%",
-"seconds": 1.35,
+"rate": null,
+"seconds": 1.28,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/anf": {
 "spoken": "أَنْف",

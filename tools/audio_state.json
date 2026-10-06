@@ -2929,39 +2929,49 @@
   "unchanged": true
  },
  "phrases/sec_videos": {
-  "rate": "-15%",
-  "seconds": 1.43,
+  "number": 397,
+  "recorded": true,
+  "recorded_text": "شَاهِدْ وَتَعَلَّم.",
+  "seconds": 1.83,
+  "source": "397.mp3",
   "text": "شَاهِدْ وَتَعَلَّم.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/sec_vowels": {
-  "rate": "-15%",
-  "seconds": 0.8,
+  "number": 398,
+  "recorded": true,
+  "recorded_text": "الْحَرَكَات.",
+  "seconds": 1.1,
+  "source": "398.mp3",
   "text": "الْحَرَكَات.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/sec_words": {
-  "rate": "-15%",
-  "seconds": 1.33,
+  "number": 399,
+  "recorded": true,
+  "recorded_text": "كَلِمَاتٌ وَصُوَر.",
+  "seconds": 1.6,
+  "source": "399.mp3",
   "text": "كَلِمَاتٌ وَصُوَر.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/try_again": {
-  "rate": "-15%",
-  "seconds": 1.56,
+  "number": 400,
+  "recorded": true,
+  "recorded_text": "حَاوِلْ مَرَّةً أُخْرَى.",
+  "seconds": 1.71,
+  "source": "400.mp3",
   "text": "حَاوِلْ مَرَّةً أُخْرَى.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/who": {
-  "rate": "-15%",
-  "seconds": 1.35,
+  "number": 401,
+  "recorded": true,
+  "recorded_text": "مَنْ يَلْعَبُ الْآنَ؟",
+  "seconds": 1.28,
+  "source": "401.mp3",
   "text": "مَنْ يَلْعَبُ الْآنَ؟",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/anf": {
   "number": 283,
