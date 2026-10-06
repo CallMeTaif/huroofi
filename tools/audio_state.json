@@ -1179,11 +1179,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/kaf/form-final": {
-  "rate": "-10%",
-  "seconds": 0.33,
+  "number": 308,
+  "recorded": true,
+  "recorded_text": "دِيك",
+  "seconds": 0.7,
+  "source": "308.mp3",
   "text": "دِيك",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kaf/form-initial": {
   "number": 28,
@@ -3076,11 +3078,13 @@
   "unchanged": true
  },
  "words/dik": {
-  "rate": "-10%",
-  "seconds": 0.33,
+  "number": 308,
+  "recorded": true,
+  "recorded_text": "دِيك",
+  "seconds": 0.7,
+  "source": "308.mp3",
   "text": "دِيك",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/dimagh": {
   "number": 270,

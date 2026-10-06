@@ -1061,10 +1061,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kaf/form-final": {
 "spoken": "دِيك",
-"rate": "-10%",
-"seconds": 0.33,
+"rate": null,
+"seconds": 0.7,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kaf/form-initial": {
 "spoken": "كِتَاب",
@@ -2776,10 +2776,10 @@ window.AUDIO_REVIEW = {
 },
 "words/dik": {
 "spoken": "دِيك",
-"rate": "-10%",
-"seconds": 0.33,
+"rate": null,
+"seconds": 0.7,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/dimagh": {
 "spoken": "دِمَاغ",
