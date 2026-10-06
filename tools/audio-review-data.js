@@ -1537,10 +1537,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/qaf/form-medial": {
 "spoken": "بَقَرَة",
-"rate": "-10%",
-"seconds": 0.67,
+"rate": null,
+"seconds": 0.73,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/qaf/name": {
 "spoken": "قَاف",
@@ -2692,10 +2692,10 @@ window.AUDIO_REVIEW = {
 },
 "words/baqara": {
 "spoken": "بَقَرَة",
-"rate": "-10%",
-"seconds": 0.67,
+"rate": null,
+"seconds": 0.73,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/basal": {
 "spoken": "بَصَل",

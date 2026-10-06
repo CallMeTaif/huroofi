@@ -1689,11 +1689,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/qaf/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.67,
+  "number": 294,
+  "recorded": true,
+  "recorded_text": "بَقَرَة",
+  "seconds": 0.73,
+  "source": "294.mp3",
   "text": "بَقَرَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/qaf/name": {
   "number": 285,
@@ -2960,11 +2962,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/baqara": {
-  "rate": "-10%",
-  "seconds": 0.67,
+  "number": 294,
+  "recorded": true,
+  "recorded_text": "بَقَرَة",
+  "seconds": 0.73,
+  "source": "294.mp3",
   "text": "بَقَرَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/basal": {
   "number": 198,
