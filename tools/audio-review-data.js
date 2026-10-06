@@ -1523,10 +1523,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/qaf/form-initial": {
 "spoken": "قِطَّة",
-"rate": "-10%",
-"seconds": 0.51,
+"rate": null,
+"seconds": 0.7,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/qaf/form-isolated": {
 "spoken": "صُنْدُوق",
@@ -3196,10 +3196,10 @@ window.AUDIO_REVIEW = {
 },
 "words/qitta": {
 "spoken": "قِطَّة",
-"rate": "-10%",
-"seconds": 0.51,
+"rate": null,
+"seconds": 0.7,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/qunfudh": {
 "spoken": "قُنْفُذ",

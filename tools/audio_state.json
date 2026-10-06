@@ -1673,11 +1673,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/qaf/form-initial": {
-  "rate": "-10%",
-  "seconds": 0.51,
+  "number": 293,
+  "recorded": true,
+  "recorded_text": "قِطَّة",
+  "seconds": 0.7,
+  "source": "293.mp3",
   "text": "قِطَّة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/qaf/form-isolated": {
   "rate": "-10%",
@@ -3580,11 +3582,13 @@
   "unchanged": true
  },
  "words/qitta": {
-  "rate": "-10%",
-  "seconds": 0.51,
+  "number": 293,
+  "recorded": true,
+  "recorded_text": "قِطَّة",
+  "seconds": 0.7,
+  "source": "293.mp3",
   "text": "قِطَّة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/qunfudh": {
   "number": 128,
