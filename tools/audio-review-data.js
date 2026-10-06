@@ -2993,10 +2993,10 @@ window.AUDIO_REVIEW = {
 },
 "words/kura": {
 "spoken": "كُرَة",
-"rate": "-10%",
+"rate": null,
 "seconds": 0.44,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/kursi": {
 "spoken": "كُرْسِيّ",
@@ -3063,10 +3063,10 @@ window.AUDIO_REVIEW = {
 },
 "words/miknasa": {
 "spoken": "مِكْنَسَة",
-"rate": "-10%",
-"seconds": 0.48,
+"rate": null,
+"seconds": 0.71,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/milaqa": {
 "spoken": "مِلْعَقَة",

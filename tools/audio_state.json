@@ -3345,11 +3345,13 @@
   "unchanged": true
  },
  "words/kura": {
-  "rate": "-10%",
+  "number": 306,
+  "recorded": true,
+  "recorded_text": "كُرَة",
   "seconds": 0.44,
+  "source": "306.mp3",
   "text": "كُرَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/kursi": {
   "number": 169,
@@ -3429,11 +3431,13 @@
   "unchanged": true
  },
  "words/miknasa": {
-  "rate": "-10%",
-  "seconds": 0.48,
+  "number": 307,
+  "recorded": true,
+  "recorded_text": "مِكْنَسَة",
+  "seconds": 0.71,
+  "source": "307.mp3",
   "text": "مِكْنَسَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/milaqa": {
   "number": 255,
