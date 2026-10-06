@@ -2244,10 +2244,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/waw/name": {
 "spoken": "وَاو",
-"rate": "-10%",
-"seconds": 0.39,
+"rate": null,
+"seconds": 0.7,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/waw/v1": {
 "spoken": "وَ.",

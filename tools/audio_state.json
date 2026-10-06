@@ -2526,11 +2526,13 @@
   "unchanged": true
  },
  "letters/waw/name": {
-  "rate": "-10%",
-  "seconds": 0.39,
+  "number": 357,
+  "recorded": true,
+  "recorded_text": "وَاو",
+  "seconds": 0.7,
+  "source": "357.mp3",
   "text": "وَاو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/waw/v1": {
   "rate": "-10%",
