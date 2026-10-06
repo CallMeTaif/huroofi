@@ -1089,10 +1089,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kaf/name": {
 "spoken": "كَاف",
-"rate": "-10%",
-"seconds": 0.24,
+"rate": null,
+"seconds": 0.66,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kaf/v1": {
 "spoken": "كَ.",
@@ -1509,10 +1509,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/qaf/desc": {
 "spoken": "حَرْفُ الْقَافِ لَهُ نُقْطَتَانِ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: قَ، قِطَّة.",
-"rate": "-15%",
-"seconds": 9.12,
+"rate": null,
+"seconds": 8.61,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/qaf/form-final": {
 "spoken": "طَبَق",

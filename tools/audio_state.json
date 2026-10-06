@@ -1211,11 +1211,13 @@
   "unchanged": true
  },
  "letters/kaf/name": {
-  "rate": "-10%",
-  "seconds": 0.24,
+  "number": 298,
+  "recorded": true,
+  "recorded_text": "كَاف",
+  "seconds": 0.66,
+  "source": "298.mp3",
   "text": "كَاف",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kaf/v1": {
   "rate": "-10%",
@@ -1659,11 +1661,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/qaf/desc": {
-  "rate": "-15%",
-  "seconds": 9.12,
+  "number": 297,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الْقَافِ لَهُ نُقْطَتَانِ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: قَ، قِطَّة.",
+  "seconds": 8.61,
+  "source": "297.mp3",
   "text": "حَرْفُ الْقَافِ لَهُ نُقْطَتَانِ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: قَ، قِطَّة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/qaf/form-final": {
   "number": 296,
