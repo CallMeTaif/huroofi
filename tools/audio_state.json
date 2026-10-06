@@ -976,11 +976,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/haa/desc": {
-  "rate": "-15%",
-  "seconds": 9.06,
+  "number": 356,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الْهَاءِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: هَ، هَدِيَّة.",
+  "seconds": 7.87,
+  "source": "356.mp3",
   "text": "حَرْفُ الْهَاءِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: هَ، هَدِيَّة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/haa/form-final": {
   "number": 353,
