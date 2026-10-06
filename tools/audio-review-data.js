@@ -2566,17 +2566,17 @@ window.AUDIO_REVIEW = {
 },
 "phrases/sec_forms": {
 "spoken": "أَشْكَالُ الْحَرْف.",
-"rate": "-15%",
-"seconds": 1.06,
+"rate": null,
+"seconds": 1.34,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/sec_meet": {
 "spoken": "تَعَرَّفْ عَلَى الْحَرْف.",
-"rate": "-15%",
-"seconds": 1.15,
+"rate": null,
+"seconds": 1.34,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/sec_practice": {
 "spoken": "تَمَرَّن.",
