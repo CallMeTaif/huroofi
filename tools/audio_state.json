@@ -1481,11 +1481,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/mim/desc": {
-  "rate": "-15%",
-  "seconds": 8.71,
+  "number": 332,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الْمِيمِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: مَ، مَوْز.",
+  "seconds": 7.43,
+  "source": "332.mp3",
   "text": "حَرْفُ الْمِيمِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: مَ، مَوْز.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/mim/form-final": {
   "number": 321,

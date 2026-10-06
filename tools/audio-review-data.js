@@ -1327,10 +1327,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/mim/desc": {
 "spoken": "حَرْفُ الْمِيمِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: مَ، مَوْز.",
-"rate": "-15%",
-"seconds": 8.71,
+"rate": null,
+"seconds": 7.43,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/mim/form-final": {
 "spoken": "قَلَم",
