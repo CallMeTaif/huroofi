@@ -1013,11 +1013,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/haa/name": {
-  "rate": "-10%",
-  "seconds": 0.39,
+  "number": 343,
+  "recorded": true,
+  "recorded_text": "هَاء",
+  "seconds": 0.56,
+  "source": "343.mp3",
   "text": "هَاء",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/haa/v1": {
   "rate": "-10%",

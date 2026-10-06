@@ -907,10 +907,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/haa/name": {
 "spoken": "هَاء",
-"rate": "-10%",
-"seconds": 0.39,
+"rate": null,
+"seconds": 0.56,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/haa/v1": {
 "spoken": "هَ.",
