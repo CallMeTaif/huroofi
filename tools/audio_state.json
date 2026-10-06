@@ -3922,11 +3922,13 @@
   "unchanged": true
  },
  "words/walad": {
-  "rate": "-10%",
-  "seconds": 0.58,
+  "number": 365,
+  "recorded": true,
+  "recorded_text": "وَلَد",
+  "seconds": 0.66,
+  "source": "365.mp3",
   "text": "وَلَد",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/warda": {
   "number": 112,

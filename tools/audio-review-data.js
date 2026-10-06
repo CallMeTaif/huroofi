@@ -3406,10 +3406,10 @@ window.AUDIO_REVIEW = {
 },
 "words/walad": {
 "spoken": "وَلَد",
-"rate": "-10%",
-"seconds": 0.58,
+"rate": null,
+"seconds": 0.66,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/warda": {
 "spoken": "وَرْدَة",
