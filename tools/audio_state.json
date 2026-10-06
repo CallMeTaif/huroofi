@@ -1584,11 +1584,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/nun/desc": {
-  "rate": "-15%",
-  "seconds": 9.83,
+  "number": 342,
+  "recorded": true,
+  "recorded_text": "حَرْفُ النُّونِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: نَ، نَحْلَة.",
+  "seconds": 8.89,
+  "source": "342.mp3",
   "text": "حَرْفُ النُّونِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: نَ، نَحْلَة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/nun/form-final": {
   "number": 247,
@@ -1609,11 +1611,13 @@
   "unchanged": true
  },
  "letters/nun/form-isolated": {
-  "rate": "-10%",
-  "seconds": 0.68,
+  "number": 341,
+  "recorded": true,
+  "recorded_text": "بَالُون",
+  "seconds": 0.92,
+  "source": "341.mp3",
   "text": "بَالُون",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/nun/form-medial": {
   "number": 29,
@@ -2985,11 +2989,13 @@
   "unchanged": true
  },
  "words/balun": {
-  "rate": "-10%",
-  "seconds": 0.68,
+  "number": 341,
+  "recorded": true,
+  "recorded_text": "بَالُون",
+  "seconds": 0.92,
+  "source": "341.mp3",
   "text": "بَالُون",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/baqara": {
   "number": 294,

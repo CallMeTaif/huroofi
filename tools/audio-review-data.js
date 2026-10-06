@@ -1418,10 +1418,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/nun/desc": {
 "spoken": "حَرْفُ النُّونِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: نَ، نَحْلَة.",
-"rate": "-15%",
-"seconds": 9.83,
+"rate": null,
+"seconds": 8.89,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/nun/form-final": {
 "spoken": "عَيْن",
@@ -1439,10 +1439,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/nun/form-isolated": {
 "spoken": "بَالُون",
-"rate": "-10%",
-"seconds": 0.68,
+"rate": null,
+"seconds": 0.92,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/nun/form-medial": {
 "spoken": "عِنَب",
@@ -2685,10 +2685,10 @@ window.AUDIO_REVIEW = {
 },
 "words/balun": {
 "spoken": "بَالُون",
-"rate": "-10%",
-"seconds": 0.68,
+"rate": null,
+"seconds": 0.92,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/baqara": {
 "spoken": "بَقَرَة",
