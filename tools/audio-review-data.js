@@ -599,17 +599,17 @@ window.AUDIO_REVIEW = {
 },
 "letters/fa/desc": {
 "spoken": "حَرْفُ الْفَاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: فَ، فِيل.",
-"rate": "-15%",
-"seconds": 9.87,
+"rate": null,
+"seconds": 8.74,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/fa/form-final": {
 "spoken": "أَنْف",
-"rate": "-10%",
-"seconds": 0.28,
+"rate": null,
+"seconds": 0.49,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/fa/form-initial": {
 "spoken": "فِيل",
@@ -2622,10 +2622,10 @@ window.AUDIO_REVIEW = {
 },
 "words/anf": {
 "spoken": "أَنْف",
-"rate": "-10%",
-"seconds": 0.28,
+"rate": null,
+"seconds": 0.49,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/ard": {
 "spoken": "أَرْض",
