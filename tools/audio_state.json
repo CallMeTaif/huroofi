@@ -1006,11 +1006,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/haa/form-medial": {
-  "rate": "-10%",
-  "seconds": 0.6,
+  "number": 352,
+  "recorded": true,
+  "recorded_text": "نَهْر",
+  "seconds": 0.65,
+  "source": "352.mp3",
   "text": "نَهْر",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/haa/name": {
   "number": 343,
@@ -3552,11 +3554,13 @@
   "unchanged": true
  },
  "words/nahr": {
-  "rate": "-10%",
-  "seconds": 0.6,
+  "number": 352,
+  "recorded": true,
+  "recorded_text": "نَهْر",
+  "seconds": 0.65,
+  "source": "352.mp3",
   "text": "نَهْر",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/najma": {
   "number": 70,
