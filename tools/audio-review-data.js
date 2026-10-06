@@ -2552,10 +2552,10 @@ window.AUDIO_REVIEW = {
 },
 "phrases/review": {
 "spoken": "تَمَارِينُ الْمُرَاجَعَة.",
-"rate": "-15%",
-"seconds": 1.43,
+"rate": null,
+"seconds": 1.41,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/round_done": {
 "spoken": "رَائِع! انْتَهَتِ الْجَوْلَة.",

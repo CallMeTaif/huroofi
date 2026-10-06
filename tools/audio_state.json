@@ -2884,11 +2884,13 @@
   "unchanged": true
  },
  "phrases/review": {
-  "rate": "-15%",
-  "seconds": 1.43,
+  "number": 392,
+  "recorded": true,
+  "recorded_text": "تَمَارِينُ الْمُرَاجَعَة.",
+  "seconds": 1.41,
+  "source": "392.mp3",
   "text": "تَمَارِينُ الْمُرَاجَعَة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/round_done": {
   "rate": "-15%",
