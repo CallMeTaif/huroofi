@@ -879,10 +879,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/haa/form-final": {
 "spoken": "وَجْه",
-"rate": "-10%",
-"seconds": 0.48,
+"rate": null,
+"seconds": 0.66,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/haa/form-initial": {
 "spoken": "هَدِيَّة",
@@ -3399,10 +3399,10 @@ window.AUDIO_REVIEW = {
 },
 "words/wajh": {
 "spoken": "وَجْه",
-"rate": "-10%",
-"seconds": 0.48,
+"rate": null,
+"seconds": 0.66,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/walad": {
 "spoken": "وَلَد",
