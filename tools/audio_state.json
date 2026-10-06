@@ -2503,11 +2503,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/waw/desc": {
-  "rate": "-15%",
-  "seconds": 9.17,
+  "number": 368,
+  "recorded": true,
+  "recorded_text": "حَرْفُ الْوَاوِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: وَ، وَرْدَة.",
+  "seconds": 8.0,
+  "source": "368.mp3",
   "text": "حَرْفُ الْوَاوِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: وَ، وَرْدَة.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/waw/form-final": {
   "number": 366,
@@ -2627,11 +2629,13 @@
   "unchanged": true
  },
  "letters/ya/name": {
-  "rate": "-10%",
-  "seconds": 0.38,
+  "number": 369,
+  "recorded": true,
+  "recorded_text": "يَاء",
+  "seconds": 0.54,
+  "source": "369.mp3",
   "text": "يَاء",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ya/v1": {
   "rate": "-10%",

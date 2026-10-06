@@ -2223,10 +2223,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/waw/desc": {
 "spoken": "حَرْفُ الْوَاوِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: وَ، وَرْدَة.",
-"rate": "-15%",
-"seconds": 9.17,
+"rate": null,
+"seconds": 8.0,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/waw/form-final": {
 "spoken": "دَلْو",
@@ -2335,10 +2335,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ya/name": {
 "spoken": "يَاء",
-"rate": "-10%",
-"seconds": 0.38,
+"rate": null,
+"seconds": 0.54,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ya/v1": {
 "spoken": "يَ.",
