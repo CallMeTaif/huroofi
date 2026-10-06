@@ -1075,10 +1075,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kaf/form-isolated": {
 "spoken": "شُبَّاك",
-"rate": "-10%",
-"seconds": 0.5,
+"rate": null,
+"seconds": 0.93,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kaf/form-medial": {
 "spoken": "سَمَكَة",
@@ -3301,10 +3301,10 @@ window.AUDIO_REVIEW = {
 },
 "words/shubbak": {
 "spoken": "شُبَّاك",
-"rate": "-10%",
-"seconds": 0.5,
+"rate": null,
+"seconds": 0.93,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/sunduq": {
 "spoken": "صُنْدُوق",
