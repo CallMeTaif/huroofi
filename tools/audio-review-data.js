@@ -1236,10 +1236,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/lam/desc": {
 "spoken": "حَرْفُ اللَّامِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: لَ، لَيْمُون.",
-"rate": "-15%",
-"seconds": 9.1,
+"rate": null,
+"seconds": 7.85,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/lam/form-final": {
 "spoken": "فِيل",
