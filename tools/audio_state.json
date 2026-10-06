@@ -3318,11 +3318,13 @@
   "unchanged": true
  },
  "words/jarw": {
-  "rate": "-10%",
-  "seconds": 0.48,
+  "number": 367,
+  "recorded": true,
+  "recorded_text": "جَرْو",
+  "seconds": 0.52,
+  "source": "367.mp3",
   "text": "جَرْو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/jazar": {
   "number": 68,

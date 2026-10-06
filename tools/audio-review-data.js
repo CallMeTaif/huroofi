@@ -2930,10 +2930,10 @@ window.AUDIO_REVIEW = {
 },
 "words/jarw": {
 "spoken": "جَرْو",
-"rate": "-10%",
-"seconds": 0.48,
+"rate": null,
+"seconds": 0.52,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/jazar": {
 "spoken": "جَزَر",
