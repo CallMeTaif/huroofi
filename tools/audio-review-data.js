@@ -2468,10 +2468,10 @@ window.AUDIO_REVIEW = {
 },
 "phrases/ex_find": {
 "spoken": "اضْغَطْ عَلَى الْكَلِمَاتِ الَّتِي فِيهَا الْحَرْف.",
-"rate": "-15%",
-"seconds": 2.81,
+"rate": null,
+"seconds": 2.6,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "phrases/ex_listen": {
 "spoken": "اسْمَعْ، ثُمَّ اخْتَرِ الْحَرْفَ الصَّحِيح.",

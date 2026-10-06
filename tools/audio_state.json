@@ -2776,11 +2776,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "phrases/ex_find": {
-  "rate": "-15%",
-  "seconds": 2.81,
+  "number": 380,
+  "recorded": true,
+  "recorded_text": "اضْغَطْ عَلَى الْكَلِمَاتِ الَّتِي فِيهَا الْحَرْف.",
+  "seconds": 2.6,
+  "source": "380.mp3",
   "text": "اضْغَطْ عَلَى الْكَلِمَاتِ الَّتِي فِيهَا الْحَرْف.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/ex_listen": {
   "rate": "-15%",
