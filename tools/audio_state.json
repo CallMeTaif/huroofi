@@ -2510,11 +2510,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/waw/form-final": {
-  "rate": "-10%",
-  "seconds": 0.49,
+  "number": 366,
+  "recorded": true,
+  "recorded_text": "دَلْو",
+  "seconds": 0.61,
+  "source": "366.mp3",
   "text": "دَلْو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/waw/form-isolated": {
   "number": 112,
@@ -3073,11 +3075,13 @@
   "unchanged": true
  },
  "words/dalw": {
-  "rate": "-10%",
-  "seconds": 0.49,
+  "number": 366,
+  "recorded": true,
+  "recorded_text": "دَلْو",
+  "seconds": 0.61,
+  "source": "366.mp3",
   "text": "دَلْو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/daw": {
   "number": 212,

@@ -2230,10 +2230,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/waw/form-final": {
 "spoken": "دَلْو",
-"rate": "-10%",
-"seconds": 0.49,
+"rate": null,
+"seconds": 0.61,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/waw/form-isolated": {
 "spoken": "وَرْدَة",
@@ -2741,10 +2741,10 @@ window.AUDIO_REVIEW = {
 },
 "words/dalw": {
 "spoken": "دَلْو",
-"rate": "-10%",
-"seconds": 0.49,
+"rate": null,
+"seconds": 0.61,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/daw": {
 "spoken": "ضَوْء",
