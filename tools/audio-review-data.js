@@ -711,10 +711,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ghain/form-isolated": {
 "spoken": "دِمَاغ",
-"rate": "-10%",
-"seconds": 0.75,
+"rate": null,
+"seconds": 0.69,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ghain/form-medial": {
 "spoken": "بَبَّغَاء",
@@ -2783,10 +2783,10 @@ window.AUDIO_REVIEW = {
 },
 "words/dimagh": {
 "spoken": "دِمَاغ",
-"rate": "-10%",
-"seconds": 0.75,
+"rate": null,
+"seconds": 0.69,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/dubb": {
 "spoken": "دُبّ",

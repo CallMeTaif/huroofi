@@ -785,11 +785,13 @@
   "unchanged": true
  },
  "letters/ghain/form-isolated": {
-  "rate": "-10%",
-  "seconds": 0.75,
+  "number": 270,
+  "recorded": true,
+  "recorded_text": "دِمَاغ",
+  "seconds": 0.69,
+  "source": "270.mp3",
   "text": "دِمَاغ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ghain/form-medial": {
   "number": 268,
@@ -3047,11 +3049,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "words/dimagh": {
-  "rate": "-10%",
-  "seconds": 0.75,
+  "number": 270,
+  "recorded": true,
+  "recorded_text": "دِمَاغ",
+  "seconds": 0.69,
+  "source": "270.mp3",
   "text": "دِمَاغ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/dubb": {
   "number": 111,
