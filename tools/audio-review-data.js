@@ -893,10 +893,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/haa/form-isolated": {
 "spoken": "مِيَاه",
-"rate": "-10%",
-"seconds": 0.51,
+"rate": null,
+"seconds": 0.75,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/haa/form-medial": {
 "spoken": "نَهْر",

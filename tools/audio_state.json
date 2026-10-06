@@ -1001,11 +1001,13 @@
   "unchanged": true
  },
  "letters/haa/form-isolated": {
-  "rate": "-10%",
-  "seconds": 0.51,
+  "number": 355,
+  "recorded": true,
+  "recorded_text": "مِيَاه",
+  "seconds": 0.75,
+  "source": "355.mp3",
   "text": "مِيَاه",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/haa/form-medial": {
   "number": 352,
