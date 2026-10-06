@@ -2321,10 +2321,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ya/form-isolated": {
 "spoken": "شَاي",
-"rate": "-10%",
-"seconds": 0.48,
+"rate": null,
+"seconds": 0.58,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ya/form-medial": {
 "spoken": "فِيل",
@@ -3294,10 +3294,10 @@ window.AUDIO_REVIEW = {
 },
 "words/shay": {
 "spoken": "شَاي",
-"rate": "-10%",
-"seconds": 0.48,
+"rate": null,
+"seconds": 0.58,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/shubbak": {
 "spoken": "شُبَّاك",
@@ -3427,10 +3427,10 @@ window.AUDIO_REVIEW = {
 },
 "words/yamama": {
 "spoken": "يَمَامَة",
-"rate": "-10%",
-"seconds": 0.67,
+"rate": null,
+"seconds": 0.82,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/zaby": {
 "spoken": "ظَبْي",
