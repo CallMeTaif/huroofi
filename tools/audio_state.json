@@ -3615,11 +3615,13 @@
   "unchanged": true
  },
  "words/safina": {
-  "rate": "-10%",
-  "seconds": 0.55,
+  "number": 282,
+  "recorded": true,
+  "recorded_text": "سَفِينَة",
+  "seconds": 0.75,
+  "source": "282.mp3",
   "text": "سَفِينَة",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "words/sakhra": {
   "number": 99,

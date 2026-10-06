@@ -3231,10 +3231,10 @@ window.AUDIO_REVIEW = {
 },
 "words/safina": {
 "spoken": "سَفِينَة",
-"rate": "-10%",
-"seconds": 0.55,
+"rate": null,
+"seconds": 0.75,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "words/sakhra": {
 "spoken": "صَخْرَة",
