@@ -913,11 +913,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/haa/v1": {
-"spoken": "هَ.",
-"rate": "-10%",
-"seconds": 0.42,
+"spoken": "هَ",
+"rate": null,
+"seconds": 0.49,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/haa/v2": {
 "spoken": "هُ.",
