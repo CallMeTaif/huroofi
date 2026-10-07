@@ -1188,11 +1188,13 @@
   "unchanged": true
  },
  "letters/jim/v4": {
-  "rate": "-10%",
-  "seconds": 0.31,
+  "number": 63,
+  "recorded": true,
+  "recorded_text": "جْ",
+  "seconds": 0.53,
+  "source": "063.mp3",
   "text": "أَجْ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/jim/v5": {
   "number": 64,

@@ -1025,11 +1025,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/jim/v4": {
-"spoken": "أَجْ",
-"rate": "-10%",
-"seconds": 0.31,
+"spoken": "جْ",
+"rate": null,
+"seconds": 0.53,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/jim/v5": {
 "spoken": "جَا",
