@@ -2279,10 +2279,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/waw/v5": {
 "spoken": "وَا",
-"rate": "-40%",
-"seconds": 0.47,
+"rate": null,
+"seconds": 0.55,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/waw/v6": {
 "spoken": "وُو",
