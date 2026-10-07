@@ -1953,11 +1953,13 @@
   "unchanged": true
  },
  "letters/qaf/v5": {
-  "rate": "-40%",
-  "seconds": 0.21,
+  "number": 290,
+  "recorded": true,
+  "recorded_text": "قَا",
+  "seconds": 0.55,
+  "source": "290.mp3",
   "text": "قَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/qaf/v6": {
   "rate": "-40%",
