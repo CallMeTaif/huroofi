@@ -1195,11 +1195,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/jim/v5": {
-  "rate": "-40%",
-  "seconds": 0.48,
+  "number": 64,
+  "recorded": true,
+  "recorded_text": "جَا",
+  "seconds": 0.58,
+  "source": "064.mp3",
   "text": "جَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/jim/v6": {
   "rate": "-40%",
