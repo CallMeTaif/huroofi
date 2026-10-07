@@ -731,11 +731,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/ghain/v1": {
-"spoken": "غَ.",
-"rate": "-10%",
-"seconds": 0.59,
+"spoken": "غَ",
+"rate": null,
+"seconds": 0.53,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ghain/v2": {
 "spoken": "غُ.",
