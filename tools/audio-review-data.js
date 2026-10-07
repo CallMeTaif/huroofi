@@ -1411,10 +1411,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/mim/v7": {
 "spoken": "مِي",
-"rate": "-40%",
-"seconds": 0.46,
+"rate": null,
+"seconds": 0.49,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/nun/desc": {
 "spoken": "حَرْفُ النُّونِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: نَ، نَحْلَة.",

@@ -1793,11 +1793,13 @@
   "unchanged": true
  },
  "letters/mim/v7": {
-  "rate": "-40%",
-  "seconds": 0.46,
+  "number": 330,
+  "recorded": true,
+  "recorded_text": "مِي",
+  "seconds": 0.49,
+  "source": "330.mp3",
   "text": "مِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/nun/desc": {
   "number": 342,

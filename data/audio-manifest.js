@@ -202,7 +202,7 @@ window.AUDIO_FILES = {
 "letters/mim/v4": "4fdf5967be",
 "letters/mim/v5": "816c34619e",
 "letters/mim/v6": "8c2549ba5e",
-"letters/mim/v7": "038d50af1b",
+"letters/mim/v7": "a39bcb7360",
 "letters/nun/desc": "3dd7600279",
 "letters/nun/form-final": "4221955b50",
 "letters/nun/form-initial": "d7da18060f",
