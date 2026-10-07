@@ -2082,11 +2082,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/taa/v1": {
-"spoken": "طَ.",
-"rate": "-10%",
-"seconds": 0.39,
+"spoken": "طَ",
+"rate": null,
+"seconds": 0.49,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/taa/v2": {
 "spoken": "طُ.",

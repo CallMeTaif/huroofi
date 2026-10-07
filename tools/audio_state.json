@@ -2531,11 +2531,13 @@
   "unchanged": true
  },
  "letters/taa/v1": {
-  "rate": "-10%",
-  "seconds": 0.39,
+  "number": 219,
+  "recorded": true,
+  "recorded_text": "طَ",
+  "seconds": 0.49,
+  "source": "219.mp3",
   "text": "طَ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/taa/v2": {
   "rate": "-10%",

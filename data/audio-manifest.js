@@ -298,7 +298,7 @@ window.AUDIO_FILES = {
 "letters/taa/form-isolated": "2268748f2f",
 "letters/taa/form-medial": "bb5243fdf7",
 "letters/taa/name": "0d65b4d6b5",
-"letters/taa/v1": "443923b060",
+"letters/taa/v1": "03ee91672d",
 "letters/taa/v2": "443923b060",
 "letters/taa/v3": "443923b060",
 "letters/taa/v4": "2b1d72e0cb",
