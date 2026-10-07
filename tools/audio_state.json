@@ -964,11 +964,13 @@
   "unchanged": true
  },
  "letters/ha/v2": {
-  "rate": "-10%",
-  "seconds": 0.36,
+  "number": 74,
+  "recorded": true,
+  "recorded_text": "حُ",
+  "seconds": 0.62,
+  "source": "074.mp3",
   "text": "حُ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ha/v3": {
   "rate": "-10%",

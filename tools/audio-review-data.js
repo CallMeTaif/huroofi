@@ -829,11 +829,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/ha/v2": {
-"spoken": "حُ.",
-"rate": "-10%",
-"seconds": 0.36,
+"spoken": "حُ",
+"rate": null,
+"seconds": 0.62,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ha/v3": {
 "spoken": "حِ.",
