@@ -760,10 +760,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ghain/v5": {
 "spoken": "غَا",
-"rate": "-40%",
-"seconds": 0.5,
+"rate": null,
+"seconds": 0.57,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ghain/v6": {
 "spoken": "غُو",

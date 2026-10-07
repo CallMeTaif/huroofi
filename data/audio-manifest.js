@@ -109,7 +109,7 @@ window.AUDIO_FILES = {
 "letters/ghain/v2": "9f72116fba",
 "letters/ghain/v3": "bed6bf93d9",
 "letters/ghain/v4": "74538b6ab9",
-"letters/ghain/v5": "519b617142",
+"letters/ghain/v5": "7accd5960a",
 "letters/ghain/v6": "2e30ebf440",
 "letters/ghain/v7": "a65087e283",
 "letters/ha/desc": "a8f5049bd8",
