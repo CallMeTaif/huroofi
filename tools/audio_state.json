@@ -81,18 +81,22 @@
   "unchanged": true
  },
  "letters/ain/v4": {
-  "rate": "-10%",
-  "seconds": 0.33,
+  "number": 251,
+  "recorded": true,
+  "recorded_text": "عْ",
+  "seconds": 0.51,
+  "source": "251.mp3",
   "text": "أَعْ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ain/v5": {
-  "rate": "-40%",
-  "seconds": 0.48,
+  "number": 252,
+  "recorded": true,
+  "recorded_text": "عَا",
+  "seconds": 0.5,
+  "source": "252.mp3",
   "text": "عَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ain/v6": {
   "rate": "-40%",

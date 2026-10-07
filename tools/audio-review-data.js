@@ -66,18 +66,18 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/ain/v4": {
-"spoken": "أَعْ",
-"rate": "-10%",
-"seconds": 0.33,
+"spoken": "عْ",
+"rate": null,
+"seconds": 0.51,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ain/v5": {
 "spoken": "عَا",
-"rate": "-40%",
-"seconds": 0.48,
+"rate": null,
+"seconds": 0.5,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ain/v6": {
 "spoken": "عُو",
