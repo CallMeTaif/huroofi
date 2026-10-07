@@ -1936,10 +1936,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/sin/v6": {
 "spoken": "سُو",
-"rate": "-40%",
-"seconds": 0.41,
+"rate": null,
+"seconds": 0.84,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sin/v7": {
 "spoken": "سِي",

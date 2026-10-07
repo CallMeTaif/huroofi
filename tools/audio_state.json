@@ -2300,11 +2300,13 @@
   "unchanged": true
  },
  "letters/sin/v6": {
-  "rate": "-40%",
-  "seconds": 0.41,
+  "number": 164,
+  "recorded": true,
+  "recorded_text": "سُو",
+  "seconds": 0.84,
+  "source": "164.mp3",
   "text": "سُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/sin/v7": {
   "rate": "-40%",
