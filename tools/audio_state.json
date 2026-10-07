@@ -1213,11 +1213,13 @@
   "unchanged": true
  },
  "letters/haa/v6": {
-  "rate": "-40%",
-  "seconds": 0.48,
+  "number": 349,
+  "recorded": true,
+  "recorded_text": "هُو",
+  "seconds": 0.59,
+  "source": "349.mp3",
   "text": "هُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/haa/v7": {
   "rate": "-40%",
