@@ -1977,11 +1977,13 @@
   "unchanged": true
  },
  "letters/ra/v6": {
-  "rate": "-40%",
-  "seconds": 0.45,
+  "number": 137,
+  "recorded": true,
+  "recorded_text": "رُو",
+  "seconds": 0.87,
+  "source": "137.mp3",
   "text": "رُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ra/v7": {
   "rate": "-40%",

@@ -1663,10 +1663,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ra/v6": {
 "spoken": "رُو",
-"rate": "-40%",
-"seconds": 0.45,
+"rate": null,
+"seconds": 0.87,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ra/v7": {
 "spoken": "رِي",
