@@ -136,11 +136,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/alif/v3": {
-"spoken": "إِ.",
-"rate": "-10%",
-"seconds": 0.45,
+"spoken": "إِ",
+"rate": null,
+"seconds": 0.38,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/alif/v4": {
 "spoken": "يَأْ",
