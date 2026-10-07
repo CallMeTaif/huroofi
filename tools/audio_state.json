@@ -1766,18 +1766,22 @@
   "unchanged": true
  },
  "letters/mim/v4": {
-  "rate": "-10%",
-  "seconds": 0.35,
+  "number": 327,
+  "recorded": true,
+  "recorded_text": "مْ",
+  "seconds": 0.55,
+  "source": "327.mp3",
   "text": "أَمْ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/mim/v5": {
-  "rate": "-40%",
-  "seconds": 0.41,
+  "number": 328,
+  "recorded": true,
+  "recorded_text": "مَا",
+  "seconds": 0.55,
+  "source": "328.mp3",
   "text": "مَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/mim/v6": {
   "rate": "-40%",

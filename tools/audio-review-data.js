@@ -1389,18 +1389,18 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/mim/v4": {
-"spoken": "أَمْ",
-"rate": "-10%",
-"seconds": 0.35,
+"spoken": "مْ",
+"rate": null,
+"seconds": 0.55,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/mim/v5": {
 "spoken": "مَا",
-"rate": "-40%",
-"seconds": 0.41,
+"rate": null,
+"seconds": 0.55,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/mim/v6": {
 "spoken": "مُو",
