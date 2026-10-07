@@ -1,7 +1,8 @@
 /* «مَنْ يَلْعَبُ الْآنَ؟» — who is playing?
  * Shown on the children's pages when 2 or more children share this device (profiles are added
  * on the teacher page) and nobody has been chosen in this browser tab yet.
- * The child taps their animal; their stars are then saved separately. No names are stored.
+ * The child taps their animal; their stars are then saved separately. Device profiles have no names;
+ * the children of a signed-in parent (js/cloud.js) show the first name the parent typed.
  * Also exposes Profiles.badge(): a small button with the current child's animal, to switch child. */
 (function () {
   "use strict";
@@ -15,7 +16,9 @@
     var speak = H.speakBtn("phrases/who", "مَنْ يَلْعَبُ الْآنَ؟");
     var grid = el("div", { class: "who-grid" });
     list.forEach(function (p) {
-      var b = el("button", { type: "button", class: "who-btn", "aria-label": p.avatar }, [avatarImg(p.avatar)]);
+      // Children of a signed-in parent also have a first name under their picture.
+      var b = el("button", { type: "button", class: "who-btn" + (p.name ? " named" : ""), "aria-label": p.name || p.avatar },
+        [avatarImg(p.avatar), p.name ? el("span", { class: "who-name", text: p.name }) : null]);
       b.addEventListener("click", function () {
         Progress.choose(p.id);
         b.classList.add("win");
@@ -38,7 +41,9 @@
   function badge() {
     var id = Progress.current();
     if (Progress.profiles().length < 2 || !id || Progress.setting("classroom")) return null;
-    var b = el("button", { type: "button", class: "who-badge", "aria-label": "تغيير الطفل" }, [avatarImg(id)]);
+    // A parent's child has an id like "c_…"; their picture is in .avatar (device profiles: id = animal).
+    var p = Progress.profiles().find(function (x) { return x.id === id; });
+    var b = el("button", { type: "button", class: "who-badge", "aria-label": "تغيير الطفل" }, [avatarImg((p && p.avatar) || id)]);
     b.addEventListener("click", function () { showPicker(true); });
     return b;
   }

@@ -1,4 +1,5 @@
-/* Progress, settings and child profiles, saved only on this device (localStorage).
+/* Progress, settings and child profiles, saved on this device (localStorage).
+ * When a parent signs in (js/cloud.js), their children's stars are also copied to their account.
  * Every access is wrapped in try/catch: private mode or blocked storage must never break the site.
  *
  * Profiles: a shared device (siblings, class tablets) can have one animal picture per child.
@@ -8,18 +9,37 @@
 (function () {
   "use strict";
   var KEY = "huroofi.progress", SETTINGS = "huroofi.settings", PROFILES = "huroofi.profiles", CHILD = "huroofi.child";
+  var ACCOUNT = "huroofi.account";
   var EXERCISES = ["listen", "trace", "match", "find"];
 
   function load(key) {
     try { return JSON.parse(localStorage.getItem(key)) || {}; } catch (e) { return {}; }
   }
-  function save(key, value) {
-    try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch (e) { return false; }
+  // quiet = true when js/cloud.js writes stars it downloaded (so they are not sent straight back).
+  function save(key, value, quiet) {
+    try { localStorage.setItem(key, JSON.stringify(value)); } catch (e) { return false; }
+    if (!quiet && key.indexOf(KEY) === 0) {
+      try { window.dispatchEvent(new CustomEvent("huroofi:progress", { detail: key })); } catch (e) {}
+    }
+    return true;
   }
   function remove(key) { try { localStorage.removeItem(key); } catch (e) {} }
 
+  // ----- Parent account (js/cloud.js) -----
+  // { mode: "practice" | "parent", uid, email, children: [{ id, name, avatar, classId, approved }] }
+  // While a parent is signed in, their children are this device's profiles, so the picker,
+  // the badge and the per-child stars below work for them unchanged. Their stars are kept under
+  // "huroofi.progress.c_<child id>" and js/cloud.js copies them to and from the parent's account.
+  function account() { return load(ACCOUNT); }
+  function parentMode() { var a = account(); return a.mode === "parent" && !!a.uid; }
+
   // ----- Profiles -----
-  function profileList() { var p = load(PROFILES); return Array.isArray(p.list) ? p.list : []; }
+  function profileList() {
+    if (parentMode()) {
+      return (account().children || []).map(function (c) { return { id: "c_" + c.id, avatar: c.avatar, name: c.name, cloud: c.id }; });
+    }
+    var p = load(PROFILES); return Array.isArray(p.list) ? p.list : [];
+  }
   function current() {
     var list = profileList();
     if (!list.length) return null;
@@ -105,6 +125,15 @@
       remove(keyFor(pid));
       try { if (sessionStorage.getItem(CHILD) === pid) sessionStorage.removeItem(CHILD); } catch (e) {}
     },
+
+    // ----- Parent account (used by js/cloud.js) -----
+    account: account,
+    parentMode: parentMode,
+    setAccount: function (a) { save(ACCOUNT, a); },
+    // A child's whole progress object, by profile id (for copying to and from the account).
+    raw: function (pid) { return load(keyFor(pid)); },
+    setRaw: function (pid, data) { save(keyFor(pid), data, true); },
+    removeRaw: function (pid) { remove(keyFor(pid)); },
 
     // ----- Settings (per device; reviewLetters is per child) -----
     setting: function (name) {

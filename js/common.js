@@ -46,6 +46,11 @@
   function wait(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
   function param(name) { return new URLSearchParams(location.search).get(name); }
 
+  // Animal pictures for children (img/avatars/<name>.svg): device profiles and parents' children.
+  var AVATARS = ["lion", "tiger", "bear", "panda", "koala", "rabbit", "fox", "frog", "monkey", "penguin", "owl", "turtle",
+    "octopus", "unicorn", "dolphin", "whale", "giraffe", "elephant", "ladybug", "butterfly", "bee", "cat", "dog", "cow",
+    "chick", "parrot", "fish", "dinosaur", "hedgehog", "snail"];
+
   // Offline support (sw.js). Only on http(s): a site opened from the folder is offline already.
   if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol) && !/\/tools\//.test(location.pathname)) {
     window.addEventListener("load", function () {
@@ -56,5 +61,5 @@
     });
   }
 
-  window.H = { el: el, icon: icon, hue: hue, starsEl: starsEl, speakBtn: speakBtn, slug: slug, byId: byId, byLetter: byLetter, shuffle: shuffle, wait: wait, param: param, LETTERS: LETTERS };
+  window.H = { el: el, icon: icon, hue: hue, starsEl: starsEl, speakBtn: speakBtn, slug: slug, byId: byId, byLetter: byLetter, shuffle: shuffle, wait: wait, param: param, AVATARS: AVATARS, LETTERS: LETTERS };
 })();

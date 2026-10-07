@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>حساب وليّ الأمر – حروفي</title>
+  <link rel="icon" href="img/ui/abc.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/gate.js"></script>
+</head>
+<body class="teacher-page">
+  <main class="wrap">
+    <header class="topbar">
+      <a class="btn round" href="index.html" aria-label="الصفحة الرئيسية"><img class="icon" src="img/ui/home.svg" alt=""></a>
+      <span class="title">حساب وليّ الأمر</span>
+      <img class="icon" src="img/ui/family.svg" alt="" style="width:56px;height:56px">
+    </header>
+
+    <!-- Accounts are not switched on yet (js/firebase-config.js is empty), or this is a file:// copy. -->
+    <section class="block" id="off" hidden>
+      <h2><img class="icon" src="img/ui/family.svg" alt="">الحسابات</h2>
+      <p>حسابات أولياء الأمور غير مفعّلة بعد في هذا الموقع. يمكن للطفل أن يتمرّن، وتُحفظ نجومه على هذا الجهاز.</p>
+    </section>
+
+    <section class="block" id="loading" hidden>
+      <p class="muted">جارٍ التحميل…</p>
+    </section>
+
+    <section class="block" id="signed-out" hidden>
+      <h2><img class="icon" src="img/ui/family.svg" alt="">الدخول بحساب Google</h2>
+      <p>سجّلوا الدخول بحساب Gmail الخاص بكم، ثم اكتبوا الاسم الأول لطفلكم. تُحفظ نجومه في حسابكم، فلا تضيع إذا تغيّر الجهاز،
+        وتراها المعلمة إذا أضفتم الطفل إلى صفها.</p>
+      <p><button type="button" class="btn big teal" id="sign-in"><img class="icon" src="img/ui/family.svg" alt="">الدخول بحساب Google</button></p>
+      <p class="confirm" id="sign-in-msg" role="status"></p>
+      <p class="muted"><a href="privacy.html">الخصوصية: ماذا نحفظ ومن يراه؟</a></p>
+    </section>
+
+    <div id="signed-in" hidden>
+      <section class="block">
+        <h2><img class="icon" src="img/avatars/lion.svg" alt="">أطفالي</h2>
+        <p class="note" id="invite-note" hidden><img class="icon" src="img/ui/teacher.svg" alt="">
+          <span>وصلتكم دعوة من المعلمة إلى صفها. اختاروا الطفل الذي تريدون إضافته، أو أضيفوا طفلًا جديدًا في الأسفل.</span></p>
+        <div class="acct-kids" id="kids"></div>
+        <p class="muted" id="kids-help">يلعب الطفل من الصفحة الرئيسية. إذا كان لكم أكثر من طفل، يضغط كل طفل على صورته عند فتح الموقع.</p>
+        <p><a class="btn teal" href="index.html"><img class="icon" src="img/ui/play.svg" alt="">ابدأ اللعب</a></p>
+      </section>
+
+      <section class="block">
+        <h2><img class="icon" src="img/ui/pencil.svg" alt="">إضافة طفل</h2>
+        <form id="add" class="acct-form" novalidate>
+          <label for="name"><b>الاسم الأول للطفل</b></label>
+          <input id="name" maxlength="30" autocomplete="off" placeholder="مثل: سارة">
+          <b>اختاروا صورة للطفل</b>
+          <div class="avatar-pick" id="pick" role="radiogroup" aria-label="صورة الطفل"></div>
+          <label for="code"><b>رمز صف المعلمة</b> <span class="muted">(اختياري: موجود في رابط الدعوة من المعلمة)</span></label>
+          <input id="code" maxlength="20" autocomplete="off" dir="ltr" placeholder="ABCD2345">
+          <p class="confirm" id="add-msg" role="status"></p>
+          <button type="submit" class="btn teal" id="add-btn">إضافة الطفل</button>
+        </form>
+      </section>
+
+      <section class="block">
+        <h2><img class="icon" src="img/ui/check.svg" alt="">الحساب</h2>
+        <p>مسجّل الدخول بحساب: <b id="email" dir="ltr"></b></p>
+        <p class="muted">عند تسجيل الخروج تُحذف نجوم الأطفال من هذا الجهاز فقط، وتبقى محفوظة في حسابكم.</p>
+        <p><button type="button" class="btn" id="sign-out">تسجيل الخروج</button>
+           <a href="privacy.html">الخصوصية</a></p>
+        <div id="delete-row">
+          <button type="button" class="btn coral" id="delete-account">حذف حسابي وكل بيانات أطفالي</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="data/letters.js"></script>
+  <script src="data/audio-manifest.js"></script>
+  <script src="js/arabic.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script type="module" src="js/account.js"></script>
+  <noscript><p>هذه الصفحة تحتاج إلى JavaScript.</p></noscript>
+</body>
+</html>

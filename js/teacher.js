@@ -17,9 +17,7 @@
   showSwitch();
 
   // ----- Children (profiles) on this device -----
-  var AVATARS = ["lion", "tiger", "bear", "panda", "koala", "rabbit", "fox", "frog", "monkey", "penguin", "owl", "turtle",
-    "octopus", "unicorn", "dolphin", "whale", "giraffe", "elephant", "ladybug", "butterfly", "bee", "cat", "dog", "cow",
-    "chick", "parrot", "fish", "dinosaur", "hedgehog", "snail"];
+  var AVATARS = H.AVATARS;
   var shown;   // whose progress the table shows (profile id, or null for a single-child device)
   function img(id) { return el("img", { src: "img/avatars/" + id + ".svg", alt: "" }); }
   function drawKids() {

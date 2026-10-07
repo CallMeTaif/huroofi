@@ -6,7 +6,7 @@
  * The version is a hash of all the files, so any change makes devices download the new files. */
 const fs = require("fs"), path = require("path"), crypto = require("crypto");
 const ROOT = path.resolve(__dirname, "..");
-const PAGES = ["index.html", "letter.html", "exercise.html", "review.html", "teacher.html", "content.html"];
+const PAGES = ["index.html", "letter.html", "exercise.html", "review.html", "teacher.html", "content.html", "account.html", "privacy.html"];
 const DIRS = ["css", "js", "data", "img", "audio", "fonts"];
 const SKIP = /\.(md|txt|py|map)$|(^|\/)\./;
 

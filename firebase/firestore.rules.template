@@ -1,0 +1,67 @@
+rules_version = '2';
+// Security rules for «حروفي» (Cloud Firestore).
+// This template is published; the real rules are made by `node tools/make_rules.js`, which puts the
+// teacher's email (from firebase/teacher-email.txt, not published) in place of __TEACHER_EMAIL__.
+//
+// Who can do what:
+//   a parent   – create, read, change and delete their own children; join the class with the invite code;
+//                never approve their own child.
+//   the teacher – read the class document and the children in her class; approve a child, or remove
+//                one from the class. She cannot see or change anything else.
+//   anyone else – nothing.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() { return request.auth != null; }
+    function isTeacher() {
+      return signedIn()
+        && request.auth.token.email == "__TEACHER_EMAIL__"
+        && request.auth.token.email_verified == true;
+    }
+    function classInvite() { return get(/databases/$(database)/documents/classes/main).data.invite; }
+
+    match /classes/{classId} {
+      allow read, write: if isTeacher() && classId == "main";
+    }
+
+    match /children/{childId} {
+      function fieldsOk(d) {
+        return d.keys().hasOnly(["parent", "parentEmail", "name", "avatar", "classId", "invite", "approved",
+                                 "progress", "created", "lastPlayed"])
+          && d.name is string && d.name.size() > 0 && d.name.size() <= 30
+          && d.avatar is string && d.avatar.size() <= 20
+          && d.approved is bool
+          && d.progress is map
+          && (d.classId == null || d.classId == "main");
+      }
+      function ownedBy(d) { return signedIn() && d.parent == request.auth.uid; }
+      // Joining the class needs the code from the teacher's current invite link.
+      function joinOk(d) { return d.classId == null || d.invite == classInvite(); }
+
+      allow read: if ownedBy(resource.data) || (isTeacher() && resource.data.classId == "main");
+
+      allow create: if ownedBy(request.resource.data)
+        && request.resource.data.parentEmail == request.auth.token.email
+        && fieldsOk(request.resource.data)
+        && request.resource.data.approved == false
+        && joinOk(request.resource.data);
+
+      // The parent: stars, name, picture, joining. Joining starts unapproved; they never approve.
+      allow update: if ownedBy(resource.data)
+        && request.resource.data.parent == resource.data.parent
+        && request.resource.data.parentEmail == resource.data.parentEmail
+        && fieldsOk(request.resource.data)
+        && (request.resource.data.classId == resource.data.classId
+              ? request.resource.data.approved == resource.data.approved
+              : (request.resource.data.approved == false && joinOk(request.resource.data)));
+
+      // The teacher: approve a child, or remove them from the class. Nothing else.
+      allow update: if isTeacher() && resource.data.classId == "main"
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(["approved", "classId", "invite"])
+        && (request.resource.data.classId == "main"
+              || (request.resource.data.classId == null && request.resource.data.approved == false));
+
+      allow delete: if ownedBy(resource.data);
+    }
+  }
+}

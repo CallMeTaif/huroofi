@@ -23,7 +23,7 @@ UI_EMOJI = {
     "home": "🏠", "speaker": "🔊", "star": "⭐", "play": "▶️", "next": "⬅️", "prev": "➡️",
     "teacher": "🧑‍🏫", "review": "🔁", "eraser": "🧽", "check": "✅", "pencil": "✏️",
     "ear": "👂", "search": "🔍", "link": "🔗", "book": "📖", "film": "🎬", "abc": "🔤",
-    "party": "🎉", "sparkles": "✨", "trophy": "🏆", "flower": "🌼", "sun": "🌞",
+    "party": "🎉", "sparkles": "✨", "trophy": "🏆", "flower": "🌼", "sun": "🌞", "family": "👪",
 }
 
 

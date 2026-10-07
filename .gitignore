@@ -2,3 +2,9 @@
 __pycache__/
 *.pyc
 .claude/
+
+# Firebase: the real rules contain the teacher's email, so only the template is published.
+firebase/teacher-email.txt
+firebase/firestore.rules
+firebase/*.log
+firebase/.firebase/

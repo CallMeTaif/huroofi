@@ -19,6 +19,41 @@
     <p class="note"><img class="icon" src="img/ui/teacher.svg" alt="">
       للعودة إلى هذه الصفحة: اضغطي مطوّلًا على عنوان «حروفي» في الصفحة الرئيسية ٣ ثوانٍ، أو احفظي هذه الصفحة في المفضلة. لا يوجد رابط ظاهر لها في صفحات الأطفال.</p>
 
+    <!-- 0. The teacher's class (only when accounts are switched on: js/firebase-config.js) -->
+    <section class="block" id="class" hidden>
+      <h2><img class="icon" src="img/ui/teacher.svg" alt="">صفّي</h2>
+      <div id="class-out">
+        <p>سجّلي الدخول بحساب Google الخاص بالمعلمة لرؤية أطفال الصف ونجومهم، ولإرسال رابط الدعوة لأولياء الأمور.</p>
+        <p><button type="button" class="btn teal" id="t-sign-in">الدخول بحساب المعلمة</button></p>
+        <p class="confirm" id="t-msg" role="status"></p>
+      </div>
+      <div id="class-in" hidden>
+        <p>مسجّلة الدخول بحساب: <b id="t-email" dir="ltr"></b>
+          <button type="button" class="btn" id="t-sign-out">تسجيل الخروج</button></p>
+
+        <h3>رابط الدعوة لأولياء الأمور</h3>
+        <p class="muted">أرسلي هذا الرابط لأولياء الأمور، مثلًا في مجموعة واتساب الصف. يسجّل وليّ الأمر الدخول بحسابه في Google ويكتب اسم طفله،
+          فيظهر الطفل هنا في «طلبات الانضمام» حتى توافقي عليه.</p>
+        <div class="invite-box">
+          <code id="invite-link" dir="ltr"></code>
+          <div class="invite-actions">
+            <button type="button" class="btn teal" id="invite-copy">نسخ الرابط</button>
+            <a class="btn" id="invite-wa" target="_blank" rel="noopener">إرسال في واتساب</a>
+            <button type="button" class="btn" id="invite-new">رمز جديد</button>
+          </div>
+          <p class="confirm" id="invite-msg" role="status"></p>
+        </div>
+
+        <h3>طلبات الانضمام</h3>
+        <div class="acct-kids" id="pending"></div>
+
+        <h3>أطفال الصف</h3>
+        <p class="muted">اضغطي على اسم الطفل لرؤية نجومه في كل حرف وكل تمرين. «يحتاج تدريبًا» = حروف تمرّن عليها الطفل وحصل فيها على نجمة واحدة فقط.</p>
+        <div class="table-wrap"><table class="progress-table class-table" id="class-table"></table></div>
+        <div id="child-detail"></div>
+      </div>
+    </section>
+
     <!-- 1. Classroom mode -->
     <section class="block">
       <h2><img class="icon" src="img/ui/sun.svg" alt="">وضع الفصل</h2>
@@ -116,7 +151,8 @@
 
     <section class="block">
       <h2><img class="icon" src="img/ui/check.svg" alt="">الخصوصية</h2>
-      <p>لا يستخدم الموقع حسابات ولا ملفات تعريف ارتباط ولا أي تتبّع. لا يتصل بالإنترنت إلا عند عرض فيديوهات يوتيوب.</p>
+      <p>لا يستخدم الموقع ملفات تعريف ارتباط ولا أي تتبّع. في «تمرّن فقط» لا يتصل بالإنترنت إلا عند عرض فيديوهات يوتيوب.
+        إذا سجّل وليّ الأمر الدخول، تُحفظ نجوم طفله في حسابه، ولا يراها إلا هو والمعلمة. التفاصيل في <a href="privacy.html">صفحة الخصوصية</a>.</p>
       <p id="offline-status" class="muted">العمل بدون إنترنت: …</p>
     </section>
   </main>
@@ -128,5 +164,7 @@
   <script src="js/audio.js"></script>
   <script src="js/common.js"></script>
   <script src="js/teacher.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script type="module" src="js/teacher-class.js"></script>
 </body>
 </html>

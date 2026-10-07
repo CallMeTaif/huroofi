@@ -1,7 +1,7 @@
 # حروفي — Huroofi
 
-موقع لتعلّم حروف الهجاء العربية لطلاب الصف الأول: صور وأصوات وأزرار كبيرة، بلا حسابات ولا تتبّع.
-A website for first graders to learn the 28 Arabic letters, through pictures, sound and big buttons. No accounts, no tracking.
+موقع لتعلّم حروف الهجاء العربية لطلاب الصف الأول: صور وأصوات وأزرار كبيرة، بلا إعلانات ولا تتبّع. حسابات أولياء الأمور اختيارية.
+A website for first graders to learn the 28 Arabic letters, through pictures, sound and big buttons. No ads, no tracking. Parent accounts are optional (see docs/ACCOUNTS_SETUP.md).
 
 **الموقع / Live site:** https://callmetaif.github.io/huroofi/
 
@@ -86,7 +86,7 @@ A website for first graders to learn the 28 Arabic letters, through pictures, so
 يمكن الإرسال على دفعات؛ الأصوات غير المسجَّلة تبقى بالصوت الحاسوبي.
 
 ### الخصوصية
-لا حسابات، ولا ملفات تعريف ارتباط، ولا تحليلات، ولا تتبّع. التقدّم في متصفح الجهاز فقط. الاتصال الوحيد بالخارج هو يوتيوب (صور الفيديوهات، والفيديو عند الضغط عليه).
+لا ملفات تعريف ارتباط، ولا تحليلات، ولا تتبّع. في «تمرّن فقط» التقدّم في متصفح الجهاز فقط؛ ومع حساب وليّ الأمر يُنسخ إلى حسابه ولا يراه إلا هو والمعلمة (privacy.html). الاتصال الوحيد بالخارج هو يوتيوب (صور الفيديوهات، والفيديو عند الضغط عليه).
 
 ---
 
@@ -119,7 +119,7 @@ A website for first graders to learn the 28 Arabic letters, through pictures, so
 
 **Teacher entrance:** there is no visible link on the children's pages. Press and hold the «حروفي» title on the home page for 3 seconds (finger or mouse), or bookmark `teacher.html`. The teacher page's 🏠 button leads back to the children's pages.
 
-**About the teacher gate:** the site has no server or login (by design), so the teacher pages cannot be truly protected. They sit behind a multiplication question a first grader cannot answer (`js/gate.js`), remembered for the browser tab. Nothing on them is secret; the gate only prevents a child from resetting progress by accident.
+**About the teacher gate:** the teacher pages themselves are static, so they cannot be truly protected (the class data on them is protected by Google sign-in and the database rules; see docs/ACCOUNTS_SETUP.md). They sit behind a multiplication question a first grader cannot answer (`js/gate.js`), remembered for the browser tab. Nothing on them is secret; the gate only prevents a child from resetting progress by accident.
 
 ### Editing content
 Everything is in `data/letters.js` (`window.LETTERS = [...]`, a script rather than JSON so it loads from `file://`). Each letter has `description`, `forms`, `formExamples`, 6 `words` (4 for ظ) and `videos`. Adding a video is one line (see the Arabic section). After editing, run `node tools/check_data.js`.
@@ -161,7 +161,7 @@ tools/  docs/ (SPEC.md, TEACHER_REVIEW.md, voice-samples/)
 ```
 
 ### Privacy
-No accounts, cookies, analytics or tracking scripts. Progress is stored only in `localStorage` on the device (every access is wrapped in try/catch, so the site works without it). The only external requests go to YouTube: video thumbnails, and the video when tapped.
+No cookies, analytics or tracking scripts. Without an account, progress is stored only in `localStorage` on the device. With an optional parent account (Google sign-in, Firebase), it is also copied to that account and visible only to the parent and the teacher; see `privacy.html` and `docs/ACCOUNTS_SETUP.md`. Progress on the device is always saved first (every access is wrapped in try/catch, so the site works without it). Without an account, the only external requests go to YouTube: video thumbnails, and the video when tapped. With accounts switched on, the Firebase library is loaded from Google's CDN (gstatic.com).
 
 ### Credits
 Pictures: OpenMoji (CC BY-SA 4.0). Fonts: Noto Naskh Arabic and Tajawal (SIL OFL). Sounds: Microsoft Edge neural TTS via `edge-tts`. Videos: «تعلم مع زكريا – Learn with Zakaria» on YouTube. Details in [CREDITS.md](CREDITS.md).
