@@ -210,7 +210,7 @@ window.AUDIO_FILES = {
 "letters/nun/form-medial": "01985a7cb4",
 "letters/nun/name": "6de5ae16d4",
 "letters/nun/v1": "2aae238b55",
-"letters/nun/v2": "f43e5702d3",
+"letters/nun/v2": "8ec3b0e34e",
 "letters/nun/v3": "fd43d9e744",
 "letters/nun/v4": "6d38e38874",
 "letters/nun/v5": "82f5827274",

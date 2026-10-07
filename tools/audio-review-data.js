@@ -1466,11 +1466,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/nun/v2": {
-"spoken": "نُ.",
-"rate": "-10%",
-"seconds": 0.56,
+"spoken": "نُ",
+"rate": null,
+"seconds": 0.49,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/nun/v3": {
 "spoken": "نِ.",
