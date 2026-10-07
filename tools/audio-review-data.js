@@ -1900,11 +1900,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/sin/v1": {
-"spoken": "سَ.",
-"rate": "-10%",
-"seconds": 0.39,
+"spoken": "سَ",
+"rate": null,
+"seconds": 0.56,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sin/v2": {
 "spoken": "سُ.",

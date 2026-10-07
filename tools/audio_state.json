@@ -2255,11 +2255,13 @@
   "unchanged": true
  },
  "letters/sin/v1": {
-  "rate": "-10%",
-  "seconds": 0.39,
+  "number": 159,
+  "recorded": true,
+  "recorded_text": "سَ",
+  "seconds": 0.56,
+  "source": "159.mp3",
   "text": "سَ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/sin/v2": {
   "rate": "-10%",
