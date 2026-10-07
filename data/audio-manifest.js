@@ -24,7 +24,7 @@ window.AUDIO_FILES = {
 "letters/alif/v4": "3bb9e205af",
 "letters/alif/v5": "6a913f4cb7",
 "letters/alif/v6": "c8c8cf3cc5",
-"letters/alif/v7": "de2925e2b4",
+"letters/alif/v7": "9315c02849",
 "letters/ba/desc": "bc45685311",
 "letters/ba/form-final": "01985a7cb4",
 "letters/ba/form-initial": "bb5243fdf7",

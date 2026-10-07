@@ -193,11 +193,13 @@
   "unchanged": true
  },
  "letters/alif/v7": {
-  "rate": "-40%",
-  "seconds": 0.34,
+  "number": 8,
+  "recorded": true,
+  "recorded_text": "إِي",
+  "seconds": 0.55,
+  "source": "008.mp3",
   "text": "إِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ba/desc": {
   "number": 30,

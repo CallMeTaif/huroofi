@@ -165,10 +165,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/alif/v7": {
 "spoken": "إِي",
-"rate": "-40%",
-"seconds": 0.34,
+"rate": null,
+"seconds": 0.55,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ba/desc": {
 "spoken": "حَرْفُ الْبَاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ تَحْتَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: بَ، بَطَّة.",
