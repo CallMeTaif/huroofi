@@ -1932,11 +1932,13 @@
   "unchanged": true
  },
  "letters/ra/v1": {
-  "rate": "-10%",
-  "seconds": 0.47,
+  "number": 132,
+  "recorded": true,
+  "recorded_text": "رَ",
+  "seconds": 0.58,
+  "source": "132.mp3",
   "text": "رَ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ra/v2": {
   "rate": "-10%",

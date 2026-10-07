@@ -1627,11 +1627,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/ra/v1": {
-"spoken": "رَ.",
-"rate": "-10%",
-"seconds": 0.47,
+"spoken": "رَ",
+"rate": null,
+"seconds": 0.58,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ra/v2": {
 "spoken": "رُ.",
