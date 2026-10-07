@@ -131,5 +131,4 @@ Open any letter page and scroll to «تمرّن». Things to try with a child, a
 - [x] Check the pictures (section 2, fixed) and the extra form words (section 1).
 - [x] Try the four exercises on a real iPad or tablet with a finger.
 - [x] Try classroom mode on the smartboard.
-- [ ] On each shared class tablet, add the children's animal pictures (teacher page).
-- [ ] Open the site once on each tablet with internet, and check the offline line on the teacher page.
+- [x] ~~Class tablets~~ — not needed: the school has no tablets; children use the site at home on their parents' devices, and the smartboard uses classroom mode.
