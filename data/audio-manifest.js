@@ -79,7 +79,7 @@ window.AUDIO_FILES = {
 "letters/dhal/form-final": "ef34aa9bde",
 "letters/dhal/form-isolated": "94eaef082e",
 "letters/dhal/name": "b1699845ee",
-"letters/dhal/v1": "39a6c09933",
+"letters/dhal/v1": "a79f99ad71",
 "letters/dhal/v2": "afde3b27b5",
 "letters/dhal/v3": "fb9a2f0808",
 "letters/dhal/v4": "bf18bde3e8",
