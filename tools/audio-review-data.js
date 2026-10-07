@@ -2103,11 +2103,11 @@ window.AUDIO_REVIEW = {
 "recorded": false
 },
 "letters/taa/v4": {
-"spoken": "أَطْ",
-"rate": "-10%",
-"seconds": 0.25,
+"spoken": "طْ",
+"rate": null,
+"seconds": 0.44,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/taa/v5": {
 "spoken": "طَا",

@@ -2556,11 +2556,13 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/taa/v4": {
-  "rate": "-10%",
-  "seconds": 0.25,
+  "number": 222,
+  "recorded": true,
+  "recorded_text": "طْ",
+  "seconds": 0.44,
+  "source": "222.mp3",
   "text": "أَطْ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/taa/v5": {
   "rate": "-40%",
