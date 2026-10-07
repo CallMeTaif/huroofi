@@ -1102,11 +1102,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/kaf/v2": {
-"spoken": "كُ.",
-"rate": "-10%",
-"seconds": 0.25,
+"spoken": "كُ",
+"rate": null,
+"seconds": 0.42,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kaf/v3": {
 "spoken": "كِ.",

@@ -1397,11 +1397,13 @@
   "unchanged": true
  },
  "letters/kaf/v2": {
-  "rate": "-10%",
-  "seconds": 0.25,
+  "number": 300,
+  "recorded": true,
+  "recorded_text": "كُ",
+  "seconds": 0.42,
+  "source": "300.mp3",
   "text": "كُ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kaf/v3": {
   "rate": "-10%",
