@@ -1926,11 +1926,13 @@
   "unchanged": true
  },
  "letters/qaf/v2": {
-  "rate": "-10%",
-  "seconds": 0.26,
+  "number": 287,
+  "recorded": true,
+  "recorded_text": "قُ",
+  "seconds": 0.48,
+  "source": "287.mp3",
   "text": "قُ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/qaf/v3": {
   "rate": "-10%",
