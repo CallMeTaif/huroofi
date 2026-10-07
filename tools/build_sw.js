@@ -38,6 +38,7 @@ const CACHE = "huroofi-" + VERSION;
 const META = "huroofi-meta";
 const FILES = ${JSON.stringify(entries)};
 const CORE = /(^\\.\\/$)|\\.(html|css|js|woff2)$|^img\\/ui\\//;
+const PAGES = /(^\\.\\/$)|\\.(html|css|js)$/;   // must be saved before an update takes over (small, fast)
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const url = (f) => new URL(f, self.registration.scope).href;
@@ -63,11 +64,12 @@ async function pool(items, n, fn) {
   await Promise.all(Array.from({ length: n }, async () => { while (i < items.length) await fn(items[i++]); }));
 }
 
-// Download the files that are not saved yet. core=true: pages/scripts; false: sounds/pictures; undefined: all.
-async function fill(core) {
+// Download the files that are not saved yet: only those matching \`only\` (a pattern), or all of them.
+async function fill(only) {
   const cache = await caches.open(CACHE);
   const have = new Set((await cache.keys()).map((r) => r.url));
-  const todo = FILES.filter(([f, h]) => !have.has(key(f, h)) && (core === undefined || CORE.test(f) === core));
+  const todo = FILES.filter(([f, h]) => !have.has(key(f, h)) && (!only || only.test(f)))
+    .sort((a, b) => (CORE.test(b[0]) ? 1 : 0) - (CORE.test(a[0]) ? 1 : 0));   // fonts and interface first
   let failed = 0;
   await pool(todo, 6, async ([f, h]) => {
     try { await cache.put(key(f, h), await fetchWithRetry(key(f, h))); } catch (e) { failed++; }
@@ -93,7 +95,7 @@ self.addEventListener("install", (e) => {
         }
       });
     }
-    if (await fill(true)) throw new Error("pages missing, will retry on the next visit");
+    if (await fill(PAGES)) throw new Error("pages missing, will retry on the next visit");
     await self.skipWaiting();   // take over now; sounds and pictures are saved in the background
   })());
 });
