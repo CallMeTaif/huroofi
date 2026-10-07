@@ -2362,11 +2362,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/ya/v4": {
-"spoken": "يْ",
-"rate": null,
-"seconds": 0.5,
+"spoken": "أَيْ",
+"rate": "-10%",
+"seconds": 0.34,
 "flag": false,
-"recorded": true
+"recorded": false
 },
 "letters/ya/v5": {
 "spoken": "يَا",

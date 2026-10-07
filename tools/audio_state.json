@@ -3031,13 +3031,11 @@
   "unchanged": true
  },
  "letters/ya/v4": {
-  "number": 373,
-  "recorded": true,
-  "recorded_text": "يْ",
-  "seconds": 0.5,
-  "source": "373.mp3",
+  "rate": "-10%",
+  "seconds": 0.34,
   "text": "أَيْ",
-  "unchanged": true
+  "trimmed": true,
+  "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ya/v5": {
   "rate": "-40%",
