@@ -865,10 +865,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ha/v7": {
 "spoken": "حِي",
-"rate": "-40%",
-"seconds": 0.47,
+"rate": null,
+"seconds": 0.56,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/haa/desc": {
 "spoken": "حَرْفُ الْهَاءِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: هَ، هَدِيَّة.",

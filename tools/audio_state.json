@@ -1009,11 +1009,13 @@
   "unchanged": true
  },
  "letters/ha/v7": {
-  "rate": "-40%",
-  "seconds": 0.47,
+  "number": 79,
+  "recorded": true,
+  "recorded_text": "حِي",
+  "seconds": 0.56,
+  "source": "079.mp3",
   "text": "حِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/haa/desc": {
   "number": 356,
