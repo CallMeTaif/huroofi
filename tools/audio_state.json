@@ -1959,11 +1959,13 @@
   "unchanged": true
  },
  "letters/ra/v4": {
-  "rate": "-10%",
-  "seconds": 0.28,
+  "number": 135,
+  "recorded": true,
+  "recorded_text": "رْ",
+  "seconds": 0.59,
+  "source": "135.mp3",
   "text": "أَرْ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ra/v5": {
   "rate": "-40%",
