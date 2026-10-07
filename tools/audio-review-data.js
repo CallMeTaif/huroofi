@@ -851,10 +851,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ha/v5": {
 "spoken": "حَا",
-"rate": "-40%",
-"seconds": 0.4,
+"rate": null,
+"seconds": 0.61,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ha/v6": {
 "spoken": "حُو",

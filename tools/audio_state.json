@@ -991,11 +991,13 @@
   "unchanged": true
  },
  "letters/ha/v5": {
-  "rate": "-40%",
-  "seconds": 0.4,
+  "number": 77,
+  "recorded": true,
+  "recorded_text": "حَا",
+  "seconds": 0.61,
+  "source": "077.mp3",
   "text": "حَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ha/v6": {
   "rate": "-40%",
