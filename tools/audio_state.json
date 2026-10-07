@@ -678,11 +678,13 @@
   "unchanged": true
  },
  "letters/dhal/v3": {
-  "rate": "-10%",
-  "seconds": 0.62,
+  "number": 119,
+  "recorded": true,
+  "recorded_text": "ذِ",
+  "seconds": 0.36,
+  "source": "119.first.mp3",
   "text": "ذِ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dhal/v4": {
   "rate": "-10%",

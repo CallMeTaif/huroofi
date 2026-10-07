@@ -563,11 +563,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/dhal/v3": {
-"spoken": "ذِ.",
-"rate": "-10%",
-"seconds": 0.62,
+"spoken": "ذِ",
+"rate": null,
+"seconds": 0.36,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dhal/v4": {
 "spoken": "أَذْ",
