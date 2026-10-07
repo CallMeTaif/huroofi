@@ -1968,11 +1968,13 @@
   "unchanged": true
  },
  "letters/ra/v5": {
-  "rate": "-40%",
-  "seconds": 0.34,
+  "number": 136,
+  "recorded": true,
+  "recorded_text": "رَا",
+  "seconds": 0.8,
+  "source": "136.mp3",
   "text": "رَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ra/v6": {
   "rate": "-40%",
