@@ -1901,11 +1901,13 @@
   "unchanged": true
  },
  "letters/nun/v6": {
-  "rate": "-40%",
-  "seconds": 0.48,
+  "number": 339,
+  "recorded": true,
+  "recorded_text": "نُو",
+  "seconds": 0.53,
+  "source": "339.mp3",
   "text": "نُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/nun/v7": {
   "rate": "-40%",
