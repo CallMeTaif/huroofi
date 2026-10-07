@@ -259,7 +259,7 @@ window.AUDIO_FILES = {
 "letters/shin/form-isolated": "38bcbfb914",
 "letters/shin/form-medial": "adbe515e2e",
 "letters/shin/name": "433d751634",
-"letters/shin/v1": "35e85891c5",
+"letters/shin/v1": "9c4e5806c7",
 "letters/shin/v2": "4afd1fa4af",
 "letters/shin/v3": "0e00cd8af9",
 "letters/shin/v4": "77f2b0e9ee",

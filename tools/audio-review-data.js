@@ -1809,11 +1809,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/shin/v1": {
-"spoken": "شَ.",
-"rate": "-10%",
-"seconds": 0.56,
+"spoken": "شَ",
+"rate": null,
+"seconds": 0.89,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/shin/v2": {
 "spoken": "شُ.",
