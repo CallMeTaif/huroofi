@@ -2273,11 +2273,13 @@
   "unchanged": true
  },
  "letters/sin/v3": {
-  "rate": "-10%",
-  "seconds": 0.39,
+  "number": 161,
+  "recorded": true,
+  "recorded_text": "سِ",
+  "seconds": 0.34,
+  "source": "161.first.mp3",
   "text": "سِ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/sin/v4": {
   "rate": "-10%",

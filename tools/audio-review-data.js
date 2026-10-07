@@ -1914,11 +1914,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/sin/v3": {
-"spoken": "سِ.",
-"rate": "-10%",
-"seconds": 0.39,
+"spoken": "سِ",
+"rate": null,
+"seconds": 0.34,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sin/v4": {
 "spoken": "أَسْ",
