@@ -2161,11 +2161,13 @@
   "unchanged": true
  },
  "letters/shin/v2": {
-  "rate": "-10%",
-  "seconds": 0.56,
+  "number": 175,
+  "recorded": true,
+  "recorded_text": "شُ",
+  "seconds": 0.61,
+  "source": "175.mp3",
   "text": "شُ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/shin/v3": {
   "rate": "-10%",
