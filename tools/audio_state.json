@@ -458,11 +458,13 @@
   "unchanged": true
  },
  "letters/dal/v1": {
-  "rate": "-10%",
-  "seconds": 0.48,
+  "number": 104,
+  "recorded": true,
+  "recorded_text": "دَ",
+  "seconds": 0.34,
+  "source": "104.first.mp3",
   "text": "دَ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dal/v2": {
   "rate": "-10%",

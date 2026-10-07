@@ -381,11 +381,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/dal/v1": {
-"spoken": "دَ.",
-"rate": "-10%",
-"seconds": 0.48,
+"spoken": "دَ",
+"rate": null,
+"seconds": 0.34,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dal/v2": {
 "spoken": "دُ.",
