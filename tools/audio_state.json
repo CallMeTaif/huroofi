@@ -1640,11 +1640,13 @@
   "unchanged": true
  },
  "letters/lam/v3": {
-  "rate": "-10%",
-  "seconds": 0.51,
+  "number": 314,
+  "recorded": true,
+  "recorded_text": "لِ",
+  "seconds": 0.3,
+  "source": "314.first.mp3",
   "text": "لِ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/lam/v4": {
   "rate": "-10%",
