@@ -1550,11 +1550,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/qaf/v1": {
-"spoken": "قَ.",
-"rate": "-10%",
-"seconds": 0.26,
+"spoken": "قَ",
+"rate": null,
+"seconds": 0.45,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/qaf/v2": {
 "spoken": "قُ.",
