@@ -81,10 +81,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ain/v6": {
 "spoken": "عُو",
-"rate": "-40%",
-"seconds": 0.42,
+"rate": null,
+"seconds": 0.57,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ain/v7": {
 "spoken": "عِي",

@@ -12,7 +12,7 @@ window.AUDIO_FILES = {
 "letters/ain/v3": "0aa318c530",
 "letters/ain/v4": "b664b0fbb4",
 "letters/ain/v5": "eb48219567",
-"letters/ain/v6": "cb0f24b9d5",
+"letters/ain/v6": "c0645626f8",
 "letters/ain/v7": "bdd46d0fdb",
 "letters/alif/desc": "7c5b125fa1",
 "letters/alif/form-final": "c36ccab6d0",
