@@ -2194,11 +2194,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/tha/v4": {
-"spoken": "أَثْ",
-"rate": "-10%",
-"seconds": 0.32,
+"spoken": "ثْ",
+"rate": null,
+"seconds": 0.57,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/tha/v5": {
 "spoken": "ثَا",
