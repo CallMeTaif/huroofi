@@ -486,11 +486,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/dhaa/v3": {
-"spoken": "ظِ.",
-"rate": "-10%",
-"seconds": 0.49,
+"spoken": "ظِ",
+"rate": null,
+"seconds": 0.62,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dhaa/v4": {
 "spoken": "أَظْ",
