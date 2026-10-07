@@ -1725,11 +1725,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/sad/v2": {
-"spoken": "صُ.",
-"rate": "-10%",
-"seconds": 0.33,
+"spoken": "صُ",
+"rate": null,
+"seconds": 0.61,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sad/v3": {
 "spoken": "صِ.",
