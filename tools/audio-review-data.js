@@ -1200,11 +1200,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/kha/v3": {
-"spoken": "خِ.",
-"rate": "-10%",
-"seconds": 0.44,
+"spoken": "خِ",
+"rate": null,
+"seconds": 0.32,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kha/v4": {
 "spoken": "أَخْ",
