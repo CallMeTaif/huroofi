@@ -2209,10 +2209,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/tha/v6": {
 "spoken": "ثُو",
-"rate": "-40%",
-"seconds": 0.32,
+"rate": null,
+"seconds": 0.63,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/tha/v7": {
 "spoken": "ثِي",
