@@ -2330,11 +2330,13 @@
   "unchanged": true
  },
  "letters/ta/v7": {
-  "rate": "-40%",
-  "seconds": 0.39,
+  "number": 38,
+  "recorded": true,
+  "recorded_text": "تِي",
+  "seconds": 0.52,
+  "source": "038.mp3",
   "text": "تِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/taa/desc": {
   "number": 231,
