@@ -2303,11 +2303,13 @@
   "unchanged": true
  },
  "letters/ta/v4": {
-  "rate": "-10%",
-  "seconds": 0.22,
+  "number": 35,
+  "recorded": true,
+  "recorded_text": "تْ",
+  "seconds": 0.59,
+  "source": "035.mp3",
   "text": "أَتْ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ta/v5": {
   "rate": "-40%",
