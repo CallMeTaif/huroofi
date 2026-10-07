@@ -251,7 +251,7 @@ window.AUDIO_FILES = {
 "letters/sad/v3": "f369bee060",
 "letters/sad/v4": "35a71da1e8",
 "letters/sad/v5": "84edca3844",
-"letters/sad/v6": "7ab1ec14dd",
+"letters/sad/v6": "554281dcd5",
 "letters/sad/v7": "54f256c44d",
 "letters/shin/desc": "534698156e",
 "letters/shin/form-final": "77a7703553",

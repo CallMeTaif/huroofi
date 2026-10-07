@@ -1754,10 +1754,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/sad/v6": {
 "spoken": "صُو",
-"rate": "-40%",
-"seconds": 0.44,
+"rate": null,
+"seconds": 0.66,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sad/v7": {
 "spoken": "صِي",
