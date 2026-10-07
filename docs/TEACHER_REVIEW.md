@@ -20,7 +20,11 @@ These words appear **only** on the forms card (no picture, not in exercises):
 
 Change any of them in `data/letters.js` under `formExamples`.
 
-### 2. Pictures that may be unclear to a child
+### 2. Pictures that may be unclear to a child — ✅ fixed (October 2026)
+صَمْغ is now a glue bottle, فَوَاكِه shows four fruits, ثَلَاث shows ٣ and three dots, تِلْمِيذ is a child with books,
+غَزَال is a deer without antlers (ظَبْي keeps the deer with antlers), and شُبَّاك is a window with a plant (نَافِذَة keeps the plain window).
+وَجْه keeps the smiling face. The table below is how it was before.
+
 Every word from the spec has an OpenMoji picture, but some pictures are weak matches. Please look at them on the letter pages:
 
 | الكلمة | الصورة | الملاحظة |
@@ -51,6 +55,8 @@ Please check the dot counts and wording for all 28 letters.
 - When the site is opened by double-clicking `index.html`, YouTube does not allow videos to play inside the page. In that case, tapping a video opens it on YouTube in a new tab. When the site is on GitHub Pages, videos play inside the page.
 
 ## Phase 2 (sounds)
+
+> **Update, October 2026:** every sound is now a real recording (401 recordings). Sections 6 and 7 no longer apply.
 
 ### 6. Choose the voice
 Listen to `docs/voice-samples/zariyah.mp3` (female) and `docs/voice-samples/hamed.mp3` (male).
@@ -119,11 +125,11 @@ Open any letter page and scroll to «تمرّن». Things to try with a child, a
 
 ## Final checklist (before sharing with the children)
 
-- [ ] Choose the voice (section 6) and listen to the flagged sounds (section 7).
-- [ ] Decide the wording for boys/girls (section 8).
-- [ ] Watch every video (section 5).
-- [ ] Check the pictures (section 2) and the extra form words (section 1).
-- [ ] Try the four exercises on a real iPad or tablet with a finger.
-- [ ] Try classroom mode on the smartboard.
+- [x] Listen to the sounds — all 401 are real recordings, checked.
+- [ ] **Later:** decide the wording for boys/girls (section 8). The recordings use the boy wording, so a girls' version needs 2 new recordings.
+- [x] Watch every video (section 5).
+- [x] Check the pictures (section 2, fixed) and the extra form words (section 1).
+- [x] Try the four exercises on a real iPad or tablet with a finger.
+- [x] Try classroom mode on the smartboard.
 - [ ] On each shared class tablet, add the children's animal pictures (teacher page).
 - [ ] Open the site once on each tablet with internet, and check the offline line on the teacher page.
