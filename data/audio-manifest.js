@@ -118,7 +118,7 @@ window.AUDIO_FILES = {
 "letters/ha/form-isolated": "be6fc22dc9",
 "letters/ha/form-medial": "d7da18060f",
 "letters/ha/name": "b165f9ec98",
-"letters/ha/v1": "e51f8a79db",
+"letters/ha/v1": "65d07a2bf0",
 "letters/ha/v2": "8a4e85356c",
 "letters/ha/v3": "7f7cd9cc1b",
 "letters/ha/v4": "615a546750",

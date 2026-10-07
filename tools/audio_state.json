@@ -955,11 +955,13 @@
   "unchanged": true
  },
  "letters/ha/v1": {
-  "rate": "-10%",
-  "seconds": 0.36,
+  "number": 73,
+  "recorded": true,
+  "recorded_text": "حَ",
+  "seconds": 0.53,
+  "source": "073.mp3",
   "text": "حَ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ha/v2": {
   "rate": "-10%",
