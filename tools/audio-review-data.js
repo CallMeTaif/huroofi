@@ -1215,10 +1215,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kha/v5": {
 "spoken": "خَا",
-"rate": "-40%",
-"seconds": 0.35,
+"rate": null,
+"seconds": 0.63,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kha/v6": {
 "spoken": "خُو",

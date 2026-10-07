@@ -1431,11 +1431,13 @@
   "unchanged": true
  },
  "letters/kha/v5": {
-  "rate": "-40%",
-  "seconds": 0.35,
+  "number": 93,
+  "recorded": true,
+  "recorded_text": "خَا",
+  "seconds": 0.63,
+  "source": "093.mp3",
   "text": "خَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kha/v6": {
   "rate": "-40%",
