@@ -2294,11 +2294,13 @@
   "unchanged": true
  },
  "letters/ta/v3": {
-  "rate": "-10%",
-  "seconds": 0.39,
+  "number": 34,
+  "recorded": true,
+  "recorded_text": "تِ",
+  "seconds": 0.61,
+  "source": "034.mp3",
   "text": "تِ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ta/v4": {
   "rate": "-10%",

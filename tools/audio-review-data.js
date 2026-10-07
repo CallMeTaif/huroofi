@@ -2005,11 +2005,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/ta/v3": {
-"spoken": "تِ.",
-"rate": "-10%",
-"seconds": 0.39,
+"spoken": "تِ",
+"rate": null,
+"seconds": 0.61,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ta/v4": {
 "spoken": "أَتْ",
