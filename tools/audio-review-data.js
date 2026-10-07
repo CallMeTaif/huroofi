@@ -1998,11 +1998,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/ta/v2": {
-"spoken": "تُ.",
-"rate": "-10%",
-"seconds": 0.39,
+"spoken": "تُ",
+"rate": null,
+"seconds": 0.47,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ta/v3": {
 "spoken": "تِ.",
