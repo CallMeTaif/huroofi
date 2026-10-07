@@ -1161,11 +1161,13 @@
   "unchanged": true
  },
  "letters/jim/v1": {
-  "rate": "-10%",
-  "seconds": 0.54,
+  "number": 60,
+  "recorded": true,
+  "recorded_text": "جَ",
+  "seconds": 0.74,
+  "source": "060.mp3",
   "text": "جَ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/jim/v2": {
   "rate": "-10%",
@@ -2550,11 +2552,13 @@
   "unchanged": true
  },
  "letters/tha/v7": {
-  "rate": "-40%",
-  "seconds": 0.51,
+  "number": 51,
+  "recorded": true,
+  "recorded_text": "ثِي",
+  "seconds": 0.6,
+  "source": "051.mp3",
   "text": "ثِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/waw/desc": {
   "number": 368,

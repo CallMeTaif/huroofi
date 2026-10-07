@@ -1004,11 +1004,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/jim/v1": {
-"spoken": "جَ.",
-"rate": "-10%",
-"seconds": 0.54,
+"spoken": "جَ",
+"rate": null,
+"seconds": 0.74,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/jim/v2": {
 "spoken": "جُ.",
@@ -2216,10 +2216,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/tha/v7": {
 "spoken": "ثِي",
-"rate": "-40%",
-"seconds": 0.51,
+"rate": null,
+"seconds": 0.6,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/waw/desc": {
 "spoken": "حَرْفُ الْوَاوِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: وَ، وَرْدَة.",
