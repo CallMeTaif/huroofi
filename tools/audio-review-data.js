@@ -1277,11 +1277,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/lam/v1": {
-"spoken": "لَ.",
-"rate": "-10%",
-"seconds": 0.51,
+"spoken": "لَ",
+"rate": null,
+"seconds": 0.48,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/lam/v2": {
 "spoken": "لُ.",

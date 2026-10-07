@@ -183,7 +183,7 @@ window.AUDIO_FILES = {
 "letters/lam/form-isolated": "f562441e45",
 "letters/lam/form-medial": "f02be94aef",
 "letters/lam/name": "319cc6f36d",
-"letters/lam/v1": "baa736ff94",
+"letters/lam/v1": "51d64be65a",
 "letters/lam/v2": "7e884e28aa",
 "letters/lam/v3": "3a27736888",
 "letters/lam/v4": "6728d8b552",
