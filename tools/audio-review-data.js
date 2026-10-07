@@ -256,10 +256,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ba/v7": {
 "spoken": "بِي",
-"rate": "-40%",
-"seconds": 0.45,
+"rate": null,
+"seconds": 0.54,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dad/desc": {
 "spoken": "حَرْفُ الضَّادِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ضَ، ضِفْدَع.",

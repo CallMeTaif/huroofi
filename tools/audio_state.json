@@ -310,11 +310,13 @@
   "unchanged": true
  },
  "letters/ba/v7": {
-  "rate": "-40%",
-  "seconds": 0.45,
+  "number": 23,
+  "recorded": true,
+  "recorded_text": "بِي",
+  "seconds": 0.54,
+  "source": "023.mp3",
   "text": "بِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dad/desc": {
   "number": 217,
