@@ -578,10 +578,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dhal/v5": {
 "spoken": "ذَا",
-"rate": "-40%",
-"seconds": 0.41,
+"rate": null,
+"seconds": 0.65,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dhal/v6": {
 "spoken": "ذُو",
