@@ -1571,11 +1571,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/qaf/v4": {
-"spoken": "أَقْ",
-"rate": "-10%",
-"seconds": 0.26,
+"spoken": "قْ",
+"rate": null,
+"seconds": 0.63,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/qaf/v5": {
 "spoken": "قَا",
