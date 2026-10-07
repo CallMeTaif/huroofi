@@ -467,11 +467,13 @@
   "unchanged": true
  },
  "letters/dal/v2": {
-  "rate": "-10%",
-  "seconds": 0.48,
+  "number": 105,
+  "recorded": true,
+  "recorded_text": "دُ",
+  "seconds": 0.5,
+  "source": "105.mp3",
   "text": "دُ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dal/v3": {
   "rate": "-10%",
