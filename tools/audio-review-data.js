@@ -1186,11 +1186,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/kha/v1": {
-"spoken": "خَ.",
-"rate": "-10%",
-"seconds": 0.44,
+"spoken": "خَ",
+"rate": null,
+"seconds": 0.65,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kha/v2": {
 "spoken": "خُ.",
