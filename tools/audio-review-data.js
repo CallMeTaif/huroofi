@@ -493,11 +493,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/dhaa/v4": {
-"spoken": "أَظْ",
-"rate": "-10%",
-"seconds": 0.29,
+"spoken": "ظْ",
+"rate": null,
+"seconds": 0.49,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dhaa/v5": {
 "spoken": "ظَا",
