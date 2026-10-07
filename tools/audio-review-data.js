@@ -2096,11 +2096,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/taa/v3": {
-"spoken": "طِ.",
-"rate": "-10%",
-"seconds": 0.39,
+"spoken": "طِ",
+"rate": null,
+"seconds": 0.43,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/taa/v4": {
 "spoken": "طْ",
@@ -2111,10 +2111,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/taa/v5": {
 "spoken": "طَا",
-"rate": "-40%",
-"seconds": 0.44,
+"rate": null,
+"seconds": 0.82,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/taa/v6": {
 "spoken": "طُو",

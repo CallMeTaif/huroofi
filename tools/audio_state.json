@@ -2549,11 +2549,13 @@
   "unchanged": true
  },
  "letters/taa/v3": {
-  "rate": "-10%",
-  "seconds": 0.39,
+  "number": 221,
+  "recorded": true,
+  "recorded_text": "طِ",
+  "seconds": 0.43,
+  "source": "221.mp3",
   "text": "طِ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/taa/v4": {
   "number": 222,
@@ -2565,11 +2567,13 @@
   "unchanged": true
  },
  "letters/taa/v5": {
-  "rate": "-40%",
-  "seconds": 0.44,
+  "number": 223,
+  "recorded": true,
+  "recorded_text": "طَا",
+  "seconds": 0.82,
+  "source": "223.mp3",
   "text": "طَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/taa/v6": {
   "rate": "-40%",
