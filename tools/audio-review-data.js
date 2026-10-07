@@ -1222,10 +1222,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kha/v6": {
 "spoken": "خُو",
-"rate": "-40%",
-"seconds": 0.33,
+"rate": null,
+"seconds": 0.69,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kha/v7": {
 "spoken": "خِي",

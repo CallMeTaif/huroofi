@@ -1440,11 +1440,13 @@
   "unchanged": true
  },
  "letters/kha/v6": {
-  "rate": "-40%",
-  "seconds": 0.33,
+  "number": 94,
+  "recorded": true,
+  "recorded_text": "خُو",
+  "seconds": 0.69,
+  "source": "094.mp3",
   "text": "خُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kha/v7": {
   "rate": "-40%",
