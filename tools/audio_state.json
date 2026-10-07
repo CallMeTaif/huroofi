@@ -3038,25 +3038,31 @@
   "voice": "ar-SA-ZariyahNeural"
  },
  "letters/ya/v5": {
-  "rate": "-40%",
-  "seconds": 0.61,
+  "number": 374,
+  "recorded": true,
+  "recorded_text": "يَا",
+  "seconds": 0.5,
+  "source": "374.mp3",
   "text": "يَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ya/v6": {
-  "rate": "-40%",
-  "seconds": 0.31,
+  "number": 375,
+  "recorded": true,
+  "recorded_text": "يُو",
+  "seconds": 0.56,
+  "source": "375.mp3",
   "text": "يُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ya/v7": {
-  "rate": "-40%",
-  "seconds": 0.36,
+  "number": 376,
+  "recorded": true,
+  "recorded_text": "يِي",
+  "seconds": 0.48,
+  "source": "376.mp3",
   "text": "يِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/zay/desc": {
   "number": 157,

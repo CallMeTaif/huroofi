@@ -2370,24 +2370,24 @@ window.AUDIO_REVIEW = {
 },
 "letters/ya/v5": {
 "spoken": "يَا",
-"rate": "-40%",
-"seconds": 0.61,
+"rate": null,
+"seconds": 0.5,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ya/v6": {
 "spoken": "يُو",
-"rate": "-40%",
-"seconds": 0.31,
+"rate": null,
+"seconds": 0.56,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ya/v7": {
 "spoken": "يِي",
-"rate": "-40%",
-"seconds": 0.36,
+"rate": null,
+"seconds": 0.48,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/zay/desc": {
 "spoken": "حَرْفُ الزَّايِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: زَ، زَرَافَة.",
