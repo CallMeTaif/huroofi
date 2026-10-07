@@ -2496,11 +2496,13 @@
   "unchanged": true
  },
  "letters/tha/v1": {
-  "rate": "-10%",
-  "seconds": 0.2,
+  "number": 45,
+  "recorded": true,
+  "recorded_text": "ثَ",
+  "seconds": 0.63,
+  "source": "045.mp3",
   "text": "ثَ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/tha/v2": {
   "rate": "-10%",
