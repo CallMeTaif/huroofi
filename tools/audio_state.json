@@ -54,11 +54,13 @@
   "unchanged": true
  },
  "letters/ain/v1": {
-  "rate": "-10%",
-  "seconds": 0.47,
+  "number": 248,
+  "recorded": true,
+  "recorded_text": "عَ",
+  "seconds": 0.48,
+  "source": "248.mp3",
   "text": "عَ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ain/v2": {
   "rate": "-10%",

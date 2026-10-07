@@ -7,7 +7,7 @@ window.AUDIO_FILES = {
 "letters/ain/form-isolated": "029d23c2e2",
 "letters/ain/form-medial": "1fade788fc",
 "letters/ain/name": "4221955b50",
-"letters/ain/v1": "64c90c935f",
+"letters/ain/v1": "ace6816e6c",
 "letters/ain/v2": "221dd11c85",
 "letters/ain/v3": "e3baf493c1",
 "letters/ain/v4": "b5c4075402",

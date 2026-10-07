@@ -45,11 +45,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/ain/v1": {
-"spoken": "عَ.",
-"rate": "-10%",
-"seconds": 0.47,
+"spoken": "عَ",
+"rate": null,
+"seconds": 0.48,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ain/v2": {
 "spoken": "عُ.",
