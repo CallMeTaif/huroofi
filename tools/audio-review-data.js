@@ -1845,10 +1845,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/shin/v6": {
 "spoken": "شُو",
-"rate": "-40%",
-"seconds": 0.48,
+"rate": null,
+"seconds": 0.61,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/shin/v7": {
 "spoken": "شِي",

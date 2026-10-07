@@ -2197,11 +2197,13 @@
   "unchanged": true
  },
  "letters/shin/v6": {
-  "rate": "-40%",
-  "seconds": 0.48,
+  "number": 179,
+  "recorded": true,
+  "recorded_text": "شُو",
+  "seconds": 0.61,
+  "source": "179.mp3",
   "text": "شُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/shin/v7": {
   "rate": "-40%",
