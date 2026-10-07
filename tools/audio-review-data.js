@@ -402,11 +402,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/dal/v4": {
-"spoken": "أَدْ",
-"rate": "-10%",
-"seconds": 0.26,
+"spoken": "دْ",
+"rate": null,
+"seconds": 0.62,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dal/v5": {
 "spoken": "دَا",
