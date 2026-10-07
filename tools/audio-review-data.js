@@ -2007,7 +2007,7 @@ window.AUDIO_REVIEW = {
 "letters/ta/v3": {
 "spoken": "تِ",
 "rate": null,
-"seconds": 0.61,
+"seconds": 0.26,
 "flag": false,
 "recorded": true
 },
