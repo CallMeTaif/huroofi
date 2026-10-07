@@ -826,46 +826,58 @@
   "unchanged": true
  },
  "letters/fa/v2": {
-  "rate": "-10%",
-  "seconds": 0.29,
+  "number": 275,
+  "recorded": true,
+  "recorded_text": "فُ",
+  "seconds": 0.48,
+  "source": "275.first.mp3",
   "text": "فُ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/fa/v3": {
-  "rate": "-10%",
-  "seconds": 0.29,
+  "number": 276,
+  "recorded": true,
+  "recorded_text": "فِ",
+  "seconds": 0.54,
+  "source": "276.mp3",
   "text": "فِ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/fa/v4": {
-  "rate": "-10%",
-  "seconds": 0.16,
+  "number": 277,
+  "recorded": true,
+  "recorded_text": "فْ",
+  "seconds": 0.71,
+  "source": "277.mp3",
   "text": "أَفْ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/fa/v5": {
-  "rate": "-40%",
-  "seconds": 0.21,
+  "number": 278,
+  "recorded": true,
+  "recorded_text": "فَا",
+  "seconds": 0.58,
+  "source": "278.mp3",
   "text": "فَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/fa/v6": {
-  "rate": "-40%",
-  "seconds": 0.24,
+  "number": 279,
+  "recorded": true,
+  "recorded_text": "فُو",
+  "seconds": 0.87,
+  "source": "279.mp3",
   "text": "فُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/fa/v7": {
-  "rate": "-40%",
-  "seconds": 0.16,
+  "number": 280,
+  "recorded": true,
+  "recorded_text": "فِي",
+  "seconds": 0.59,
+  "source": "280.mp3",
   "text": "فِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ghain/desc": {
   "number": 272,

@@ -647,46 +647,46 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/fa/v2": {
-"spoken": "فُ.",
-"rate": "-10%",
-"seconds": 0.29,
+"spoken": "فُ",
+"rate": null,
+"seconds": 0.48,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/fa/v3": {
-"spoken": "فِ.",
-"rate": "-10%",
-"seconds": 0.29,
+"spoken": "فِ",
+"rate": null,
+"seconds": 0.54,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/fa/v4": {
-"spoken": "أَفْ",
-"rate": "-10%",
-"seconds": 0.16,
-"flag": true,
-"recorded": false
+"spoken": "فْ",
+"rate": null,
+"seconds": 0.71,
+"flag": false,
+"recorded": true
 },
 "letters/fa/v5": {
 "spoken": "فَا",
-"rate": "-40%",
-"seconds": 0.21,
+"rate": null,
+"seconds": 0.58,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/fa/v6": {
 "spoken": "فُو",
-"rate": "-40%",
-"seconds": 0.24,
+"rate": null,
+"seconds": 0.87,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/fa/v7": {
 "spoken": "فِي",
-"rate": "-40%",
-"seconds": 0.16,
-"flag": true,
-"recorded": false
+"rate": null,
+"seconds": 0.59,
+"flag": false,
+"recorded": true
 },
 "letters/ghain/desc": {
 "spoken": "حَرْفُ الْغَيْنِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: غَ، غَيْمَة.",
