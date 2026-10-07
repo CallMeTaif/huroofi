@@ -132,7 +132,7 @@ window.AUDIO_FILES = {
 "letters/haa/form-medial": "dc05e517c1",
 "letters/haa/name": "1c39cd97a5",
 "letters/haa/v1": "e077b50bd2",
-"letters/haa/v2": "27692abdbd",
+"letters/haa/v2": "8181582558",
 "letters/haa/v3": "09ea8b2d04",
 "letters/haa/v4": "c65e73bf7c",
 "letters/haa/v5": "8285edfc82",

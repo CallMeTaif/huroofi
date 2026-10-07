@@ -1177,11 +1177,13 @@
   "unchanged": true
  },
  "letters/haa/v2": {
-  "rate": "-10%",
-  "seconds": 0.42,
+  "number": 345,
+  "recorded": true,
+  "recorded_text": "هُ",
+  "seconds": 0.5,
+  "source": "345.mp3",
   "text": "هُ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/haa/v3": {
   "rate": "-10%",
