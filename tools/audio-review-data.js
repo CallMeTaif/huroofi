@@ -410,10 +410,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dal/v5": {
 "spoken": "دَا",
-"rate": "-40%",
-"seconds": 0.44,
+"rate": null,
+"seconds": 0.57,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dal/v6": {
 "spoken": "دُو",
