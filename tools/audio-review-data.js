@@ -1368,11 +1368,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/mim/v1": {
-"spoken": "مَ.",
-"rate": "-10%",
-"seconds": 0.51,
+"spoken": "مَ",
+"rate": null,
+"seconds": 0.48,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/mim/v2": {
 "spoken": "مُ.",
