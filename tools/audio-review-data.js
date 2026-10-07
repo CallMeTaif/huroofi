@@ -1852,10 +1852,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/shin/v7": {
 "spoken": "شِي",
-"rate": "-40%",
-"seconds": 0.56,
+"rate": null,
+"seconds": 0.73,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sin/desc": {
 "spoken": "حَرْفُ السِّينِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: سَ، سَمَكَة.",
