@@ -942,10 +942,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/haa/v5": {
 "spoken": "هَا",
-"rate": "-40%",
-"seconds": 0.39,
+"rate": null,
+"seconds": 0.67,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/haa/v6": {
 "spoken": "هُو",

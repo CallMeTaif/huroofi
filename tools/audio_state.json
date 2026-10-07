@@ -1204,11 +1204,13 @@
   "unchanged": true
  },
  "letters/haa/v5": {
-  "rate": "-40%",
-  "seconds": 0.39,
+  "number": 348,
+  "recorded": true,
+  "recorded_text": "هَا",
+  "seconds": 0.67,
+  "source": "348.mp3",
   "text": "هَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/haa/v6": {
   "rate": "-40%",
