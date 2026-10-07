@@ -1921,11 +1921,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/sin/v4": {
-"spoken": "أَسْ",
-"rate": "-10%",
-"seconds": 0.21,
+"spoken": "سْ",
+"rate": null,
+"seconds": 0.63,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sin/v5": {
 "spoken": "سَا",
