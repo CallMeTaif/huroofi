@@ -634,11 +634,13 @@
   "unchanged": true
  },
  "letters/dhaa/v6": {
-  "rate": "-40%",
-  "seconds": 0.43,
+  "number": 238,
+  "recorded": true,
+  "recorded_text": "ظُو",
+  "seconds": 0.61,
+  "source": "238.mp3",
   "text": "ظُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dhaa/v7": {
   "rate": "-40%",
