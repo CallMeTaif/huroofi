@@ -1207,11 +1207,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/kha/v4": {
-"spoken": "أَخْ",
-"rate": "-10%",
-"seconds": 0.18,
+"spoken": "خْ",
+"rate": null,
+"seconds": 0.56,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kha/v5": {
 "spoken": "خَا",

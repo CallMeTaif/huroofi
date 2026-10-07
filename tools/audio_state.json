@@ -1422,11 +1422,13 @@
   "unchanged": true
  },
  "letters/kha/v4": {
-  "rate": "-10%",
-  "seconds": 0.18,
+  "number": 92,
+  "recorded": true,
+  "recorded_text": "خْ",
+  "seconds": 0.56,
+  "source": "092.mp3",
   "text": "أَخْ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kha/v5": {
   "rate": "-40%",
