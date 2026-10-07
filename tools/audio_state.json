@@ -625,11 +625,13 @@
   "unchanged": true
  },
  "letters/dhaa/v5": {
-  "rate": "-40%",
-  "seconds": 0.47,
+  "number": 237,
+  "recorded": true,
+  "recorded_text": "ظَا",
+  "seconds": 0.59,
+  "source": "237.mp3",
   "text": "ظَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dhaa/v6": {
   "rate": "-40%",

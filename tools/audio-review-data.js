@@ -501,10 +501,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dhaa/v5": {
 "spoken": "ظَا",
-"rate": "-40%",
-"seconds": 0.47,
+"rate": null,
+"seconds": 0.59,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dhaa/v6": {
 "spoken": "ظُو",

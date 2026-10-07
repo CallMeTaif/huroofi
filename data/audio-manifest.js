@@ -72,7 +72,7 @@ window.AUDIO_FILES = {
 "letters/dhaa/v2": "31006acb31",
 "letters/dhaa/v3": "7437482c9e",
 "letters/dhaa/v4": "f2d9d41280",
-"letters/dhaa/v5": "0c510c42c7",
+"letters/dhaa/v5": "bf197b7022",
 "letters/dhaa/v6": "79374d0aea",
 "letters/dhaa/v7": "7943eda854",
 "letters/dhal/desc": "c685a00f6e",
