@@ -340,17 +340,17 @@ window.AUDIO_REVIEW = {
 },
 "letters/dad/v6": {
 "spoken": "ضُو",
-"rate": "-40%",
-"seconds": 0.32,
+"rate": null,
+"seconds": 0.57,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dad/v7": {
 "spoken": "ضِي",
-"rate": "-40%",
-"seconds": 0.53,
+"rate": null,
+"seconds": 0.59,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dal/desc": {
 "spoken": "حَرْفُ الدَّالِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: دَ، دُبّ.",

@@ -418,18 +418,22 @@
   "unchanged": true
  },
  "letters/dad/v6": {
-  "rate": "-40%",
-  "seconds": 0.32,
+  "number": 209,
+  "recorded": true,
+  "recorded_text": "ضُو",
+  "seconds": 0.57,
+  "source": "209.mp3",
   "text": "ضُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dad/v7": {
-  "rate": "-40%",
-  "seconds": 0.53,
+  "number": 210,
+  "recorded": true,
+  "recorded_text": "ضِي",
+  "seconds": 0.59,
+  "source": "210.mp3",
   "text": "ضِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dal/desc": {
   "number": 115,
