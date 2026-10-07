@@ -1856,11 +1856,13 @@
   "unchanged": true
  },
  "letters/nun/v1": {
-  "rate": "-10%",
-  "seconds": 0.56,
+  "number": 334,
+  "recorded": true,
+  "recorded_text": "نَ",
+  "seconds": 0.7,
+  "source": "334.mp3",
   "text": "نَ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/nun/v2": {
   "rate": "-10%",
