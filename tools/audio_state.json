@@ -108,11 +108,13 @@
   "unchanged": true
  },
  "letters/ain/v7": {
-  "rate": "-40%",
-  "seconds": 0.54,
+  "number": 254,
+  "recorded": true,
+  "recorded_text": "عِي",
+  "seconds": 0.55,
+  "source": "254.mp3",
   "text": "عِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/alif/desc": {
   "number": 15,

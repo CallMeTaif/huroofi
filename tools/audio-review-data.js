@@ -88,10 +88,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ain/v7": {
 "spoken": "عِي",
-"rate": "-40%",
-"seconds": 0.54,
+"rate": null,
+"seconds": 0.55,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/alif/desc": {
 "spoken": "حَرْفُ الْأَلِفِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: أَ، أَرْنَب.",
