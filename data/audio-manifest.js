@@ -312,7 +312,7 @@ window.AUDIO_FILES = {
 "letters/tha/form-medial": "1f567f8b4f",
 "letters/tha/name": "ff5f0f82db",
 "letters/tha/v1": "f878388dbb",
-"letters/tha/v2": "cdfac2947f",
+"letters/tha/v2": "242a022236",
 "letters/tha/v3": "cdfac2947f",
 "letters/tha/v4": "e240cfd81d",
 "letters/tha/v5": "2270625ef9",
