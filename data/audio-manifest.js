@@ -327,7 +327,7 @@ window.AUDIO_FILES = {
 "letters/waw/v3": "9dae949ecc",
 "letters/waw/v4": "81240fe7f9",
 "letters/waw/v5": "6439e1747f",
-"letters/waw/v6": "dd8d6d12d6",
+"letters/waw/v6": "22924ad34f",
 "letters/waw/v7": "e86e34d3a3",
 "letters/ya/desc": "5d8c7f7bb2",
 "letters/ya/form-final": "d56862fc82",

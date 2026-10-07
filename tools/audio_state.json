@@ -2932,11 +2932,13 @@
   "unchanged": true
  },
  "letters/waw/v6": {
-  "rate": "-40%",
-  "seconds": 0.44,
+  "number": 363,
+  "recorded": true,
+  "recorded_text": "وُو",
+  "seconds": 0.52,
+  "source": "363.mp3",
   "text": "وُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/waw/v7": {
   "rate": "-40%",

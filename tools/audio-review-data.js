@@ -2286,10 +2286,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/waw/v6": {
 "spoken": "وُو",
-"rate": "-40%",
-"seconds": 0.44,
+"rate": null,
+"seconds": 0.52,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/waw/v7": {
 "spoken": "وِي",
