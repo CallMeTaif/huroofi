@@ -44,7 +44,7 @@ window.AUDIO_FILES = {
 "letters/dad/form-isolated": "a67e32a41b",
 "letters/dad/form-medial": "35f7e301ce",
 "letters/dad/name": "fcc9aad3ed",
-"letters/dad/v1": "5bff135858",
+"letters/dad/v1": "c35374049f",
 "letters/dad/v2": "58ab914ee0",
 "letters/dad/v3": "077dbc1338",
 "letters/dad/v4": "75f155fd2e",
