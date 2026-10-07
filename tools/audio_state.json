@@ -938,11 +938,13 @@
   "unchanged": true
  },
  "letters/ghain/v3": {
-  "rate": "-10%",
-  "seconds": 0.59,
+  "number": 262,
+  "recorded": true,
+  "recorded_text": "غِ",
+  "seconds": 0.62,
+  "source": "262.mp3",
   "text": "غِ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ghain/v4": {
   "rate": "-10%",
