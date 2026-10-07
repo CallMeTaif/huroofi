@@ -350,7 +350,7 @@ window.AUDIO_FILES = {
 "letters/zay/v2": "26c9b904e3",
 "letters/zay/v3": "207bb36b24",
 "letters/zay/v4": "df9ad58738",
-"letters/zay/v5": "25c05dfdea",
+"letters/zay/v5": "afed8216e4",
 "letters/zay/v6": "5b162b0644",
 "letters/zay/v7": "20741e50d6",
 "phrases/ex_find": "595797fef3",

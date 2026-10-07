@@ -2447,10 +2447,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/zay/v5": {
 "spoken": "زَا",
-"rate": "-40%",
-"seconds": 0.47,
+"rate": null,
+"seconds": 0.6,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/zay/v6": {
 "spoken": "زُو",

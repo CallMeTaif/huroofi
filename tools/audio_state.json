@@ -2901,11 +2901,13 @@
   "unchanged": true
  },
  "letters/zay/v5": {
-  "rate": "-40%",
-  "seconds": 0.47,
+  "number": 150,
+  "recorded": true,
+  "recorded_text": "زَا",
+  "seconds": 0.6,
+  "source": "150.mp3",
   "text": "زَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/zay/v6": {
   "rate": "-40%",
