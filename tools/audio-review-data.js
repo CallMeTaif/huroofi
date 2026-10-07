@@ -318,11 +318,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/dad/v3": {
-"spoken": "ضِ.",
-"rate": "-10%",
-"seconds": 0.49,
+"spoken": "ضِ",
+"rate": null,
+"seconds": 0.53,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dad/v4": {
 "spoken": "أَضْ",
