@@ -929,11 +929,13 @@
   "unchanged": true
  },
  "letters/ghain/v2": {
-  "rate": "-10%",
-  "seconds": 0.59,
+  "number": 261,
+  "recorded": true,
+  "recorded_text": "غُ",
+  "seconds": 0.61,
+  "source": "261.mp3",
   "text": "غُ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ghain/v3": {
   "rate": "-10%",
