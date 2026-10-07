@@ -1222,11 +1222,13 @@
   "unchanged": true
  },
  "letters/haa/v7": {
-  "rate": "-40%",
-  "seconds": 0.57,
+  "number": 350,
+  "recorded": true,
+  "recorded_text": "هِي",
+  "seconds": 0.6,
+  "source": "350.mp3",
   "text": "هِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/jim/desc": {
   "number": 71,

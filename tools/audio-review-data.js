@@ -956,10 +956,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/haa/v7": {
 "spoken": "هِي",
-"rate": "-40%",
-"seconds": 0.57,
+"rate": null,
+"seconds": 0.6,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/jim/desc": {
 "spoken": "حَرْفُ الْجِيمِ لَهُ نُقْطَةٌ وَاحِدَةٌ تَحْتَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: جَ، جَمَل.",
