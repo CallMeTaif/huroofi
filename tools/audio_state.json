@@ -2919,11 +2919,13 @@
   "unchanged": true
  },
  "letters/zay/v7": {
-  "rate": "-40%",
-  "seconds": 0.57,
+  "number": 152,
+  "recorded": true,
+  "recorded_text": "زِي",
+  "seconds": 0.63,
+  "source": "152.mp3",
   "text": "زِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "phrases/ex_find": {
   "number": 380,
