@@ -213,18 +213,18 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/ba/v1": {
-"spoken": "بَ.",
-"rate": "-10%",
-"seconds": 0.36,
+"spoken": "بَ",
+"rate": null,
+"seconds": 0.59,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ba/v2": {
-"spoken": "بُ.",
-"rate": "-10%",
-"seconds": 0.36,
+"spoken": "بُ",
+"rate": null,
+"seconds": 0.5,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ba/v3": {
 "spoken": "بِ.",
