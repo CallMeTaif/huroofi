@@ -175,18 +175,22 @@
   "unchanged": true
  },
  "letters/alif/v5": {
-  "rate": "-40%",
-  "seconds": 1.41,
+  "number": 6,
+  "recorded": true,
+  "recorded_text": "آ",
+  "seconds": 0.52,
+  "source": "006.first.mp3",
   "text": "آ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/alif/v6": {
-  "rate": "-40%",
-  "seconds": 0.41,
+  "number": 7,
+  "recorded": true,
+  "recorded_text": "أُو",
+  "seconds": 0.57,
+  "source": "007.mp3",
   "text": "أُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/alif/v7": {
   "rate": "-40%",

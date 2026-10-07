@@ -50,7 +50,7 @@ def levels(mp3_bytes):
             for k in range(0, len(a) - fr, fr)]
 
 
-def tries(db):
+def tries(db, n=None):
     """The tries, found by their LOUD parts (within 30 dB of the loudest moment), in 10 ms steps.
     Soft trailing sounds between tries are ignored here; the cut itself is placed later, as late as possible
     before the next try, so those soft endings stay with the first try. Gaps under 200 ms are joined."""
@@ -62,17 +62,26 @@ def tries(db):
             j = i
             while j < len(db) and db[j] > th:
                 j += 1
-            if segs and i - segs[-1][1] < 20:
+            if segs and i - segs[-1][1] < (4 if n else 20):
                 segs[-1][1] = j
             else:
                 segs.append([i, j])
             i = j
         else:
             i += 1
+    if n and len(segs) > n:
+        # Expected n tries: keep the n-1 clearest gaps (longest and deepest), join the rest.
+        def gap_score(k):
+            a, b = segs[k][1], segs[k + 1][0]
+            return (b - a) * (peak - min(db[a:b] or [peak]))
+        while len(segs) > n:
+            k = min(range(len(segs) - 1), key=gap_score)
+            segs[k] = [segs[k][0], segs[k + 1][1]]
+            del segs[k + 1]
     return segs, noise
 
 
-def first_take(path):
+def first_take(path, n=None):
     data = pathlib.Path(path).read_bytes()
     head, frames, tail = split_mp3(data)
     if not frames:
@@ -80,23 +89,31 @@ def first_take(path):
     if any(t in frames[0][:200] for t in (b"Xing", b"Info")):
         raise RuntimeError("MP3 has a Xing/Info header; not supported yet")
     db = levels(data)
-    segs, noise = tries(db)
+    segs, noise = tries(db, n)
     if len(segs) < 2:
         return None, segs
     h = frames[0]
     ver = (h[1] >> 3) & 3
     dur = (1152 if ver == 3 else 576) / SR[ver][(h[2] >> 2) & 3]   # seconds per MP3 frame
-    second_start = segs[1][0] / 100
+    # Exact start of the 2nd try: walk back from its loud part down the steep rise to the foot.
+    a, b = segs[0][1], segs[1][0]
+    k = b
+    while k - 1 > a and db[k - 1] < db[k] - 2:
+        k -= 1
+    onset = k + 1 if k < b else b                         # first 10 ms step of the rise
+    quiet = min(db[a:onset] or [db[b]])
+    before = max(db[max(a, onset - 6):onset] or [quiet])     # how loud the original is just before the 2nd try
     best = None
-    # Try cut points from just before the 2nd try backwards; keep the latest one with no 2nd-try sound.
+    # The latest frame boundary that ends before the 2nd try starts (5 ms safety), checked by decoding:
+    # the end of the cut must be no louder than the original just before the 2nd try (+3 dB).
     for n in range(len(frames), 0, -1):
-        if n * dur > second_start + 0.1:
+        if n * dur > onset / 100 - 0.005:
             continue
         cut = head + b"".join(frames[:n])
         d2 = levels(cut)
         if len(d2) * 0.01 < segs[0][1] / 100:          # must keep all of try 1
             break
-        if max(d2[-4:]) < max(noise + 8, db[segs[1][0]] - 20):
+        if max(d2[-2:]) <= before + 3:
             best = cut
             break
     if best is None:
@@ -106,10 +123,14 @@ def first_take(path):
 
 def main():
     check = "--check" in sys.argv
-    for a in [x for x in sys.argv[1:] if x != "--check"]:
+    n = None
+    args = [x for x in sys.argv[1:] if x != "--check"]
+    if "--tries" in args:          # e.g. --tries 3 when every file has three tries
+        k = args.index("--tries"); n = int(args[k + 1]); del args[k:k + 2]
+    for a in args:
         p = pathlib.Path(a).expanduser()
         try:
-            out, segs = first_take(p)
+            out, segs = first_take(p, n)
         except Exception as e:
             print(f"✗ {p.name}: {e}"); continue
         found = ", ".join(f"{s/100:.2f}–{e/100:.2f}s" for s, e in segs)

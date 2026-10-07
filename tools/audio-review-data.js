@@ -151,17 +151,17 @@ window.AUDIO_REVIEW = {
 },
 "letters/alif/v5": {
 "spoken": "آ",
-"rate": "-40%",
-"seconds": 1.41,
+"rate": null,
+"seconds": 0.52,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/alif/v6": {
 "spoken": "أُو",
-"rate": "-40%",
-"seconds": 0.41,
+"rate": null,
+"seconds": 0.57,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/alif/v7": {
 "spoken": "إِي",
