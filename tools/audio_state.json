@@ -292,11 +292,13 @@
   "unchanged": true
  },
  "letters/ba/v5": {
-  "rate": "-40%",
-  "seconds": 0.41,
+  "number": 21,
+  "recorded": true,
+  "recorded_text": "بَا",
+  "seconds": 0.53,
+  "source": "021.mp3",
   "text": "بَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ba/v6": {
   "rate": "-40%",
