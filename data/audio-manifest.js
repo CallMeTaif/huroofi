@@ -111,7 +111,7 @@ window.AUDIO_FILES = {
 "letters/ghain/v4": "74538b6ab9",
 "letters/ghain/v5": "7accd5960a",
 "letters/ghain/v6": "a11023406e",
-"letters/ghain/v7": "a65087e283",
+"letters/ghain/v7": "76be1e746d",
 "letters/ha/desc": "a8f5049bd8",
 "letters/ha/form-final": "712b269eaf",
 "letters/ha/form-initial": "7dd7e34f83",

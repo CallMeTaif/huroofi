@@ -774,10 +774,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ghain/v7": {
 "spoken": "غِي",
-"rate": "-40%",
-"seconds": 0.48,
+"rate": null,
+"seconds": 0.85,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ha/desc": {
 "spoken": "حَرْفُ الْحَاءِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: حَ، حِصَان.",

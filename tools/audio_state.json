@@ -974,11 +974,13 @@
   "unchanged": true
  },
  "letters/ghain/v7": {
-  "rate": "-40%",
-  "seconds": 0.48,
+  "number": 266,
+  "recorded": true,
+  "recorded_text": "غِي",
+  "seconds": 0.85,
+  "source": "266.mp3",
   "text": "غِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ha/desc": {
   "number": 87,
