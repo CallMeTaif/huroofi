@@ -2425,11 +2425,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/zay/v2": {
-"spoken": "زُ.",
-"rate": "-10%",
-"seconds": 0.56,
+"spoken": "زُ",
+"rate": null,
+"seconds": 0.57,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/zay/v3": {
 "spoken": "زِ.",

@@ -2874,11 +2874,13 @@
   "unchanged": true
  },
  "letters/zay/v2": {
-  "rate": "-10%",
-  "seconds": 0.56,
+  "number": 147,
+  "recorded": true,
+  "recorded_text": "زُ",
+  "seconds": 0.57,
+  "source": "147.mp3",
   "text": "زُ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/zay/v3": {
   "rate": "-10%",
