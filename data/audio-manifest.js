@@ -346,7 +346,7 @@ window.AUDIO_FILES = {
 "letters/zay/form-final": "fb4718c461",
 "letters/zay/form-isolated": "42a71bfb7c",
 "letters/zay/name": "0fae66927a",
-"letters/zay/v1": "b6e4098eae",
+"letters/zay/v1": "d45b5125a8",
 "letters/zay/v2": "79c64895db",
 "letters/zay/v3": "e7170bb59c",
 "letters/zay/v4": "dce2f99bdc",
