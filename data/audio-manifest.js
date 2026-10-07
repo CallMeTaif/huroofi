@@ -246,7 +246,7 @@ window.AUDIO_FILES = {
 "letters/sad/form-isolated": "1b32d4d157",
 "letters/sad/form-medial": "eb06a10eab",
 "letters/sad/name": "b10c527fc3",
-"letters/sad/v1": "a644b26bb1",
+"letters/sad/v1": "ab022569bf",
 "letters/sad/v2": "5778e1c619",
 "letters/sad/v3": "283d637307",
 "letters/sad/v4": "8c8a9db8b7",
