@@ -1986,11 +1986,13 @@
   "unchanged": true
  },
  "letters/ra/v7": {
-  "rate": "-40%",
-  "seconds": 0.59,
+  "number": 138,
+  "recorded": true,
+  "recorded_text": "رِي",
+  "seconds": 0.56,
+  "source": "138.mp3",
   "text": "رِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/sad/desc": {
   "number": 202,

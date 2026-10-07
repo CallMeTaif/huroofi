@@ -1670,10 +1670,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ra/v7": {
 "spoken": "رِي",
-"rate": "-40%",
-"seconds": 0.59,
+"rate": null,
+"seconds": 0.56,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sad/desc": {
 "spoken": "حَرْفُ الصَّادِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: صَ، صَارُوخ.",
