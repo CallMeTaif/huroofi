@@ -1047,10 +1047,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/jim/v7": {
 "spoken": "جِي",
-"rate": "-40%",
-"seconds": 0.49,
+"rate": null,
+"seconds": 0.56,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kaf/desc": {
 "spoken": "حَرْفُ الْكَافِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: كَ، كِتَاب.",

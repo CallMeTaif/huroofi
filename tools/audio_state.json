@@ -1215,11 +1215,13 @@
   "unchanged": true
  },
  "letters/jim/v7": {
-  "rate": "-40%",
-  "seconds": 0.49,
+  "number": 66,
+  "recorded": true,
+  "recorded_text": "جِي",
+  "seconds": 0.56,
+  "source": "066.mp3",
   "text": "جِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kaf/desc": {
   "number": 310,

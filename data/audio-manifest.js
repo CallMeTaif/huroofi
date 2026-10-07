@@ -150,7 +150,7 @@ window.AUDIO_FILES = {
 "letters/jim/v4": "2c09781774",
 "letters/jim/v5": "3d748df345",
 "letters/jim/v6": "e51cf59136",
-"letters/jim/v7": "6f31cc6d34",
+"letters/jim/v7": "e85b9dcae2",
 "letters/kaf/desc": "bc3fe654f0",
 "letters/kaf/form-final": "9edf033b4a",
 "letters/kaf/form-initial": "e089148886",
