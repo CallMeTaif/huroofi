@@ -756,11 +756,13 @@
   "unchanged": true
  },
  "letters/dhal/v7": {
-  "rate": "-40%",
-  "seconds": 0.44,
+  "number": 123,
+  "recorded": true,
+  "recorded_text": "ذِي",
+  "seconds": 0.64,
+  "source": "123.mp3",
   "text": "ذِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/fa/desc": {
   "number": 284,

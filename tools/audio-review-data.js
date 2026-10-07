@@ -592,10 +592,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/dhal/v7": {
 "spoken": "ذِي",
-"rate": "-40%",
-"seconds": 0.44,
+"rate": null,
+"seconds": 0.64,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/fa/desc": {
 "spoken": "حَرْفُ الْفَاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: فَ، فِيل.",
