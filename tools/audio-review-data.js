@@ -1634,11 +1634,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/ra/v2": {
-"spoken": "رُ.",
-"rate": "-10%",
-"seconds": 0.47,
+"spoken": "رُ",
+"rate": null,
+"seconds": 0.45,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ra/v3": {
 "spoken": "رِ.",

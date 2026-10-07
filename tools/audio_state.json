@@ -1941,11 +1941,13 @@
   "unchanged": true
  },
  "letters/ra/v2": {
-  "rate": "-10%",
-  "seconds": 0.47,
+  "number": 133,
+  "recorded": true,
+  "recorded_text": "رُ",
+  "seconds": 0.45,
+  "source": "133.mp3",
   "text": "رُ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ra/v3": {
   "rate": "-10%",
