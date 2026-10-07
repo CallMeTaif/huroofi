@@ -2027,10 +2027,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ta/v6": {
 "spoken": "تُو",
-"rate": "-40%",
-"seconds": 0.28,
+"rate": null,
+"seconds": 0.57,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ta/v7": {
 "spoken": "تِي",

@@ -2321,11 +2321,13 @@
   "unchanged": true
  },
  "letters/ta/v6": {
-  "rate": "-40%",
-  "seconds": 0.28,
+  "number": 37,
+  "recorded": true,
+  "recorded_text": "تُو",
+  "seconds": 0.57,
+  "source": "037.mp3",
   "text": "تُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ta/v7": {
   "rate": "-40%",
