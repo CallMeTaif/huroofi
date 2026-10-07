@@ -2076,11 +2076,13 @@
   "unchanged": true
  },
  "letters/sad/v4": {
-  "rate": "-10%",
-  "seconds": 0.25,
+  "number": 191,
+  "recorded": true,
+  "recorded_text": "صْ",
+  "seconds": 0.68,
+  "source": "191.mp3",
   "text": "أَصْ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/sad/v5": {
   "rate": "-40%",

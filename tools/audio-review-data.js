@@ -1739,11 +1739,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/sad/v4": {
-"spoken": "أَصْ",
-"rate": "-10%",
-"seconds": 0.25,
+"spoken": "صْ",
+"rate": null,
+"seconds": 0.68,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sad/v5": {
 "spoken": "صَا",
