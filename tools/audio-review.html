@@ -64,7 +64,8 @@
     function play(b) {
       if (playingEl) playingEl.classList.remove("playing");
       playingEl = b; b.classList.add("playing");
-      audio.src = "../audio/" + b.dataset.key + ".mp3";
+      var v = window.AUDIO_FILES && AUDIO_FILES[b.dataset.key];
+      audio.src = "../audio/" + b.dataset.key + ".mp3" + (typeof v === "string" ? "?v=" + v : "");
       audio.play().catch(function () {});
     }
     audio.onended = function () {

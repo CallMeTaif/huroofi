@@ -70,7 +70,7 @@
       pending = resolver;
       function fallback() { current = null; speak(text, function () { finish(true); }); }
       if (key && files[key]) {
-        var a = new Audio("audio/" + key + ".mp3");
+        var a = new Audio(url(key));
         current = a;
         a.onended = function () { finish(true); };
         a.onerror = fallback;
@@ -85,6 +85,13 @@
     });
   }
 
+  // Address of a sound. On the web it carries the content hash (?v=…), so a re-recorded sound is never
+  // answered from an old saved copy. From a local folder (file://) the plain path is used.
+  function url(key) {
+    var v = files[key];
+    return "audio/" + key + ".mp3" + (typeof v === "string" && /^https?:$/.test(location.protocol) ? "?v=" + v : "");
+  }
+
   // Play several sounds one after another; stops early if interrupted or blocked.
   function sequence(list) {
     return list.reduce(function (p, item) {
@@ -92,5 +99,5 @@
     }, Promise.resolve(true));
   }
 
-  window.Sound = { play: play, stop: stop, sequence: sequence, blocked: false, has: function (key) { return !!files[key]; } };
+  window.Sound = { play: play, stop: stop, sequence: sequence, url: url, blocked: false, has: function (key) { return !!files[key]; } };
 })();

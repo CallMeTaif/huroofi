@@ -47,6 +47,17 @@ L.forEach((l, i) => {
   });
 });
 
+// Every sound's hash in data/audio-manifest.js must match the file, or devices would keep an old copy.
+global.window.AUDIO_FILES = undefined;
+delete require.cache[require.resolve(path.join(ROOT, "data/audio-manifest.js"))];
+require(path.join(ROOT, "data/audio-manifest.js"));
+const crypto = require("crypto");
+const stale = Object.entries(window.AUDIO_FILES || {}).filter(([k, v]) => {
+  const f = path.join(ROOT, "audio", k + ".mp3");
+  return !fs.existsSync(f) || typeof v !== "string" || crypto.createHash("sha1").update(fs.readFileSync(f)).digest("hex").slice(0, 10) !== v;
+});
+if (stale.length) err(`audio-manifest.js is out of date for ${stale.length} sound(s), e.g. ${stale[0][0]}: run python3 tools/generate_audio.py`);
+
 const sw = require("child_process").spawnSync("node", [path.join(ROOT, "tools/build_sw.js"), "--check"], { encoding: "utf8" });
 if (sw.status !== 0) err("offline copy: " + sw.stdout.trim());
 

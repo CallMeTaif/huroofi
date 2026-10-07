@@ -92,6 +92,7 @@
 
   <script src="../data/letters.js"></script>
   <script src="audio-review-data.js"></script>
+  <script src="../data/audio-manifest.js"></script>
   <script src="../js/record-items.js"></script>
   <script>
   (function () {
@@ -307,7 +308,7 @@
     // ---------- Controls ----------
     $("rec").addEventListener("click", function () { recorder && recorder.state === "recording" ? stopRec() : startRec(); });
     $("play").addEventListener("click", function () { getClip(list[pos].id).then(function (c) { if (c) playBlob(c.blob); }); });
-    $("ref").addEventListener("click", function () { player.src = "../audio/" + list[pos].keys[0] + ".mp3"; player.play().catch(function () {}); });
+    $("ref").addEventListener("click", function () { var k0 = list[pos].keys[0], v0 = window.AUDIO_FILES && AUDIO_FILES[k0]; player.src = "../audio/" + k0 + ".mp3" + (typeof v0 === "string" ? "?v=" + v0 : ""); player.play().catch(function () {}); });
     $("next").addEventListener("click", function () { go(pos + 1); });
     $("prev").addEventListener("click", function () { go(pos - 1); });
     $("nextTodo").addEventListener("click", function () {
