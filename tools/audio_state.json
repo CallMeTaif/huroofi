@@ -2941,11 +2941,13 @@
   "unchanged": true
  },
  "letters/waw/v7": {
-  "rate": "-40%",
-  "seconds": 0.44,
+  "number": 364,
+  "recorded": true,
+  "recorded_text": "وِي",
+  "seconds": 0.57,
+  "source": "364.mp3",
   "text": "وِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ya/desc": {
   "number": 379,
@@ -3002,11 +3004,13 @@
   "unchanged": true
  },
  "letters/ya/v1": {
-  "rate": "-10%",
-  "seconds": 0.56,
+  "number": 370,
+  "recorded": true,
+  "recorded_text": "يَ",
+  "seconds": 0.62,
+  "source": "370.mp3",
   "text": "يَ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ya/v2": {
   "rate": "-10%",
