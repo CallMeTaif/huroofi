@@ -274,11 +274,13 @@
   "unchanged": true
  },
  "letters/ba/v3": {
-  "rate": "-10%",
-  "seconds": 0.36,
+  "number": 19,
+  "recorded": true,
+  "recorded_text": "بِ",
+  "seconds": 0.54,
+  "source": "019.mp3",
   "text": "بِ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ba/v4": {
   "rate": "-10%",
