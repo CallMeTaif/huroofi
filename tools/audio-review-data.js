@@ -2020,10 +2020,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ta/v5": {
 "spoken": "تَا",
-"rate": "-40%",
-"seconds": 0.18,
-"flag": true,
-"recorded": false
+"rate": null,
+"seconds": 0.47,
+"flag": false,
+"recorded": true
 },
 "letters/ta/v6": {
 "spoken": "تُو",
