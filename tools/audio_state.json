@@ -2532,11 +2532,13 @@
   "unchanged": true
  },
  "letters/tha/v5": {
-  "rate": "-40%",
-  "seconds": 0.43,
+  "number": 49,
+  "recorded": true,
+  "recorded_text": "ثَا",
+  "seconds": 0.64,
+  "source": "049.mp3",
   "text": "ثَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/tha/v6": {
   "rate": "-40%",

@@ -2202,10 +2202,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/tha/v5": {
 "spoken": "ثَا",
-"rate": "-40%",
-"seconds": 0.43,
+"rate": null,
+"seconds": 0.64,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/tha/v6": {
 "spoken": "ثُو",
