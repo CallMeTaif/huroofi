@@ -1761,10 +1761,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/sad/v7": {
 "spoken": "صِي",
-"rate": "-40%",
-"seconds": 0.48,
+"rate": null,
+"seconds": 0.59,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/shin/desc": {
 "spoken": "حَرْفُ الشِّينِ لَهُ ثَلَاثُ نُقَطٍ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: شَ، شَمْس.",

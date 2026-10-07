@@ -2103,11 +2103,13 @@
   "unchanged": true
  },
  "letters/sad/v7": {
-  "rate": "-40%",
-  "seconds": 0.48,
+  "number": 194,
+  "recorded": true,
+  "recorded_text": "صِي",
+  "seconds": 0.59,
+  "source": "194.mp3",
   "text": "صِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/shin/desc": {
   "number": 186,
