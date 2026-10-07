@@ -843,11 +843,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/ha/v4": {
-"spoken": "أَحْ",
-"rate": "-10%",
-"seconds": 0.24,
+"spoken": "حْ",
+"rate": null,
+"seconds": 0.69,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ha/v5": {
 "spoken": "حَا",
