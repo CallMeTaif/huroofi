@@ -51,16 +51,18 @@ def levels(mp3_bytes):
 
 
 def tries(db):
-    """Speech segments [(start, end)] in 10 ms steps; gaps under 150 ms are joined."""
+    """The tries, found by their LOUD parts (within 30 dB of the loudest moment), in 10 ms steps.
+    Soft trailing sounds between tries are ignored here; the cut itself is placed later, as late as possible
+    before the next try, so those soft endings stay with the first try. Gaps under 200 ms are joined."""
     peak, noise = max(db), sorted(db)[len(db) // 10]
-    th = max(noise + 10, peak - 40)
+    th = max(noise + 10, peak - 30)
     segs, i = [], 0
     while i < len(db):
         if db[i] > th:
             j = i
             while j < len(db) and db[j] > th:
                 j += 1
-            if segs and i - segs[-1][1] < 15:
+            if segs and i - segs[-1][1] < 20:
                 segs[-1][1] = j
             else:
                 segs.append([i, j])

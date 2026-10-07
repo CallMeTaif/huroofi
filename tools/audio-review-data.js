@@ -129,11 +129,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/alif/v2": {
-"spoken": "أُ.",
-"rate": "-10%",
-"seconds": 0.45,
+"spoken": "أُ",
+"rate": null,
+"seconds": 0.39,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/alif/v3": {
 "spoken": "إِ.",
