@@ -2187,11 +2187,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/tha/v3": {
-"spoken": "ثِ.",
-"rate": "-10%",
-"seconds": 0.2,
+"spoken": "ثِ",
+"rate": null,
+"seconds": 0.52,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/tha/v4": {
 "spoken": "أَثْ",

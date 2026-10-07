@@ -2514,11 +2514,13 @@
   "unchanged": true
  },
  "letters/tha/v3": {
-  "rate": "-10%",
-  "seconds": 0.2,
+  "number": 47,
+  "recorded": true,
+  "recorded_text": "ثِ",
+  "seconds": 0.52,
+  "source": "047.mp3",
   "text": "ثِ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/tha/v4": {
   "rate": "-10%",
