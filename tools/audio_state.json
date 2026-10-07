@@ -409,11 +409,13 @@
   "unchanged": true
  },
  "letters/dad/v5": {
-  "rate": "-40%",
-  "seconds": 0.48,
+  "number": 208,
+  "recorded": true,
+  "recorded_text": "ضَا",
+  "seconds": 0.62,
+  "source": "208.mp3",
   "text": "ضَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dad/v6": {
   "rate": "-40%",
