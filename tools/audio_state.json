@@ -643,11 +643,13 @@
   "unchanged": true
  },
  "letters/dhaa/v7": {
-  "rate": "-40%",
-  "seconds": 0.55,
+  "number": 239,
+  "recorded": true,
+  "recorded_text": "ظِي",
+  "seconds": 0.6,
+  "source": "239.mp3",
   "text": "ظِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dhal/desc": {
   "number": 130,
