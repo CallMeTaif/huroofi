@@ -2264,11 +2264,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/waw/v3": {
-"spoken": "وِ.",
-"rate": "-10%",
-"seconds": 0.45,
+"spoken": "وِ",
+"rate": null,
+"seconds": 0.48,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/waw/v4": {
 "spoken": "أَوْ",

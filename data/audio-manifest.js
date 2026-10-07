@@ -324,7 +324,7 @@ window.AUDIO_FILES = {
 "letters/waw/name": "52790d4ebe",
 "letters/waw/v1": "740ef91676",
 "letters/waw/v2": "d6b3621124",
-"letters/waw/v3": "d69c22e427",
+"letters/waw/v3": "9dae949ecc",
 "letters/waw/v4": "43a74591de",
 "letters/waw/v5": "51e4a32690",
 "letters/waw/v6": "dd8d6d12d6",
