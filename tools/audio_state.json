@@ -1676,11 +1676,13 @@
   "unchanged": true
  },
  "letters/lam/v7": {
-  "rate": "-40%",
-  "seconds": 0.5,
+  "number": 318,
+  "recorded": true,
+  "recorded_text": "لِي",
+  "seconds": 0.57,
+  "source": "318.mp3",
   "text": "لِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/mim/desc": {
   "number": 332,

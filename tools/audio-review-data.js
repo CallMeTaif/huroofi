@@ -1320,10 +1320,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/lam/v7": {
 "spoken": "لِي",
-"rate": "-40%",
-"seconds": 0.5,
+"rate": null,
+"seconds": 0.57,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/mim/desc": {
 "spoken": "حَرْفُ الْمِيمِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: مَ، مَوْز.",
