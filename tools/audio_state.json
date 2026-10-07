@@ -1757,11 +1757,13 @@
   "unchanged": true
  },
  "letters/mim/v3": {
-  "rate": "-10%",
-  "seconds": 0.51,
+  "number": 326,
+  "recorded": true,
+  "recorded_text": "مِ",
+  "seconds": 0.47,
+  "source": "326.mp3",
   "text": "مِ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/mim/v4": {
   "rate": "-10%",
