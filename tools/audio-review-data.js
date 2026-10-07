@@ -1943,10 +1943,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/sin/v7": {
 "spoken": "سِي",
-"rate": "-40%",
-"seconds": 0.43,
+"rate": null,
+"seconds": 0.65,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ta/desc": {
 "spoken": "حَرْفُ التَّاءِ لَهُ نُقْطَتَانِ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: تَ، تُفَّاحَة.",

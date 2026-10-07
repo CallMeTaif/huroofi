@@ -2309,11 +2309,13 @@
   "unchanged": true
  },
  "letters/sin/v7": {
-  "rate": "-40%",
-  "seconds": 0.43,
+  "number": 165,
+  "recorded": true,
+  "recorded_text": "سِي",
+  "seconds": 0.65,
+  "source": "165.mp3",
   "text": "سِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ta/desc": {
   "number": 43,
