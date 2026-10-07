@@ -184,7 +184,7 @@ window.AUDIO_FILES = {
 "letters/lam/form-medial": "f02be94aef",
 "letters/lam/name": "319cc6f36d",
 "letters/lam/v1": "51d64be65a",
-"letters/lam/v2": "7e884e28aa",
+"letters/lam/v2": "a08d6fb0ae",
 "letters/lam/v3": "3a27736888",
 "letters/lam/v4": "6728d8b552",
 "letters/lam/v5": "58b8554bbb",
