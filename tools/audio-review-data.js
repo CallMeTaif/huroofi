@@ -417,17 +417,17 @@ window.AUDIO_REVIEW = {
 },
 "letters/dal/v6": {
 "spoken": "دُو",
-"rate": "-40%",
-"seconds": 0.38,
+"rate": null,
+"seconds": 0.78,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dal/v7": {
 "spoken": "دِي",
-"rate": "-40%",
-"seconds": 0.35,
+"rate": null,
+"seconds": 0.54,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dhaa/desc": {
 "spoken": "حَرْفُ الظَّاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ظَ، ظَرْف.",

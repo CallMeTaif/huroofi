@@ -503,18 +503,22 @@
   "unchanged": true
  },
  "letters/dal/v6": {
-  "rate": "-40%",
-  "seconds": 0.38,
+  "number": 109,
+  "recorded": true,
+  "recorded_text": "دُو",
+  "seconds": 0.78,
+  "source": "109.mp3",
   "text": "دُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dal/v7": {
-  "rate": "-40%",
-  "seconds": 0.35,
+  "number": 110,
+  "recorded": true,
+  "recorded_text": "دِي",
+  "seconds": 0.54,
+  "source": "110.mp3",
   "text": "دِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dhaa/desc": {
   "number": 246,
