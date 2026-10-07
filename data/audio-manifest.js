@@ -273,7 +273,7 @@ window.AUDIO_FILES = {
 "letters/sin/form-medial": "4b39431149",
 "letters/sin/name": "04ac2f4597",
 "letters/sin/v1": "6f90e4a16d",
-"letters/sin/v2": "b08a979b4a",
+"letters/sin/v2": "9328229d4d",
 "letters/sin/v3": "f19d1733ae",
 "letters/sin/v4": "4f0fd90c96",
 "letters/sin/v5": "db2ecd7fd8",

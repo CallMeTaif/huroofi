@@ -1907,11 +1907,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/sin/v2": {
-"spoken": "سُ.",
-"rate": "-10%",
-"seconds": 0.39,
+"spoken": "سُ",
+"rate": null,
+"seconds": 0.63,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/sin/v3": {
 "spoken": "سِ.",
