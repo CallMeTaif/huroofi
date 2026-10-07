@@ -1018,11 +1018,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/jim/v3": {
-"spoken": "جِ.",
-"rate": "-10%",
-"seconds": 0.54,
+"spoken": "جِ",
+"rate": null,
+"seconds": 0.34,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/jim/v4": {
 "spoken": "أَجْ",
