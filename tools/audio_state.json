@@ -166,11 +166,13 @@
   "unchanged": true
  },
  "letters/alif/v4": {
-  "rate": "-10%",
-  "seconds": 0.32,
+  "number": 5,
+  "recorded": true,
+  "recorded_text": "أْ",
+  "seconds": 0.24,
+  "source": "005.first.mp3",
   "text": "يَأْ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/alif/v5": {
   "rate": "-40%",
