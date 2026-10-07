@@ -285,7 +285,7 @@ window.AUDIO_FILES = {
 "letters/ta/form-isolated": "950d858c99",
 "letters/ta/form-medial": "e089148886",
 "letters/ta/name": "f5ca5578ad",
-"letters/ta/v1": "c0cd7d890f",
+"letters/ta/v1": "221ff37da4",
 "letters/ta/v2": "5f2d23c5d4",
 "letters/ta/v3": "b1032c7a1c",
 "letters/ta/v4": "d12e39a80c",

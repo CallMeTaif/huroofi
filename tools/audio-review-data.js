@@ -1991,11 +1991,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/ta/v1": {
-"spoken": "تَ.",
-"rate": "-10%",
-"seconds": 0.39,
+"spoken": "تَ",
+"rate": null,
+"seconds": 0.49,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ta/v2": {
 "spoken": "تُ.",
