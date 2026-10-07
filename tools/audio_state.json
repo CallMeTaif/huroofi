@@ -1442,11 +1442,13 @@
   "unchanged": true
  },
  "letters/kaf/v7": {
-  "rate": "-40%",
-  "seconds": 0.33,
+  "number": 305,
+  "recorded": true,
+  "recorded_text": "كِي",
+  "seconds": 0.56,
+  "source": "305.mp3",
   "text": "كِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kha/desc": {
   "number": 102,

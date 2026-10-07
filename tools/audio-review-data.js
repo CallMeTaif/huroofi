@@ -1138,10 +1138,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kaf/v7": {
 "spoken": "كِي",
-"rate": "-40%",
-"seconds": 0.33,
+"rate": null,
+"seconds": 0.56,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kha/desc": {
 "spoken": "حَرْفُ الْخَاءِ لَهُ نُقْطَةٌ وَاحِدَةٌ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: خَ، خَرُوف.",

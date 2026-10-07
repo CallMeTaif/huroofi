@@ -163,7 +163,7 @@ window.AUDIO_FILES = {
 "letters/kaf/v4": "db49f066b4",
 "letters/kaf/v5": "832f2c7b70",
 "letters/kaf/v6": "0249fcfad1",
-"letters/kaf/v7": "e13bd38373",
+"letters/kaf/v7": "69582e5ba9",
 "letters/kha/desc": "a8405a9767",
 "letters/kha/form-final": "120f1c72df",
 "letters/kha/form-initial": "372ef8771b",
