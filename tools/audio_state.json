@@ -2914,11 +2914,13 @@
   "unchanged": true
  },
  "letters/waw/v4": {
-  "rate": "-10%",
-  "seconds": 0.31,
+  "number": 361,
+  "recorded": true,
+  "recorded_text": "وْ",
+  "seconds": 0.51,
+  "source": "361.mp3",
   "text": "أَوْ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/waw/v5": {
   "rate": "-40%",
