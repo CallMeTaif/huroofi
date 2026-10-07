@@ -1000,11 +1000,13 @@
   "unchanged": true
  },
  "letters/ha/v6": {
-  "rate": "-40%",
-  "seconds": 0.34,
+  "number": 78,
+  "recorded": true,
+  "recorded_text": "حُو",
+  "seconds": 0.56,
+  "source": "078.mp3",
   "text": "حُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ha/v7": {
   "rate": "-40%",

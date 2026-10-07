@@ -858,10 +858,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ha/v6": {
 "spoken": "حُو",
-"rate": "-40%",
-"seconds": 0.34,
+"rate": null,
+"seconds": 0.56,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ha/v7": {
 "spoken": "حِي",
