@@ -92,7 +92,7 @@ window.AUDIO_FILES = {
 "letters/fa/form-isolated": "372ef8771b",
 "letters/fa/form-medial": "944def3880",
 "letters/fa/name": "cd4175841a",
-"letters/fa/v1": "f9c97bb4d9",
+"letters/fa/v1": "4a4a6bcec9",
 "letters/fa/v2": "0d1ec0c75e",
 "letters/fa/v3": "ce846a3c64",
 "letters/fa/v4": "a2c79515cc",

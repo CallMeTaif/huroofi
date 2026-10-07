@@ -817,11 +817,13 @@
   "unchanged": true
  },
  "letters/fa/v1": {
-  "rate": "-10%",
-  "seconds": 0.29,
+  "number": 274,
+  "recorded": true,
+  "recorded_text": "فَ",
+  "seconds": 0.57,
+  "source": "274.mp3",
   "text": "فَ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/fa/v2": {
   "rate": "-10%",

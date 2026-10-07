@@ -640,11 +640,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/fa/v1": {
-"spoken": "فَ.",
-"rate": "-10%",
-"seconds": 0.29,
+"spoken": "فَ",
+"rate": null,
+"seconds": 0.57,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/fa/v2": {
 "spoken": "فُ.",
