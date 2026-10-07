@@ -1298,11 +1298,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/lam/v4": {
-"spoken": "أَلْ",
-"rate": "-10%",
-"seconds": 0.34,
+"spoken": "لْ",
+"rate": null,
+"seconds": 0.54,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/lam/v5": {
 "spoken": "لَا",
