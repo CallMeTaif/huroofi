@@ -2348,11 +2348,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/ya/v2": {
-"spoken": "يُ.",
-"rate": "-10%",
-"seconds": 0.56,
+"spoken": "يُ",
+"rate": null,
+"seconds": 0.44,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ya/v3": {
 "spoken": "يِ.",
