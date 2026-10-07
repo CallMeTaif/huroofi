@@ -1971,11 +1971,13 @@
   "unchanged": true
  },
  "letters/qaf/v7": {
-  "rate": "-40%",
-  "seconds": 0.5,
+  "number": 292,
+  "recorded": true,
+  "recorded_text": "قِي",
+  "seconds": 0.49,
+  "source": "292.mp3",
   "text": "قِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ra/desc": {
   "number": 144,

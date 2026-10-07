@@ -1593,10 +1593,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/qaf/v7": {
 "spoken": "قِي",
-"rate": "-40%",
-"seconds": 0.5,
+"rate": null,
+"seconds": 0.49,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ra/desc": {
 "spoken": "حَرْفُ الرَّاءِ لَيْسَ لَهُ نُقَطٌ. لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: رَ، رِيشَة.",
