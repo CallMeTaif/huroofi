@@ -1229,10 +1229,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kha/v7": {
 "spoken": "خِي",
-"rate": "-40%",
-"seconds": 0.36,
+"rate": null,
+"seconds": 0.64,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/lam/desc": {
 "spoken": "حَرْفُ اللَّامِ لَيْسَ لَهُ نُقَطٌ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: لَ، لَيْمُون.",

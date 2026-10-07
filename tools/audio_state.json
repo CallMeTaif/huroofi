@@ -1449,11 +1449,13 @@
   "unchanged": true
  },
  "letters/kha/v7": {
-  "rate": "-40%",
-  "seconds": 0.36,
+  "number": 95,
+  "recorded": true,
+  "recorded_text": "خِي",
+  "seconds": 0.64,
+  "source": "095.mp3",
   "text": "خِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/lam/desc": {
   "number": 322,
