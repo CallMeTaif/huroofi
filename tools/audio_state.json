@@ -2576,18 +2576,22 @@
   "unchanged": true
  },
  "letters/taa/v6": {
-  "rate": "-40%",
-  "seconds": 0.26,
+  "number": 224,
+  "recorded": true,
+  "recorded_text": "طُو",
+  "seconds": 0.74,
+  "source": "224.mp3",
   "text": "طُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/taa/v7": {
-  "rate": "-40%",
-  "seconds": 0.57,
+  "number": 225,
+  "recorded": true,
+  "recorded_text": "طِي",
+  "seconds": 0.49,
+  "source": "225.mp3",
   "text": "طِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/tha/desc": {
   "number": 58,

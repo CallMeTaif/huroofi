@@ -2118,17 +2118,17 @@ window.AUDIO_REVIEW = {
 },
 "letters/taa/v6": {
 "spoken": "طُو",
-"rate": "-40%",
-"seconds": 0.26,
+"rate": null,
+"seconds": 0.74,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/taa/v7": {
 "spoken": "طِي",
-"rate": "-40%",
-"seconds": 0.57,
+"rate": null,
+"seconds": 0.49,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/tha/desc": {
 "spoken": "حَرْفُ الثَّاءِ لَهُ ثَلَاثُ نُقَطٍ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: ثَ، ثَعْلَب.",
