@@ -1424,11 +1424,13 @@
   "unchanged": true
  },
  "letters/kaf/v5": {
-  "rate": "-40%",
-  "seconds": 0.16,
+  "number": 303,
+  "recorded": true,
+  "recorded_text": "كَا",
+  "seconds": 0.57,
+  "source": "303.mp3",
   "text": "كَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kaf/v6": {
   "rate": "-40%",
