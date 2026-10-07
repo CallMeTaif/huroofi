@@ -598,11 +598,13 @@
   "unchanged": true
  },
  "letters/dhaa/v2": {
-  "rate": "-10%",
-  "seconds": 0.49,
+  "number": 234,
+  "recorded": true,
+  "recorded_text": "ظُ",
+  "seconds": 0.51,
+  "source": "234.mp3",
   "text": "ظُ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/dhaa/v3": {
   "rate": "-10%",
