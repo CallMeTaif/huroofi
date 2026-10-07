@@ -1892,11 +1892,13 @@
   "unchanged": true
  },
  "letters/nun/v5": {
-  "rate": "-40%",
-  "seconds": 0.47,
+  "number": 338,
+  "recorded": true,
+  "recorded_text": "نَا",
+  "seconds": 0.48,
+  "source": "338.mp3",
   "text": "نَا",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/nun/v6": {
   "rate": "-40%",

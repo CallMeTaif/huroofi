@@ -1488,10 +1488,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/nun/v5": {
 "spoken": "نَا",
-"rate": "-40%",
-"seconds": 0.47,
+"rate": null,
+"seconds": 0.48,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/nun/v6": {
 "spoken": "نُو",
