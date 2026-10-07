@@ -57,7 +57,7 @@ window.AUDIO_FILES = {
 "letters/dal/name": "b16c862dc4",
 "letters/dal/v1": "9f5a749942",
 "letters/dal/v2": "74940fb05c",
-"letters/dal/v3": "e404c5cfd6",
+"letters/dal/v3": "eb1275d5f1",
 "letters/dal/v4": "de1a2b50b6",
 "letters/dal/v5": "5552d3cd16",
 "letters/dal/v6": "8816f59a1b",

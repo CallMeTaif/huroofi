@@ -395,11 +395,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/dal/v3": {
-"spoken": "دِ.",
-"rate": "-10%",
-"seconds": 0.48,
+"spoken": "دِ",
+"rate": null,
+"seconds": 0.6,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/dal/v4": {
 "spoken": "أَدْ",
