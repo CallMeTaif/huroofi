@@ -3022,18 +3022,22 @@
   "unchanged": true
  },
  "letters/ya/v3": {
-  "rate": "-10%",
-  "seconds": 0.56,
+  "number": 372,
+  "recorded": true,
+  "recorded_text": "يِ",
+  "seconds": 0.43,
+  "source": "372.mp3",
   "text": "يِ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ya/v4": {
-  "rate": "-10%",
-  "seconds": 0.34,
+  "number": 373,
+  "recorded": true,
+  "recorded_text": "يْ",
+  "seconds": 0.5,
+  "source": "373.mp3",
   "text": "أَيْ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ya/v5": {
   "rate": "-40%",
