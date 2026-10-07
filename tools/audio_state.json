@@ -1910,11 +1910,13 @@
   "unchanged": true
  },
  "letters/nun/v7": {
-  "rate": "-40%",
-  "seconds": 0.49,
+  "number": 340,
+  "recorded": true,
+  "recorded_text": "نِي",
+  "seconds": 0.52,
+  "source": "340.mp3",
   "text": "نِي",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/qaf/desc": {
   "number": 297,

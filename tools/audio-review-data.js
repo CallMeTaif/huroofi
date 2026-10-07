@@ -1502,10 +1502,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/nun/v7": {
 "spoken": "نِي",
-"rate": "-40%",
-"seconds": 0.49,
+"rate": null,
+"seconds": 0.52,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/qaf/desc": {
 "spoken": "حَرْفُ الْقَافِ لَهُ نُقْطَتَانِ فَوْقَهُ. يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ. نَقُولُ: قَ، قِطَّة.",
