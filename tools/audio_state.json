@@ -1874,18 +1874,22 @@
   "unchanged": true
  },
  "letters/nun/v3": {
-  "rate": "-10%",
-  "seconds": 0.56,
+  "number": 336,
+  "recorded": true,
+  "recorded_text": "نِ",
+  "seconds": 0.7,
+  "source": "336.mp3",
   "text": "نِ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/nun/v4": {
-  "rate": "-10%",
-  "seconds": 0.4,
+  "number": 337,
+  "recorded": true,
+  "recorded_text": "نْ",
+  "seconds": 0.59,
+  "source": "337.mp3",
   "text": "أَنْ",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/nun/v5": {
   "rate": "-40%",

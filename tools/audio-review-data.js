@@ -1473,18 +1473,18 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/nun/v3": {
-"spoken": "نِ.",
-"rate": "-10%",
-"seconds": 0.56,
+"spoken": "نِ",
+"rate": null,
+"seconds": 0.7,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/nun/v4": {
-"spoken": "أَنْ",
-"rate": "-10%",
-"seconds": 0.4,
+"spoken": "نْ",
+"rate": null,
+"seconds": 0.59,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/nun/v5": {
 "spoken": "نَا",
