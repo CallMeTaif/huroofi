@@ -1404,11 +1404,13 @@
   "unchanged": true
  },
  "letters/kha/v2": {
-  "rate": "-10%",
-  "seconds": 0.44,
+  "number": 90,
+  "recorded": true,
+  "recorded_text": "خُ",
+  "seconds": 0.6,
+  "source": "090.mp3",
   "text": "خُ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/kha/v3": {
   "rate": "-10%",
