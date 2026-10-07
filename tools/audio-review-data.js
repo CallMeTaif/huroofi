@@ -234,11 +234,11 @@ window.AUDIO_REVIEW = {
 "recorded": true
 },
 "letters/ba/v4": {
-"spoken": "أَبْ",
-"rate": "-10%",
-"seconds": 0.3,
+"spoken": "بْ",
+"rate": null,
+"seconds": 0.74,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ba/v5": {
 "spoken": "بَا",
