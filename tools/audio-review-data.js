@@ -1131,10 +1131,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/kaf/v6": {
 "spoken": "كُو",
-"rate": "-40%",
-"seconds": 0.37,
+"rate": null,
+"seconds": 0.49,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/kaf/v7": {
 "spoken": "كِي",
