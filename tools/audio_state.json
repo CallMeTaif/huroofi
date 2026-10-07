@@ -301,11 +301,13 @@
   "unchanged": true
  },
  "letters/ba/v6": {
-  "rate": "-40%",
-  "seconds": 0.33,
+  "number": 22,
+  "recorded": true,
+  "recorded_text": "بُو",
+  "seconds": 0.57,
+  "source": "022.mp3",
   "text": "بُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/ba/v7": {
   "rate": "-40%",

@@ -249,10 +249,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/ba/v6": {
 "spoken": "بُو",
-"rate": "-40%",
-"seconds": 0.33,
+"rate": null,
+"seconds": 0.57,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/ba/v7": {
 "spoken": "بِي",
