@@ -227,7 +227,7 @@ window.AUDIO_FILES = {
 "letters/qaf/v3": "771a414fad",
 "letters/qaf/v4": "fcdb8d21c4",
 "letters/qaf/v5": "a8905a59a8",
-"letters/qaf/v6": "f61d910738",
+"letters/qaf/v6": "d72cba0981",
 "letters/qaf/v7": "53a10bef7e",
 "letters/ra/desc": "d65b579986",
 "letters/ra/form-final": "2656190a79",

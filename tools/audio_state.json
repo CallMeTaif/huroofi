@@ -1962,11 +1962,13 @@
   "unchanged": true
  },
  "letters/qaf/v6": {
-  "rate": "-40%",
-  "seconds": 0.42,
+  "number": 291,
+  "recorded": true,
+  "recorded_text": "قُو",
+  "seconds": 0.6,
+  "source": "291.mp3",
   "text": "قُو",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/qaf/v7": {
   "rate": "-40%",

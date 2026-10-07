@@ -1586,10 +1586,10 @@ window.AUDIO_REVIEW = {
 },
 "letters/qaf/v6": {
 "spoken": "قُو",
-"rate": "-40%",
-"seconds": 0.42,
+"rate": null,
+"seconds": 0.6,
 "flag": false,
-"recorded": false
+"recorded": true
 },
 "letters/qaf/v7": {
 "spoken": "قِي",
