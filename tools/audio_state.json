@@ -2887,11 +2887,13 @@
   "unchanged": true
  },
  "letters/waw/v1": {
-  "rate": "-10%",
-  "seconds": 0.45,
+  "number": 358,
+  "recorded": true,
+  "recorded_text": "وَ",
+  "seconds": 0.5,
+  "source": "358.mp3",
   "text": "وَ.",
-  "trimmed": true,
-  "voice": "ar-SA-ZariyahNeural"
+  "unchanged": true
  },
  "letters/waw/v2": {
   "rate": "-10%",
