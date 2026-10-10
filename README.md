@@ -3,7 +3,7 @@
 موقع لتعلّم حروف الهجاء العربية لطلاب الصف الأول: صور وأصوات وأزرار كبيرة، بلا إعلانات ولا تتبّع. حسابات أولياء الأمور اختيارية.
 A website for first graders to learn the 28 Arabic letters, through pictures, sound and big buttons. No ads, no tracking. Parent accounts are optional (see docs/ACCOUNTS_SETUP.md).
 
-**الموقع / Live site:** https://callmetaif.github.io/huroofi/
+**الموقع / Live site:** https://www.myhuroofi.com/
 
 ---
 
@@ -23,7 +23,7 @@ A website for first graders to learn the 28 Arabic letters, through pictures, so
 | للمعلمة | المعلمة | (ضغط مطوّل ٣ ثوانٍ على عنوان «حروفي») وضع الفصل، الأطفال، التقدّم، مراجعة المحتوى، إضافة فيديو، دليل التعديل. |
 
 ### صفحة المعلمة وحمايتها
-لا يوجد رابط ظاهر لصفحة المعلمة في صفحات الأطفال. للدخول: **اضغطي مطوّلًا على عنوان «حروفي» في الصفحة الرئيسية ٣ ثوانٍ**، أو احفظي رابط الصفحة في المفضلة: https://callmetaif.github.io/huroofi/teacher.html
+لا يوجد رابط ظاهر لصفحة المعلمة في صفحات الأطفال. للدخول: **اضغطي مطوّلًا على عنوان «حروفي» في الصفحة الرئيسية ٣ ثوانٍ**، أو احفظي رابط الصفحة في المفضلة: https://www.myhuroofi.com/teacher.html
 ثم تُفتح الصفحة بعد الإجابة عن سؤال ضرب (مثل ٧ × ٨) لا يعرفه طفل الصف الأول. وللعودة إلى صفحات الأطفال زر 🏠 في أعلى صفحة المعلمة.
 هذا **ليس** كلمة مرور: الموقع بلا خادم، ولا يوجد في صفحة المعلمة شيء سرّي. الغرض فقط ألّا يدخلها طفل بالخطأ فيمسح النجوم.
 
@@ -82,7 +82,7 @@ A website for first graders to learn the 28 Arabic letters, through pictures, so
 ### تسجيل الأصوات بصوت حقيقي
 الأصوات الحالية من صوت حاسوبي. لاستبدالها بصوت حقيقي، القائمة الكاملة المرقّمة في [docs/RECORDING_LIST.md](docs/RECORDING_LIST.md) (٤٠١ نص)، وفيها طرق الإرسال:
 1. ملف صوتي لكل نص باسم رقمه (مثل `012.m4a`)، أو ملف لكل حرف تُقرأ فيه نصوصه بالترتيب مع سكتة قصيرة بينها.
-2. أو صفحة التسجيل https://callmetaif.github.io/huroofi/tools/record.html: نص واحد في كل مرة، ثم «تنزيل التسجيلات» في ملف واحد.
+2. أو صفحة التسجيل https://www.myhuroofi.com/tools/record.html: نص واحد في كل مرة، ثم «تنزيل التسجيلات» في ملف واحد.
 يمكن الإرسال على دفعات؛ الأصوات غير المسجَّلة تبقى بالصوت الحاسوبي.
 
 ### الخصوصية
@@ -93,7 +93,7 @@ A website for first graders to learn the 28 Arabic letters, through pictures, so
 ## In English
 
 ### Open the site
-- **Online:** https://callmetaif.github.io/huroofi/
+- **Online:** https://www.myhuroofi.com/
 - **Offline:** double-click `index.html`. Everything works without internet except YouTube.
   From a local file, YouTube refuses to play inside the page (error 153), so tapping a video opens it on youtube.com in a new tab. On GitHub Pages videos play inside the page.
 

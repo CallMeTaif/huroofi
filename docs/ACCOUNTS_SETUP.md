@@ -35,19 +35,15 @@ works exactly as before: no sign-in, stars saved on the device only.
    - Copy the `firebaseConfig = { … }` block and send it to the developer. It is not secret.
 
 ### 2. Allow the site's address for Google sign-in
-**Authentication → Settings → Authorized domains → Add domain:**
-- `callmetaif.github.io`
-- the new domain too, if one is bought (for example `huroofi.org`)
+**Authentication → Settings → Authorized domains → Add domain**, one at a time:
+- `www.myhuroofi.com`
+- `myhuroofi.com`
 
-### 3. (Optional) The domain
-1. Buy the name (for example `huroofi.org`).
-2. In the domain seller's DNS settings add:
-   - 4 **A** records for the bare domain (`@`): `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - a **CNAME** record `www` → `callmetaif.github.io`
-3. Tell the developer the name. They add it in GitHub → Settings → Pages → Custom domain and turn on **Enforce HTTPS**.
-
-Do this **before** sending the invite link to parents. Stars saved with «تمرّن فقط» belong to the old address.
-Stars in parents' accounts are not affected.
+### 3. The domain ✅ done
+**www.myhuroofi.com** was bought through Vercel (October 2026). Vercel hosts the site from the GitHub repo
+(every push goes live) and manages the DNS and the https certificate; `myhuroofi.com` redirects to `www`.
+The old address (callmetaif.github.io/huroofi) still works: `js/moved.js` sends visitors to the same page
+on the new address and carries the stars saved on their device along.
 
 ### 4. Developer: switch it on
 1. Paste the config into `js/firebase-config.js` (`window.HUROOFI_FIREBASE = { … };`).

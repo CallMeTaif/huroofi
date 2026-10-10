@@ -66,7 +66,7 @@ python3 tools/generate_audio.py --voice hamed
 ```
 
 ### 7. Listen to the sounds
-Open `tools/audio-review.html` (or https://callmetaif.github.io/huroofi/tools/audio-review.html).
+Open `tools/audio-review.html` (or https://www.myhuroofi.com/tools/audio-review.html).
 Tap any card to hear it, or use «تشغيل الكل» to play them in order. Orange cards are the ones to check first.
 
 These were made by a computer voice, so single syllables are the weakest part. How they were made:
@@ -113,7 +113,7 @@ Open any letter page and scroll to «تمرّن». Things to try with a child, a
 - **تمارين المراجعة** (from the home page): the child's visited letters are chosen already; tap letters to add or remove them.
   The tab «الحروف المتشابهة» has the 9 look-alike groups (ب ت ث، ج ح خ، د ذ، ر ز، س ش، ص ض، ط ظ، ع غ، ف ق); every question there includes the look-alike letters as choices.
   Review rounds do not change the stars of single letters.
-- **صفحة المعلمة** has no visible link on the children's pages. To open it, press and hold the «حروفي» title on the home page for 3 seconds (or bookmark https://callmetaif.github.io/huroofi/teacher.html). It then asks a multiplication question such as «٧ × ٨». This keeps children out; it is not a password. The answer is remembered until the browser tab is closed.
+- **صفحة المعلمة** has no visible link on the children's pages. To open it, press and hold the «حروفي» title on the home page for 3 seconds (or bookmark https://www.myhuroofi.com/teacher.html). It then asks a multiplication question such as «٧ × ٨». This keeps children out; it is not a password. The answer is remembered until the browser tab is closed.
 - **وضع الفصل** is switched on the device it is used on (for example the smartboard computer). It makes text bigger, hides the stars, and saves no progress.
 - **صفحة المحتوى** (from the teacher page) shows all letters on one page and can be printed.
 
@@ -145,5 +145,5 @@ Open any letter page and scroll to «تمرّن». Things to try with a child, a
 - [x] Try the four exercises on a real iPad or tablet with a finger.
 - [x] Try classroom mode on the smartboard.
 - [ ] Accounts: create the Firebase project and send the settings (docs/ACCOUNTS_SETUP.md), then send the invite link to parents.
-- [ ] Optional: buy the domain before sending the invite link.
+- [x] Domain: **www.myhuroofi.com** (bought through Vercel; the old GitHub link forwards there and carries the stars).
 - [x] ~~Class tablets~~ — not needed: the school has no tablets; children use the site at home on their parents' devices, and the smartboard uses classroom mode.
