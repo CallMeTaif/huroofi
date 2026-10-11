@@ -127,7 +127,7 @@ Open any letter page and scroll to «تمرّن». Things to try with a child, a
 
 > Switched on at https://www.myhuroofi.com (October 2026). Setup notes: docs/ACCOUNTS_SETUP.md.
 
-- **الصفحة الرئيسية:** at the first visit, the parent chooses «وليّ الأمر» (Google sign-in) or «تمرّن فقط» (no account, stars on the device). The smartboard in classroom mode is never asked.
+- **الصفحة الرئيسية:** at the first visit, the parent chooses «تسجيل الدخول» (Google sign-in) or «تمرّن فقط» (no account, stars on the device). The smartboard in classroom mode is never asked.
 - **وليّ الأمر:** writes the child's first name and chooses an animal. With the invite link, the child is added to the class and waits for approval.
 - **صفّي (teacher page):** sign in with the teacher's Google account.
   - Send the invite link to parents (copy, or WhatsApp).

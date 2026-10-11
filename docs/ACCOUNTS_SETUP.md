@@ -8,7 +8,7 @@ without sign-in, with stars saved on the device only.
 ## What it does
 
 - **Home page, first visit:** two choices.
-  - «وليّ الأمر»: sign in with Google.
+  - «تسجيل الدخول»: the parent signs in with Google.
   - «تمرّن فقط»: no account, stars stay on the device, like before.
   - The choice is remembered. The smartboard in classroom mode is never asked.
 - **Parent** (`account.html`, behind the grown-up question):

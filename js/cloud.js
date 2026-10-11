@@ -288,7 +288,7 @@ function homePage() {
 
   const msg = el("p", { class: "welcome-msg", text: "" });
   const parentBtn = el("button", { type: "button", class: "btn big teal wchoice" }, [H.icon("family"),
-    el("span", {}, [el("b", { text: "وليّ الأمر" }), el("small", { text: "الدخول بحساب Google لحفظ تقدّم طفلك ومتابعته" })])]);
+    el("span", {}, [el("b", { text: "تسجيل الدخول" }), el("small", { text: "بحساب Google، لحفظ تقدّم طفلك ومتابعته" })])]);
   const practiceBtn = el("button", { type: "button", class: "btn big wchoice" }, [H.icon("pencil"),
     el("span", {}, [el("b", { text: "تمرّن فقط" }), el("small", { text: "بدون حساب، والنجوم تُحفظ على هذا الجهاز" })])]);
   const box = el("div", { class: "who-overlay welcome", role: "dialog", "aria-modal": "true", "aria-label": "مرحبًا بكم في حروفي" }, [
