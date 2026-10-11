@@ -307,7 +307,10 @@ function homePage() {
     box.remove();
   });
   parentBtn.addEventListener("click", async () => {
-    parentBtn.disabled = true; msg.textContent = "جارٍ فتح نافذة Google…";
+    // Google's window cannot tell the site straight away that it was closed (it takes about
+    // 10 seconds), so the button works again after a moment instead of waiting for that.
+    parentBtn.disabled = true; msg.textContent = "أكملوا الدخول في نافذة Google…";
+    setTimeout(() => { parentBtn.disabled = false; }, 2000);
     try {
       const u = await signIn();
       becomeParent(u);
@@ -319,15 +322,18 @@ function homePage() {
       else if (changed && window.Home) Home.draw();
     } catch (e) {
       parentBtn.disabled = false;
-      msg.textContent = signInError(e);
+      if (!superseded(e)) msg.textContent = signInError(e);
     }
   });
   document.body.appendChild(box);
 }
 
+// True when this attempt ended only because the button was pressed again (a newer window is open).
+export function superseded(e) { return /cancelled-popup-request/.test((e && e.code) || ""); }
+
 export function signInError(e) {
   const c = (e && e.code) || (e && e.message) || "";
-  if (/popup-closed|cancelled-popup/.test(c)) return "أُغلقت نافذة الدخول. حاولوا مرة أخرى.";
+  if (/popup-closed|cancelled-popup/.test(c)) return "أُغلقت نافذة الدخول قبل إكماله. اضغطوا الزر للمحاولة مرة أخرى.";
   if (/popup-blocked/.test(c)) return "المتصفح منع نافذة الدخول. اسمحوا بالنوافذ المنبثقة لهذا الموقع ثم حاولوا مرة أخرى.";
   if (/network|offline/.test(c)) return "لا يوجد اتصال بالإنترنت. حاولوا مرة أخرى عند الاتصال.";
   if (/unauthorized-domain/.test(c)) return "هذا العنوان غير مسموح به للدخول بعد (إعدادات Firebase).";

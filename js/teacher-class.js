@@ -129,13 +129,13 @@ async function showClass() {
 }
 
 $("t-sign-in").addEventListener("click", async () => {
-  $("t-msg").textContent = "جارٍ فتح نافذة Google…";
+  $("t-msg").textContent = "أكملي الدخول في نافذة Google…";
   try {
     if (Cloud.user()) await Cloud.signOut();      // "sign in with another account"
     await Cloud.signIn();
     $("t-msg").textContent = "";
     showClass();
-  } catch (e) { $("t-msg").textContent = Cloud.signInError(e); }
+  } catch (e) { if (!Cloud.superseded(e)) $("t-msg").textContent = Cloud.signInError(e); }
 });
 $("t-sign-out").addEventListener("click", async () => { if (stop) stop(); await Cloud.signOut(); location.reload(); });
 $("invite-copy").addEventListener("click", async () => {

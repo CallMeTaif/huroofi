@@ -116,9 +116,9 @@ function signedIn(u) {
 
 $("sign-in").addEventListener("click", async () => {
   const msg = $("sign-in-msg");
-  msg.textContent = "جارٍ فتح نافذة Google…";
+  msg.textContent = "أكملوا الدخول في نافذة Google…";
   try { signedIn(await Cloud.signIn()); msg.textContent = ""; }
-  catch (e) { msg.textContent = Cloud.signInError(e); }
+  catch (e) { if (!Cloud.superseded(e)) msg.textContent = Cloud.signInError(e); }
 });
 
 $("sign-out").addEventListener("click", async () => {
