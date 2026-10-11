@@ -7,7 +7,17 @@
   "use strict";
   var KEY = "huroofi.teacher";
   function passed() { try { return sessionStorage.getItem(KEY) === "1"; } catch (e) { return false; } }
-  if (passed()) return;
+  // The account page («حسابي») has nothing to protect until a child has been added, so a parent
+  // who has signed in goes straight to "add your child" without the question. Once a child exists
+  // (the page then has delete buttons) the question is asked as usual.
+  function parentWithoutChildren() {
+    if (!/\/account(\.html)?$/.test(location.pathname)) return false;
+    try {
+      var a = JSON.parse(localStorage.getItem("huroofi.account")) || {};
+      return a.mode === "parent" && !!a.uid && !(a.children || []).length;
+    } catch (e) { return false; }
+  }
+  if (passed() || parentWithoutChildren()) return;
   document.documentElement.classList.add("gated");
 
   var AR = "٠١٢٣٤٥٦٧٨٩";
