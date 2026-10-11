@@ -46,10 +46,11 @@ export function init() {
       const a = app.initializeApp(CONFIG);
       auth = au.getAuth(a);
       auth.languageCode = "ar";
-      try {
-        // Keeps a copy of the account's data on the device, and queues changes made offline.
-        db = fs.initializeFirestore(a, { localCache: fs.persistentLocalCache({ tabManager: fs.persistentMultipleTabManager() }) });
-      } catch (e) { db = fs.getFirestore(a); }
+      // Firestore's own on-device cache (IndexedDB) is deliberately not used. With it, when the site
+      // is open in two tabs only one of them talks to the server and the other waits for it, and
+      // browsers put background tabs to sleep, so a save could hang. It is not needed either:
+      // stars are kept on the device by js/progress.js and merged with the account on every visit.
+      db = fs.getFirestore(a);
       if (EMU) {
         au.connectAuthEmulator(auth, "http://127.0.0.1:9099", { disableWarnings: true });
         fs.connectFirestoreEmulator(db, "127.0.0.1", 8080);
@@ -136,10 +137,18 @@ function same(a, b) { return JSON.stringify(merge(a, {})) === JSON.stringify(mer
 // ----- Children of the signed-in parent -----
 function childRef(id) { return fb.doc(db, "children", id); }
 
+// A save normally takes about a second. If the server has not answered in time, stop waiting and
+// say so (the save may still go through a moment later; the page tells the parent to refresh).
+function within(promise, ms) {
+  return Promise.race([promise, new Promise((_, reject) => {
+    setTimeout(() => reject(Object.assign(new Error("timeout"), { code: "timeout" })), ms || 15000);
+  })]);
+}
+
 export async function myChildren() {
   const u = user();
   if (!u) return [];
-  const snap = await fb.getDocs(fb.query(fb.collection(db, "children"), fb.where("parent", "==", u.uid)));
+  const snap = await within(fb.getDocs(fb.query(fb.collection(db, "children"), fb.where("parent", "==", u.uid))));
   // In the order they were added (siblings added a moment apart keep their order).
   const t = (k) => (k.created ? k.created.seconds * 1e9 + k.created.nanoseconds : Infinity);
   return snap.docs.map((d) => Object.assign({ id: d.id }, d.data())).sort((x, y) => t(x) - t(y));
@@ -197,11 +206,11 @@ export async function addChild(name, avatar, invite) {
     if (local.letters) start = merge(local, {});
   }
   const ref = fb.doc(fb.collection(db, "children"));
-  await fb.setDoc(ref, {
+  await within(fb.setDoc(ref, {
     parent: u.uid, parentEmail: u.email || "", name, avatar,
     classId: invite ? CLASS : null, invite: invite || null, approved: false,
     progress: start, created: fb.serverTimestamp(), lastPlayed: null,
-  });
+  }));
   if (invite) setPendingInvite("");
   Progress.setRaw("c_" + ref.id, start);
   await sync();
@@ -209,13 +218,13 @@ export async function addChild(name, avatar, invite) {
 }
 
 export async function joinClass(id, invite) {
-  await fb.updateDoc(childRef(id), { classId: CLASS, invite, approved: false });
+  await within(fb.updateDoc(childRef(id), { classId: CLASS, invite, approved: false }));
   setPendingInvite("");
   await sync();
 }
 
 export async function deleteChild(id) {
-  await fb.deleteDoc(childRef(id));
+  await within(fb.deleteDoc(childRef(id)));
   Progress.removeRaw("c_" + id);
   await sync();
 }

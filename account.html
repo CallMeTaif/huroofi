@@ -43,7 +43,8 @@
           <span>وصلتكم دعوة من المعلمة إلى صفها. اختاروا الطفل الذي تريدون إضافته، أو أضيفوا طفلًا جديدًا في الأسفل.</span></p>
         <div class="acct-kids" id="kids"></div>
         <p class="muted" id="kids-help">يلعب الطفل من الصفحة الرئيسية. إذا كان لكم أكثر من طفل، يضغط كل طفل على صورته عند فتح الموقع.</p>
-        <p><a class="btn teal" href="index.html"><img class="icon" src="img/ui/play.svg" alt="">ابدأ اللعب</a></p>
+        <!-- Shown only once a child has been added (js/account.js): nothing to play as before that. -->
+        <p id="play" hidden><a class="btn teal" href="index.html"><img class="icon" src="img/ui/play.svg" alt="">ابدأ اللعب</a></p>
       </section>
 
       <section class="block">

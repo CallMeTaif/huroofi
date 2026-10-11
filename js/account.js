@@ -21,6 +21,7 @@ function drawKids() {
   $("invite-note").hidden = !invite;
   if (!kids.length) box.appendChild(el("p", { class: "muted", text: "لم تُضيفوا طفلًا بعد. أضيفوا طفلكم في الأسفل." }));
   $("kids-help").hidden = !kids.length;
+  $("play").hidden = !kids.length;
   kids.forEach((k) => {
     const card = el("div", { class: "acct-kid" }, [
       avatar(k.avatar),
@@ -90,6 +91,7 @@ function cleanCode(s) {
 
 function codeError(e) {
   if (e && e.code === "permission-denied") return "رمز الصف غير صحيح، أو تغيّر. اطلبوا الرابط الجديد من المعلمة.";
+  if (e && e.code === "timeout") return "الحفظ يأخذ وقتًا أطول من المعتاد. تأكدوا من الإنترنت ثم حدّثوا الصفحة: إن ظهر الطفل فقد تم الحفظ، وإلا فحاولوا مرة أخرى.";
   return "تعذّر الحفظ. تأكدوا من الاتصال بالإنترنت ثم حاولوا مرة أخرى.";
 }
 
