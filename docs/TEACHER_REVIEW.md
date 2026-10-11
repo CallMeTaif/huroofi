@@ -125,7 +125,7 @@ Open any letter page and scroll to «تمرّن». Things to try with a child, a
 
 ## حسابات أولياء الأمور وصفّي (Parent accounts and «صفّي»)
 
-> Built and tested. It turns on when the Firebase settings are added (docs/ACCOUNTS_SETUP.md). Until then the site works as before.
+> Switched on at https://www.myhuroofi.com (October 2026). Setup notes: docs/ACCOUNTS_SETUP.md.
 
 - **الصفحة الرئيسية:** at the first visit, the parent chooses «وليّ الأمر» (Google sign-in) or «تمرّن فقط» (no account, stars on the device). The smartboard in classroom mode is never asked.
 - **وليّ الأمر:** writes the child's first name and chooses an animal. With the invite link, the child is added to the class and waits for approval.
@@ -144,6 +144,7 @@ Open any letter page and scroll to «تمرّن». Things to try with a child, a
 - [x] Check the pictures (section 2, fixed) and the extra form words (section 1).
 - [x] Try the four exercises on a real iPad or tablet with a finger.
 - [x] Try classroom mode on the smartboard.
-- [ ] Accounts: create the Firebase project and send the settings (docs/ACCOUNTS_SETUP.md), then send the invite link to parents.
+- [x] Accounts: Firebase project created and switched on.
+- [ ] Accounts: test one parent sign-in and the teacher sign-in on the real site, then send the invite link to parents.
 - [x] Domain: **www.myhuroofi.com** (bought through Vercel; the old GitHub link forwards there and carries the stars).
 - [x] ~~Class tablets~~ — not needed: the school has no tablets; children use the site at home on their parents' devices, and the smartboard uses classroom mode.

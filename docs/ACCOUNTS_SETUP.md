@@ -1,8 +1,9 @@
 # Parent and teacher accounts: setup
 
-**Status:** built and tested (Chromium and WebKit/Safari, with the Firebase emulators).
-It is **switched off** until `js/firebase-config.js` has the project settings. While it is off, the site
-works exactly as before: no sign-in, stars saved on the device only.
+**Status:** switched **on** (October 2026) at https://www.myhuroofi.com with the Firebase project `huroofi-3d388`.
+Tested with the Firebase emulators (Chromium and WebKit/Safari) and, as far as the Google sign-in window, on the live site.
+To switch accounts off again, set `window.HUROOFI_FIREBASE = null` in `js/firebase-config.js`: the site then works
+without sign-in, with stars saved on the device only.
 
 ## What it does
 
