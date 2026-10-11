@@ -1,4 +1,5 @@
-/* Parent account page (account.html): sign in, add children, join the teacher's class, delete. */
+/* Parent account page (account.html): sign in, add children, join the teacher's class, delete.
+ * Deleting asks «نعم، احذف / لا» first. There is no grown-up question anywhere on the site (removed October 2026). */
 import * as Cloud from "./cloud.js";
 
 const $ = (id) => document.getElementById(id);
@@ -129,7 +130,8 @@ $("sign-out").addEventListener("click", async () => {
   location.href = "index.html";
 });
 
-$("delete-account").addEventListener("click", () => {
+$("delete-account").addEventListener("click", askDeleteAccount);
+function askDeleteAccount() {
   const row = $("delete-row");
   row.innerHTML = "";
   const yes = el("button", { type: "button", class: "btn coral", text: "نعم، احذف كل شيء" });
@@ -157,7 +159,7 @@ $("delete-account").addEventListener("click", () => {
     }
   }
   yes.addEventListener("click", remove);
-});
+}
 
 $("add").addEventListener("submit", async (ev) => {
   ev.preventDefault();

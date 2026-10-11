@@ -11,7 +11,7 @@ without sign-in, with stars saved on the device only.
   - «تسجيل الدخول»: the parent signs in with Google.
   - «تمرّن فقط»: no account, stars stay on the device, like before.
   - The choice is remembered. The smartboard in classroom mode is never asked.
-- **Parent** (`account.html`, behind the grown-up question):
+- **Parent** (`account.html`, «حسابي»):
   - Types the child's first name and picks an animal. More than one child is fine; each child taps their picture when the site opens.
   - Joins the teacher's class with her invite link or code.
   - Sees each child's stars and class status, can delete a child or the whole account, and can sign out.

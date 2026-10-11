@@ -341,7 +341,6 @@ function homePage() {
     try {
       const u = await attempt;
       becomeParent(u);
-      try { sessionStorage.setItem("huroofi.teacher", "1"); } catch (e) {}   // an adult just signed in: skip the grown-up question
       const changed = await sync();
       if (!Progress.profiles().length || pendingInvite()) { location.href = "account.html"; return; }
       box.remove();

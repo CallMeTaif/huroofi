@@ -25,7 +25,7 @@
   });
 
   // Hidden teacher entrance: press and hold the «حروفي» title for 3 seconds (finger or mouse).
-  // No visible link, so children do not find it; the teacher page still asks the grown-up question.
+  // No visible link, so children do not find it. (The class data there needs the teacher's Google sign-in.)
   (function () {
     var logo = document.getElementById("logo"), timer = null;
     function cancel() { clearTimeout(timer); timer = null; }

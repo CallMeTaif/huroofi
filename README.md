@@ -24,7 +24,7 @@ A website for first graders to learn the 28 Arabic letters, through pictures, so
 
 ### صفحة المعلمة وحمايتها
 لا يوجد رابط ظاهر لصفحة المعلمة في صفحات الأطفال. للدخول: **اضغطي مطوّلًا على عنوان «حروفي» في الصفحة الرئيسية ٣ ثوانٍ**، أو احفظي رابط الصفحة في المفضلة: https://www.myhuroofi.com/teacher.html
-ثم تُفتح الصفحة بعد الإجابة عن سؤال ضرب (مثل ٧ × ٨) لا يعرفه طفل الصف الأول. وللعودة إلى صفحات الأطفال زر 🏠 في أعلى صفحة المعلمة.
+تُفتح الصفحة مباشرة. وللعودة إلى صفحات الأطفال زر 🏠 في أعلى صفحة المعلمة.
 هذا **ليس** كلمة مرور: الموقع بلا خادم، ولا يوجد في صفحة المعلمة شيء سرّي. الغرض فقط ألّا يدخلها طفل بالخطأ فيمسح النجوم.
 
 - **وضع الفصل** يكبّر الخط ويُخفي النجوم ولا يحفظ التقدّم، ويعمل على الجهاز الذي فُعِّل عليه فقط.
@@ -110,8 +110,8 @@ A website for first graders to learn the 28 Arabic letters, through pictures, so
 | `letter.html?id=ba` | One letter: meet, forms, vowels, words, videos, practice. |
 | `exercise.html?type=listen&id=ba` | An exercise for one letter (`listen`, `trace`, `match`, `find`). `&ids=ba,ta` mixes letters, `&similar=1` uses look-alike choices. |
 | `review.html` | Mixed review; look-alike letter groups. |
-| `teacher.html` | Hidden entrance (hold the home title 3 s), behind a grown-up gate: classroom mode, progress, reset, video helper, editing guide. |
-| `content.html` | Behind the gate: every letter's content on one printable page. |
+| `teacher.html` | Hidden entrance (hold the home title 3 s): the teacher's class («صفّي», Google sign-in), classroom mode, progress, reset, video helper, editing guide. |
+| `content.html` | Every letter's content on one printable page (linked from the teacher page). |
 
 **Child profiles:** a shared device can have one animal picture per child (added on the teacher page; no names). With 2+ profiles, children's pages ask «مَنْ يَلْعَبُ الْآنَ؟» once per browser tab and keep each child's stars under `huroofi.progress.<animal>` in `localStorage`. With 0–1 profiles nothing changes. Progress never leaves the device.
 
@@ -119,7 +119,7 @@ A website for first graders to learn the 28 Arabic letters, through pictures, so
 
 **Teacher entrance:** there is no visible link on the children's pages. Press and hold the «حروفي» title on the home page for 3 seconds (finger or mouse), or bookmark `teacher.html`. The teacher page's 🏠 button leads back to the children's pages.
 
-**About the teacher gate:** the teacher pages themselves are static, so they cannot be truly protected (the class data on them is protected by Google sign-in and the database rules; see docs/ACCOUNTS_SETUP.md). They sit behind a multiplication question a first grader cannot answer (`js/gate.js`), remembered for the browser tab. Nothing on them is secret; the gate only prevents a child from resetting progress by accident.
+**No grown-up question:** the site used to ask a multiplication question before the teacher and account pages; it was removed in October 2026. The teacher page has no visible link (hold the home title for 3 seconds), and the class data on it needs the teacher's Google sign-in and is enforced by the database rules (docs/ACCOUNTS_SETUP.md). Deleting a child or an account asks «نعم، احذف / لا» first.
 
 ### Editing content
 Everything is in `data/letters.js` (`window.LETTERS = [...]`, a script rather than JSON so it loads from `file://`). Each letter has `description`, `forms`, `formExamples`, 6 `words` (4 for ظ) and `videos`. Adding a video is one line (see the Arabic section). After editing, run `node tools/check_data.js`.

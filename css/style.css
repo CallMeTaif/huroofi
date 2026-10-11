@@ -409,15 +409,6 @@ html.classroom .big-letter { width: clamp(240px, 60vw, 380px); font-size: clamp(
 .chosen { text-align: center; font-size: 36px; line-height: 1.6; min-height: 1.6em; margin-bottom: 12px; word-spacing: .25em; }
 .practice-tile[aria-disabled="true"] { filter: grayscale(.8); opacity: .5; box-shadow: none; }
 
-/* ===== Grown-up gate ===== */
-html.gated body > *:not(.gate) { visibility: hidden; }
-.gate { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: var(--gutter); background: var(--bg); }
-.gate-card { width: min(420px, 100%); background: var(--paper); border-radius: 28px; box-shadow: var(--shadow); padding: 28px 24px; text-align: center; }
-.gate-title { margin: 0 0 6px; font-weight: 800; font-size: 1.3em; }
-.gate-q { display: block; font-size: 1.6em; font-weight: 800; margin: 10px 0 14px; }
-.gate-in { width: 160px; min-height: var(--tap); font: inherit; font-size: 1.6em; text-align: center; border: 3px solid var(--line); border-radius: 18px; }
-.gate-actions { display: flex; gap: 12px; justify-content: center; margin-top: 18px; }
-.gate-note { color: var(--ink-soft); font-size: .85em; margin: 16px 0 0; }
 
 /* ===== Teacher page ===== */
 .teacher-page .block h3 { font-size: 1.05em; margin: 18px 0 8px; }
@@ -469,7 +460,6 @@ code { background: #f6f1e8; padding: 1px 5px; border-radius: 6px; font-size: .9e
   .print-only { display: block; font-size: 16pt; }
   .content-page { font-size: 11pt; }
   .print-letter { box-shadow: none; border: 1px solid #ccc; border-top: 6px solid hsl(var(--h) 60% 70%); break-inside: avoid; margin-block: 8px; padding: 10px; }
-  .gate { display: none; }
 }
 
 /* ===== Who is playing? (child profiles) ===== */
