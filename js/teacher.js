@@ -5,6 +5,7 @@
   var REPO = "https://github.com/CallMeTaif/huroofi";
   document.getElementById("edit-link").href = REPO + "/edit/main/data/letters.js";
   document.getElementById("review-list").href = REPO + "/blob/main/docs/TEACHER_REVIEW.md";
+  document.getElementById("recording-list").href = REPO + "/blob/main/docs/RECORDING_LIST.md";
 
   // ----- Classroom mode -----
   var sw = document.getElementById("classroom");
@@ -20,9 +21,22 @@
   var AVATARS = H.AVATARS;
   var shown;   // whose progress the table shows (profile id, or null for a single-child device)
   function img(id) { return el("img", { src: "img/avatars/" + id + ".svg", alt: "" }); }
+  // On a device signed in with a parent's account the "profiles" are that parent's children
+  // (js/progress.js). They are managed on the account page, so here they are only listed.
+  var PARENT = Progress.parentMode();
+  document.getElementById("kids-intro").hidden = PARENT;
+  document.getElementById("kids-parent").hidden = !PARENT;
+  document.getElementById("kids-add").hidden = PARENT;
+  document.getElementById("reset-row").hidden = PARENT;
   function drawKids() {
     var list = Progress.profiles(), kids = document.getElementById("kids"), pick = document.getElementById("avatar-pick");
     kids.innerHTML = ""; pick.innerHTML = "";
+    if (PARENT) {
+      list.forEach(function (p) {
+        kids.appendChild(el("div", { class: "kid" }, [img(p.avatar), el("span", { text: p.name || "" }), el("span", { text: "⭐ " + Progress.totalStars(p.id) })]));
+      });
+      return;
+    }
     if (!list.length) kids.appendChild(el("p", { class: "muted", text: "لا توجد صور بعد: الجهاز لطفل واحد." }));
     list.forEach(function (p) {
       var card = el("div", { class: "kid" }, [img(p.avatar), el("span", { text: "⭐ " + Progress.totalStars(p.id) })]);

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>مراجعة الأصوات</title>
+  <title>الاستماع إلى الأصوات</title>
   <link rel="stylesheet" href="../css/style.css">
   <style>
     body { font-size: 16px; }
@@ -27,11 +27,11 @@
 </head>
 <body>
   <main class="wrap">
-    <h1>مراجعة الأصوات — Audio review</h1>
-    <p>اضغطي على أي بطاقة لسماع الصوت. البطاقات <b style="color:var(--coral-deep)">البرتقالية</b> قصيرة أكثر من المعتاد، فاستمعي إليها أولًا.
-      إذا كان صوتٌ خاطئًا، اكتبي رمزه (مثل <code dir="ltr">letters/kaf/v5</code>) وأرسليه للمطوّر.</p>
+    <h1>الاستماع إلى الأصوات — Audio review</h1>
+    <p>كل أصوات الموقع تسجيلات بصوت حقيقي. اضغطي على أي بطاقة لسماع الصوت.
+      لتغيير صوت، سجّليه من جديد وأرسلي الملف للمطوّر مع رمزه (مثل <code dir="ltr">letters/kaf/v5</code>) أو رقمه في قائمة التسجيل.</p>
     <div class="bar">
-      <label><input type="checkbox" id="onlyFlag"> المعلَّمة فقط</label>
+      <label id="onlyFlagLabel"><input type="checkbox" id="onlyFlag"> التي تحتاج مراجعة فقط</label>
       <button class="btn teal" id="playAll" type="button">▶ تشغيل الكل بالترتيب</button>
       <button class="btn" id="stop" type="button">■ إيقاف</button>
       <span id="info"></span>
@@ -45,8 +45,12 @@
   (function () {
     var clips = (window.AUDIO_REVIEW && AUDIO_REVIEW.clips) || {};
     var out = document.getElementById("out"), audio = new Audio(), queue = [], playingEl = null;
-    document.getElementById("info").textContent = "الصوت: " + ((window.AUDIO_REVIEW || {}).voice || "?") +
-      " · " + Object.keys(clips).length + " ملفًا · " + Object.values(clips).filter(function (c) { return c.flag; }).length + " للمراجعة";
+    var all = Object.values(clips), human = all.filter(function (c) { return c.recorded; }).length,
+        flagged = all.filter(function (c) { return c.flag; }).length;
+    document.getElementById("info").textContent = all.length + " صوتًا · " +
+      (human === all.length ? "كلها تسجيلات بصوت حقيقي" : human + " تسجيلًا بصوت حقيقي، و" + (all.length - human) + " بصوت الحاسوب") +
+      (flagged ? " · " + flagged + " تحتاج مراجعة" : "");
+    document.getElementById("onlyFlagLabel").hidden = !flagged;    // nothing is flagged once every sound is a real recording
     var NAMES = { name: "اسم الحرف", desc: "الوصف", v1: "فتحة", v2: "ضمّة", v3: "كسرة", v4: "سكون", v5: "مدّ بالألف", v6: "مدّ بالواو", v7: "مدّ بالياء",
       "form-isolated": "شكل: وحده", "form-initial": "شكل: البداية", "form-medial": "شكل: الوسط", "form-final": "شكل: النهاية" };
     function card(key, shown, label, extra) {

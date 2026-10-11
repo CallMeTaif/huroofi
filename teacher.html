@@ -67,21 +67,26 @@
       </div>
     </section>
 
-    <!-- 2. Children on this device -->
-    <section class="block">
+    <!-- 2. Children on this device (only for «تمرّن فقط»; signed-in parents manage children in «حسابي») -->
+    <section class="block" id="device-kids">
       <h2><img class="icon" src="img/avatars/lion.svg" alt="">الأطفال على هذا الجهاز</h2>
-      <p>إذا كان الجهاز يستخدمه أكثر من طفل (إخوة، أو أجهزة الفصل)، أضيفي صورة حيوان لكل طفل.
-        عند فتح الموقع يضغط كل طفل على صورته، فتُحفظ نجومه وحده. لا تُحفظ أي أسماء.
+      <p id="kids-intro">هذا القسم لوضع <b>«تمرّن فقط»</b> (بدون حساب). إذا كان الجهاز يستخدمه أكثر من طفل، أضيفي صورة حيوان لكل طفل:
+        عند فتح الموقع يضغط كل طفل على صورته، فتُحفظ نجومه وحده على هذا الجهاز. لا تُحفظ أي أسماء.
         إذا كان للجهاز طفل واحد فلا حاجة لإضافة شيء.</p>
+      <p class="note" id="kids-parent" hidden><img class="icon" src="img/ui/family.svg" alt="">
+        <span>هذا الجهاز مسجّل الدخول بحساب وليّ أمر. الأطفال يُضافون ويُحذفون من صفحة <a href="account.html">«حسابي»</a>، ونجومهم محفوظة في الحساب.</span></p>
       <div class="kids" id="kids"></div>
-      <h3>إضافة طفل: اختاري صورة</h3>
-      <div class="avatar-pick" id="avatar-pick"></div>
+      <div id="kids-add">
+        <h3>إضافة طفل: اختاري صورة</h3>
+        <div class="avatar-pick" id="avatar-pick"></div>
+      </div>
     </section>
 
     <!-- 3. Progress on this device -->
     <section class="block">
       <h2><img class="icon" src="img/ui/trophy.svg" alt="">التقدّم على هذا الجهاز</h2>
-      <p class="muted">النجوم محفوظة في هذا المتصفح فقط، ولا تُرسَل إلى أي مكان.</p>
+      <p class="muted">هذا الجدول لنجوم الأطفال الذين يلعبون على هذا الجهاز نفسه. في «تمرّن فقط» تبقى النجوم في هذا المتصفح ولا تُرسَل إلى أي مكان.
+        نجوم أطفال الصف الذين سجّل أولياء أمورهم الدخول تظهر في «صفّي» في أعلى الصفحة.</p>
       <div class="kid-tabs" id="kid-tabs"></div>
       <div class="table-wrap"><table class="progress-table" id="progress"></table></div>
       <div class="reset-row" id="reset-row">
@@ -94,15 +99,10 @@
       <h2><img class="icon" src="img/ui/book.svg" alt="">مراجعة المحتوى</h2>
       <ul class="link-list">
         <li><a href="content.html">صفحة المحتوى الكاملة (قابلة للطباعة)</a>: الوصف والأشكال والكلمات والصور والفيديوهات لكل الحروف.</li>
-        <li><a href="tools/audio-review.html">مراجعة الأصوات</a>: الاستماع إلى كل الأصوات، والبرتقالية منها تحتاج إلى مراجعة.</li>
-        <li><a id="review-list" href="#">قائمة ما يحتاج إلى مراجعة المعلمة</a> (الكلمات والصور والأصوات).</li>
-        <li><a href="tools/record.html">تسجيل الأصوات بصوت حقيقي</a>: نص واحد في كل مرة، ثم تنزيل كل التسجيلات في ملف واحد وإرساله للمطوّر.</li>
+        <li><a href="tools/audio-review.html">الاستماع إلى كل الأصوات</a>: كل أصوات الموقع الآن <b>تسجيلات بصوت حقيقي</b> (٤٠١ تسجيلًا). اضغطي أي بطاقة لسماعها.</li>
+        <li><a id="recording-list" href="#">قائمة نصوص التسجيل المرقّمة</a>: لتغيير أي صوت، سجّلي النص من جديد وأرسلي الملف للمطوّر باسم رقمه في القائمة (مثل <code dir="ltr">017.mp3</code>).</li>
+        <li><a id="review-list" href="#">قائمة مراجعة المعلمة</a>: ما تمّت مراجعته وما بقي.</li>
       </ul>
-      <h3>اختيار الصوت</h3>
-      <div class="voices">
-        <div><b>زارية (صوت نسائي)</b> <span class="muted">المستخدم الآن</span><audio controls preload="none" src="docs/voice-samples/zariyah.mp3"></audio></div>
-        <div><b>حامد (صوت رجالي)</b><audio controls preload="none" src="docs/voice-samples/hamed.mp3"></audio></div>
-      </div>
     </section>
 
     <!-- 4. Videos -->
@@ -146,7 +146,8 @@
         <li><code dir="ltr">description</code>: وصف الحرف الذي يُقرأ للطفل.</li>
       </ul>
       <p class="note"><img class="icon" src="img/ui/speaker.svg" alt="">
-        الصوت لا يتغيّر وحده. بعد تعديل كلمة أو وصف، يعيد المطوّر إنشاء الأصوات بأمر واحد. إلى ذلك الحين يقرأ الجهاز الكلمة الجديدة بصوته.</p>
+        <span>الصوت لا يتغيّر وحده. الأصوات تسجيلات حقيقية، فبعد تعديل كلمة أو وصف يبقى التسجيل القديم كما هو.
+        أخبري المطوّر بالتعديل: يحتاج النص الجديد إلى تسجيل جديد بالصوت نفسه، ثم يضيفه إلى الموقع.</span></p>
     </section>
 
     <section class="block">
