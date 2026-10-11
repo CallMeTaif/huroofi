@@ -67,12 +67,21 @@ export function init() {
 
 export function user() { return auth && auth.currentUser; }
 
-export async function signIn() {
-  if (!(await init())) throw new Error("offline");
+// Opens Google's sign-in window. Browsers only allow a new window that opens at once from a tap
+// or click; one that opens "late" (after waiting for a download, say) is blocked as a pop-up.
+// So: every page that offers sign-in calls init() when it opens, and this function starts the
+// window with nothing awaited before it. Call it first thing in the click handler.
+export function signIn() {
+  if (!fb || !auth) {
+    // Not loaded yet (the button was pressed very early): load, then try. May be blocked.
+    return init().then((ok) => { if (!ok) throw new Error("offline"); return openGoogle(); });
+  }
+  try { return openGoogle(); } catch (e) { return Promise.reject(e); }
+}
+function openGoogle() {
   const provider = new fb.GoogleAuthProvider();
   provider.setCustomParameters({ prompt: "select_account" });   // a family may have more than one Gmail
-  const res = await fb.signInWithPopup(auth, provider);
-  return res.user;
+  return fb.signInWithPopup(auth, provider).then((res) => res.user);
 }
 
 // Signing out also removes the children's stars from this device (it may be a shared phone).
@@ -216,14 +225,16 @@ export async function deleteAccount() {
   if (!(await init()) || !user()) throw new Error("signed-out");
   const kids = await myChildren();
   for (const k of kids) await fb.deleteDoc(childRef(k.id));
-  try { await fb.deleteUser(auth.currentUser); }
-  catch (e) {
-    if (!e || e.code !== "auth/requires-recent-login") throw e;
-    // Google asks the parent to confirm with a fresh sign-in before an account is deleted.
-    await fb.reauthenticateWithPopup(auth.currentUser, new fb.GoogleAuthProvider());
-    await fb.deleteUser(auth.currentUser);
-  }
+  await fb.deleteUser(auth.currentUser);     // may fail with needsFreshSignIn(): see below
   forgetParent();
+}
+// Google refuses to delete an account that signed in a while ago until the person confirms with
+// a fresh sign-in. The page then shows a button that calls confirmWithGoogle() straight from the
+// tap (so the window is not blocked), and afterwards deleteAccount() again.
+export function needsFreshSignIn(e) { return !!e && e.code === "auth/requires-recent-login"; }
+export function confirmWithGoogle() {
+  try { return fb.reauthenticateWithPopup(auth.currentUser, new fb.GoogleAuthProvider()); }
+  catch (e) { return Promise.reject(e); }
 }
 
 // ----- Teacher -----
@@ -306,13 +317,20 @@ function homePage() {
     setPendingInvite("");
     box.remove();
   });
+  // The sign-in button waits until Firebase is loaded, so that a tap opens Google's window at once.
+  parentBtn.disabled = true;
+  init().then((ok) => {
+    parentBtn.disabled = false;
+    if (!ok) msg.textContent = "تعذّر الاتصال بخدمة الدخول. تأكدوا من الإنترنت ثم أعيدوا فتح الصفحة، أو اختاروا «تمرّن فقط».";
+  });
   parentBtn.addEventListener("click", async () => {
+    const attempt = signIn();     // first, before anything else: see signIn()
     // Google's window cannot tell the site straight away that it was closed (it takes about
     // 10 seconds), so the button works again after a moment instead of waiting for that.
     parentBtn.disabled = true; msg.textContent = "أكملوا الدخول في نافذة Google…";
     setTimeout(() => { parentBtn.disabled = false; }, 2000);
     try {
-      const u = await signIn();
+      const u = await attempt;
       becomeParent(u);
       try { sessionStorage.setItem("huroofi.teacher", "1"); } catch (e) {}   // an adult just signed in: skip the grown-up question
       const changed = await sync();
@@ -334,7 +352,7 @@ export function superseded(e) { return /cancelled-popup-request/.test((e && e.co
 export function signInError(e) {
   const c = (e && e.code) || (e && e.message) || "";
   if (/popup-closed|cancelled-popup/.test(c)) return "أُغلقت نافذة الدخول قبل إكماله. اضغطوا الزر للمحاولة مرة أخرى.";
-  if (/popup-blocked/.test(c)) return "المتصفح منع نافذة الدخول. اسمحوا بالنوافذ المنبثقة لهذا الموقع ثم حاولوا مرة أخرى.";
+  if (/popup-blocked/.test(c)) return "المتصفح منع نافذة الدخول. اضغطوا الزر مرة أخرى، وإن تكرّر ذلك فاسمحوا بالنوافذ المنبثقة لهذا الموقع.";
   if (/network|offline/.test(c)) return "لا يوجد اتصال بالإنترنت. حاولوا مرة أخرى عند الاتصال.";
   if (/unauthorized-domain/.test(c)) return "هذا العنوان غير مسموح به للدخول بعد (إعدادات Firebase).";
   return "تعذّر الدخول. حاولوا مرة أخرى.";

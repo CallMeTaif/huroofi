@@ -129,10 +129,12 @@ async function showClass() {
 }
 
 $("t-sign-in").addEventListener("click", async () => {
+  // Opened first, straight from the tap, or the browser blocks it. Google's window lets her pick
+  // the account, so this also serves "sign in with another account": the new sign-in replaces the old.
+  const attempt = Cloud.signIn();
   $("t-msg").textContent = "أكملي الدخول في نافذة Google…";
   try {
-    if (Cloud.user()) await Cloud.signOut();      // "sign in with another account"
-    await Cloud.signIn();
+    await attempt;
     $("t-msg").textContent = "";
     showClass();
   } catch (e) { if (!Cloud.superseded(e)) $("t-msg").textContent = Cloud.signInError(e); }
@@ -155,6 +157,9 @@ $("invite-new").addEventListener("click", () => {
 (async function start() {
   if (!Cloud.enabled) return;
   $("class").hidden = false;
-  if (await Cloud.init()) showClass();
+  $("t-sign-in").disabled = true;            // a tap must open Google's window at once: wait until Firebase is loaded
+  const ok = await Cloud.init();
+  $("t-sign-in").disabled = false;
+  if (ok) showClass();
   else $("t-msg").textContent = "تعذّر الاتصال بالحسابات الآن. تأكدي من الاتصال بالإنترنت ثم أعيدي فتح الصفحة.";
 })();

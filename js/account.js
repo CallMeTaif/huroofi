@@ -115,9 +115,10 @@ function signedIn(u) {
 }
 
 $("sign-in").addEventListener("click", async () => {
+  const attempt = Cloud.signIn();     // first, straight from the tap, or the browser blocks the window
   const msg = $("sign-in-msg");
   msg.textContent = "أكملوا الدخول في نافذة Google…";
-  try { signedIn(await Cloud.signIn()); msg.textContent = ""; }
+  try { signedIn(await attempt); msg.textContent = ""; }
   catch (e) { if (!Cloud.superseded(e)) msg.textContent = Cloud.signInError(e); }
 });
 
@@ -135,11 +136,25 @@ $("delete-account").addEventListener("click", () => {
   row.appendChild(el("p", { class: "confirm", text: "سيُحذف كل أطفالكم ونجومهم وحسابكم في الموقع نهائيًا، ولا يمكن استرجاعها. متأكدون؟" }));
   row.appendChild(yes); row.appendChild(no); row.appendChild(msg);
   no.addEventListener("click", () => location.reload());
-  yes.addEventListener("click", async () => {
+  const failed = () => { yes.disabled = false; msg.textContent = "تعذّر الحذف. تأكدوا من الاتصال بالإنترنت ثم حاولوا مرة أخرى."; };
+  async function remove() {
     yes.disabled = true; msg.textContent = "جارٍ الحذف…";
     try { await Cloud.deleteAccount(); location.href = "index.html"; }
-    catch (e) { yes.disabled = false; msg.textContent = "تعذّر الحذف. تأكدوا من الاتصال بالإنترنت ثم حاولوا مرة أخرى."; }
-  });
+    catch (e) {
+      if (!Cloud.needsFreshSignIn(e)) { failed(); return; }
+      // Google wants a fresh sign-in before deleting. Its window must open straight from a tap.
+      msg.textContent = "للأمان يطلب Google تأكيد حسابكم قبل حذفه. ";
+      const again = el("button", { type: "button", class: "btn coral", text: "تأكيد بحساب Google ثم الحذف" });
+      again.addEventListener("click", async () => {
+        const confirmed = Cloud.confirmWithGoogle();
+        again.disabled = true;
+        try { await confirmed; } catch (err) { again.disabled = false; return; }
+        remove();
+      });
+      msg.appendChild(again);
+    }
+  }
+  yes.addEventListener("click", remove);
 });
 
 $("add").addEventListener("submit", async (ev) => {
