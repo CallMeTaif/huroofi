@@ -350,6 +350,14 @@ function showWelcome(invited) {
       msg,
       el("p", { class: "muted" }, [el("a", { href: "privacy.html", text: "الخصوصية: ماذا نحفظ؟" })]),
     ]),
+    // Shown on this first screen only: whose class and school the site belongs to.
+    el("footer", { class: "welcome-foot" }, [
+      el("span", { class: "school", text: "الطفولة المبكرة بالابتدائية السابعة والأربعون" }),
+      el("span", { class: "people" }, [
+        el("span", {}, ["المعلمة: ", el("b", { text: "عبير محمد الحربي" })]),
+        el("span", {}, ["مديرة المدرسة: ", el("b", { text: "نجوى محمد الجهني" })]),
+      ]),
+    ]),
   ]);
   practiceBtn.addEventListener("click", () => {
     Progress.setAccount({ mode: "practice" });

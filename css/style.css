@@ -542,3 +542,10 @@ button.who-chip:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--s
 @media print { .who-strip { display: none; } }
 .btn.wchoice.plain { background: var(--paper); box-shadow: 0 5px 0 var(--line); border: 2px solid var(--line); }
 .btn.wchoice.plain:active { box-shadow: 0 1px 0 var(--line); }
+/* First screen: the choices stay centred, the school's footer sits at the bottom. */
+.who-overlay.welcome { display: flex; flex-direction: column; align-items: center; }
+.who-overlay.welcome .welcome-card { margin-block: auto; }
+.welcome-foot { width: min(560px, 100%); margin-top: 18px; padding: 14px 8px 6px; border-top: 2px solid var(--line); text-align: center; color: var(--ink-soft); font-size: .92em; line-height: 1.8; }
+.welcome-foot .school { display: block; font-weight: 800; font-size: 1.08em; color: var(--ink); text-wrap: balance; }
+.welcome-foot .people { display: flex; flex-wrap: wrap; justify-content: center; gap: 0 26px; }
+.welcome-foot b { color: var(--ink); font-weight: 700; }
