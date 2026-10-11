@@ -300,21 +300,18 @@ export function approve(id, yes) {
 function homePage() {
   if (!enabled || document.body.dataset.page !== "home") return;
   if (Progress.setting("classroom")) return;          // the smartboard: no accounts, no questions
-  const el = H.el, a = Progress.account();
+  const el = H.el, a = Progress.account(), actions = document.querySelector(".home-actions");
 
   if (a.mode === "teacher") {
     // The teacher's device: a visible button to her page instead of the parents' account button.
-    document.querySelector(".home-actions").appendChild(
-      el("a", { class: "btn round acct-btn", href: "teacher.html", "aria-label": "صفحة المعلمة" }, [H.icon("teacher")]));
+    actions.appendChild(el("a", { class: "btn round acct-btn", href: "teacher.html", "aria-label": "صفحة المعلمة" }, [H.icon("teacher")]));
     setPendingInvite("");       // she opened her own invite link: nothing to join
     return;
   }
 
-  const btn = el("a", { class: "btn round acct-btn", href: "account.html", "aria-label": "حسابي" }, [H.icon("family")]);
-  document.querySelector(".home-actions").appendChild(btn);
-
   const invited = !!pendingInvite();
   if (Progress.parentMode()) {
+    actions.appendChild(el("a", { class: "btn round acct-btn", href: "account.html", "aria-label": "حسابي" }, [H.icon("family")]));
     if (invited) { location.href = "account.html"; return; }   // a parent opened the teacher's link: add the child to the class
     init().then(() => sync()).then((changed) => {
       if (user() && !Progress.profiles().length) location.href = "account.html";   // signed in, but no child added yet
@@ -322,8 +319,21 @@ function homePage() {
     });
     return;
   }
-  if (a.mode === "practice" && !invited) return;
 
+  // «تمرّن فقط», or nothing chosen yet: the button goes back to the first screen, where a parent
+  // or the teacher can sign in. (index.html?start=1 does the same; the account page links to it.)
+  const back = el("button", { type: "button", class: "btn round acct-btn", "aria-label": "شاشة البداية: تسجيل الدخول" }, [H.icon("key")]);
+  back.addEventListener("click", () => showWelcome(false));
+  actions.appendChild(back);
+  const asked = new URLSearchParams(location.search).has("start");
+  if (a.mode === "practice" && !invited && !asked) return;
+  showWelcome(invited);
+}
+
+// The first screen: «تسجيل الدخول» (parents), «تمرّن فقط», «دخول المعلمة».
+function showWelcome(invited) {
+  if (document.querySelector(".welcome")) return;
+  const el = H.el;
   const msg = el("p", { class: "welcome-msg", text: "" });
   const parentBtn = el("button", { type: "button", class: "btn big teal wchoice" }, [H.icon("family"),
     el("span", {}, [el("b", { text: "تسجيل الدخول" }), el("small", { text: "بحساب Google، لحفظ تقدّم طفلك ومتابعته" })])]);
@@ -344,6 +354,7 @@ function homePage() {
   practiceBtn.addEventListener("click", () => {
     Progress.setAccount({ mode: "practice" });
     setPendingInvite("");
+    try { history.replaceState(null, "", location.pathname); } catch (e) {}     // drop "?start=1" / "?join=…"
     box.remove();
   });
   // The sign-in buttons wait until Firebase is loaded, so that a tap opens Google's window at once.
@@ -361,11 +372,11 @@ function homePage() {
     try {
       const u = await attempt;
       becomeParent(u);
-      const changed = await sync();
+      await sync();
       if (!Progress.profiles().length || pendingInvite()) { location.href = "account.html"; return; }
-      box.remove();
-      if (Progress.needsChoice()) Profiles.showPicker(false);
-      else if (changed && window.Home) Home.draw();
+      // Open the home page afresh as this parent: the child's name and stars, the account button,
+      // and «من يلعب الآن؟» when there is more than one child.
+      location.href = "index.html";
     } catch (e) {
       parentBtn.disabled = false;
       if (!superseded(e)) msg.textContent = signInError(e);
