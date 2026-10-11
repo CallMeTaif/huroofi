@@ -165,7 +165,7 @@ $("add").addEventListener("submit", async (ev) => {
   ev.preventDefault();
   const msg = $("add-msg"), btn = $("add-btn");
   const name = $("name").value.replace(/\s+/g, " ").trim();
-  if (!name) { msg.textContent = "اكتبوا الاسم الأول للطفل."; $("name").focus(); return; }
+  if (!name) { msg.textContent = "اكتبوا اسم الطفل."; $("name").focus(); return; }
   if (!picked) { msg.textContent = "اختاروا صورة للطفل."; return; }
   btn.disabled = true; msg.textContent = "جارٍ الحفظ…";
   try {
