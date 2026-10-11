@@ -119,6 +119,7 @@ async function showClass() {
     $("t-sign-in").textContent = "الدخول بحساب آخر";
     return;
   }
+  Cloud.becomeTeacher(u);          // the home page now shows a button to this page
   invite = data.invite;
   $("t-email").textContent = u.email || "";
   $("class-out").hidden = true; $("class-in").hidden = false;
@@ -139,7 +140,8 @@ $("t-sign-in").addEventListener("click", async () => {
     showClass();
   } catch (e) { if (!Cloud.superseded(e)) $("t-msg").textContent = Cloud.signInError(e); }
 });
-$("t-sign-out").addEventListener("click", async () => { if (stop) stop(); await Cloud.signOut(); location.reload(); });
+// Signing out goes back to the first screen (home page), like a parent's sign-out.
+$("t-sign-out").addEventListener("click", async () => { if (stop) stop(); await Cloud.signOut(); location.href = "index.html"; });
 $("invite-copy").addEventListener("click", async () => {
   try { await navigator.clipboard.writeText(inviteLink(invite)); $("invite-msg").textContent = "تم نسخ الرابط ✓"; }
   catch (e) { $("invite-msg").textContent = "انسخي الرابط من الأعلى."; }

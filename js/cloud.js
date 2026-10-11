@@ -92,14 +92,20 @@ export async function signOut() {
   forgetParent();
 }
 
-// After a parent signs out (or deletes the account) the device is back at the start: the home page
-// shows the first screen again, «تسجيل الدخول» or «تمرّن فقط». A device that was on «تمرّن فقط»
-// (for example the teacher's, when she signs out of her class) stays on it.
+// After a parent or the teacher signs out (or a parent deletes the account) the device is back at
+// the start: the home page shows the first screen again. A device on «تمرّن فقط» stays on it.
 function forgetParent() {
   const a = Progress.account();
   (a.children || []).forEach((c) => Progress.removeRaw("c_" + c.id));
   Progress.setAccount(a.mode === "practice" ? { mode: "practice" } : {});
   try { sessionStorage.removeItem("huroofi.child"); } catch (e) {}
+}
+
+// The teacher signed in on this device: the home page then shows a button to her page (no need
+// for the hidden long-press), and the first screen is not shown. Her own stars, if she tries the
+// exercises, stay on the device like «تمرّن فقط». A device already used by a parent is left as it is.
+export function becomeTeacher(u) {
+  if (!Progress.parentMode()) Progress.setAccount({ mode: "teacher", email: (u && u.email) || "" });
 }
 
 // The device now belongs to this signed-in parent. A different parent than before starts clean.
@@ -296,6 +302,14 @@ function homePage() {
   if (Progress.setting("classroom")) return;          // the smartboard: no accounts, no questions
   const el = H.el, a = Progress.account();
 
+  if (a.mode === "teacher") {
+    // The teacher's device: a visible button to her page instead of the parents' account button.
+    document.querySelector(".home-actions").appendChild(
+      el("a", { class: "btn round acct-btn", href: "teacher.html", "aria-label": "صفحة المعلمة" }, [H.icon("teacher")]));
+    setPendingInvite("");       // she opened her own invite link: nothing to join
+    return;
+  }
+
   const btn = el("a", { class: "btn round acct-btn", href: "account.html", "aria-label": "حسابي" }, [H.icon("family")]);
   document.querySelector(".home-actions").appendChild(btn);
 
@@ -315,12 +329,14 @@ function homePage() {
     el("span", {}, [el("b", { text: "تسجيل الدخول" }), el("small", { text: "بحساب Google، لحفظ تقدّم طفلك ومتابعته" })])]);
   const practiceBtn = el("button", { type: "button", class: "btn big wchoice" }, [H.icon("pencil"),
     el("span", {}, [el("b", { text: "تمرّن فقط" }), el("small", { text: "بدون حساب، والنجوم تُحفظ على هذا الجهاز" })])]);
+  const teacherBtn = el("button", { type: "button", class: "btn big wchoice plain" }, [H.icon("teacher"),
+    el("span", {}, [el("b", { text: "دخول المعلمة" }), el("small", { text: "بحساب المعلمة في Google، لمتابعة أطفال الصف" })])]);
   const box = el("div", { class: "who-overlay welcome", role: "dialog", "aria-modal": "true", "aria-label": "مرحبًا بكم في حروفي" }, [
     el("div", { class: "who-card welcome-card" }, [
       el("img", { src: "img/ui/book.svg", alt: "", class: "welcome-logo" }),
       el("h2", { text: "مرحبًا بكم في حروفي" }),
       invited ? el("p", { class: "note", text: "وصلتكم دعوة من المعلمة. سجّلوا الدخول لإضافة طفلكم إلى الصف." }) : null,
-      el("div", { class: "welcome-choices" }, [parentBtn, practiceBtn]),
+      el("div", { class: "welcome-choices" }, [parentBtn, practiceBtn, teacherBtn]),
       msg,
       el("p", { class: "muted" }, [el("a", { href: "privacy.html", text: "الخصوصية: ماذا نحفظ؟" })]),
     ]),
@@ -330,10 +346,10 @@ function homePage() {
     setPendingInvite("");
     box.remove();
   });
-  // The sign-in button waits until Firebase is loaded, so that a tap opens Google's window at once.
-  parentBtn.disabled = true;
+  // The sign-in buttons wait until Firebase is loaded, so that a tap opens Google's window at once.
+  parentBtn.disabled = teacherBtn.disabled = true;
   init().then((ok) => {
-    parentBtn.disabled = false;
+    parentBtn.disabled = teacherBtn.disabled = false;
     if (!ok) msg.textContent = "تعذّر الاتصال بخدمة الدخول. تأكدوا من الإنترنت ثم أعيدوا فتح الصفحة، أو اختاروا «تمرّن فقط».";
   });
   parentBtn.addEventListener("click", async () => {
@@ -352,6 +368,21 @@ function homePage() {
       else if (changed && window.Home) Home.draw();
     } catch (e) {
       parentBtn.disabled = false;
+      if (!superseded(e)) msg.textContent = signInError(e);
+    }
+  });
+  teacherBtn.addEventListener("click", async () => {
+    const attempt = signIn();     // first, before anything else: see signIn()
+    teacherBtn.disabled = true; msg.textContent = "أكملي الدخول في نافذة Google…";
+    setTimeout(() => { teacherBtn.disabled = false; }, 2000);
+    try {
+      const u = await attempt;
+      // Only the teacher's account can read the class (security rules): that is the check.
+      if (await teacherClass()) { becomeTeacher(u); setPendingInvite(""); location.href = "teacher.html"; return; }
+      await signOut();
+      msg.textContent = "هذا الحساب (" + (u.email || "") + ") ليس حساب المعلمة. أولياء الأمور يختارون «تسجيل الدخول».";
+    } catch (e) {
+      teacherBtn.disabled = false;
       if (!superseded(e)) msg.textContent = signInError(e);
     }
   });

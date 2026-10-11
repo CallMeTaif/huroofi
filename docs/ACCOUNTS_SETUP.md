@@ -7,10 +7,12 @@ without sign-in, with stars saved on the device only.
 
 ## What it does
 
-- **Home page, first visit:** two choices.
+- **Home page, first visit:** three choices.
   - «تسجيل الدخول»: the parent signs in with Google.
   - «تمرّن فقط»: no account, stars stay on the device, like before.
-  - The choice is remembered. The smartboard in classroom mode is never asked.
+  - «دخول المعلمة»: the teacher signs in with Google and lands on her page. Any other account is refused and signed out again.
+  - The choice is remembered. Signing out (parent or teacher) returns to this screen. The smartboard in classroom mode is never asked.
+  - On the teacher's device the home page then shows a button to the teacher page, so she does not need the hidden long-press.
 - **Parent** (`account.html`, «حسابي»):
   - Types the child's first name and picks an animal. More than one child is fine; each child taps their picture when the site opens.
   - Joins the teacher's class with her invite link or code.

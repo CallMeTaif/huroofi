@@ -540,3 +540,5 @@ button.who-chip:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--s
 .who-chip.small img { width: 30px; height: 30px; }
 .who-strip { display: flex; justify-content: center; padding-top: 8px; }
 @media print { .who-strip { display: none; } }
+.btn.wchoice.plain { background: var(--paper); box-shadow: 0 5px 0 var(--line); border: 2px solid var(--line); }
+.btn.wchoice.plain:active { box-shadow: 0 1px 0 var(--line); }
