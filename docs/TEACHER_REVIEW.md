@@ -145,6 +145,7 @@ Open any letter page and scroll to «تمرّن». Things to try with a child, a
 - [x] Try the four exercises on a real iPad or tablet with a finger.
 - [x] Try classroom mode on the smartboard.
 - [x] Accounts: Firebase project created and switched on.
-- [ ] Accounts: test one parent sign-in and the teacher sign-in on the real site, then send the invite link to parents.
+- [x] Accounts: parent sign-in and adding a child tested on the real site.
+- [ ] Accounts: test the teacher sign-in (invite link, join, approve), then send the invite link to parents.
 - [x] Domain: **www.myhuroofi.com** (bought through Vercel; the old GitHub link forwards there and carries the stars).
 - [x] ~~Class tablets~~ — not needed: the school has no tablets; children use the site at home on their parents' devices, and the smartboard uses classroom mode.
