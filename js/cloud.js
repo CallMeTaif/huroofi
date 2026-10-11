@@ -272,7 +272,7 @@ function homePage() {
   if (Progress.setting("classroom")) return;          // the smartboard: no accounts, no questions
   const el = H.el, a = Progress.account();
 
-  const btn = el("a", { class: "btn round acct-btn", href: "account.html", "aria-label": "حساب ولي الأمر" }, [H.icon("family")]);
+  const btn = el("a", { class: "btn round acct-btn", href: "account.html", "aria-label": "حسابي" }, [H.icon("family")]);
   document.querySelector(".home-actions").appendChild(btn);
 
   const invited = !!pendingInvite();
