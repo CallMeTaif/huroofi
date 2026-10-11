@@ -85,16 +85,20 @@ function openGoogle() {
   return fb.signInWithPopup(auth, provider).then((res) => res.user);
 }
 
-// Signing out also removes the children's stars from this device (it may be a shared phone).
+// Signing out also removes the children's stars from this device (it may be a shared phone);
+// they stay in the account.
 export async function signOut() {
   if (await init()) await fb.signOut(auth);
   forgetParent();
 }
 
+// After a parent signs out (or deletes the account) the device is back at the start: the home page
+// shows the first screen again, «تسجيل الدخول» or «تمرّن فقط». A device that was on «تمرّن فقط»
+// (for example the teacher's, when she signs out of her class) stays on it.
 function forgetParent() {
   const a = Progress.account();
   (a.children || []).forEach((c) => Progress.removeRaw("c_" + c.id));
-  Progress.setAccount({ mode: "practice" });
+  Progress.setAccount(a.mode === "practice" ? { mode: "practice" } : {});
   try { sessionStorage.removeItem("huroofi.child"); } catch (e) {}
 }
 
