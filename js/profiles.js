@@ -37,18 +37,45 @@
     Sound.play("phrases/who", "مَنْ يَلْعَبُ الْآنَ؟", speak);
   }
 
-  // A small round button with the child's animal (home page header): tap to switch child.
-  function badge() {
+  // The profile (child) playing now, or null.
+  function who() {
     var id = Progress.current();
-    if (Progress.profiles().length < 2 || !id || Progress.setting("classroom")) return null;
-    // A parent's child has an id like "c_…"; their picture is in .avatar (device profiles: id = animal).
-    var p = Progress.profiles().find(function (x) { return x.id === id; });
-    var b = el("button", { type: "button", class: "who-badge", "aria-label": "تغيير الطفل" }, [avatarImg((p && p.avatar) || id)]);
+    return (id && Progress.profiles().find(function (x) { return x.id === id; })) || null;
+  }
+
+  // «سارة 🐰»: the picture and first name of a signed-in parent's child, so it is clear who is playing
+  // and whose stars are being saved. With more than one child it is a button that switches child.
+  function chip(small) {
+    var p = who();
+    if (!p || !p.name || Progress.setting("classroom")) return null;
+    var many = Progress.profiles().length > 1;
+    var c = el(many ? "button" : "div", { class: "who-chip" + (small ? " small" : ""), type: many ? "button" : null,
+      "aria-label": (many ? "تغيير الطفل. يلعب الآن: " : "يلعب الآن: ") + p.name }, [avatarImg(p.avatar), el("span", { text: p.name })]);
+    if (many) c.addEventListener("click", function () { showPicker(true); });
+    return c;
+  }
+
+  // Home page header: the name chip for a parent's child; for device profiles (no names, 2 or more
+  // children sharing the device) a small round button with the child's animal, to switch child.
+  function badge() {
+    var named = chip(false);
+    if (named) return named;
+    var p = who();
+    if (Progress.profiles().length < 2 || !p || Progress.setting("classroom")) return null;
+    var b = el("button", { type: "button", class: "who-badge", "aria-label": "تغيير الطفل" }, [avatarImg(p.avatar)]);
     b.addEventListener("click", function () { showPicker(true); });
     return b;
   }
 
-  window.Profiles = { showPicker: showPicker, badge: badge };
+  // Letter, exercise and review pages: a small name chip in a thin strip at the very top.
+  function strip() {
+    if (document.body.dataset.page === "home" || document.querySelector(".who-strip")) return;
+    var c = chip(true);
+    if (c) document.body.insertBefore(el("div", { class: "who-strip" }, [c]), document.body.firstChild);
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", strip); else strip();
+
+  window.Profiles = { showPicker: showPicker, badge: badge, chip: chip };
   if (Progress.needsChoice()) {
     if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", function () { showPicker(false); });
     else showPicker(false);

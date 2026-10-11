@@ -540,3 +540,13 @@ code { background: #f6f1e8; padding: 1px 5px; border-radius: 6px; font-size: .9e
 #child-detail h3 img { width: 48px; height: 48px; }
 .class-table th, .class-table td { white-space: nowrap; }
 .class-table .kid-name span { white-space: nowrap; flex: none; }
+
+/* The name and picture of the child playing now (children of a signed-in parent). */
+.who-chip { display: inline-flex; align-items: center; gap: 8px; min-height: var(--tap); padding-block: 4px; padding-inline: 6px 18px; border: 3px solid var(--sun); border-radius: 999px; background: var(--paper); color: var(--ink); font-family: inherit; font-weight: 800; font-size: 1.1em; }
+.who-chip img { width: 50px; height: 50px; flex: none; max-width: none; pointer-events: none; }
+button.who-chip { cursor: pointer; touch-action: manipulation; box-shadow: 0 4px 0 var(--sun-deep); }
+button.who-chip:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--sun-deep); }
+.who-chip.small { min-height: 0; border-width: 2px; padding-block: 2px; padding-inline: 4px 12px; font-size: .9em; gap: 6px; box-shadow: none; }
+.who-chip.small img { width: 30px; height: 30px; }
+.who-strip { display: flex; justify-content: center; padding-top: 8px; }
+@media print { .who-strip { display: none; } }

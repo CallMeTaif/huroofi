@@ -13,7 +13,7 @@
       a.style.setProperty("--h", H.hue(l));
       grid.appendChild(H.el("li", {}, [a]));
     });
-    var old = document.querySelector(".home-actions .who-badge");
+    var old = document.querySelector(".home-actions .who-badge, .home-actions .who-chip");
     if (old) old.remove();
     var badge = window.Profiles && Profiles.badge();
     if (badge) document.querySelector(".home-actions").insertBefore(badge, document.getElementById("hello"));
